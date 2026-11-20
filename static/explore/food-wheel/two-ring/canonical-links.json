@@ -1,0 +1,2939 @@
+{
+  "ranking_snapshot_id": "095eb7bac3c0be287d19d305f95f463f78394cbfb92a577d888c4614c3d02d41",
+  "audit": [
+    {
+      "substance": "acetate",
+      "ranked_foods": [],
+      "documented_foods": [
+        "bananas",
+        "black-beans",
+        "chickpeas",
+        "potatoes"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "acetic-acid",
+      "ranked_foods": [],
+      "documented_foods": [
+        "vinegar",
+        "vinegar-pickles"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "acetoacetate",
+      "ranked_foods": [],
+      "documented_foods": [
+        "mct-oil"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "butyrate",
+      "ranked_foods": [],
+      "documented_foods": [
+        "bananas",
+        "black-beans",
+        "chickpeas",
+        "potatoes"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "caprylic-triglyceride",
+      "ranked_foods": [],
+      "documented_foods": [
+        "mct-oil"
+      ],
+      "ranking_holds": [
+        "The admitted defined C8/C10/tricaprylin protocol explicitly excludes ordinary coconut-oil equivalence. No ordinary-food ranking for this exposure."
+      ]
+    },
+    {
+      "substance": "coq10",
+      "ranked_foods": [],
+      "documented_foods": [
+        "beef",
+        "early-harvest-olive-oil",
+        "extra-virgin-olive-oil",
+        "heart",
+        "liver",
+        "mackerel",
+        "pistachios",
+        "sardines"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "ellagic-acid",
+      "ranked_foods": [],
+      "documented_foods": [
+        "pomegranates",
+        "walnuts"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "flavin-adenine-dinucleotide",
+      "ranked_foods": [],
+      "documented_foods": [
+        "almonds",
+        "beef",
+        "broccoli",
+        "chicken-liver",
+        "kale",
+        "milk",
+        "nori",
+        "nutritional-yeast",
+        "quinoa",
+        "salmon-roe",
+        "spinach"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "fructo-galacto-oligosaccharides",
+      "ranked_foods": [],
+      "documented_foods": [],
+      "ranking_holds": [
+        "The record owns the tested combined preparation, not individual native FOS/GOS. Ordinary-food ranking would substitute constituents for the mixture. The pre-existing admission-review flag remains unchanged."
+      ]
+    },
+    {
+      "substance": "glucose",
+      "ranked_foods": [],
+      "documented_foods": [
+        "bananas",
+        "grapes"
+      ],
+      "ranking_holds": [
+        "PM owns a luminal glucose sensory stimulus in a mouse circuit, not a nutritional requirement. Highest-glucose foods are not an evidence-based optimisation ranking."
+      ]
+    },
+    {
+      "substance": "l-carnitine",
+      "ranked_foods": [],
+      "documented_foods": [
+        "beef",
+        "lamb"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "n-acetylcysteine",
+      "ranked_foods": [],
+      "documented_foods": [],
+      "ranking_holds": [
+        "The admitted exposure is supplemental NAC combined with glycine. Ordinary-food ranking is not appropriate to this protocol; retain the admission and trial limitations."
+      ]
+    },
+    {
+      "substance": "nad-plus",
+      "ranked_foods": [],
+      "documented_foods": [
+        "milk"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "nicotinamide",
+      "ranked_foods": [],
+      "documented_foods": [
+        "pumpkin-seeds",
+        "soy",
+        "turkey"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "nicotinic-acid",
+      "ranked_foods": [],
+      "documented_foods": [],
+      "ranking_holds": []
+    },
+    {
+      "substance": "oligofructose",
+      "ranked_foods": [],
+      "documented_foods": [],
+      "ranking_holds": [
+        "Both PM records own a defined experimental oligofructose exposure and explicitly disclaim ordinary-food equivalence. Do not rank food fructans as equivalent to that exposure."
+      ]
+    },
+    {
+      "substance": "phytate",
+      "ranked_foods": [],
+      "documented_foods": [
+        "amaranth"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "propionate",
+      "ranked_foods": [],
+      "documented_foods": [
+        "bananas",
+        "black-beans",
+        "chickpeas",
+        "potatoes"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "retinoic-acid",
+      "ranked_foods": [],
+      "documented_foods": [
+        "butter",
+        "chicken-liver",
+        "egg-yolks",
+        "ghee",
+        "grass-fed-butter",
+        "kale",
+        "liver",
+        "romaine-lettuce",
+        "salmon-roe",
+        "spinach",
+        "swiss-chard"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "s-adenosylmethionine",
+      "ranked_foods": [],
+      "documented_foods": [
+        "chicken",
+        "eggs",
+        "salmon",
+        "sardines",
+        "tuna"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "serine",
+      "ranked_foods": [
+        "anchovies",
+        "beef",
+        "egg-yolks",
+        "liver",
+        "mackerel",
+        "pork",
+        "salmon",
+        "sardines",
+        "tuna",
+        "turkey"
+      ],
+      "documented_foods": [
+        "chicken",
+        "chicken-liver",
+        "cod",
+        "herring",
+        "lamb"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "scfas",
+      "ranked_foods": [],
+      "documented_foods": [
+        "bananas",
+        "black-beans",
+        "chickpeas",
+        "potatoes"
+      ],
+      "ranking_holds": []
+    },
+    {
+      "substance": "urolithin-a",
+      "ranked_foods": [],
+      "documented_foods": [
+        "pomegranates",
+        "walnuts"
+      ],
+      "ranking_holds": []
+    }
+  ],
+  "foods": [
+    {
+      "id": "almonds",
+      "title": "Almonds",
+      "page": "/docs/foods/almonds"
+    },
+    {
+      "id": "amaranth",
+      "title": "Amaranth",
+      "page": "/docs/foods/amaranth"
+    },
+    {
+      "id": "anchovies",
+      "title": "Anchovies",
+      "page": "/docs/foods/anchovies"
+    },
+    {
+      "id": "bananas",
+      "title": "Bananas",
+      "page": "/docs/foods/bananas"
+    },
+    {
+      "id": "beef",
+      "title": "Beef",
+      "page": "/docs/foods/beef"
+    },
+    {
+      "id": "black-beans",
+      "title": "Black Beans",
+      "page": "/docs/foods/black-beans"
+    },
+    {
+      "id": "broccoli",
+      "title": "Broccoli",
+      "page": "/docs/foods/broccoli"
+    },
+    {
+      "id": "butter",
+      "title": "Butter",
+      "page": "/docs/foods/butter"
+    },
+    {
+      "id": "chicken",
+      "title": "Chicken",
+      "page": "/docs/foods/chicken"
+    },
+    {
+      "id": "chicken-liver",
+      "title": "Chicken Liver",
+      "page": "/docs/foods/chicken-liver"
+    },
+    {
+      "id": "chickpeas",
+      "title": "Chickpeas",
+      "page": "/docs/foods/chickpeas"
+    },
+    {
+      "id": "cod",
+      "title": "Cod",
+      "page": "/docs/foods/cod"
+    },
+    {
+      "id": "early-harvest-olive-oil",
+      "title": "Olive Oil (Early Harvest)",
+      "page": "/docs/foods/early-harvest-olive-oil"
+    },
+    {
+      "id": "egg-yolks",
+      "title": "Egg Yolks",
+      "page": "/docs/foods/egg-yolks"
+    },
+    {
+      "id": "eggs",
+      "title": "Eggs",
+      "page": "/docs/foods/eggs"
+    },
+    {
+      "id": "extra-virgin-olive-oil",
+      "title": "Extra Virgin Olive Oil",
+      "page": "/docs/foods/extra-virgin-olive-oil"
+    },
+    {
+      "id": "ghee",
+      "title": "Ghee",
+      "page": "/docs/foods/ghee"
+    },
+    {
+      "id": "grapes",
+      "title": "Grapes",
+      "page": "/docs/foods/grapes"
+    },
+    {
+      "id": "grass-fed-butter",
+      "title": "Grass-Fed Butter",
+      "page": "/docs/foods/grass-fed-butter"
+    },
+    {
+      "id": "heart",
+      "title": "Heart",
+      "page": "/docs/foods/heart"
+    },
+    {
+      "id": "herring",
+      "title": "Herring",
+      "page": "/docs/foods/herring"
+    },
+    {
+      "id": "kale",
+      "title": "Kale",
+      "page": "/docs/foods/kale"
+    },
+    {
+      "id": "lamb",
+      "title": "Lamb",
+      "page": "/docs/foods/lamb"
+    },
+    {
+      "id": "liver",
+      "title": "Liver (beef)",
+      "page": "/docs/foods/liver"
+    },
+    {
+      "id": "mackerel",
+      "title": "Mackerel",
+      "page": "/docs/foods/mackerel"
+    },
+    {
+      "id": "mct-oil",
+      "title": "MCT Oil",
+      "page": "/docs/foods/mct-oil"
+    },
+    {
+      "id": "milk",
+      "title": "Milk",
+      "page": "/docs/foods/milk"
+    },
+    {
+      "id": "nori",
+      "title": "Nori",
+      "page": "/docs/foods/nori"
+    },
+    {
+      "id": "nutritional-yeast",
+      "title": "Nutritional Yeast",
+      "page": "/docs/foods/nutritional-yeast"
+    },
+    {
+      "id": "pistachios",
+      "title": "Pistachios",
+      "page": "/docs/foods/pistachios"
+    },
+    {
+      "id": "pomegranates",
+      "title": "Pomegranates",
+      "page": "/docs/foods/pomegranates"
+    },
+    {
+      "id": "pork",
+      "title": "Pork",
+      "page": "/docs/foods/pork"
+    },
+    {
+      "id": "potatoes",
+      "title": "Potatoes",
+      "page": "/docs/foods/potatoes"
+    },
+    {
+      "id": "pumpkin-seeds",
+      "title": "Pumpkin Seeds",
+      "page": "/docs/foods/pumpkin-seeds"
+    },
+    {
+      "id": "quinoa",
+      "title": "Quinoa",
+      "page": "/docs/foods/quinoa"
+    },
+    {
+      "id": "romaine-lettuce",
+      "title": "Romaine Lettuce",
+      "page": "/docs/foods/romaine-lettuce"
+    },
+    {
+      "id": "salmon",
+      "title": "Salmon",
+      "page": "/docs/foods/salmon"
+    },
+    {
+      "id": "salmon-roe",
+      "title": "Salmon Roe",
+      "page": "/docs/foods/salmon-roe"
+    },
+    {
+      "id": "sardines",
+      "title": "Sardines",
+      "page": "/docs/foods/sardines"
+    },
+    {
+      "id": "soy",
+      "title": "Mature soybeans",
+      "page": "/docs/foods/soy"
+    },
+    {
+      "id": "spinach",
+      "title": "Spinach",
+      "page": "/docs/foods/spinach"
+    },
+    {
+      "id": "swiss-chard",
+      "title": "Swiss Chard",
+      "page": "/docs/foods/swiss-chard"
+    },
+    {
+      "id": "tuna",
+      "title": "Tuna",
+      "page": "/docs/foods/tuna"
+    },
+    {
+      "id": "turkey",
+      "title": "Turkey",
+      "page": "/docs/foods/turkey"
+    },
+    {
+      "id": "vinegar",
+      "title": "Vinegar",
+      "page": "/docs/foods/vinegar"
+    },
+    {
+      "id": "vinegar-pickles",
+      "title": "Vinegar Pickles",
+      "page": "/docs/foods/vinegar-pickles"
+    },
+    {
+      "id": "walnuts",
+      "title": "Walnuts",
+      "page": "/docs/foods/walnuts"
+    }
+  ],
+  "ranked": [
+    {
+      "food_id": "egg-yolks",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 100,
+      "record": "docs/foods/egg-yolks.md#nutrition_supplementary_sources/serine_usda_brs2_172184",
+      "amount": 1.326,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "anchovies",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 88.91402714932126,
+      "record": "docs/foods/anchovies.md#nutrition_supplementary_sources/serine_usda_brs2_174183",
+      "amount": 1.179,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "sardines",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 75.71644042232278,
+      "record": "docs/foods/sardines.md#nutrition_supplementary_sources/serine_usda_brs2_175139",
+      "amount": 1.004,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "tuna",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 71.7948717948718,
+      "record": "docs/foods/tuna.md#nutrition_supplementary_sources/serine_usda_brs2_173706",
+      "amount": 0.952,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "liver",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 68.25037707390649,
+      "record": "docs/foods/liver.md#nutrition_supplementary_sources/serine_usda_brs2_169451",
+      "amount": 0.905,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "turkey",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 67.64705882352942,
+      "record": "docs/foods/turkey.md#nutrition_supplementary_sources/serine_usda_brs2_171480",
+      "amount": 0.897,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 67.57164404223228,
+      "record": "docs/foods/salmon.md#nutrition_supplementary_sources/serine_usda_brs2_175167",
+      "amount": 0.896,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "pork",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 61.463046757164406,
+      "record": "docs/foods/pork.md#nutrition_supplementary_sources/serine_usda_brs2_167818",
+      "amount": 0.815,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "mackerel",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 57.23981900452488,
+      "record": "docs/foods/mackerel.md#nutrition_supplementary_sources/serine_usda_brs2_175119",
+      "amount": 0.759,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "serine",
+      "pm_id": "BRS2-FM2-PM5",
+      "brs": "BRS2",
+      "status": "admitted",
+      "relative_power": 56.10859728506787,
+      "record": "docs/foods/beef.md#nutrition_supplementary_sources/serine_usda_brs2_171796",
+      "amount": 0.744,
+      "unit": "g",
+      "basis": "per 100 g edible portion",
+      "comparison_group": "edible-mass|serine|per 100 g edible portion"
+    }
+  ],
+  "unranked": [
+    {
+      "food_id": "amaranth",
+      "substance_id": "phytate",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/amaranth.md",
+      "preparation": "Native and malted grain; not a generic cooked serving",
+      "source_urls": []
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "glucose",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/bananas.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/173944/nutrients"
+      ]
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/beef.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10775376/"
+      ]
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "serine",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/chicken-liver.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/171060/nutrients"
+      ]
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "serine",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/chicken.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/171447/nutrients"
+      ]
+    },
+    {
+      "food_id": "cod",
+      "substance_id": "serine",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/cod.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/171955/nutrients"
+      ]
+    },
+    {
+      "food_id": "early-harvest-olive-oil",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/early-harvest-olive-oil.md",
+      "preparation": "Oil",
+      "source_urls": [
+        "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng"
+      ]
+    },
+    {
+      "food_id": "extra-virgin-olive-oil",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/extra-virgin-olive-oil.md",
+      "preparation": "Oil",
+      "source_urls": [
+        "https://doi.org/10.1021/jf5002167"
+      ]
+    },
+    {
+      "food_id": "grapes",
+      "substance_id": "glucose",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/grapes.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/174683/nutrients"
+      ]
+    },
+    {
+      "food_id": "heart",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/heart.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10775376/"
+      ]
+    },
+    {
+      "food_id": "herring",
+      "substance_id": "serine",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/herring.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/175116/nutrients"
+      ]
+    },
+    {
+      "food_id": "lamb",
+      "substance_id": "serine",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/lamb.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://fdc.nal.usda.gov/food-details/174370/nutrients"
+      ]
+    },
+    {
+      "food_id": "liver",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/liver.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/"
+      ]
+    },
+    {
+      "food_id": "mackerel",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/mackerel.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng"
+      ]
+    },
+    {
+      "food_id": "mct-oil",
+      "substance_id": "caprylic-triglyceride",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Formulation-dependent composition, unranked",
+      "record": "docs/foods/mct-oil.md",
+      "preparation": "Oil",
+      "source_urls": [
+        "https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content"
+      ]
+    },
+    {
+      "food_id": "pistachios",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/pistachios.md",
+      "preparation": "raw",
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9920066/"
+      ]
+    },
+    {
+      "food_id": "pomegranates",
+      "substance_id": "ellagic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Measured composition, unranked",
+      "record": "docs/foods/pomegranates.md",
+      "preparation": "Commercial single-strength juice; not aril-only juice",
+      "source_urls": [
+        "https://doi.org/10.1021/jf000404a"
+      ]
+    },
+    {
+      "food_id": "sardines",
+      "substance_id": "coq10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/sardines.md",
+      "preparation": "canned",
+      "source_urls": [
+        "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng"
+      ]
+    },
+    {
+      "food_id": "vinegar-pickles",
+      "substance_id": "acetic-acid",
+      "brs": "BRS6",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/vinegar-pickles.md",
+      "preparation": null,
+      "source_urls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels"
+      ]
+    },
+    {
+      "food_id": "vinegar",
+      "substance_id": "acetic-acid",
+      "brs": "BRS6",
+      "status": "documented-unranked",
+      "network": "approved",
+      "layer": "Documented occurrence, unranked",
+      "record": "docs/foods/vinegar.md",
+      "preparation": null,
+      "source_urls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525825-vinegar-definitions-adulteration-vinegar-eels"
+      ]
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "butter",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/butter.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/chicken-liver.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+    },
+    {
+      "food_id": "egg-yolks",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/egg-yolks.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "ghee",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/ghee.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "grass-fed-butter",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/grass-fed-butter.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/kale.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "liver",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/liver.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "pomegranates",
+      "substance_id": "ellagic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Ellagitannins · Constituent release",
+      "record": "docs/foods/pomegranates.md",
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+    },
+    {
+      "food_id": "pomegranates",
+      "substance_id": "urolithin-a",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Ellagic acid · Microbial production",
+      "record": "docs/foods/pomegranates.md",
+      "limitation": "The food's ellagic acid figure is not a Urolithin A amount. Producer status and yield vary between people. One commercial juice sample. Not aril-pressed juice, not whole-fruit flesh, and not an ellagitannin or urolithin amount."
+    },
+    {
+      "food_id": "pomegranates",
+      "substance_id": "urolithin-a",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Ellagitannins · Microbial production",
+      "record": "docs/foods/pomegranates.md",
+      "limitation": "The food's ellagitannin figure is not a Urolithin A amount. Conversion depends on hydrolysis, microbial capacity and host context. Gallagyl-type tannins, not the sum of every ellagitannin and not free ellagic acid. Not an aril or whole-fruit flesh value."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Preparation and service temperature change the assay. A generic potato portion is not this result."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result."
+    },
+    {
+      "food_id": "romaine-lettuce",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/romaine-lettuce.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/salmon-roe.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/spinach.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "swiss-chard",
+      "substance_id": "retinoic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Vitamin A · Precursor formation",
+      "record": "docs/foods/swiss-chard.md",
+      "limitation": "Conversion depends on vitamin A form, status, absorption and host context. Food vitamin A content is not a retinoic acid concentration."
+    },
+    {
+      "food_id": "walnuts",
+      "substance_id": "ellagic-acid",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Ellagitannins · Constituent release",
+      "record": "docs/foods/walnuts.md",
+      "limitation": "The food's ellagitannin figure is not an ellagic acid concentration, and neither figure is a urolithin A amount. Release and later microbial conversion both vary. Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+    },
+    {
+      "food_id": "walnuts",
+      "substance_id": "urolithin-a",
+      "brs": "BRS5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related via Ellagitannins · Microbial production",
+      "record": "docs/foods/walnuts.md",
+      "limitation": "The food's ellagitannin figure is not a Urolithin A amount. Conversion depends on hydrolysis, microbial capacity and host context. Assay-specific extraction of kernels. Peeled kernel without the pellicle is a different material. This is not an amount, not free ellagic acid, and not a urolithin A exposure."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "scfas",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM1-PM1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM1-PM1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM1-PM1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "butyrate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM1-PM1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "A resistant-potato-starch response and RS2/RS3 culture results do not transfer to every ordinary food. No butyrate quantity or yield is assigned from the food's resistant-starch content. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "acetate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not an acetate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "bananas",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/bananas.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre. Fresh weight. Cavendish and plantain, mature green through day 5. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "black-beans",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/black-beans.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked beans. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "chickpeas",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/chickpeas.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction. Dry weight of cooked chickpeas. Not a fresh cooked weight. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "potatoes",
+      "substance_id": "propionate",
+      "brs": "BRS5",
+      "pm_id": "BRS5-FM2-PM5",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Related — via resistant starch · Microbial production",
+      "record": "docs/foods/potatoes.md",
+      "limitation": "The food's resistant-starch range is not a propionate concentration or yield. Community and preparation change the product mixture. Preparation and service temperature change the assay. A generic potato portion is not this result. Moisture-corrected. Baked or boiled; hot, chilled six days, or reheated. Related substrate provision only; does not complete a PM-specific dietary pathway. No guaranteed product mixture, amount, yield or clinical benefit. Class membership does not transfer member-specific effects."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM3",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM4",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS1-FM1-PM5",
+      "brs": "BRS1",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS2-FM1-PM1",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-RECOVERY-VITAMIN-B2",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS2-FM3-PM7",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/chicken.md",
+      "pathway_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Chicken, broilers or fryers, meat and skin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS2-FM3-PM7",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/eggs.md",
+      "pathway_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Egg, whole, raw, fresh",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS2-FM3-PM7",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/salmon.md",
+      "pathway_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "sardines",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS2-FM3-PM7",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/sardines.md",
+      "pathway_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "preparation": "canned",
+      "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "tuna",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS2-FM3-PM7",
+      "brs": "BRS2",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/tuna.md",
+      "pathway_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Fish, tuna, fresh, bluefin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS3-FM2-PM6",
+      "brs": "BRS3",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-3",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/chicken.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "preparation": "raw",
+      "material": "Chicken, broilers or fryers, meat and skin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/eggs.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "preparation": "raw",
+      "material": "Egg, whole, raw, fresh",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/salmon.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "preparation": "raw",
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "sardines",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/sardines.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "preparation": "canned",
+      "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "tuna",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/tuna.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-2",
+      "preparation": "raw",
+      "material": "Fish, tuna, fresh, bluefin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "almonds",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/almonds.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": null,
+      "material": "Nuts, almonds",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/beef.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "raw",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "broccoli",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/broccoli.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "raw",
+      "material": "Broccoli, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "chicken-liver",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/chicken-liver.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "raw",
+      "material": "Chicken, liver, all classes, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "kale",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/kale.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "raw",
+      "material": "Kale, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": null,
+      "material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nori",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nori.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "dried",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "nutritional-yeast",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/nutritional-yeast.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "dried",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "quinoa",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/quinoa.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "uncooked",
+      "material": "Quinoa, uncooked",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "salmon-roe",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/salmon-roe.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "salted",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "spinach",
+      "substance_id": "flavin-adenine-dinucleotide",
+      "pm_id": "BRS4-FM1-PM10",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Vitamin B2",
+      "precursor_id": "vitamin-b2",
+      "record": "docs/foods/spinach.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm10-coenzyme-q-biosynthesis-and-pool-availability.mdx#dietary_input_traceability/PM10-DIT-3",
+      "preparation": "raw",
+      "material": "Spinach, raw",
+      "limitation": "FAD production and enzyme loading depend on cellular context; no fixed food-to-FAD yield is inferred."
+    },
+    {
+      "food_id": "pumpkin-seeds",
+      "substance_id": "nicotinamide",
+      "pm_id": "BRS4-FM1-PM2",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Tryptophan",
+      "precursor_id": "tryptophan",
+      "record": "docs/foods/pumpkin-seeds.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-3",
+      "preparation": "dried",
+      "material": "Seeds, pumpkin and squash seed kernels, dried",
+      "limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment."
+    },
+    {
+      "food_id": "soy",
+      "substance_id": "nicotinamide",
+      "pm_id": "BRS4-FM1-PM2",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Tryptophan",
+      "precursor_id": "tryptophan",
+      "record": "docs/foods/soy.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-3",
+      "preparation": "raw",
+      "material": "Soybeans, mature seeds, raw",
+      "limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment."
+    },
+    {
+      "food_id": "turkey",
+      "substance_id": "nicotinamide",
+      "pm_id": "BRS4-FM1-PM2",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Tryptophan",
+      "precursor_id": "tryptophan",
+      "record": "docs/foods/turkey.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-3",
+      "preparation": "raw",
+      "material": "Turkey, whole, meat only, raw",
+      "limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺. This is a review of pathways, not a human feeding trial. It does not measure how much an ordinary meal changes NAD⁺, and it does not test attention or cognitive energy. Nicotinamide riboside and nicotinamide mononucleotide, as supplement doses, are outside this dietary assessment."
+    },
+    {
+      "food_id": "milk",
+      "substance_id": "nad-plus",
+      "pm_id": "BRS4-FM1-PM2",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Nicotinamide riboside",
+      "precursor_id": "nicotinamide-riboside",
+      "record": "docs/foods/milk.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx#dietary_input_traceability/PM2-DIT-RECOVERY-NICOTINAMIDE-RIBOSIDE",
+      "preparation": null,
+      "material": "Raw cow milk from individual cows and commercial cow-milk samples, including skim milk",
+      "limitation": "NMNAT1 establishes reaction identity; other isoforms/transport determine compartmental provision. No fixed dietary conversion yield or mitochondrial/brain endpoint is inferred."
+    },
+    {
+      "food_id": "chicken",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM3",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/chicken.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Chicken, broilers or fryers, meat and skin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "eggs",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM3",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/eggs.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Egg, whole, raw, fresh",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "salmon",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM3",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/salmon.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "sardines",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM3",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/sardines.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE",
+      "preparation": "canned",
+      "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "tuna",
+      "substance_id": "s-adenosylmethionine",
+      "pm_id": "BRS4-FM1-PM3",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Methionine",
+      "precursor_id": "methionine",
+      "record": "docs/foods/tuna.md",
+      "pathway_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx#dietary_input_traceability/PM3-DIT-RECOVERY-METHIONINE",
+      "preparation": "raw",
+      "material": "Fish, tuna, fresh, bluefin, raw",
+      "limitation": "Reaction identity establishes capacity, not a universal limiting intake or greater flux from additional intake."
+    },
+    {
+      "food_id": "mct-oil",
+      "substance_id": "acetoacetate",
+      "pm_id": "BRS4-FM3-PM7",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "approved",
+      "direct_containment": false,
+      "layer": "Endogenous conversion via Caprylic Triglyceride (formulation-dependent)",
+      "precursor_id": "caprylic-triglyceride",
+      "record": "docs/foods/mct-oil.md",
+      "pathway_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-CAPRYLIC-TRIGLYCERIDE",
+      "preparation": "Oil",
+      "material": "unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a health-food store; formulation-dependent",
+      "limitation": "The endogenous product can interconvert with beta-hydroxybutyrate, but the target identity here is acetoacetate. Ketogenesis, cerebral uptake and ATP production are distinct; no fixed yield or universal benefit is inferred."
+    },
+    {
+      "food_id": "beef",
+      "substance_id": "l-carnitine",
+      "pm_id": "BRS4-FM3-PM6",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "provisional",
+      "direct_containment": true,
+      "layer": "Provisional direct occurrence · cut and preparation unresolved",
+      "record": "system/food-target-research.json",
+      "material": "Beef meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "limitation": "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge.",
+      "source_urls": [
+        "https://doi.org/10.1016/j.foodchem.2003.09.023"
+      ]
+    },
+    {
+      "food_id": "lamb",
+      "substance_id": "l-carnitine",
+      "pm_id": "BRS4-FM3-PM6",
+      "brs": "BRS4",
+      "status": "documented-unranked",
+      "network": "provisional",
+      "direct_containment": true,
+      "layer": "Provisional direct occurrence · cut and preparation unresolved",
+      "record": "system/food-target-research.json",
+      "material": "Lamb meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "limitation": "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge.",
+      "source_urls": [
+        "https://doi.org/10.1016/j.foodchem.2003.09.023"
+      ]
+    }
+  ]
+}
