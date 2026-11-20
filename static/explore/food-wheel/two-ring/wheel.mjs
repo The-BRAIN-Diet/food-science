@@ -392,18 +392,6 @@ function draw(data, shortlist, svg, readout, clear, selectAll, minimumPower, pow
   }
 
   let selected = null;
-  const list = document.querySelector('#brs6-intervention-list');
-  const listEntries = interventions.filter(item => item.brs === 'BRS6').map(item => {
-    const row = document.createElement('li');
-    const node = document.createElement('button');
-    node.type = 'button';
-    node.textContent = item.name;
-    const entry = {node, item, kind: 'intervention', label: item.name};
-    node.addEventListener('click', () => select(entry));
-    row.append(node);
-    list.append(row);
-    return entry;
-  });
   function update(active) {
     const cutoff = Number(minimumPower.value);
     const visible = [];
@@ -437,9 +425,6 @@ function draw(data, shortlist, svg, readout, clear, selectAll, minimumPower, pow
         active?.kind === 'system' && active.item.id === item.brs;
       chord.classList.toggle('is-active', matches);
       chord.classList.toggle('is-muted', Boolean(active) && !matches);
-    }
-    for (const entry of listEntries) {
-      entry.node.setAttribute('aria-pressed', String(entry.item === selected?.item));
     }
     clear.disabled = !selected;
     if (!active) {

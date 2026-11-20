@@ -50,10 +50,6 @@ svg{width:100%;height:auto;min-width:730px;display:block}
 .system:focus-visible{outline:none}
 .system:focus-visible path{stroke:var(--ink);stroke-width:2.5}
 .intervention text{font-size:15px}
-.intervention-list{margin-top:10px}
-.intervention-list summary{cursor:pointer;font-weight:650}
-.intervention-list ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:8px 0}
-.intervention-list button[aria-pressed="true"]{border-color:#285a4b;background:#e3f0e9}
 footer{margin-top:10px;font-size:13px}
 </style>
 </head>
@@ -72,7 +68,6 @@ footer{margin-top:10px;font-size:13px}
     <button id="clear" type="button" disabled>Clear selection</button>
   </div>
   <div class="readout" id="readout" aria-live="polite">Loading food connections…</div>
-  <details class="intervention-list"><summary>BRS6 intervention shortlist</summary><ul id="brs6-intervention-list"></ul></details>
   <div class="wheel-frame"><svg id="wheel" viewBox="-680 -680 1360 1360" role="group" aria-label="Two-ring food and substance wheel around six biological regulatory systems"></svg></div>
   <footer class="muted">The outer arcs reserve space for interventions in each BRS. Unscored intervention lines converge at their BRS point on the midpoint circle. Select an intervention to read its study context. Chords match the color of the food’s sector. Select a food or substance to see which BRSs its links support. Chords show measured, presence-only or precursor links. Select a node to see how its links are documented. A precursor link means the food supplies material that can be converted into the substance. The power filter applies only to scored links. This preview includes the current canonical reconciliation. Hollow markers identify substances without a food link in this snapshot. Foods are placed using their strongest or secondary documented links to spread the labels around the ring. BRS6 houses foods whose displayed links are specific to that sector. Relative source power compares foods within a substance.</footer>
 </main>
