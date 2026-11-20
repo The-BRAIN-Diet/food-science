@@ -44,7 +44,8 @@ function replaceSubsection(content, block) {
   const marker = "{/* section4-findings:end */}";
   const markerAt = after.indexOf(marker);
   const end = markerAt !== -1 ? start + match[0].length + markerAt + marker.length : nextMajor === -1 ? content.length : start + match[0].length + nextMajor;
-  return `${content.slice(0, start)}${block}\n\n${markerAt !== -1 ? content.slice(end).replace(/^\n+/, "") : content.slice(end)}`;
+  const boundary = markerAt !== -1 && !block.endsWith(marker) ? `\n\n${marker}` : "";
+  return `${content.slice(0, start)}${block}${boundary}\n\n${markerAt !== -1 ? content.slice(end).replace(/^\n+/, "") : content.slice(end)}`;
 }
 
 function main() {

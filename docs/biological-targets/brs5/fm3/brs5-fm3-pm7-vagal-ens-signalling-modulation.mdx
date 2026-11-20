@@ -39,6 +39,7 @@ references:
   - >-
     [Li et al. (2022) — Gut-brain circuits for fat
     preference.](/docs/papers/BRAIN-Diet-References#li_gut_brain_fat_2022)
+  - '[Feinle et al. (2003) — Effects of fat digestion on appetite, APD motility, and gut hormones in response to duodenal fat infusion in humans](/docs/papers/BRAIN-Diet-References#feinle_duodenal_fat_digestion_2003)'
 hide_title: true
 phenome_relationships: []
 list_image: /img/biological-targets/brs5-portrait-thumbnail.png
@@ -307,18 +308,23 @@ dietary_input_traceability:
         - PM7-F3
       citation_keys:
         - li_gut_brain_fat_2022
+        - feinle_duodenal_fat_digestion_2003
     evidence_limitation: >-
-      This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid.
-      Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods
-      generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid
-      stimulus is not a demonstrated food effect. More signalling is not automatically better.
+      The study tested a free-fatty-acid stimulus delivered directly into the mouse intestine. Foods
+      typically supply linoleic acid in esterified form, from which digestion releases fatty acids.
+      Whether ordinary meals reproduce the tested neural response in humans remains unknown.
+      The study did not establish a dietary dose–response, a change in baseline vagal tone, or any
+      ADHD or clinical benefit.
     dietary_input: true
     substance_id: linoleic-acid
     canonical_identity:
       status: resolved
       substance_id: linoleic-acid
       substance_href: /docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid
-    dietary_input_note: Admitted provision/exposure is distinct from a food-specific intervention effect.
+    dietary_input_note: >-
+      Feinle et al. tested a mixed-triglyceride emulsion infused into the duodenum with and without
+      lipase inhibition in humans. The study supports the digestion step through gut-hormone and
+      motility responses. It did not measure linoleic-acid-specific vagal activity.
 dietary_lever_atoms:
   - atom_id: PM7-DIT-1
     relationship_layer: dietary-requirement
@@ -581,10 +587,11 @@ dietary_input_assessments:
             fatty acids in foods.
     assessment_date: '2026-10-23'
     assessment_limitations: >-
-      This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid.
-      Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods
-      generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid
-      stimulus is not a demonstrated food effect. More signalling is not automatically better.
+      The study tested a free-fatty-acid stimulus delivered directly into the mouse intestine. Foods
+      typically supply linoleic acid in esterified form, from which digestion releases fatty acids.
+      Whether ordinary meals reproduce the tested neural response in humans remains unknown.
+      The study did not establish a dietary dose–response, a change in baseline vagal tone, or any
+      ADHD or clinical benefit.
     review_source: system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM3-PM7
 dietary_confidence_assessments:
   - id: DC-BRS5-FM3-PM7-PM7-DIT-DEFERRED-1
@@ -647,6 +654,7 @@ dietary_confidence_assessments:
     assessor: Codex — independent bounded scientific review
 sidebar_label: BRS5-3-7 — Vagal / ENS Signalling Modulation
 evidence_tabs_version: 1
+scientific_findings_placement: section-4
 evidence_gaps_tab: true
 evidence_gaps:
   - id: PM7-EG-RECOVERY-1
@@ -786,15 +794,22 @@ No separately adjudicated lifestyle lever is admitted in this assessment.
 </div>
 </div>
 
-## 4. Mechanistic Basis
+## 4. Mechanistic Basis + Scientific Findings
 
 ### Summary
 
-Lactobacillus rhamnosus JB-1 produced vagus-dependent responses in mice; its human trial did not establish stress or cognitive benefit. [[1]](#pm-ref-1)
+Enteric and vagal pathways carry signals from the gut. Evidence for a given microbial exposure depends on whether the study identifies the neural pathway involved. [[1]](#pm-ref-1)
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false" aria-controls="brs5-fm3-pm7-mechanistic-detail"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Detailed mechanism explanation</strong></button>
+<div id="brs5-fm3-pm7-mechanistic-detail" class="brs-fm-hub-panel" hidden>
 
 #### Biological process
 
-Retain exact strain-specific preclinical modulation without treating it as a universal nutritional requirement. [[1]](#pm-ref-1)
+Experiments that compare responses with intact and interrupted vagal pathways can test whether the response depends on that route. [[1]](#pm-ref-1)
+
+For the linoleic-acid lever, Feinle et al. found that inhibiting lipase during a mixed-triglyceride infusion into the human duodenum changed gut-hormone and motility responses. This supports the role of digestion in generating intestinal fatty-acid exposure. The study did not measure linoleic-acid-specific vagal activity. [[8]](#pm-ref-8)
 
 #### Mechanism Boundary
 
@@ -804,16 +819,21 @@ Nutrient sensing, microbial signalling and clinical electrical vagus stimulation
 
 This PM contributes its specific process to its parent FM. Shared inputs do not merge distinct jobs or prove an integrated clinical outcome.
 
-### 4.1 Scientific Findings
+</div>
+</div>
+</div>
 
-[Scientific Findings and their assessments are available in Evidence & Audit](?review=1#scientific-findings).
+### 4.1 Scientific Findings
 
 #### Summary
 
 Direct neural-circuit experiments establish nutrient sensory transduction. JB-1 has vagotomy-sensitive mouse findings alongside a null human stress/cognition trial. Other probiotic symptom studies do not identify the same vagal route. [[1]](#pm-ref-1) [[5]](#pm-ref-5) [[6]](#pm-ref-6)
 
+<ScientificFinding finding={{"id":"PM7-F1","finding_label":"A specific strain has vagus-dependent mouse findings with limited human translation","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Lactobacillus rhamnosus JB-1 produced vagus-dependent responses in mice; its human trial did not establish stress or cognitive benefit.","finding_statement":"Lactobacillus rhamnosus JB-1 produced vagus-dependent responses in mice; its human trial did not establish stress or cognitive benefit.","finding_interpretation":"Retain exact strain-specific preclinical modulation without treating it as a universal nutritional requirement.","synthesis":"Retain exact strain-specific preclinical modulation without treating it as a universal nutritional requirement.","synthesis_limitations":"Mouse findings do not establish human vagal mediation or routine clinical use.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Bravo et al. (2011)","citation_key":"bravo_ingestion_2011","href":"/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Regional GABA-receptor transcripts, corticosterone and behaviour changed; vagotomy abolished key effects.","study_exposure":"JB-1 administration with vagotomy comparisons in mice.","study_finding":"Regional GABA-receptor transcripts, corticosterone and behaviour changed; vagotomy abolished key effects.","assessment":{"study":"JB-1 administration with vagotomy comparisons in mice.","population":"JB-1 administration with vagotomy comparisons in mice.","result":"Regional GABA-receptor transcripts, corticosterone and behaviour changed; vagotomy abolished key effects.","effect_magnitude":"Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.","evidence_summary":"Regional GABA-receptor transcripts, corticosterone and behaviour changed; vagotomy abolished key effects.","limitations":"Receptor mRNA is not brain GABA concentration or generalised vagal tone.","retrieval_scope":"Primary abstract/results retrieved online; no unextracted numerical effect inferred."},"canonical_reference":{"author_year":"Bravo et al. (2011)","number":1,"anchor":"#pm-ref-1"}},{"label":"Kelly et al. (2017)","citation_key":"kelly_jb1_translation_2017","href":"/docs/papers/BRAIN-Diet-References#kelly_jb1_translation_2017","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"The study did not establish overall stress, mood or cognitive improvement.","study_exposure":"Placebo-controlled crossover JB-1 trial in healthy men.","study_finding":"The study did not establish overall stress, mood or cognitive improvement.","assessment":{"study":"Placebo-controlled crossover JB-1 trial in healthy men.","population":"Placebo-controlled crossover JB-1 trial in healthy men.","result":"The study did not establish overall stress, mood or cognitive improvement.","effect_magnitude":"Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.","evidence_summary":"The study did not establish overall stress, mood or cognitive improvement.","limitations":"This does not erase the mouse mechanism, but bounds translational claims.","retrieval_scope":"Primary abstract/results retrieved online; no unextracted numerical effect inferred."},"canonical_reference":{"author_year":"Kelly et al. (2017)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[{"label":"Austelle et al. (2022)","citation_key":"austelle_comprehensive_2022","href":"/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022","why_relevant":"Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.","why_excluded":"Clinical electrical vagus stimulation is a different intervention from gut dietary sensory transduction.","canonical_reference":{"author_year":"Austelle et al. (2022)","number":2,"anchor":"#pm-ref-2"}},{"label":"Wang et al. (2022)","citation_key":"wang_effect_2022","href":"/docs/papers/BRAIN-Diet-References#wang_effect_2022","why_relevant":"Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.","why_excluded":"B. bifidum Bf-688 open-label clinical/microbiota findings; no demonstrated mediation by this PM’s barrier or vagal process.","canonical_reference":{"author_year":"Wang et al. (2022)","number":3,"anchor":"#pm-ref-3"}},{"label":"Pärtty et al. (2015)","citation_key":"partty_possible_2015","href":"/docs/papers/BRAIN-Diet-References#partty_possible_2015","why_relevant":"Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.","why_excluded":"Early LGG exposure and later developmental outcomes; exact strain and population preserved, but no measured PM-specific intermediary.","canonical_reference":{"author_year":"Pärtty et al. (2015)","number":4,"anchor":"#pm-ref-4"}}]}} />
 
+<ScientificFinding finding={{"id":"PM7-F2","finding_label":"Neuropod cells transduce luminal nutrient signals through glutamate","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Mouse enteroendocrine cells connect to vagal neurons and use glutamate for rapid nutrient signals.","finding_statement":"Mouse enteroendocrine cells connect to vagal neurons and use glutamate for rapid nutrient signals.","finding_interpretation":"Glucose is an experimentally demonstrated sensory stimulus; glutamate is the endogenous transmitter, not a demonstrated oral requirement.","synthesis":"Glucose is an experimentally demonstrated sensory stimulus; glutamate is the endogenous transmitter, not a demonstrated oral requirement.","synthesis_limitations":"Neural firing is not proof that increasing dietary sugar improves health.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Kaelberer et al. (2018)","citation_key":"kaelberer_nutrient_neural_circuit_2018","href":"/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Glucose/sucrose stimuli evoked vagal responses; neuropod-cell inhibition and glutamate blockade disrupted rapid transduction.","study_exposure":"Mouse intestinal perfusion, electrophysiology, cell coculture, tracing and receptor/blockade experiments.","study_finding":"Glucose/sucrose stimuli evoked vagal responses; neuropod-cell inhibition and glutamate blockade disrupted rapid transduction.","assessment":{"study":"Mouse intestinal perfusion, electrophysiology, cell coculture, tracing and receptor/blockade experiments.","population":"Mouse intestinal perfusion, electrophysiology, cell coculture, tracing and receptor/blockade experiments.","result":"Glucose/sucrose stimuli evoked vagal responses; neuropod-cell inhibition and glutamate blockade disrupted rapid transduction.","effect_magnitude":"Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.","evidence_summary":"Glucose/sucrose stimuli evoked vagal responses; neuropod-cell inhibition and glutamate blockade disrupted rapid transduction.","limitations":"Specific experimental concentrations and preparations; not human dietary optimisation.","retrieval_scope":"Primary full text: Figures 3–6 and accompanying Results."},"canonical_reference":{"author_year":"Kaelberer et al. (2018)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
 
+<ScientificFinding finding={{"id":"PM7-F3","finding_label":"Defined intestinal fat stimuli engage a mouse vagal circuit","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.","finding_summary":"Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.","finding_interpretation":"This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.","synthesis_limitations":"This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.","evidence_considered":[{"label":"Li et al. (2022)","citation_key":"li_gut_brain_fat_2022","href":"/docs/papers/BRAIN-Diet-References#li_gut_brain_fat_2022","data_level":"Mechanistic","exposure_context":"Defined lipid stimuli; the main intestinal calcium-imaging stimulus was 10% linoleic acid.","evidence_source":"bounded-external-search","directional_finding":"Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.","assessment":{"study":"Defined lipid stimuli; the main intestinal calcium-imaging stimulus was 10% linoleic acid.","population":"Mouse neuronal imaging, vagotomy and receptor-deletion experiments.","result":"Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Time-locked vagal calcium responses and brainstem activity; receptor/vagotomy perturbations.","limitations":"This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.","retrieval_scope":"Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.","source_url":"https://pubmed.ncbi.nlm.nih.gov/36070796/"},"canonical_reference":{"author_year":"Li et al. (2022)","number":7,"anchor":"#pm-ref-7"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -894,3 +914,4 @@ Admit Direct Type B linoleic acid solely for experimentally demonstrated mouse i
 - <span id="pm-ref-5">[5]</span> [Kelly et al. (2017) — Lost in translation? The potential psychobiotic Lactobacillus rhamnosus (JB-1) fails to modulate stress or cognitive performance in healthy male subjects](/docs/papers/BRAIN-Diet-References#kelly_jb1_translation_2017)
 - <span id="pm-ref-6">[6]</span> [Kaelberer et al. (2018) — A gut-brain neural circuit for nutrient sensory transduction](/docs/papers/BRAIN-Diet-References#kaelberer_nutrient_neural_circuit_2018)
 - <span id="pm-ref-7">[7]</span> [Li et al. (2022) — Gut-brain circuits for fat preference.](/docs/papers/BRAIN-Diet-References#li_gut_brain_fat_2022)
+- <span id="pm-ref-8">[8]</span> [Feinle et al. (2003) — Effects of fat digestion on appetite, APD motility, and gut hormones in response to duodenal fat infusion in humans](/docs/papers/BRAIN-Diet-References#feinle_duodenal_fat_digestion_2003)

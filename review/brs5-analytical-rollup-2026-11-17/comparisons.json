@@ -1,0 +1,250 @@
+[
+  {
+    "food_id": "pumpkin-seeds",
+    "before_rank": 1,
+    "before_score": 1.5171599136017768,
+    "rank": 1,
+    "score": 1.5171599136017768,
+    "delta": 0
+  },
+  {
+    "food_id": "liver",
+    "before_rank": 4,
+    "before_score": 1,
+    "rank": 2,
+    "score": 1.4450084602368867,
+    "delta": 0.44500846023688667
+  },
+  {
+    "food_id": "soy",
+    "before_rank": 2,
+    "before_score": 1.2605465571102301,
+    "rank": 3,
+    "score": 1.2605465571102301,
+    "delta": 0
+  },
+  {
+    "food_id": "sunflower-seeds",
+    "before_rank": 3,
+    "before_score": 1.1939305368200532,
+    "rank": 4,
+    "score": 1.1939305368200532,
+    "delta": 0
+  },
+  {
+    "food_id": "oysters",
+    "before_rank": 5,
+    "before_score": 1,
+    "rank": 5,
+    "score": 1,
+    "delta": 0
+  },
+  {
+    "food_id": "walnuts",
+    "before_rank": 6,
+    "before_score": 1,
+    "rank": 6,
+    "score": 1,
+    "delta": 0
+  },
+  {
+    "food_id": "chicken-liver",
+    "before_rank": 10,
+    "before_score": 0.6634460547504026,
+    "rank": 7,
+    "score": 0.961246393159878,
+    "delta": 0.2978003384094754
+  },
+  {
+    "food_id": "cheddar-cheese",
+    "before_rank": 7,
+    "before_score": 0.9255499153976311,
+    "rank": 8,
+    "score": 0.9255499153976311,
+    "delta": 0
+  },
+  {
+    "food_id": "peanuts",
+    "before_rank": 8,
+    "before_score": 0.7975136369210929,
+    "rank": 9,
+    "score": 0.7975136369210929,
+    "delta": 0
+  },
+  {
+    "food_id": "almonds",
+    "before_rank": 9,
+    "before_score": 0.6804409974822061,
+    "rank": 10,
+    "score": 0.6804409974822061,
+    "delta": 0
+  },
+  {
+    "food_id": "chicken",
+    "before_rank": 11,
+    "before_score": 0.6125211505922166,
+    "rank": 11,
+    "score": 0.6125211505922166,
+    "delta": 0
+  },
+  {
+    "food_id": "tahini",
+    "before_rank": 12,
+    "before_score": 0.6072769275194918,
+    "rank": 12,
+    "score": 0.6072769275194918,
+    "delta": 0
+  },
+  {
+    "food_id": "sesame-seeds",
+    "before_rank": 13,
+    "before_score": 0.5611267161945764,
+    "rank": 13,
+    "score": 0.5611267161945764,
+    "delta": 0
+  },
+  {
+    "food_id": "anchovies",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 14,
+    "score": 0.5482233502538071,
+    "delta": 0.5482233502538071
+  },
+  {
+    "food_id": "turkey",
+    "before_rank": 14,
+    "before_score": 0.4856175972927242,
+    "rank": 15,
+    "score": 0.4856175972927242,
+    "delta": 0
+  },
+  {
+    "food_id": "sardines",
+    "before_rank": 15,
+    "before_score": 0.467005076142132,
+    "rank": 16,
+    "score": 0.467005076142132,
+    "delta": 0
+  },
+  {
+    "food_id": "mussels",
+    "before_rank": 16,
+    "before_score": 0.4517766497461929,
+    "rank": 17,
+    "score": 0.4517766497461929,
+    "delta": 0
+  },
+  {
+    "food_id": "tuna",
+    "before_rank": 20,
+    "before_score": 0.3536379018612521,
+    "rank": 18,
+    "score": 0.4416243654822335,
+    "delta": 0.08798646362098139
+  },
+  {
+    "food_id": "salmon",
+    "before_rank": 17,
+    "before_score": 0.4196277495769882,
+    "rank": 19,
+    "score": 0.4196277495769882,
+    "delta": 0
+  },
+  {
+    "food_id": "pork",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 20,
+    "score": 0.4128595600676819,
+    "delta": 0.4128595600676819
+  },
+  {
+    "food_id": "tofu",
+    "before_rank": 18,
+    "before_score": 0.3976311336717428,
+    "rank": 21,
+    "score": 0.3976311336717428,
+    "delta": 0
+  },
+  {
+    "food_id": "pistachios",
+    "before_rank": 19,
+    "before_score": 0.3699104822408317,
+    "rank": 22,
+    "score": 0.3699104822408317,
+    "delta": 0
+  },
+  {
+    "food_id": "mackerel",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 23,
+    "score": 0.35194585448392557,
+    "delta": 0.35194585448392557
+  },
+  {
+    "food_id": "herring",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 24,
+    "score": 0.3401015228426396,
+    "delta": 0.3401015228426396
+  },
+  {
+    "food_id": "cod",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 25,
+    "score": 0.3367174280879864,
+    "delta": 0.3367174280879864
+  },
+  {
+    "food_id": "avocado-oil",
+    "before_rank": 21,
+    "before_score": 0.3289318247447037,
+    "rank": 26,
+    "score": 0.3289318247447037,
+    "delta": 0
+  },
+  {
+    "food_id": "lamb",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 27,
+    "score": 0.32656514382402707,
+    "delta": 0.32656514382402707
+  },
+  {
+    "food_id": "wheat-germ",
+    "before_rank": 22,
+    "before_score": 0.31272264631043256,
+    "rank": 28,
+    "score": 0.31272264631043256,
+    "delta": 0
+  },
+  {
+    "food_id": "egg-yolks",
+    "before_rank": null,
+    "before_score": null,
+    "rank": 29,
+    "score": 0.29949238578680204,
+    "delta": 0.29949238578680204
+  },
+  {
+    "food_id": "eggs",
+    "before_rank": 23,
+    "before_score": 0.25888324873096447,
+    "rank": 30,
+    "score": 0.25888324873096447,
+    "delta": 0
+  },
+  {
+    "food_id": "cashews",
+    "before_rank": 24,
+    "before_score": 0.20428950200824297,
+    "rank": 31,
+    "score": 0.20428950200824297,
+    "delta": 0
+  }
+]

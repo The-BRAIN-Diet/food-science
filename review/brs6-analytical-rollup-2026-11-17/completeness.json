@@ -1,0 +1,2272 @@
+[
+  {
+    "food_id": "anchovies",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/anchovies.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+          "fdc_id": 174183,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-09-04"
+        },
+        "value": 1292,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, anchovy, european, canned in oil, drained solids",
+        "preparation": "canned",
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/anchovies.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::canned",
+        "low": 1292,
+        "high": 1292,
+        "display": "1292 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837777",
+      "fdc_id": "174183",
+      "nutrient_id": "1272",
+      "amount": "1.292",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/anchovies.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/anchovies.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+          "fdc_id": 174183,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-09-04"
+        },
+        "value": 69,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, anchovy, european, canned in oil, drained solids",
+        "preparation": "canned",
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/anchovies.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/anchovies.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::canned",
+        "low": 69,
+        "high": 69,
+        "display": "69 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837785",
+      "fdc_id": "174183",
+      "nutrient_id": "1090",
+      "amount": "69",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/anchovies.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/anchovies.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/beef.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "fdc_id": 171796,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15",
+          "source_reference": "#food-source-6"
+        },
+        "value": 1,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": "#food-source-6",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw",
+        "record": "docs/foods/beef.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/beef.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/beef.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 1,
+        "high": 1,
+        "display": "1 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641464",
+      "fdc_id": "171796",
+      "nutrient_id": "1272",
+      "amount": "0.001",
+      "data_points": "15",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/beef.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/beef.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+          "fdc_id": 171796,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15",
+          "source_reference": "#food-source-6"
+        },
+        "value": 18,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": "#food-source-6",
+        "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+        "preparation": "raw",
+        "record": "docs/foods/beef.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/beef.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/beef.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 18,
+        "high": 18,
+        "display": "18 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641423",
+      "fdc_id": "171796",
+      "nutrient_id": "1090",
+      "amount": "18",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/beef.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/beef.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/chicken.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Chicken, broilers or fryers, meat and skin, raw",
+          "fdc_id": 171447,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 30,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw",
+        "record": "docs/foods/chicken.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/chicken.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/chicken.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 30,
+        "high": 30,
+        "display": "30 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610526",
+      "fdc_id": "171447",
+      "nutrient_id": "1272",
+      "amount": "0.03",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/chicken.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Chicken, broilers or fryers, meat and skin, raw",
+          "fdc_id": 171447,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 20,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Chicken, broilers or fryers, meat and skin, raw",
+        "preparation": "raw",
+        "record": "docs/foods/chicken.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/chicken.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/chicken.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 20,
+        "high": 20,
+        "display": "20 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610513",
+      "fdc_id": "171447",
+      "nutrient_id": "1090",
+      "amount": "20",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/chicken-liver.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1576557",
+      "fdc_id": "171060",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken-liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/chicken-liver.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Chicken, liver, all classes, raw",
+          "fdc_id": 171060,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-11-11"
+        },
+        "value": 19,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Chicken, liver, all classes, raw",
+        "preparation": "raw",
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/chicken-liver.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/chicken-liver.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 19,
+        "high": 19,
+        "display": "19 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576563",
+      "fdc_id": "171060",
+      "nutrient_id": "1090",
+      "amount": "19",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "18",
+      "max": "20",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken-liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/chicken-liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/cod.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, cod, Atlantic, raw",
+          "fdc_id": 171955,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 120,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, cod, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/cod.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/cod.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/cod.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 120,
+        "high": 120,
+        "display": "120 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653434",
+      "fdc_id": "171955",
+      "nutrient_id": "1272",
+      "amount": "0.12",
+      "data_points": "26",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/cod.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/cod.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, cod, Atlantic, raw",
+          "fdc_id": 171955,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 32,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, cod, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/cod.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/cod.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/cod.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 32,
+        "high": 32,
+        "display": "32 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653410",
+      "fdc_id": "171955",
+      "nutrient_id": "1090",
+      "amount": "32",
+      "data_points": "30",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/cod.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/cod.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "magnesium",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/heart.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1375410",
+      "fdc_id": "168625",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/heart.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/heart.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Beef, variety meats and by-products, heart, raw",
+          "fdc_id": 168625,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 21,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Beef, variety meats and by-products, heart, raw",
+        "preparation": "raw",
+        "record": "docs/foods/heart.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/heart.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/heart.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 21,
+        "high": 21,
+        "display": "21 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375394",
+      "fdc_id": "168625",
+      "nutrient_id": "1090",
+      "amount": "21",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/heart.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/heart.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/herring.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, herring, Atlantic, raw",
+          "fdc_id": 175116,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 862,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, herring, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/herring.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 862,
+        "high": 862,
+        "display": "862 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913692",
+      "fdc_id": "175116",
+      "nutrient_id": "1272",
+      "amount": "0.862",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/herring.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/herring.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, herring, Atlantic, raw",
+          "fdc_id": 175116,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 32,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, herring, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/herring.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/herring.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/herring.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 32,
+        "high": 32,
+        "display": "32 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913676",
+      "fdc_id": "175116",
+      "nutrient_id": "1090",
+      "amount": "32",
+      "data_points": "1",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/herring.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/herring.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/kidney.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1443100",
+      "fdc_id": "169449",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/kidney.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/kidney.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Beef, variety meats and by-products, kidneys, raw",
+          "fdc_id": 169449,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 17,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Beef, variety meats and by-products, kidneys, raw",
+        "preparation": "raw",
+        "record": "docs/foods/kidney.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/kidney.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/kidney.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 17,
+        "high": 17,
+        "display": "17 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443080",
+      "fdc_id": "169449",
+      "nutrient_id": "1090",
+      "amount": "17",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/kidney.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/kidney.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/lamb.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1852500",
+      "fdc_id": "174370",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lamb.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/lamb.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Lamb, ground, raw",
+          "fdc_id": 174370,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 21,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Lamb, ground, raw",
+        "preparation": "raw",
+        "record": "docs/foods/lamb.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/lamb.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/lamb.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 21,
+        "high": 21,
+        "display": "21 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852546",
+      "fdc_id": "174370",
+      "nutrient_id": "1090",
+      "amount": "21",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lamb.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lamb.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/liver.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1443238",
+      "fdc_id": "169451",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/liver.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Beef, variety meats and by-products, liver, raw",
+          "fdc_id": 169451,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 18,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Beef, variety meats and by-products, liver, raw",
+        "preparation": "raw",
+        "record": "docs/foods/liver.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/liver.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/liver.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 18,
+        "high": 18,
+        "display": "18 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443308",
+      "fdc_id": "169451",
+      "nutrient_id": "1090",
+      "amount": "18",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "18",
+      "max": "19",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/liver.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "magnesium",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/mackerel.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, mackerel, Atlantic, raw",
+          "fdc_id": 175119,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 1401,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, mackerel, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/mackerel.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 1401,
+        "high": 1401,
+        "display": "1401 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1914000",
+      "fdc_id": "175119",
+      "nutrient_id": "1272",
+      "amount": "1.401",
+      "data_points": "29",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/mackerel.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/mackerel.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, mackerel, Atlantic, raw",
+          "fdc_id": 175119,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 76,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, mackerel, Atlantic, raw",
+        "preparation": "raw",
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/mackerel.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/mackerel.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 76,
+        "high": 76,
+        "display": "76 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913977",
+      "fdc_id": "175119",
+      "nutrient_id": "1090",
+      "amount": "76",
+      "data_points": "1",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/mackerel.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/mackerel.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact database zero; not missing",
+    "source_path": "docs/foods/pork.md",
+    "observations": [],
+    "usda_row": {
+      "id": "1306986",
+      "fdc_id": "167818",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/pork.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/pork.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Pork, fresh, loin, whole, separable lean and fat, raw",
+          "fdc_id": 167818,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 21,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+        "preparation": "raw",
+        "record": "docs/foods/pork.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/pork.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/pork.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 21,
+        "high": 21,
+        "display": "21 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307052",
+      "fdc_id": "167818",
+      "nutrient_id": "1090",
+      "amount": "21",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/pork.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/pork.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/salmon.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, salmon, Atlantic, farmed, raw",
+          "fdc_id": 175167,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 1104,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw",
+        "record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/salmon.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 1104,
+        "high": 1104,
+        "display": "1104 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918112",
+      "fdc_id": "175167",
+      "nutrient_id": "1272",
+      "amount": "1.104",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/salmon.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, salmon, Atlantic, farmed, raw",
+          "fdc_id": 175167,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 27,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, salmon, Atlantic, farmed, raw",
+        "preparation": "raw",
+        "record": "docs/foods/salmon.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/salmon.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/salmon.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 27,
+        "high": 27,
+        "display": "27 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918139",
+      "fdc_id": "175167",
+      "nutrient_id": "1090",
+      "amount": "27",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/salmon-roe.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+          "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "last_checked": "2026-10-12"
+        },
+        "value": 2000,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+        "source_reference": "#food-source-8",
+        "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+        "preparation": "salted",
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::salted",
+        "low": 2000,
+        "high": 2000,
+        "display": "2000 mg"
+      }
+    ],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/salmon-roe.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+          "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "last_checked": "2026-10-12"
+        },
+        "value": 95,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+        "source_reference": "#food-source-8",
+        "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+        "preparation": "salted",
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::salted",
+        "low": 95,
+        "high": 95,
+        "display": "95 mg"
+      }
+    ],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/salmon-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/sardines.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+          "fdc_id": 175139,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 509,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "canned",
+        "record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/sardines.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::canned",
+        "low": 509,
+        "high": 509,
+        "display": "509 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915835",
+      "fdc_id": "175139",
+      "nutrient_id": "1272",
+      "amount": "0.509",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/sardines.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/sardines.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+          "fdc_id": 175139,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 39,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "preparation": "canned",
+        "record": "docs/foods/sardines.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/sardines.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/sardines.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::canned",
+        "low": 39,
+        "high": 39,
+        "display": "39 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915824",
+      "fdc_id": "175139",
+      "nutrient_id": "1090",
+      "amount": "39",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/sardines.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/sardines.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "source_path": "docs/foods/trout-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/trout-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "magnesium",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/trout-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/trout-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/trout-roe.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/tuna.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, tuna, fresh, bluefin, raw",
+          "fdc_id": 173706,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 890,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw",
+        "record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/tuna.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 890,
+        "high": 890,
+        "display": "890 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800026",
+      "fdc_id": "173706",
+      "nutrient_id": "1272",
+      "amount": "0.89",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/tuna.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/tuna.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Fish, tuna, fresh, bluefin, raw",
+          "fdc_id": 173706,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 50,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Fish, tuna, fresh, bluefin, raw",
+        "preparation": "raw",
+        "record": "docs/foods/tuna.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/tuna.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/tuna.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 50,
+        "high": 50,
+        "display": "50 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800004",
+      "fdc_id": "173706",
+      "nutrient_id": "1090",
+      "amount": "50",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/tuna.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/tuna.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/turkey.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Turkey, whole, meat only, raw",
+          "fdc_id": 171480,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 2,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw",
+        "record": "docs/foods/turkey.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/turkey.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/turkey.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 2,
+        "high": 2,
+        "display": "2 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613346",
+      "fdc_id": "171480",
+      "nutrient_id": "1272",
+      "amount": "0.002",
+      "data_points": "0",
+      "derivation_id": "56",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/turkey.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/turkey.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Turkey, whole, meat only, raw",
+          "fdc_id": 171480,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 27,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Turkey, whole, meat only, raw",
+        "preparation": "raw",
+        "record": "docs/foods/turkey.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/turkey.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/turkey.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 27,
+        "high": 27,
+        "display": "27 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613370",
+      "fdc_id": "171480",
+      "nutrient_id": "1090",
+      "amount": "27",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/turkey.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/turkey.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/egg-yolks.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Egg, yolk, raw, fresh",
+          "fdc_id": 172184,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 114,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Egg, yolk, raw, fresh",
+        "preparation": "raw",
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/dha_mg",
+        "source_record": "docs/foods/egg-yolks.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/egg-yolks.md#nutrition_per_100g/dha_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 114,
+        "high": 114,
+        "display": "114 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674818",
+      "fdc_id": "172184",
+      "nutrient_id": "1272",
+      "amount": "0.114",
+      "data_points": "33",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "ellagitannins",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/egg-yolks.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "magnesium",
+    "status": "supported canonical observations mapped",
+    "source_path": "docs/foods/egg-yolks.md",
+    "observations": [
+      {
+        "nutrition_source": {
+          "database": "USDA FoodData Central",
+          "food_name": "Egg, yolk, raw, fresh",
+          "fdc_id": 172184,
+          "retrieval_method": "SR Legacy bulk (April 2018)",
+          "basis": "per 100 g edible portion",
+          "last_checked": "2026-08-15"
+        },
+        "value": 5,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": null,
+        "source_reference": null,
+        "material": "Egg, yolk, raw, fresh",
+        "preparation": "raw",
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/magnesium_mg",
+        "source_record": "docs/foods/egg-yolks.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/egg-yolks.md#nutrition_per_100g/magnesium_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 5,
+        "high": 5,
+        "display": "5 mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674774",
+      "fdc_id": "172184",
+      "nutrient_id": "1090",
+      "amount": "5",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "3",
+      "max": "6",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "exact_description_match": true,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "resistant-starch",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/egg-yolks.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "urolithin-a",
+    "status": "unresolved or unavailable",
+    "source_path": "docs/foods/egg-yolks.md",
+    "observations": [],
+    "usda_row": null,
+    "exact_description_match": null,
+    "panel_discrepancy": false
+  }
+]

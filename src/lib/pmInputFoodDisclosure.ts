@@ -262,7 +262,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     section = canonicalInputSection(section);
     if (!data || !/^(BRS[1-6]-|BRS-X\()/.test(pm) || !/^3\.1\.[123]$/.test(section))
         return;
-    li.querySelectorAll('.pm-input-food-sources').forEach(el => el.remove());
+    li.querySelectorAll('.pm-input-food-sources, .pm-input-food-composition-note').forEach(el => el.remove());
     li.querySelectorAll('.food-target-info, .food-target-coverage-warning').forEach(el => el.remove());
     const scoped = selectBrsReviewData(data, generatedScopes, pm.startsWith('BRS-X(') ? 'BRS-X' : pm.split('-')[0]).data;
     const relationships = scoped.relationships.filter(r => r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
@@ -293,6 +293,25 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             note.textContent = "Food ontology — composition context. Not a dietary requirement.";
             li.append(note);
             li.insertAdjacentHTML("beforeend", renderDocumentedFoodSources(compositionTargets));
+            return;
+        }
+        if (pm === 'BRS5-FM1-PM1' && norm(label) === 'glutamine') {
+            const food = (id: string, title: string) => ({
+                id, food_title: title, food_page: `/docs/foods/${id}`,
+            });
+            const egg = {
+                ...food('eggs', 'Eggs'),
+                observations: [{
+                    verified: true, display: '0.559 g', basis: 'per 100 g reference egg as food',
+                    low: 0.559, high: 0.559,
+                }],
+                food_delivery_notes: 'Protein-sequence estimate for the reference egg in Lenders et al. (2009).',
+            };
+            const note = document.createElement('p');
+            note.className = 'pm-input-food-composition-note';
+            note.textContent = 'Unranked sources of protein-bound glutamine. The eight-week trial used free glutamine.';
+            li.append(note, createFoodSourceDetails('Plant-based', [food('tofu', 'Tofu')]),
+                createFoodSourceDetails('Animal-based', [egg, food('beef', 'Beef')]));
             return;
         }
         const targets = rankedSourcesForRelationships(rankedSnapshot, pm, relationships) as any[];

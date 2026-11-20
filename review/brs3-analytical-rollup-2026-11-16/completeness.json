@@ -1,0 +1,6382 @@
+[
+  {
+    "food_id": "anchovies",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/copper_mg",
+        "value": 0.339,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837788",
+      "fdc_id": "174183",
+      "nutrient_id": "1098",
+      "amount": "0.339",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+        "value": 1292,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837777",
+      "fdc_id": "174183",
+      "nutrient_id": "1272",
+      "amount": "1.292",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/epa_mg",
+        "value": 763,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837779",
+      "fdc_id": "174183",
+      "nutrient_id": "1278",
+      "amount": "0.763",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_supplementary_sources/glycine_usda_brs2_174183",
+        "value": 1.387,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1837797",
+      "fdc_id": "174183",
+      "nutrient_id": "1225",
+      "amount": "1.387",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/iron_mg",
+        "value": 4.63,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837784",
+      "fdc_id": "174183",
+      "nutrient_id": "1089",
+      "amount": "4.63",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/manganese_mg",
+        "value": 0.1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837789",
+      "fdc_id": "174183",
+      "nutrient_id": "1101",
+      "amount": "0.1",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/selenium_ug",
+        "value": 68.1,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837807",
+      "fdc_id": "174183",
+      "nutrient_id": "1103",
+      "amount": "68.1",
+      "data_points": "0",
+      "derivation_id": "16",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.363,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837801",
+      "fdc_id": "174183",
+      "nutrient_id": "1166",
+      "amount": "0.363",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1837799",
+      "fdc_id": "174183",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 3.33,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837734",
+      "fdc_id": "174183",
+      "nutrient_id": "1109",
+      "amount": "3.33",
+      "data_points": "0",
+      "derivation_id": "57",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 174183,
+    "exact_description_match": true,
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/anchovies.md#nutrition_per_100g/zinc_mg",
+        "value": 2.44,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1837759",
+      "fdc_id": "174183",
+      "nutrient_id": "1095",
+      "amount": "2.44",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/copper_mg",
+        "value": 0.067,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641426",
+      "fdc_id": "171796",
+      "nutrient_id": "1098",
+      "amount": "0.067",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/dha_mg",
+        "value": 1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641464",
+      "fdc_id": "171796",
+      "nutrient_id": "1272",
+      "amount": "0.001",
+      "data_points": "15",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/epa_mg",
+        "value": 2,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641465",
+      "fdc_id": "171796",
+      "nutrient_id": "1278",
+      "amount": "0.002",
+      "data_points": "15",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+        "value": 1.262,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1641442",
+      "fdc_id": "171796",
+      "nutrient_id": "1225",
+      "amount": "1.262",
+      "data_points": "0",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/iron_mg",
+        "value": 2.09,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641422",
+      "fdc_id": "171796",
+      "nutrient_id": "1089",
+      "amount": "2.09",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/manganese_mg",
+        "value": 0.01,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641427",
+      "fdc_id": "171796",
+      "nutrient_id": "1101",
+      "amount": "0.01",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/selenium_ug",
+        "value": 15.8,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641405",
+      "fdc_id": "171796",
+      "nutrient_id": "1103",
+      "amount": "15.8",
+      "data_points": "72",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.151,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641429",
+      "fdc_id": "171796",
+      "nutrient_id": "1166",
+      "amount": "0.151",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1641384",
+      "fdc_id": "171796",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.17,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641449",
+      "fdc_id": "171796",
+      "nutrient_id": "1109",
+      "amount": "0.17",
+      "data_points": "19",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 171796,
+    "exact_description_match": true,
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/beef.md#nutrition_per_100g/zinc_mg",
+        "value": 4.48,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1641399",
+      "fdc_id": "171796",
+      "nutrient_id": "1095",
+      "amount": "4.48",
+      "data_points": "36",
+      "derivation_id": "3",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/copper_mg",
+        "value": 0.048,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610516",
+      "fdc_id": "171447",
+      "nutrient_id": "1098",
+      "amount": "0.048",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/dha_mg",
+        "value": 30,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610526",
+      "fdc_id": "171447",
+      "nutrient_id": "1272",
+      "amount": "0.03",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/epa_mg",
+        "value": 10,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610528",
+      "fdc_id": "171447",
+      "nutrient_id": "1278",
+      "amount": "0.01",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+        "value": 1.223,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1610591",
+      "fdc_id": "171447",
+      "nutrient_id": "1225",
+      "amount": "1.223",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/iron_mg",
+        "value": 0.9,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610512",
+      "fdc_id": "171447",
+      "nutrient_id": "1089",
+      "amount": "0.9",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/manganese_mg",
+        "value": 0.019,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610517",
+      "fdc_id": "171447",
+      "nutrient_id": "1101",
+      "amount": "0.019",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/selenium_ug",
+        "value": 14.4,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610509",
+      "fdc_id": "171447",
+      "nutrient_id": "1103",
+      "amount": "14.4",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.12,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610519",
+      "fdc_id": "171447",
+      "nutrient_id": "1166",
+      "amount": "0.12",
+      "data_points": "16",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 1.6,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610594",
+      "fdc_id": "171447",
+      "nutrient_id": "1162",
+      "amount": "1.6",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.3,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610595",
+      "fdc_id": "171447",
+      "nutrient_id": "1109",
+      "amount": "0.3",
+      "data_points": "0",
+      "derivation_id": "33",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 171447,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken.md#nutrition_per_100g/zinc_mg",
+        "value": 1.31,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1610538",
+      "fdc_id": "171447",
+      "nutrient_id": "1095",
+      "amount": "1.31",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/copper_mg",
+        "value": 0.492,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576566",
+      "fdc_id": "171060",
+      "nutrient_id": "1098",
+      "amount": "0.492",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "0.373",
+      "max": "0.798",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1576557",
+      "fdc_id": "171060",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1576558",
+      "fdc_id": "171060",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/glycine_usda_brs2_171060",
+        "value": 0.849,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1576582",
+      "fdc_id": "171060",
+      "nutrient_id": "1225",
+      "amount": "0.849",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/iron_mg",
+        "value": 8.99,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576562",
+      "fdc_id": "171060",
+      "nutrient_id": "1089",
+      "amount": "8.99",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "7.96",
+      "max": "9.86",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/manganese_mg",
+        "value": 0.255,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576567",
+      "fdc_id": "171060",
+      "nutrient_id": "1101",
+      "amount": "0.255",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "0.236",
+      "max": "0.298",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/selenium_ug",
+        "value": 54.6,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576603",
+      "fdc_id": "171060",
+      "nutrient_id": "1103",
+      "amount": "54.6",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "35.8",
+      "max": "76",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 1.778,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576570",
+      "fdc_id": "171060",
+      "nutrient_id": "1166",
+      "amount": "1.778",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "1.42",
+      "max": "2.03",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 17.9,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576554",
+      "fdc_id": "171060",
+      "nutrient_id": "1162",
+      "amount": "17.9",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.7,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576604",
+      "fdc_id": "171060",
+      "nutrient_id": "1109",
+      "amount": "0.7",
+      "data_points": "8",
+      "derivation_id": "1",
+      "min": "0.41",
+      "max": "1.06",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 171060,
+    "exact_description_match": true,
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg",
+        "value": 2.67,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1576602",
+      "fdc_id": "171060",
+      "nutrient_id": "1095",
+      "amount": "2.67",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "2.56",
+      "max": "2.78",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/copper_mg",
+        "value": 0.028,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653413",
+      "fdc_id": "171955",
+      "nutrient_id": "1098",
+      "amount": "0.028",
+      "data_points": "136",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/dha_mg",
+        "value": 120,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653434",
+      "fdc_id": "171955",
+      "nutrient_id": "1272",
+      "amount": "0.12",
+      "data_points": "26",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/epa_mg",
+        "value": 64,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653436",
+      "fdc_id": "171955",
+      "nutrient_id": "1278",
+      "amount": "0.064",
+      "data_points": "26",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_supplementary_sources/glycine_usda_brs2_171955",
+        "value": 0.855,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1653422",
+      "fdc_id": "171955",
+      "nutrient_id": "1225",
+      "amount": "0.855",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/iron_mg",
+        "value": 0.38,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653409",
+      "fdc_id": "171955",
+      "nutrient_id": "1089",
+      "amount": "0.38",
+      "data_points": "26",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/manganese_mg",
+        "value": 0.015,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653414",
+      "fdc_id": "171955",
+      "nutrient_id": "1101",
+      "amount": "0.015",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/selenium_ug",
+        "value": 33.1,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653469",
+      "fdc_id": "171955",
+      "nutrient_id": "1103",
+      "amount": "33.1",
+      "data_points": "11",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.065,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653426",
+      "fdc_id": "171955",
+      "nutrient_id": "1166",
+      "amount": "0.065",
+      "data_points": "68",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653424",
+      "fdc_id": "171955",
+      "nutrient_id": "1162",
+      "amount": "1",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.64,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653388",
+      "fdc_id": "171955",
+      "nutrient_id": "1109",
+      "amount": "0.64",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "0.63",
+      "max": "0.64",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 171955,
+    "exact_description_match": true,
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/cod.md#nutrition_per_100g/zinc_mg",
+        "value": 0.45,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1653455",
+      "fdc_id": "171955",
+      "nutrient_id": "1095",
+      "amount": "0.45",
+      "data_points": "188",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "copper",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "iron",
+    "status": "qualitative mapped; quantity unresolved",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "manganese",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "selenium",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "vitamin-b2",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "vitamin-c",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "vitamin-e",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "zinc",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/copper_mg",
+        "value": 0.396,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375397",
+      "fdc_id": "168625",
+      "nutrient_id": "1098",
+      "amount": "0.396",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1375410",
+      "fdc_id": "168625",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1375414",
+      "fdc_id": "168625",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/iron_mg",
+        "value": 4.31,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375393",
+      "fdc_id": "168625",
+      "nutrient_id": "1089",
+      "amount": "4.31",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/manganese_mg",
+        "value": 0.035,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375398",
+      "fdc_id": "168625",
+      "nutrient_id": "1101",
+      "amount": "0.035",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/selenium_ug",
+        "value": 21.8,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375424",
+      "fdc_id": "168625",
+      "nutrient_id": "1103",
+      "amount": "21.8",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.906,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375422",
+      "fdc_id": "168625",
+      "nutrient_id": "1166",
+      "amount": "0.906",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 2,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375420",
+      "fdc_id": "168625",
+      "nutrient_id": "1162",
+      "amount": "2",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.22,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375425",
+      "fdc_id": "168625",
+      "nutrient_id": "1109",
+      "amount": "0.22",
+      "data_points": "2",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 168625,
+    "exact_description_match": true,
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/heart.md#nutrition_per_100g/zinc_mg",
+        "value": 1.7,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1375367",
+      "fdc_id": "168625",
+      "nutrient_id": "1095",
+      "amount": "1.7",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/copper_mg",
+        "value": 0.092,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913679",
+      "fdc_id": "175116",
+      "nutrient_id": "1098",
+      "amount": "0.092",
+      "data_points": "48",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+        "value": 862,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913692",
+      "fdc_id": "175116",
+      "nutrient_id": "1272",
+      "amount": "0.862",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/epa_mg",
+        "value": 709,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913694",
+      "fdc_id": "175116",
+      "nutrient_id": "1278",
+      "amount": "0.709",
+      "data_points": "24",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_supplementary_sources/glycine_usda_brs2_175116",
+        "value": 0.862,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1913688",
+      "fdc_id": "175116",
+      "nutrient_id": "1225",
+      "amount": "0.862",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/iron_mg",
+        "value": 1.1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913675",
+      "fdc_id": "175116",
+      "nutrient_id": "1089",
+      "amount": "1.1",
+      "data_points": "1",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/manganese_mg",
+        "value": 0.035,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913680",
+      "fdc_id": "175116",
+      "nutrient_id": "1101",
+      "amount": "0.035",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/selenium_ug",
+        "value": 36.5,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913736",
+      "fdc_id": "175116",
+      "nutrient_id": "1103",
+      "amount": "36.5",
+      "data_points": "0",
+      "derivation_id": "35",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.233,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913700",
+      "fdc_id": "175116",
+      "nutrient_id": "1166",
+      "amount": "0.233",
+      "data_points": "32",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 0.7,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913698",
+      "fdc_id": "175116",
+      "nutrient_id": "1162",
+      "amount": "0.7",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 1.07,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913660",
+      "fdc_id": "175116",
+      "nutrient_id": "1109",
+      "amount": "1.07",
+      "data_points": "0",
+      "derivation_id": "51",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 175116,
+    "exact_description_match": true,
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/herring.md#nutrition_per_100g/zinc_mg",
+        "value": 0.99,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913712",
+      "fdc_id": "175116",
+      "nutrient_id": "1095",
+      "amount": "0.99",
+      "data_points": "56",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/copper_mg",
+        "value": 0.426,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443083",
+      "fdc_id": "169449",
+      "nutrient_id": "1098",
+      "amount": "0.426",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1443100",
+      "fdc_id": "169449",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1443104",
+      "fdc_id": "169449",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/iron_mg",
+        "value": 4.6,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443079",
+      "fdc_id": "169449",
+      "nutrient_id": "1089",
+      "amount": "4.6",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/manganese_mg",
+        "value": 0.142,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443084",
+      "fdc_id": "169449",
+      "nutrient_id": "1101",
+      "amount": "0.142",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/selenium_ug",
+        "value": 141,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443120",
+      "fdc_id": "169449",
+      "nutrient_id": "1103",
+      "amount": "141",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 2.84,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443092",
+      "fdc_id": "169449",
+      "nutrient_id": "1166",
+      "amount": "2.84",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 9.4,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443090",
+      "fdc_id": "169449",
+      "nutrient_id": "1162",
+      "amount": "9.4",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.22,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443121",
+      "fdc_id": "169449",
+      "nutrient_id": "1109",
+      "amount": "0.22",
+      "data_points": "2",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 169449,
+    "exact_description_match": true,
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/kidney.md#nutrition_per_100g/zinc_mg",
+        "value": 1.92,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443052",
+      "fdc_id": "169449",
+      "nutrient_id": "1095",
+      "amount": "1.92",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/copper_mg",
+        "value": 0.101,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852549",
+      "fdc_id": "174370",
+      "nutrient_id": "1098",
+      "amount": "0.101",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1852500",
+      "fdc_id": "174370",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1852502",
+      "fdc_id": "174370",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_supplementary_sources/glycine_usda_brs2_174370",
+        "value": 0.809,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1852568",
+      "fdc_id": "174370",
+      "nutrient_id": "1225",
+      "amount": "0.809",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/iron_mg",
+        "value": 1.55,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852545",
+      "fdc_id": "174370",
+      "nutrient_id": "1089",
+      "amount": "1.55",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/manganese_mg",
+        "value": 0.019,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852550",
+      "fdc_id": "174370",
+      "nutrient_id": "1101",
+      "amount": "0.019",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/selenium_ug",
+        "value": 18.8,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852571",
+      "fdc_id": "174370",
+      "nutrient_id": "1103",
+      "amount": "18.8",
+      "data_points": "0",
+      "derivation_id": "12",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.21,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852554",
+      "fdc_id": "174370",
+      "nutrient_id": "1166",
+      "amount": "0.21",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1852570",
+      "fdc_id": "174370",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.2,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852517",
+      "fdc_id": "174370",
+      "nutrient_id": "1109",
+      "amount": "0.2",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 174370,
+    "exact_description_match": true,
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/lamb.md#nutrition_per_100g/zinc_mg",
+        "value": 3.41,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1852532",
+      "fdc_id": "174370",
+      "nutrient_id": "1095",
+      "amount": "3.41",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg",
+        "value": 9.755,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443311",
+      "fdc_id": "169451",
+      "nutrient_id": "1098",
+      "amount": "9.755",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "7.76",
+      "max": "13.6",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1443238",
+      "fdc_id": "169451",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1443236",
+      "fdc_id": "169451",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_supplementary_sources/glycine_usda_brs2_169451",
+        "value": 1.164,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1443233",
+      "fdc_id": "169451",
+      "nutrient_id": "1225",
+      "amount": "1.164",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/iron_mg",
+        "value": 4.9,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443307",
+      "fdc_id": "169451",
+      "nutrient_id": "1089",
+      "amount": "4.9",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "4",
+      "max": "6.17",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/manganese_mg",
+        "value": 0.31,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443312",
+      "fdc_id": "169451",
+      "nutrient_id": "1101",
+      "amount": "0.31",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "0.259",
+      "max": "0.342",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/selenium_ug",
+        "value": 39.7,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443268",
+      "fdc_id": "169451",
+      "nutrient_id": "1103",
+      "amount": "39.7",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "29.2",
+      "max": "51.3",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 2.755,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443297",
+      "fdc_id": "169451",
+      "nutrient_id": "1166",
+      "amount": "2.755",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "2.57",
+      "max": "2.9",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 1.3,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443225",
+      "fdc_id": "169451",
+      "nutrient_id": "1162",
+      "amount": "1.3",
+      "data_points": "1",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.38,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443269",
+      "fdc_id": "169451",
+      "nutrient_id": "1109",
+      "amount": "0.38",
+      "data_points": "8",
+      "derivation_id": "1",
+      "min": "0.32",
+      "max": "0.48",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 169451,
+    "exact_description_match": true,
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/liver.md#nutrition_per_100g/zinc_mg",
+        "value": 4,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1443267",
+      "fdc_id": "169451",
+      "nutrient_id": "1095",
+      "amount": "4",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "3.36",
+      "max": "4.92",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "copper",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "iron",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "manganese",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "selenium",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "vitamin-b2",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "vitamin-c",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "vitamin-e",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "zinc",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/copper_mg",
+        "value": 0.073,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913980",
+      "fdc_id": "175119",
+      "nutrient_id": "1098",
+      "amount": "0.073",
+      "data_points": "81",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+        "value": 1401,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1914000",
+      "fdc_id": "175119",
+      "nutrient_id": "1272",
+      "amount": "1.401",
+      "data_points": "29",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/epa_mg",
+        "value": 898,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1914002",
+      "fdc_id": "175119",
+      "nutrient_id": "1278",
+      "amount": "0.898",
+      "data_points": "29",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_supplementary_sources/glycine_usda_brs2_175119",
+        "value": 0.893,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1913996",
+      "fdc_id": "175119",
+      "nutrient_id": "1225",
+      "amount": "0.893",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/iron_mg",
+        "value": 1.63,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913976",
+      "fdc_id": "175119",
+      "nutrient_id": "1089",
+      "amount": "1.63",
+      "data_points": "3",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/manganese_mg",
+        "value": 0.015,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913981",
+      "fdc_id": "175119",
+      "nutrient_id": "1101",
+      "amount": "0.015",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/selenium_ug",
+        "value": 44.1,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1914006",
+      "fdc_id": "175119",
+      "nutrient_id": "1103",
+      "amount": "44.1",
+      "data_points": "11",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.312,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913986",
+      "fdc_id": "175119",
+      "nutrient_id": "1166",
+      "amount": "0.312",
+      "data_points": "7",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 0.4,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913984",
+      "fdc_id": "175119",
+      "nutrient_id": "1162",
+      "amount": "0.4",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 1.52,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913941",
+      "fdc_id": "175119",
+      "nutrient_id": "1109",
+      "amount": "1.52",
+      "data_points": "0",
+      "derivation_id": "67",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 175119,
+    "exact_description_match": true,
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/mackerel.md#nutrition_per_100g/zinc_mg",
+        "value": 0.63,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1913960",
+      "fdc_id": "175119",
+      "nutrient_id": "1095",
+      "amount": "0.63",
+      "data_points": "82",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/copper_mg",
+        "value": 0.056,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307055",
+      "fdc_id": "167818",
+      "nutrient_id": "1098",
+      "amount": "0.056",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1306986",
+      "fdc_id": "167818",
+      "nutrient_id": "1272",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1306987",
+      "fdc_id": "167818",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_supplementary_sources/glycine_usda_brs2_167818",
+        "value": 1.019,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1307067",
+      "fdc_id": "167818",
+      "nutrient_id": "1225",
+      "amount": "1.019",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/iron_mg",
+        "value": 0.79,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307051",
+      "fdc_id": "167818",
+      "nutrient_id": "1089",
+      "amount": "0.79",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/manganese_mg",
+        "value": 0.011,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307056",
+      "fdc_id": "167818",
+      "nutrient_id": "1101",
+      "amount": "0.011",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/selenium_ug",
+        "value": 33.2,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307077",
+      "fdc_id": "167818",
+      "nutrient_id": "1103",
+      "amount": "33.2",
+      "data_points": "0",
+      "derivation_id": "55",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.248,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307059",
+      "fdc_id": "167818",
+      "nutrient_id": "1166",
+      "amount": "0.248",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 0.6,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307057",
+      "fdc_id": "167818",
+      "nutrient_id": "1162",
+      "amount": "0.6",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.21,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307012",
+      "fdc_id": "167818",
+      "nutrient_id": "1109",
+      "amount": "0.21",
+      "data_points": "0",
+      "derivation_id": "16",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 167818,
+    "exact_description_match": true,
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/pork.md#nutrition_per_100g/zinc_mg",
+        "value": 1.74,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1307031",
+      "fdc_id": "167818",
+      "nutrient_id": "1095",
+      "amount": "1.74",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/copper_mg",
+        "value": 0.045,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918142",
+      "fdc_id": "175167",
+      "nutrient_id": "1098",
+      "amount": "0.045",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+        "value": 1104,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918112",
+      "fdc_id": "175167",
+      "nutrient_id": "1272",
+      "amount": "1.104",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/epa_mg",
+        "value": 862,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918116",
+      "fdc_id": "175167",
+      "nutrient_id": "1278",
+      "amount": "0.862",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+        "value": 0.96,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1918104",
+      "fdc_id": "175167",
+      "nutrient_id": "1225",
+      "amount": "0.96",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/iron_mg",
+        "value": 0.34,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918138",
+      "fdc_id": "175167",
+      "nutrient_id": "1089",
+      "amount": "0.34",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/manganese_mg",
+        "value": 0.011,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918143",
+      "fdc_id": "175167",
+      "nutrient_id": "1101",
+      "amount": "0.011",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/selenium_ug",
+        "value": 24,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918096",
+      "fdc_id": "175167",
+      "nutrient_id": "1103",
+      "amount": "24",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.155,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918124",
+      "fdc_id": "175167",
+      "nutrient_id": "1166",
+      "amount": "0.155",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 3.9,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918163",
+      "fdc_id": "175167",
+      "nutrient_id": "1162",
+      "amount": "3.9",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 3.55,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918097",
+      "fdc_id": "175167",
+      "nutrient_id": "1109",
+      "amount": "3.55",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 175167,
+    "exact_description_match": true,
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon.md#nutrition_per_100g/zinc_mg",
+        "value": 0.36,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1918095",
+      "fdc_id": "175167",
+      "nutrient_id": "1095",
+      "amount": "0.36",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
+        "value": 0.76,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+        "value": 2000,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/epa_mg",
+        "value": 1600,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
+        "value": 2,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+        "value": 0.06,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "selenium",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.55,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "vitamin-c",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
+        "value": 6,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 9.1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+        "value": 2.1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/copper_mg",
+        "value": 0.186,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915820",
+      "fdc_id": "175139",
+      "nutrient_id": "1098",
+      "amount": "0.186",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+        "value": 509,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915835",
+      "fdc_id": "175139",
+      "nutrient_id": "1272",
+      "amount": "0.509",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/epa_mg",
+        "value": 473,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915837",
+      "fdc_id": "175139",
+      "nutrient_id": "1278",
+      "amount": "0.473",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_supplementary_sources/glycine_usda_brs2_175139",
+        "value": 1.181,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1915845",
+      "fdc_id": "175139",
+      "nutrient_id": "1225",
+      "amount": "1.181",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/iron_mg",
+        "value": 2.92,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915823",
+      "fdc_id": "175139",
+      "nutrient_id": "1089",
+      "amount": "2.92",
+      "data_points": "7",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/manganese_mg",
+        "value": 0.108,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915821",
+      "fdc_id": "175139",
+      "nutrient_id": "1101",
+      "amount": "0.108",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/selenium_ug",
+        "value": 52.7,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915847",
+      "fdc_id": "175139",
+      "nutrient_id": "1103",
+      "amount": "52.7",
+      "data_points": "0",
+      "derivation_id": "16",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.227,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915830",
+      "fdc_id": "175139",
+      "nutrient_id": "1166",
+      "amount": "0.227",
+      "data_points": "7",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1915828",
+      "fdc_id": "175139",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 2.04,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915768",
+      "fdc_id": "175139",
+      "nutrient_id": "1109",
+      "amount": "2.04",
+      "data_points": "0",
+      "derivation_id": "57",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 175139,
+    "exact_description_match": true,
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/sardines.md#nutrition_per_100g/zinc_mg",
+        "value": 1.31,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1915793",
+      "fdc_id": "175139",
+      "nutrient_id": "1095",
+      "amount": "1.31",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "copper",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "qualitative mapped; quantity unresolved",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "glycine",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "iron",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "manganese",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "selenium",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "vitamin-b2",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "vitamin-c",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "vitamin-e",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "zinc",
+    "status": "unresolved or unavailable",
+    "fdc_id": null,
+    "exact_description_match": null,
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "usda_row": null,
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/copper_mg",
+        "value": 0.086,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800007",
+      "fdc_id": "173706",
+      "nutrient_id": "1098",
+      "amount": "0.086",
+      "data_points": "16",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+        "value": 890,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800026",
+      "fdc_id": "173706",
+      "nutrient_id": "1272",
+      "amount": "0.89",
+      "data_points": "2",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/epa_mg",
+        "value": 283,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800028",
+      "fdc_id": "173706",
+      "nutrient_id": "1278",
+      "amount": "0.283",
+      "data_points": "3",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_supplementary_sources/glycine_usda_brs2_173706",
+        "value": 1.12,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1800021",
+      "fdc_id": "173706",
+      "nutrient_id": "1225",
+      "amount": "1.12",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/iron_mg",
+        "value": 1.02,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800003",
+      "fdc_id": "173706",
+      "nutrient_id": "1089",
+      "amount": "1.02",
+      "data_points": "5",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/manganese_mg",
+        "value": 0.015,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800008",
+      "fdc_id": "173706",
+      "nutrient_id": "1101",
+      "amount": "0.015",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/selenium_ug",
+        "value": 36.5,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800032",
+      "fdc_id": "173706",
+      "nutrient_id": "1103",
+      "amount": "36.5",
+      "data_points": "0",
+      "derivation_id": "35",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.251,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1800011",
+      "fdc_id": "173706",
+      "nutrient_id": "1166",
+      "amount": "0.251",
+      "data_points": "17",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1800009",
+      "fdc_id": "173706",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "68",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 1,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1799949",
+      "fdc_id": "173706",
+      "nutrient_id": "1109",
+      "amount": "1",
+      "data_points": "0",
+      "derivation_id": "51",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 173706,
+    "exact_description_match": true,
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/tuna.md#nutrition_per_100g/zinc_mg",
+        "value": 0.6,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1799979",
+      "fdc_id": "173706",
+      "nutrient_id": "1095",
+      "amount": "0.6",
+      "data_points": "10",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/copper_mg",
+        "value": 0.079,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613373",
+      "fdc_id": "171480",
+      "nutrient_id": "1098",
+      "amount": "0.079",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/dha_mg",
+        "value": 2,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613346",
+      "fdc_id": "171480",
+      "nutrient_id": "1272",
+      "amount": "0.002",
+      "data_points": "0",
+      "derivation_id": "56",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1613350",
+      "fdc_id": "171480",
+      "nutrient_id": "1278",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "56",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_supplementary_sources/glycine_usda_brs2_171480",
+        "value": 0.966,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1613336",
+      "fdc_id": "171480",
+      "nutrient_id": "1225",
+      "amount": "0.966",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/iron_mg",
+        "value": 0.86,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613369",
+      "fdc_id": "171480",
+      "nutrient_id": "1089",
+      "amount": "0.86",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/manganese_mg",
+        "value": 0.012,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613374",
+      "fdc_id": "171480",
+      "nutrient_id": "1101",
+      "amount": "0.012",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/selenium_ug",
+        "value": 22.6,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613397",
+      "fdc_id": "171480",
+      "nutrient_id": "1103",
+      "amount": "22.6",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.192,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613389",
+      "fdc_id": "171480",
+      "nutrient_id": "1166",
+      "amount": "0.192",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1613387",
+      "fdc_id": "171480",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "56",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 0.09,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613398",
+      "fdc_id": "171480",
+      "nutrient_id": "1109",
+      "amount": "0.09",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 171480,
+    "exact_description_match": true,
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/turkey.md#nutrition_per_100g/zinc_mg",
+        "value": 1.84,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1613396",
+      "fdc_id": "171480",
+      "nutrient_id": "1095",
+      "amount": "1.84",
+      "data_points": "0",
+      "derivation_id": "54",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "copper",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/copper_mg",
+        "value": 0.077,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674777",
+      "fdc_id": "172184",
+      "nutrient_id": "1098",
+      "amount": "0.077",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "0.047",
+      "max": "0.127",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/dha_mg",
+        "value": 114,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674818",
+      "fdc_id": "172184",
+      "nutrient_id": "1272",
+      "amount": "0.114",
+      "data_points": "33",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "epa-eicosapentaenoic-acid",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/epa_mg",
+        "value": 11,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674822",
+      "fdc_id": "172184",
+      "nutrient_id": "1278",
+      "amount": "0.011",
+      "data_points": "33",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "glycine",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_supplementary_sources/glycine_usda_brs2_172184",
+        "value": 0.488,
+        "unit": "g"
+      }
+    ],
+    "usda_row": {
+      "id": "1674753",
+      "fdc_id": "172184",
+      "nutrient_id": "1225",
+      "amount": "0.488",
+      "data_points": "0",
+      "derivation_id": "1",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "iron",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/iron_mg",
+        "value": 2.73,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674773",
+      "fdc_id": "172184",
+      "nutrient_id": "1089",
+      "amount": "2.73",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "1.68",
+      "max": "3.47",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "manganese",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/manganese_mg",
+        "value": 0.055,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674737",
+      "fdc_id": "172184",
+      "nutrient_id": "1101",
+      "amount": "0.055",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "0.043",
+      "max": "0.082",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "selenium",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug",
+        "value": 56,
+        "unit": "µg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674767",
+      "fdc_id": "172184",
+      "nutrient_id": "1103",
+      "amount": "56",
+      "data_points": "4",
+      "derivation_id": "1",
+      "min": "41.6",
+      "max": "72.4",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "vitamin-b2",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg",
+        "value": 0.528,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674779",
+      "fdc_id": "172184",
+      "nutrient_id": "1166",
+      "amount": "0.528",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "0.327",
+      "max": "0.69",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "vitamin-c",
+    "status": "exact matching source reports zero; no positive scoring input recovered",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [],
+    "usda_row": {
+      "id": "1674812",
+      "fdc_id": "172184",
+      "nutrient_id": "1162",
+      "amount": "0",
+      "data_points": "0",
+      "derivation_id": "",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "vitamin-e",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_e_mg",
+        "value": 2.58,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674714",
+      "fdc_id": "172184",
+      "nutrient_id": "1109",
+      "amount": "2.58",
+      "data_points": "0",
+      "derivation_id": "10",
+      "min": "",
+      "max": "",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "zinc",
+    "status": "supported values present and mapped",
+    "fdc_id": 172184,
+    "exact_description_match": true,
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [
+      {
+        "record": "docs/foods/egg-yolks.md#nutrition_per_100g/zinc_mg",
+        "value": 2.3,
+        "unit": "mg"
+      }
+    ],
+    "usda_row": {
+      "id": "1674766",
+      "fdc_id": "172184",
+      "nutrient_id": "1095",
+      "amount": "2.3",
+      "data_points": "12",
+      "derivation_id": "1",
+      "min": "1.84",
+      "max": "2.71",
+      "median": "",
+      "footnote": "",
+      "min_year_acquired": ""
+    },
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "anchovies",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/anchovies.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "beef",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/beef.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "cysteine",
+    "status": "qualitative mapped; no eligible point concentration",
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [],
+    "source_contexts": [
+      "chicken::cysteine::chicken broilers or fryers meat and skin raw::raw"
+    ],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/chicken.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "chicken-liver",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/chicken-liver.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "cod",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/cod.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "dark-meat-poultry",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/dark-meat-poultry.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "heart",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/heart.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "herring",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/herring.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "kidney",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/kidney.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lamb",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lamb.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "cysteine",
+    "status": "qualitative mapped; no eligible point concentration",
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [],
+    "source_contexts": [
+      "liver::cysteine::beef variety meats and by products liver raw::raw"
+    ],
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "liver",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/liver.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "lumpfish-roe",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/lumpfish-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "mackerel",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/mackerel.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "cysteine",
+    "status": "qualitative mapped; no eligible point concentration",
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [],
+    "source_contexts": [
+      "pork::cysteine::pork fresh loin whole separable lean and fat raw::raw"
+    ],
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "pork",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/pork.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "salmon-roe",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/salmon-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "sardines",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/sardines.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "trout-roe",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/trout-roe.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "cysteine",
+    "status": "qualitative mapped; no eligible point concentration",
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [],
+    "source_contexts": [
+      "tuna::cysteine::fish tuna fresh bluefin raw::raw"
+    ],
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "tuna",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/tuna.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "turkey",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/turkey.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "cysteine",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "sulforaphane",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  },
+  {
+    "food_id": "egg-yolks",
+    "substance_id": "oligofructose",
+    "status": "no supported record recovered within bounded scope",
+    "source_path": "docs/foods/egg-yolks.md",
+    "canonical_observations": [],
+    "source_contexts": [],
+    "discrepancy": null
+  }
+]

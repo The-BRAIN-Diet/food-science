@@ -1,0 +1,204 @@
+TAP version 13
+# node:fs:581
+#   return binding.open(
+#                  ^
+# Error: ENOENT: no such file or directory, open 'review/dietary-connectivity-2026-11-09/substance-matrix.json'
+#     at Object.openSync (node:fs:581:18)
+#     at Object.readFileSync (node:fs:457:35)
+#     at fs.readFileSync (file:///private/tmp/brs1-analysis/baseline-preload.mjs:4:235)
+#     at read (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/dietary-connectivity.test.mjs:3:76)
+#     at file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/dietary-connectivity.test.mjs:3:105
+#     at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+#     at async ModuleLoader.import (node:internal/modules/esm/loader:329:24)
+#     at async loadESM (node:internal/process/esm_loader:28:7)
+#     at async handleMainPromise (node:internal/modules/run_main:113:12) {
+#   errno: -2,
+#   code: 'ENOENT',
+#   syscall: 'open',
+#   path: 'review/dietary-connectivity-2026-11-09/substance-matrix.json'
+# }
+# Node.js v20.11.0
+# Subtest: /Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/dietary-connectivity.test.mjs
+not ok 1 - /Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/dietary-connectivity.test.mjs
+  ---
+  duration_ms: 402.824167
+  location: '/Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/dietary-connectivity.test.mjs:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 1
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+# Subtest: 20 complete same-record EAA profiles: 10 plant and 10 animal
+ok 2 - 20 complete same-record EAA profiles: 10 plant and 10 animal
+  ---
+  duration_ms: 2.203667
+  ...
+# Subtest: all amino-acid and protein quantities match the retrieved USDA rows exactly
+ok 3 - all amino-acid and protein quantities match the retrieved USDA rows exactly
+  ---
+  duration_ms: 1.349292
+  ...
+# Subtest: missing constituents, incompatible basis, false source or missing portion never become zero or a source
+ok 4 - missing constituents, incompatible basis, false source or missing portion never become zero or a source
+  ---
+  duration_ms: 1.150541
+  ...
+# Subtest: aggregate cannot be inferred from total protein or a synthetic contains edge
+ok 5 - aggregate cannot be inferred from total protein or a synthetic contains edge
+  ---
+  duration_ms: 0.122292
+  ...
+# Subtest: PM1 aggregate sources retain separate evidence and existing admission
+ok 6 - PM1 aggregate sources retain separate evidence and existing admission
+  ---
+  duration_ms: 0.176125
+  ...
+# Subtest: eight formerly foodless targets now have source-qualified direct composition
+ok 7 - eight formerly foodless targets now have source-qualified direct composition
+  ---
+  duration_ms: 0.436708
+  ...
+# Subtest: NAC and exact oligofructose preparation retain admissions without invented foods
+ok 8 - NAC and exact oligofructose preparation retain admissions without invented foods
+  ---
+  duration_ms: 0.378375
+  ...
+# Subtest: chemical forms and qualitative uncertainty survive the projection
+not ok 9 - chemical forms and qualitative uncertainty survive the projection
+  ---
+  duration_ms: 1.131459
+  location: 'file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:55:1'
+  failureType: 'testCodeFailure'
+  error: 'glutamine: no borrowed total or calculated amount'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 0
+  actual: 1
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:55:404)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: glucose comes from the specific nutrient rather than total sugars
+ok 10 - glucose comes from the specific nutrient rather than total sugars
+  ---
+  duration_ms: 0.355459
+  ...
+# Subtest: same 51 admitted identities; food coverage changes independently
+not ok 11 - same 51 admitted identities; food coverage changes independently
+  ---
+  duration_ms: 0.957667
+  location: 'file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:57:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    58 !== 51
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 51
+  actual: 58
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:57:163)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: protected records preserve original bytes or PM8 science across its approved presentation change
+not ok 12 - protected records preserve original bytes or PM8 science across its approved presentation change
+  ---
+  duration_ms: 1.817041
+  location: 'file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:58:1'
+  failureType: 'testCodeFailure'
+  error: 'docs/biological-targets/mitochondrial-function-bioenergetics.md'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: '3e29fd5302014fd65eb53bdee1286536fa1993682bc823a2e3cb76a2d0ae71ca'
+  actual: 'adaa250c3d21d2ea31e21b8a6d4d3c59a4552ae3c1b75e2894853e3a39f16fcc'
+  operator: 'strictEqual'
+  stack: |-
+    assertProtectedRecord (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:37:28)
+    TestContext.<anonymous> (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:58:262)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: PM8 presentation allowance still rejects changed Findings, admissions, SEC references and unrelated prose
+ok 13 - PM8 presentation allowance still rejects changed Findings, admissions, SEC references and unrelated prose
+  ---
+  duration_ms: 66.947292
+  ...
+# Subtest: reciprocal food projection uses admitted records and preserves composition versus intervention
+ok 14 - reciprocal food projection uses admitted records and preserves composition versus intervention
+  ---
+  duration_ms: 7.741791
+  ...
+# Subtest: shared TSX projections parse without syntax regressions
+ok 15 - shared TSX projections parse without syntax regressions
+  ---
+  duration_ms: 325.870833
+  ...
+# Subtest: compact aggregate totals fit the canonical column without changing underlying amino-acid values
+ok 16 - compact aggregate totals fit the canonical column without changing underlying amino-acid values
+  ---
+  duration_ms: 22.0795
+  ...
+# Subtest: PM1 SF7 presentation allowance rejects altered science, evidence nodes and unrelated sections
+not ok 17 - PM1 SF7 presentation allowance rejects altered science, evidence nodes and unrelated sections
+  ---
+  duration_ms: 107.8045
+  location: 'file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:104:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The input did not match the regular expression /PM1 content outside exact approved SF7 insertions/. Input:
+    
+    'AssertionError [ERR_ASSERTION]: PM1 scientific records'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+  actual:
+  error: 'PM1 scientific records'
+  stack: |-
+    assertProtectedRecord (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:24:10)
+    file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:116:20
+    getActual (node:assert:765:5)
+    Function.throws (node:assert:911:24)
+    TestContext.<anonymous> (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:116:9)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+  operator: 'throws'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/foodless-target-resolution.test.mjs:116:9)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 12
+# fail 5
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2010.52

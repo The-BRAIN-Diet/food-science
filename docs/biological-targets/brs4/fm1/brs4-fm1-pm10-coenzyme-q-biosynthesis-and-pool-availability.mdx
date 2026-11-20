@@ -16,6 +16,47 @@ dose_sensitivity: High
 key_constraints: []
 cofactors: []
 phenome_relationships: []
+pm_kc_relationships:
+  - relationship_id: PM10-KC2-SUPPLY
+    dietary_input: false
+    kc_id: BRS4(KC2)
+    ikc_id: BRS4(KC2)
+    relationship_type: supported-upstream-supply
+    input: Mitochondrial Cofactor Sufficiency
+    presentation_label: Mitochondrial Cofactor Sufficiency
+    input_type: supported upstream supply
+    pm_biological_role: Iron supports the diiron COQ7 hydroxylase in CoQ biosynthesis.
+    evidence_source:
+      finding_ids:
+        - PM10-F2
+      citation_keys:
+        - wang_coq7_2022
+    evidence_limitation: >-
+      Supports provision to this biochemical step. An intake threshold or benefit from extra intake has not
+      been established.
+    description_finding_id: PM10-F2
+    applicability_label: Supported upstream supply
+    kc_href: /docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency
+    constituent_relationships:
+      - relationship_id: PM10-DIT-4-KC2-SUPPLY
+        pm_atom_id: PM10-DIT-4
+        kc_atom_id: BRS4-KC2-KIT-2
+        ikc_id: BRS4-KC2-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Iron
+        presentation_section: 3.1.3
+        reader_description: Iron supports the diiron COQ7 hydroxylase in CoQ biosynthesis.
+        description_finding_id: PM10-F2
+        relationship_type: supported-upstream-supply
+        substance_id: iron
+        canonical_identity:
+          status: resolved
+          substance_id: iron
+          substance_href: /docs/substances/nutrients/micronutrients/minerals/trace/iron
+        disposition: established
+        rationale: >-
+          Supports provision to this biochemical step. An intake threshold or benefit from extra intake has
+          not been established.
 dietary_input_traceability:
   - atom_id: PM10-DIT-1
     input: Tyrosine
@@ -790,7 +831,7 @@ Intracellular CoQ, SAM and FAD are represented within the precursor relationship
 </div>
 </div>
 </div>
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.3" id="313-key-constraints">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -798,7 +839,11 @@ Intracellular CoQ, SAM and FAD are represented within the precursor relationship
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No mapping established. Multiple biosynthetic nutrients do not, by themselves, establish a coherent shared KC pool.
+- Mitochondrial Cofactor Sufficiency
+
+**Individual KC inputs**
+
+- [Iron](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency#iron-evidence-panel) — supported upstream supply. Iron supports the diiron COQ7 hydroxylase in CoQ biosynthesis.
 
 </div>
 </div>
@@ -852,6 +897,10 @@ Endogenous headgroup and side-chain pathways converge in CoQ maturation. COQ cof
 Tyrosine-derived 4-HPP can enter an HPDL-associated 4-HMA route towards 4-HB; some intervening human assignments remain unresolved. Phenylalanine can supply tyrosine systemically, but did not directly label this route in the non-liver cells tested. Early precursor bypass in HPDL-deficient mice and one patient is not a healthy-population dietary intervention. [[2]](#pm-ref-2) [[3]](#pm-ref-3)
 
 Mevalonate-derived IPP/DMAPP supply the PDSS1/2 side-chain pathway. COQ2 prenylates the headgroup. COQ3/5 use SAM; COQ6 uses flavin-linked reducing equivalents; COQ7 is a diiron hydroxylase and COQ9 supports lipid-substrate handling. COQ4 decarboxylation and COQ8 support have been investigated in reconstructed tetrapod machinery. NADPH, NADH, ATP and metal availability have distinct reaction roles; no generic food-to-NADPH-to-CoQ efficacy chain is admitted. [[1]](#pm-ref-1) [[4]](#pm-ref-4) [[11]](#pm-ref-11)
+
+#### (Boundaries of the mechanism)
+
+This PM covers CoQ production and pool availability. Electron transfer and local antioxidant protection describe downstream uses of the pool.
 
 PARL/STARD7 experiments show that mitochondrial synthesis and export are separately regulated. COQ gene defects and secondary perturbations can impair pools, but circulating CoQ alone cannot diagnose all tissue deficiencies. The reduced and oxidised forms cycle during function; a higher reduced fraction is not automatically superior. [[1]](#pm-ref-1) [[5]](#pm-ref-5) [[10]](#pm-ref-10)
 

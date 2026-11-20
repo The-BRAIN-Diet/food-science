@@ -4,7 +4,7 @@
 
 ## Approved evidence-tab presentation
 
-The [canonical evidence-tab contract](pm-evidence-tabs-contract.md), corrected by the owner on 27 October 2026, preserves Scientific Findings in §4.1 on pages using `scientific_findings_placement: section-4`. Map every active Finding from the Section 4 Summary to its corresponding mechanistic explanation and retain reciprocal links. Evidence & Audit contains Scientific Principles, SEC appraisal, provenance, corrections and history, with no duplicated SF disclosures. Existing audit-only pages retain their behaviour until controlled migration. Use Evidence Gaps and Open Issues for their distinct approved roles. Retain all three tabs with empty states, canonical dropdown styling, stable IDs and exact-record links. Preserve scientific data, existing admissions and immutable assessments. Unmigrated PMs retain their existing rendering until a controlled migration; do not bulk-edit them as a side effect of changing this schema.
+The [canonical evidence-tab contract](pm-evidence-tabs-contract.md), corrected by the owner on 27 October 2026, preserves Scientific Findings in §4.1 on pages using `scientific_findings_placement: section-4`. Use a prose §4 Summary and a topic-based mechanism dropdown with Boundaries inside. Follow the current PM1 reference when authoring or explicitly revising a PM. Evidence & Audit contains Scientific Principles, SEC appraisal, provenance, corrections and history, with no duplicated SF disclosures. Existing audit-only pages retain their behaviour until controlled migration. Use Evidence Gaps and Open Issues for their distinct approved roles. Retain all three tabs with empty states, canonical dropdown styling, stable IDs and exact-record links. Preserve scientific data, existing admissions and immutable assessments. Unmigrated PMs retain their existing rendering until a controlled migration; do not bulk-edit them as a side effect of changing this schema.
 
 
 **Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
@@ -173,7 +173,7 @@ Phenome Connections (§7) → References (§8). §6 is unused (Scoreable Inputs 
    - **3.3 Lifestyle Levers** (hub: **Lifestyle Priorities**) — `<details>` dropdown for foundational/recurrent non-dietary behaviour (sleep, meal timing/rhythm, activity, stress recovery, circadian sleep–wake). Not food choice, nutrients, dietary patterns, or cooking. Classify by **use**: routine behaviour here; a defined protocol belongs in §3.2.
 4. Mechanistic Basis — `## 4. Mechanistic Basis` (legacy §5)
    - **Canonical structure (Profile A):** see **PM Mechanistic Basis — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
-   - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
+   - **`### Summary` (required):** short prose on why the mechanism matters. Cite claims inline where needed and omit Finding navigation. Place existing lessons immediately after the prose, before the mechanism dropdown.
    - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
    - **Canonical mechanism dropdown:** follow the [PM1 reference layout](pm-evidence-tabs-contract.md#pm1-section-4-reference-layout--one-dropdown-per-finding), using the existing `brs-fm-hub-item` / shell / summary / panel markup. Keep **`### Summary` visible**; place primary mechanism, boundaries and integration blocks inside this single mechanism-detail dropdown and close it before §4.1. Do **not** put Summary or Scientific Findings inside it. Each Scientific Finding has its own independent dropdown in §4.1.
    - **Citations (required where evidence-backed):** keep inline citations in Mechanistic Basis when rewriting or shortening prose — see **PM Mechanistic Basis — Citations** below. Do not drop references to make the narrative “cleaner.”
@@ -1023,7 +1023,7 @@ Direct or Derived Dietary Requirement.
 
 ### PM Mechanistic Basis — canonical §4; legacy §5
 
-Teachable PM Mechanistic Basis follows this flow (all visible by default on the reference page):
+The Summary is visible on the reference page. The primary mechanism, Boundaries and Integration are inside one mechanism-detail dropdown, before §4.1.
 
 | Step | Heading level | Role |
 |------|---------------|------|
@@ -1066,13 +1066,10 @@ Finding disclosures, supporting-mechanism links and Evidence & Audit. Keep full
 canonical IDs in structured relationships, stable anchors, technical exports and
 history. SEC indicators remain associated with that same Finding and label.
 
-Section 4 paragraph headings that explain a Finding must reuse its derived short
-identifier and exact `finding_label`: **SF1 — Dietary protein and amino-acid availability**.
-Link each explanation to its supporting Finding and provide the reciprocal link.
-Use **4. Mechanistic Basis + Scientific Findings (SFs N)** as the combined parent
-heading, with N derived from the same actual reader-facing Finding collection as
-§4.1. Preserve the existing `4-mechanistic-basis` anchor; do not count curated
-provenance, interpretive constraints or audit versions as additional Findings.
+Use **4. Mechanistic Basis** as the parent heading and preserve the
+`4-mechanistic-basis` anchor. Organise the mechanism narrative by biological topic.
+Keep source citations and existing lesson or deep-link targets. Study-specific
+summaries and SF titles belong in §4.1.
 
 Render the section heading dynamically as **4.1 Scientific Findings (N)** from
 the actual section's rendered Scientific Finding collection, not an authored count
@@ -1080,6 +1077,8 @@ or the number of studies, audit versions, separate curated-reference records or
 interpretive constraints. Preserve the pre-count section anchor and navigation.
 A biochemical proposition still rendered as a Scientific Finding counts until its
 separate scientific disposition changes; presentation must not silently reclassify it.
+
+Follow [SOP science and SEC in §4.1](pm-evidence-tabs-contract.md#sop-science-and-sec-in-41) for protocol evidence, SF-prefixed labels and pinned assessment placement. Admitted practices use §3.2, and independently admitted dietary relationships may use §3.1.
 
 Reverse SF-to-intervention links use only selected canonical SOP/lifestyle records
 whose `description_finding_id` or evidence `finding_ids` explicitly names that
@@ -1141,7 +1140,7 @@ body.
 | Evidence confidence | Existing assessment | Render the authoritative SEC reference/status through the shared component; do not introduce a separate confidence field or score |
 | Explore the evidence | Yes | Nested disclosure with original Finding ID, statement, synthesis, synthesis limitations and considered evidence |
 | Individual study assessments | Where recorded | Nested canonical study disclosures with the existing population, result, magnitude, limitations, data level and source references |
-| Mechanistic explanation link | Yes | Reciprocal link to the corresponding §4 mechanism block beneath the SF |
+| Mechanistic explanation link | Optional | Existing useful links can target a topic in the mechanism dropdown |
 
 This supersedes the older generic Confidence / Evidence Level / Rationale / Key References card instructions for mechanism Findings; it does not alter stored scientific records or SEC governance.
 
@@ -1499,7 +1498,7 @@ PM1 uses evidence_tabs_version: 1, evidence_gaps_tab: true and scientific_findin
 
 ## PM1 Section 4 assessment-family grouping — approved 4 November 2026
 
-Author-approved PM1-only pilot: keep the Section 4 summary visible; group Scientific Findings first, SOP assessments second, and Lifestyle Lever assessments only when present. Each family starts collapsed and uses existing `brs-fm-hub` dropdown CSS and keyboard behaviour. Individual Findings/assessments retain their own disclosures; stable deep links must open all enclosing groups. Scores, assessment ownership, six atoms and admissions are unchanged. Do not display empty Lifestyle assessment groups.
+Historical PM1-only grouping pilot. For current SOP evidence placement follow [SOP science and SEC in §4.1](pm-evidence-tabs-contract.md#sop-science-and-sec-in-41). The pilot kept the Section 4 summary visible and specified: group Scientific Findings first, SOP assessments second, and Lifestyle Lever assessments only when present. Each family starts collapsed and uses existing `brs-fm-hub` dropdown CSS and keyboard behaviour. Individual Findings/assessments retain their own disclosures; stable deep links must open all enclosing groups. Scores, assessment ownership, six atoms and admissions are unchanged. Do not display empty Lifestyle assessment groups.
 
 Stage 2A preserves separate scientific and intervention propositions; grouping never implies inherited scores. Stage 2B renders the approved family order and preserves the `section4-findings:end` generated boundary so regeneration cannot discard following SOP assessments. `section4_assessment_groups: true` is enabled only on PM1 in this pilot; do not activate other PMs without rollout authorisation. This presentation approval is not scientific reassessment.
 

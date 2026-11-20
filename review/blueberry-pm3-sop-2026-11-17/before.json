@@ -1,0 +1,1829 @@
+{
+  "head": "d67c181ff6ebec80873e4da581af759e8e98199c",
+  "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+  "data": {
+    "title": "Insulin Sensitivity & Glucose Disposal",
+    "pm_id": "BRS6-FM1-PM3",
+    "mission": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+    "parent_fm": "BRS6(FM1)",
+    "parent_brs": "BRS6",
+    "summary": "Insulin helps tissues take up and store circulating glucose after a meal. The effectiveness of that response depends on cellular signalling and the condition of muscle, liver and fat tissue. Exercise training can improve measured insulin action even without weight loss. Magnesium also participates in insulin-receptor function, with deficiency experiments showing impaired action. These routes concern the capacity to handle glucose already available in the circulation.",
+    "key_constraints": [],
+    "cofactors": [],
+    "intervention_dominance": "Diet-Supported",
+    "intervention_breakdown": "Food-State Leaning",
+    "timing_specific": "Yes",
+    "dose_sensitivity": "Effects depend on the tested exposure, preparation and study population; no universal dose is established.",
+    "references": [
+      "[Mikus et al. (2012) — Glycaemic Control Is Improved by 7 Days of Aerobic Exercise Training in](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)",
+      "[Colberg et al. (2016) — A Position Statement of the American Diabetes Association.](/docs/papers/BRAIN-Diet-References#colberg_2016_27926890)",
+      "[Reynolds et al. (2019) — A Series of Systematic Reviews and Meta-analyses.](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)",
+      "[Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)",
+      "[Marcelli et al. (2025) — Insights Into Shared Mechanisms and Clinical Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025)",
+      "[Kirwan et al. (2009) — Effects of 7 days of exercise training on insulin sensitivity and responsiveness in type 2 diabetes mellitus](/docs/papers/BRAIN-Diet-References#kirwan_exercise_insulin_2009)",
+      "[Suárez et al. (1995) — Impaired tyrosine-kinase activity of muscle insulin receptors from hypomagnesaemic rats](/docs/papers/BRAIN-Diet-References#suarez_magnesium_insulin_1995)",
+      "[Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)",
+      "[Piatti et al. (2001) — Long-term oral L-arginine administration improves peripheral and hepatic insulin sensitivity in type 2 diabetic patients.](/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001)",
+      "[Robertson et al. (2005) — Insulin-sensitizing effects of dietary resistant starch and effects on skeletal muscle and adipose tissue metabolism](/docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005)",
+      "[Bodinham et al. (2014) — Efficacy of increased resistant starch consumption in human type 2 diabetes](/docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014)",
+      "[Sutton et al. (2018) — Early time-restricted feeding improves insulin sensitivity without weight loss](/docs/papers/BRAIN-Diet-References#sutton_early_2018)"
+    ],
+    "hide_title": true,
+    "phenome_relationships": [],
+    "list_image": "/img/biological-targets/brs6-portrait-thumbnail.png",
+    "scientific_findings": [
+      {
+        "id": "PM3-F1",
+        "finding_label": "Exercise training improves insulin-responsive uptake",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "A seven-day exercise study found improved insulin sensitivity and responsiveness of glucose disposal.",
+        "finding_statement": "A seven-day exercise study found improved insulin sensitivity and responsiveness of glucose disposal.",
+        "finding_interpretation": "Clamp/tracer measurements separate peripheral uptake from hepatic production more directly than meal glucose alone.",
+        "synthesis": "Clamp/tracer measurements separate peripheral uptake from hepatic production more directly than meal glucose alone.",
+        "synthesis_limitations": "Short small study in type 2 diabetes; contribution of the last exercise bout remains relevant.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Kirwan et al. (2009)",
+            "citation_key": "kirwan_exercise_insulin_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#kirwan_exercise_insulin_2009",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Peripheral insulin-responsive uptake improved; hepatic suppression was assessed separately.",
+            "study_exposure": "Seven-day vigorous aerobic training in type 2 diabetes, clamp and glucose tracer.",
+            "study_finding": "Peripheral insulin-responsive uptake improved; hepatic suppression was assessed separately.",
+            "assessment": {
+              "study": "Seven-day vigorous aerobic training in type 2 diabetes, clamp and glucose tracer.",
+              "population": "Seven-day vigorous aerobic training in type 2 diabetes, clamp and glucose tracer.",
+              "result": "Peripheral insulin-responsive uptake improved; hepatic suppression was assessed separately.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Peripheral insulin-responsive uptake improved; hepatic suppression was assessed separately.",
+              "limitations": "Do not extrapolate the exact exercise prescription to everyone.",
+              "retrieval_scope": "Full primary Discussion and clamp/tracer method retrieved.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2711659/"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Mikus et al. (2012)",
+            "citation_key": "mikus_2012_22311420",
+            "href": "/docs/papers/BRAIN-Diet-References#mikus_2012_22311420",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Colberg et al. (2016)",
+            "citation_key": "colberg_2016_27926890",
+            "href": "/docs/papers/BRAIN-Diet-References#colberg_2016_27926890",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Reynolds et al. (2019)",
+            "citation_key": "reynolds_2019_30638909",
+            "href": "/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "Dietary fibre/wholegrain review; supports context, not every named preparation or one isolated constituent mechanism."
+          },
+          {
+            "label": "Di Girolamo et al. (2022)",
+            "citation_key": "di_girolamo_prevalence_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          },
+          {
+            "label": "Marcelli et al. (2025)",
+            "citation_key": "marcelli_bridging_2025",
+            "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025",
+            "why_relevant": "Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.",
+            "why_excluded": "The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source."
+          }
+        ]
+      },
+      {
+        "id": "PM3-F2",
+        "finding_label": "Magnesium supports insulin-receptor signalling capacity",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Magnesium depletion impaired insulin-receptor kinase activity and insulin-mediated muscle uptake in rats.",
+        "finding_statement": "Magnesium depletion impaired insulin-receptor kinase activity and insulin-mediated muscle uptake in rats.",
+        "finding_interpretation": "An actual dietary-depletion chain connects magnesium availability to signalling and disposal.",
+        "synthesis": "An actual dietary-depletion chain connects magnesium availability to signalling and disposal.",
+        "synthesis_limitations": "Animal dietary depletion does not define a human intake threshold or enhancement above adequacy.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Suárez et al. (1995)",
+            "citation_key": "suarez_magnesium_insulin_1995",
+            "href": "/docs/papers/BRAIN-Diet-References#suarez_magnesium_insulin_1995",
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Receptor autophosphorylation and submaximal insulin-stimulated uptake were impaired.",
+            "study_exposure": "Four-day low-magnesium diet, rat muscle perfusion and purified receptor assays.",
+            "study_finding": "Receptor autophosphorylation and submaximal insulin-stimulated uptake were impaired.",
+            "assessment": {
+              "study": "Four-day low-magnesium diet, rat muscle perfusion and purified receptor assays.",
+              "population": "Four-day low-magnesium diet, rat muscle perfusion and purified receptor assays.",
+              "result": "Receptor autophosphorylation and submaximal insulin-stimulated uptake were impaired.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "Receptor autophosphorylation and submaximal insulin-stimulated uptake were impaired.",
+              "limitations": "Animal depletion and biochemical activity, not human supplementation efficacy.",
+              "retrieval_scope": "Primary abstract/results retrieved; full methods not independently extracted unless noted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/8582534/"
+            }
+          }
+        ],
+        "connected_supportive_evidence": []
+      },
+      {
+        "id": "PM3-F3",
+        "finding_label": "Weight loss changes insulin action without requiring early inflammation reduction",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Moderate diet-induced weight loss improved multi-organ insulin sensitivity in adults with obesity.",
+        "finding_statement": "Moderate diet-induced weight loss improved multi-organ insulin sensitivity in adults with obesity.",
+        "finding_interpretation": "Insulin action can improve before the measured inflammatory markers change.",
+        "synthesis": "Insulin action can improve before the measured inflammatory markers change.",
+        "synthesis_limitations": "The later progressive subgroup was small; no assumption of universal weight-loss need.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Magkos et al. (2016)",
+            "citation_key": "magkos_weight_loss_adipose_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "About 5% loss improved insulin sensitivity without reduced measured adipose inflammation.",
+            "study_exposure": "Randomized weight-maintenance versus diet-induced weight-loss study, clamps and adipose sampling.",
+            "study_finding": "About 5% loss improved insulin sensitivity without reduced measured adipose inflammation.",
+            "assessment": {
+              "study": "Randomized weight-maintenance versus diet-induced weight-loss study, clamps and adipose sampling.",
+              "population": "Randomized weight-maintenance versus diet-induced weight-loss study, clamps and adipose sampling.",
+              "result": "About 5% loss improved insulin sensitivity without reduced measured adipose inflammation.",
+              "effect_magnitude": "Only source-extracted comparisons retained; no pooled benefit estimate.",
+              "evidence_summary": "About 5% loss improved insulin sensitivity without reduced measured adipose inflammation.",
+              "limitations": "Later larger losses were not a new independently randomized dose comparison.",
+              "retrieval_scope": "Primary Results, Tables 1–2 and Discussion retrieved.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833627/"
+            }
+          }
+        ],
+        "connected_supportive_evidence": []
+      },
+      {
+        "id": "PM3-F4",
+        "finding_label": "A defined oral arginine exposure changes clamp-measured disposal",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_statement": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+        "finding_summary": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+        "finding_interpretation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+        "synthesis_limitations": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+        "evidence_considered": [
+          {
+            "label": "Piatti et al. (2001)",
+            "citation_key": "piatti_oral_arginine_clamp_2001",
+            "href": "/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001",
+            "data_level": "Human Study",
+            "exposure_context": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+            "assessment": {
+              "study": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+              "population": "Twelve lean adults with type 2 diabetes; double-blind study with random allocation into two groups.",
+              "result": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+              "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+              "evidence_summary": "Euglycaemic-hyperinsulinaemic clamp with glucose tracer; endogenous glucose production and cGMP.",
+              "limitations": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+              "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/11347747/"
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."
+        ]
+      },
+      {
+        "id": "PM3-F5",
+        "finding_label": "Resistant-starch effects on insulin-sensitive glucose disposal are context-dependent",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_statement": "A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.",
+        "finding_summary": "A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.",
+        "finding_interpretation": "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "A small placebo-controlled human supplementation study found higher clamp insulin sensitivity and forearm glucose clearance; a later type-2-diabetes trial did not establish a clamp improvement.",
+        "synthesis_limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference. Numerical SEC remains pending full-method appraisal; no factor is forced.",
+        "evidence_considered": [
+          {
+            "label": "Robertson et al. (2005)",
+            "citation_key": "robertson_resistant_starch_clamp_2005",
+            "href": "/docs/papers/BRAIN-Diet-References#robertson_resistant_starch_clamp_2005",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "exposure_context": "Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.",
+            "directional_finding": "Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.",
+            "assessment": {
+              "study": "Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.",
+              "population": "Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.",
+              "result": "Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.",
+              "effect_magnitude": "No additional magnitude inferred.",
+              "evidence_summary": "Clamp insulin sensitivity and post-meal forearm clearance were higher following the tested resistant-starch supplementation.",
+              "limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.",
+              "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+            }
+          },
+          {
+            "label": "Bodinham et al. (2014)",
+            "citation_key": "bodinham_resistant_starch_diabetes_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#bodinham_resistant_starch_diabetes_2014",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "exposure_context": "Defined resistant-starch ingredient supplementation, not interchangeable whole-food meals.",
+            "directional_finding": "The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.",
+            "assessment": {
+              "study": "Human resistant-starch supplementation with clamp and tissue metabolic endpoints, contrasted with a later type-2-diabetes trial.",
+              "population": "Ten healthy participants in the positive study; 17 adults with type 2 diabetes in the later crossover.",
+              "result": "The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.",
+              "effect_magnitude": "No additional magnitude inferred.",
+              "evidence_summary": "The tested 40 g/day resistant-starch intervention did not establish improved clamp insulin sensitivity in type 2 diabetes.",
+              "limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.",
+              "retrieval_scope": "Primary abstract retrieved 26 October 2026; full methods and supplements not extracted."
+            }
+          }
+        ]
+      }
+    ],
+    "dietary_input_traceability": [
+      {
+        "atom_id": "PM3-DIT-1",
+        "dietary_input": true,
+        "dietary_input_note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+        "input": "Magnesium",
+        "input_type": "cofactor",
+        "biological_role": "Magnesium availability supports insulin-receptor kinase signalling and insulin-responsive uptake.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F2"
+          ],
+          "citation_keys": [
+            "suarez_magnesium_insulin_1995"
+          ]
+        },
+        "evidence_limitation": "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here.",
+        "substance_id": "magnesium",
+        "canonical_identity": {
+          "status": "resolved",
+          "substance_id": "magnesium",
+          "substance_href": "/docs/substances/nutrients/micronutrients/minerals/macro/magnesium",
+          "checked_sources": [
+            "registry/substances.json",
+            "docs/substances/nutrients/micronutrients/minerals/macro/magnesium.md"
+          ],
+          "projection_status": "draft-only"
+        }
+      },
+      {
+        "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+        "input": "Resistant starch",
+        "input_type": "microbial fermentation substrate",
+        "substance_id": "resistant-starch",
+        "biological_role": "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F5"
+          ],
+          "citation_keys": [
+            "robertson_resistant_starch_clamp_2005",
+            "bodinham_resistant_starch_diabetes_2014"
+          ]
+        },
+        "evidence_limitation": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.",
+        "dietary_input": true,
+        "dietary_input_note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose."
+      }
+    ],
+    "dietary_lever_atoms": [
+      {
+        "atom_id": "PM3-DIT-1",
+        "relationship_layer": "dietary-requirement",
+        "relationship_mode": "capacity-requirement",
+        "claim_ceiling": "biological-dependency",
+        "dietary_addressability": "direct",
+        "requirement_classification": "direct"
+      },
+      {
+        "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+        "requirement_classification": "direct",
+        "relationship_mode": "state-regulation",
+        "relationship_layer": "dietary-requirement",
+        "dietary_addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated",
+        "permitted_wording": "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.",
+        "evidence_limitation": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference."
+      }
+    ],
+    "dietary_lever_presentations": [
+      {
+        "atom_id": "PM3-DIT-1",
+        "label": "Magnesium",
+        "presentation_section": "3.1.1",
+        "reader_description": "Magnesium availability supports insulin-receptor kinase signalling and insulin-responsive uptake.",
+        "description_finding_id": "PM3-F2"
+      },
+      {
+        "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+        "label": "Resistant starch",
+        "presentation_section": "3.1.1"
+      }
+    ],
+    "pending_actions": [],
+    "system_optimisation_practices": [
+      {
+        "atom_id": "PM3-SOP-1",
+        "food_strategy_scope": "dietary-protocol",
+        "food_strategy_id": "food-strategy-4601009eb275",
+        "input": "Diet-induced weight reduction when excess adiposity is relevant",
+        "input_type": "context-specific dietary protocol",
+        "biological_role": "The assessed programme improved measured insulin sensitivity in adults with obesity.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F3"
+          ],
+          "citation_keys": [
+            "magkos_weight_loss_adipose_2016"
+          ]
+        },
+        "evidence_limitation": "This is conditional on the studied metabolic context, not a general recommendation to lose weight.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "The assessed programme improved measured insulin sensitivity in adults with obesity.",
+        "description_finding_id": "PM3-F3",
+        "sec_status": "Provisionally assessed",
+        "sec_assessment_ref": {
+          "id": "brs6-fm1-pm3-pm3-sop-1-assessment",
+          "version": 1,
+          "sha256": "79f5e04f6b143643fe8c65c78d3fef08a7914a006fb5bd47d6dd14f94d655110"
+        },
+        "sec_assessed_proposition": "In adults with obesity and insulin resistance without diabetes, approximately 5% diet-induced weight loss improved clamp-measured insulin sensitivity compared with weight maintenance."
+      },
+      {
+        "atom_id": "PM3-SOP-DEFERRED-1",
+        "substance_ids": [
+          "arginine"
+        ],
+        "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+        "input_type": "conditional supplementation",
+        "biological_role": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F4"
+          ],
+          "citation_keys": [
+            "piatti_oral_arginine_clamp_2001"
+          ]
+        },
+        "evidence_limitation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+        "dietary_input": true,
+        "reader_description": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+        "description_finding_id": "PM3-F4",
+        "optimisation_category": "dietary_protocols",
+        "food_strategy_scope": "supplementation",
+        "food_strategy_id": "food-strategy-9693baf6cdc4",
+        "sec_status": "Pending appraisal",
+        "sec_assessment_ref": {
+          "id": "brs6-fm1-pm3-pm3-sop-deferred-1-assessment",
+          "version": 1,
+          "sha256": "ea4b903e7d79edc3a0aa9c4b840cbcd7e1d7a9810d2c6943d20f3608fa2591e3"
+        },
+        "sec_assessed_proposition": "In the small lean type-2-diabetes study, one month of oral L-arginine 3 g three times daily increased clamp-measured glucose disposal but did not normalise it relative to healthy controls."
+      },
+      {
+        "atom_id": "PM3-SOP-EARLY-EATING-1",
+        "input": "Six-hour early eating window with weight-maintenance feeding",
+        "input_type": "dietary protocol",
+        "biological_role": "OGTT-derived insulin-resistance index decreased 36 ± 10 U/mg (p=0.005).",
+        "evidence_source": {
+          "citation_keys": [
+            "sutton_early_2018"
+          ],
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
+        },
+        "evidence_limitation": "OGTT-derived index, not clamp disposal, tissue signalling or a directly measured circadian mechanism. Fasting and OGTT glucose unchanged; hs-CRP, IL-6 and cortisol unchanged. Eight male completers, unmasked supervised efficacy trial; four withdrawals. Eating-window duration and early timing coupled; pretest fast unmatched. Sequence/period effects affected some other outcomes, not the selected index. Fasting triglycerides and total cholesterol increased; not a uniformly beneficial metabolic profile. Highly supervised protocol does not establish general feasibility or an unsupervised fasting prescription.",
+        "dietary_input": true,
+        "intervention_admitted": "Yes",
+        "optimisation_category": "dietary_protocols",
+        "food_strategy_scope": "dietary-protocol",
+        "reader_description": "OGTT-derived insulin-resistance index decreased 36 ± 10 U/mg (p=0.005).",
+        "biologicalRelationship": {
+          "moa": {
+            "status": "unresolved",
+            "description": "Early timing and prolonged fasting may alter metabolic handling; neither circadian mediation nor intracellular insulin signalling was isolated.",
+            "evidenceQualification": "Observed endpoint does not identify causal mediation; no collapsed mechanism summary proposed."
+          },
+          "measuredEffect": "OGTT-derived insulin-resistance index decreased 36 ± 10 U/mg (p=0.005).",
+          "pmRelevance": "Insulin-response index is relevant to PM3, with surrogate limitations; no automatic transfer to hormonal/circadian PMs or glucose-disposal flux."
+        },
+        "limitations": [
+          {
+            "type": "measurement",
+            "text": "OGTT-derived index, not clamp disposal, tissue signalling or a directly measured circadian mechanism."
+          },
+          {
+            "type": "null-outcome",
+            "text": "Fasting and OGTT glucose unchanged; hs-CRP, IL-6 and cortisol unchanged."
+          },
+          {
+            "type": "design",
+            "text": "Eight male completers, unmasked supervised efficacy trial; four withdrawals."
+          },
+          {
+            "type": "attribution",
+            "text": "Eating-window duration and early timing coupled; pretest fast unmatched. Sequence/period effects affected some other outcomes, not the selected index."
+          },
+          {
+            "type": "adverse-outcome",
+            "text": "Fasting triglycerides and total cholesterol increased; not a uniformly beneficial metabolic profile."
+          },
+          {
+            "type": "implementation",
+            "text": "Highly supervised protocol does not establish general feasibility or an unsupervised fasting prescription."
+          }
+        ],
+        "study_context": "12 enrolled, eight completers; randomised concealed allocation, approximately seven-week washout. Matched calories/composition, supervised meals, dinner by 15:00. Completer mixed models include sequence and period; fasting duration before testing differed.",
+        "ontology": [],
+        "sec_status": "Provisionally assessed",
+        "sec_assessment_ref": {
+          "id": "brs6-fm1-pm3-pm3-sop-early-eating-1-assessment",
+          "version": 1,
+          "sha256": "4edc0fe4e2ebfae9ac45dfb5408be65865df908a19baeed615a304d9b43d2f0c"
+        },
+        "sec_assessed_proposition": "In eight men with prediabetes completing the crossover, five weeks of early six-hour feeding reduced the OGTT-derived incremental insulin/glucose AUC ratio compared with a twelve-hour eating schedule.",
+        "admission_decision": {
+          "date": "2026-11-05",
+          "status": "admitted",
+          "authority": "Author: Implement Three Approved Priority SOPs",
+          "scope": "Exact tested intervention and endpoint only"
+        },
+        "food_strategy_id": "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1"
+      }
+    ],
+    "lifestyle_priorities": [
+      {
+        "atom_id": "PM3-LIFE-1",
+        "input": "Regular aerobic activity (studied training)",
+        "input_type": "recurrent physical activity",
+        "biological_role": "The studied training improved insulin-responsive glucose disposal.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kirwan_exercise_insulin_2009"
+          ]
+        },
+        "evidence_limitation": "Short type 2 diabetes experiment; long-term magnitude and individual responses vary.",
+        "reader_description": "The studied training improved insulin-responsive glucose disposal.",
+        "description_finding_id": "PM3-F1"
+      }
+    ],
+    "pm_kc_relationships": [],
+    "kc_applicability_adjudications": [
+      {
+        "kc_id": "BRS6(KC1)",
+        "ikc_id": "BRS6(KC1)",
+        "arm_id": "PM3-KC1-review",
+        "disposition": "unresolved",
+        "proposition": "Does the narrowed circulating-glucose availability pool establish a PM-specific upstream supply or conditional constraint?",
+        "rationale": "The existing KC1 assessment narrows the pool to circulating glucose availability. Its cerebral-energy relevance does not automatically admit this PM or a checklist of meal nutrients.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kirwan_exercise_insulin_2009"
+          ]
+        },
+        "evidence_limitation": "Demonstrate the specified circulating resource pool constraining insulin-sensitive disposal, distinct from glucose being the fuel disposed of.",
+        "remaining_gap": "Demonstrate the specified circulating resource pool constraining insulin-sensitive disposal, distinct from glucose being the fuel disposed of.",
+        "review_record": "system/brs6-kc1-evidence-review.md"
+      },
+      {
+        "kc_id": "BRS6(KC2)",
+        "ikc_id": "BRS6(KC2)",
+        "arm_id": "PM3-KC2-review",
+        "disposition": "unresolved",
+        "proposition": "Does the current stress-response micronutrient/lipid checklist define a coherent shared resource relationship?",
+        "rationale": "The existing KC2 evidence review finds no coherent shared pool in the current checklist. Individual magnesium, fatty-acid or other decisions remain independent; this does not exclude their supported PM biology.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kirwan_exercise_insulin_2009"
+          ]
+        },
+        "evidence_limitation": "The current pool definition does not establish a coherent relationship. This is an unresolved definition/applicability gap, not evidence that every constituent fails to constrain this PM.",
+        "remaining_gap": "A canonical coherent pool definition and separately vetted membership would be needed before reconsidering pool admission.",
+        "review_record": "system/brs6-kc2-evidence-review.md"
+      }
+    ],
+    "kc_distinctness_review": [
+      {
+        "relationship_id": "PM3-KC1-CANDIDATE",
+        "kc_id": "BRS6(KC1)",
+        "disposition": "unresolved",
+        "biological_job": "Does the narrowed circulating-glucose availability pool establish a PM-specific upstream supply or conditional constraint?",
+        "compared_records": {
+          "3.1.1": [
+            "PM3-DIT-1"
+          ],
+          "3.1.2": [],
+          "3.2": [
+            "PM3-SOP-1"
+          ]
+        },
+        "compared_biological_jobs": [
+          "Magnesium availability supports insulin-receptor kinase signalling and insulin-responsive uptake.",
+          "The assessed programme improved measured insulin sensitivity in adults with obesity."
+        ],
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kirwan_exercise_insulin_2009"
+          ]
+        },
+        "gap": "Demonstrate the specified circulating resource pool constraining insulin-sensitive disposal, distinct from glucose being the fuel disposed of.",
+        "rationale": "No additional public KC disclosure is admitted. Scientific applicability and public distinctness are separate; review the exact gap, not name/type/citation differences."
+      },
+      {
+        "relationship_id": "PM3-KC2-CANDIDATE",
+        "kc_id": "BRS6(KC2)",
+        "disposition": "unresolved",
+        "biological_job": "Does the current stress-response micronutrient/lipid checklist define a coherent shared resource relationship?",
+        "compared_records": {
+          "3.1.1": [
+            "PM3-DIT-1"
+          ],
+          "3.1.2": [],
+          "3.2": [
+            "PM3-SOP-1"
+          ]
+        },
+        "compared_biological_jobs": [
+          "Magnesium availability supports insulin-receptor kinase signalling and insulin-responsive uptake.",
+          "The assessed programme improved measured insulin sensitivity in adults with obesity."
+        ],
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kirwan_exercise_insulin_2009"
+          ]
+        },
+        "gap": "A canonical coherent pool definition and separately vetted membership would be needed before reconsidering pool admission.",
+        "rationale": "No additional public KC disclosure is admitted. Scientific applicability and public distinctness are separate; review the exact gap, not name/type/citation differences."
+      }
+    ],
+    "pm_lever_layout": "principal-after-mission",
+    "intervention_dominance_assessment": {
+      "evidence_qualification": {
+        "label": "Diet-Supported",
+        "rationale": "Preserved inherited evidence-qualification label; this preview separates the newly assessed intervention effects from that label and does not ratify a legacy comparative ranking.",
+        "routes": [
+          {
+            "group_id": "3.2",
+            "evidence_basis": "intervention-effect",
+            "intervention_effect": "Moderate diet-induced weight loss improved multi-organ insulin sensitivity in adults with obesity.",
+            "context": "Randomized weight-maintenance versus diet-induced weight-loss study, clamps and adipose sampling.",
+            "limitations": "The later progressive subgroup was small; no assumption of universal weight-loss need.",
+            "evidence_source": {
+              "finding_ids": [
+                "PM3-F3"
+              ],
+              "citation_keys": [
+                "magkos_weight_loss_adipose_2016"
+              ]
+            }
+          },
+          {
+            "group_id": "3.3",
+            "evidence_basis": "intervention-effect",
+            "intervention_effect": "A seven-day exercise study found improved insulin sensitivity and responsiveness of glucose disposal.",
+            "context": "Seven-day vigorous aerobic training in type 2 diabetes, clamp and glucose tracer.",
+            "limitations": "Short small study in type 2 diabetes; contribution of the last exercise bout remains relevant.",
+            "evidence_source": {
+              "finding_ids": [
+                "PM3-F1"
+              ],
+              "citation_keys": [
+                "kirwan_exercise_insulin_2009"
+              ]
+            }
+          }
+        ]
+      },
+      "principal_route_selection": {
+        "disposition": "established",
+        "selected_groups": [
+          "3.3"
+        ],
+        "rationale": "Promote the most directly mission-relevant demonstrated route in this bounded assessment; preserve the tested endpoint and context.",
+        "assessments": [
+          {
+            "group_id": "3.3",
+            "relevance": "The selected entries address the mission-specific measured process rather than a generic nutrient checklist.",
+            "directness": "Each measured link and inferred link is bounded in its Finding and five-atom record.",
+            "extent": "Specific preparations, populations and protocols; no universal dose, outcome or superiority inference."
+          }
+        ]
+      }
+    },
+    "scientific_findings_intro": "Clamp/tracer exercise evidence supports disposal. Magnesium-deficiency experiments support capacity, not universal benefit from supplements. Weight-loss evidence separates improved insulin action from changes in adipose inflammation. Kirwan et al. (2009) [[6]](#pm-ref-6); Suárez et al. (1995) [[7]](#pm-ref-7); Magkos et al. (2016) [[8]](#pm-ref-8)",
+    "sidebar_label": "BRS6-1-3 — Insulin Sensitivity & Glucose Disposal",
+    "dietary_input_assessments": [
+      {
+        "atom_id": "PM3-DIT-RECOVERY-RESISTANT-STARCH",
+        "status": "admitted",
+        "type": "B",
+        "classification": "direct",
+        "operation": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+        "canonical_substance_id": "resistant-starch",
+        "assessment_date": "2026-10-26",
+        "assessment_limitations": "Preparation-, dose- and population-specific. The positive study used 30 g/day for four weeks in ten healthy participants; this is not an effective whole-food dose. Preserve the later 40 g/day type-2-diabetes null. SCFA mediation and universal benefit are unestablished; no brain or ADHD inference.",
+        "food_target_research": {
+          "completed": true,
+          "sources_examined": [
+            "registry/substances.json",
+            "docs/foods/bananas.md",
+            "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md",
+            "system/food-target-research.json"
+          ],
+          "sufficient_coverage_rationale": "Existing structured composition and provisional food research for this exact canonical input were inspected. Reuse these source/form-qualified foods; do not infer an effective food dose or invent additional relationships."
+        },
+        "mechanism_engagement": {
+          "status": "established",
+          "statement": "Defined oral resistant-starch supplementation modulated clamp-measured insulin sensitivity and post-meal forearm glucose clearance in a small human study.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/16155268/",
+            "https://pubmed.ncbi.nlm.nih.gov/24671124/"
+          ]
+        },
+        "dietary_exposure": {
+          "status": "established",
+          "statement": "The dietary ingredient was administered orally and the same substrate class has form-dependent food-source records. Neither green-banana content nor cooling a food establishes equivalence to the tested resistant-starch supplement.",
+          "sources": [
+            "docs/foods/bananas.md",
+            "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md"
+          ]
+        }
+      }
+    ]
+  },
+  "registry": [
+    {
+      "id": "gaba-sf1-assessment-v1",
+      "version": 5,
+      "hash": "975e43d8193520c6acaf86fe832598af47018e09553f09e983e60e10d7b433f6"
+    },
+    {
+      "id": "gaba-sf1-assessment-v1",
+      "version": 6,
+      "hash": "bb3ece1d9e6cf2581d71016d9c78a0ce3a407a54de2f8f6a4b21cef7ba237b0d"
+    },
+    {
+      "id": "gaba-sf1-assessment-v1",
+      "version": 7,
+      "hash": "72cc1f5c4ca5769f7dcb5e6787c358324b9e0386030a97f52d8f2a9903a9c5fa"
+    },
+    {
+      "id": "gaba-sf2-assessment-v1",
+      "version": 2,
+      "hash": "a94b4ff661f1d82f28cb9c2584f7fd308b78d49cb3bbef48773e96da0eed2f0b"
+    },
+    {
+      "id": "gaba-sf2-assessment-v1",
+      "version": 3,
+      "hash": "f5d1258eed950a8e50cad23cadc1f2de6cd7bd0d2a3dc0c48ec7d5409bcf2800"
+    },
+    {
+      "id": "gaba-sf2-assessment-v1",
+      "version": 4,
+      "hash": "63b3785677a9a7066ced94b2a4e7df4719ab60ba666c9bb62f0f6eef71d7b86c"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-ic1-v1-assessment",
+      "version": 1,
+      "hash": "ff2487b65c256323aa21a80749b4a12421ecc53a5319f63ac32ad5c2db581bec"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-ic1-v1-assessment",
+      "version": 2,
+      "hash": "8fc6f91de8da553e140ea32d61a08840491c0f3522c60cb8e56f1c236569e251"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f3-v1-assessment",
+      "version": 1,
+      "hash": "3d9d667b4cba763a59238feaf87e3b73eba99dca6fb672b585d3f2ec4e71ad63"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f3-v1-assessment",
+      "version": 2,
+      "hash": "0da6c9ad809dc55a67ed7583bcff3003936b71d7da4334572cd573786f172ec4"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f4-v1-assessment",
+      "version": 1,
+      "hash": "c3177edf7ac00f009c530ef4bba084d6c2788af8c0ca4c5c88435e74e91d85a2"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f4-v1-assessment",
+      "version": 2,
+      "hash": "d1b6108bf00186fd1a8ef79b10ecc809eda78b08f8e3e9e293f13540684ee85c"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f5-v1-assessment",
+      "version": 1,
+      "hash": "1e3e9999660498b016c2b06dc1fa47e3405fb57bb9f58e11be97478fc43d5ecc"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f5-v1-assessment",
+      "version": 2,
+      "hash": "1f582a124956e3f9b39a9af1225deba959e4487181cef5b0a58e4f1386e8f86e"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f6-v1-assessment",
+      "version": 1,
+      "hash": "b0f1806d53bbabddf75434ceb1a0e55761086eccd17eecd0abf285eba0e11644"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f6-v1-assessment",
+      "version": 2,
+      "hash": "3c564fdcd07f6618d6997fbedbfe8c2119931e0eea724f07fb42582e02eeb921"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f7-v1-assessment",
+      "version": 1,
+      "hash": "76f0189e1efcf15d6435118c2504715490b55e841a3830e152fd4b12d5e48d13"
+    },
+    {
+      "id": "brs1-fm4-pm9-pm9-f7-v1-assessment",
+      "version": 2,
+      "hash": "a7171a7305b1f3dbe2da8b1c6bf91c3f05c64989bd18b10b8cda63d5706318b8"
+    },
+    {
+      "id": "glycaemic-sf1-assessment-v1",
+      "version": 1,
+      "hash": "0088a61e5432654051eae5e43b9a856dd17728cffeab110384b1be70c71a2507"
+    },
+    {
+      "id": "glycaemic-sf1-assessment-v1",
+      "version": 2,
+      "hash": "d749084cdc0e5149b0151634f34dd86e0acfffec9ad9671586fb663104e3b5ee"
+    },
+    {
+      "id": "glycaemic-sf1-assessment-v1",
+      "version": 3,
+      "hash": "91caf0b895c557fc0e371d6f76f78ea9afa8f7dc21ce5b1bb4a8a4f9acff634d"
+    },
+    {
+      "id": "glycaemic-sf1-assessment-v1",
+      "version": 4,
+      "hash": "fa5e4db3935ea1e7f5234656bb208cd7d2039e9e888668c9c8aad07e28c21184"
+    },
+    {
+      "id": "glycaemic-sf2-assessment-v1",
+      "version": 1,
+      "hash": "c222bb8330dd392312ec4f39b2e38daee7948b87cfec64d60a2e577555522a7c"
+    },
+    {
+      "id": "glycaemic-sf2-assessment-v1",
+      "version": 2,
+      "hash": "1dde07b4bf469711088078e84629a882730a3b5ee9bf30cd5c5f2750ef0647e1"
+    },
+    {
+      "id": "glycaemic-sf3-assessment-v1",
+      "version": 1,
+      "hash": "7a270ce7a540e37ccc39574c83109718992d1e48d8af13e4866b4ed095afe165"
+    },
+    {
+      "id": "glycaemic-sf3-assessment-v1",
+      "version": 2,
+      "hash": "983f1ae929d9416fbc520183e259cf11c4e0768df5bdbc8943238fc9978906df"
+    },
+    {
+      "id": "glycaemic-sf3-assessment-v1",
+      "version": 3,
+      "hash": "5afbd24a880c4db7fec129a7b72a547abe8675d3ba274382ba40a6c69b465082"
+    },
+    {
+      "id": "glycaemic-sf4-assessment-v1",
+      "version": 1,
+      "hash": "a1cc6aa2024b7cbcff43365e5d3ad4a569e1788cb9dd5a60e4ac841d60b19d4e"
+    },
+    {
+      "id": "glycaemic-sf4-assessment-v1",
+      "version": 2,
+      "hash": "d5c190025c5de022b808a6c7c0452024ba9014b02d2e496bb32bb4f94660d67a"
+    },
+    {
+      "id": "glycaemic-f5-assessment-v1",
+      "version": 1,
+      "hash": "16e440a8ba5b58b1948c2915ed3e2c2217e0559bed836d1e996741bb404241df"
+    },
+    {
+      "id": "glycaemic-f5-assessment-v1",
+      "version": 2,
+      "hash": "2031f11dca4c5002ae5232850756d715693adbd18d2dd693fa3c3f013484515e"
+    },
+    {
+      "id": "glycaemic-f6-assessment-v1",
+      "version": 1,
+      "hash": "b522bbc40e0f561512a726d205763974e7998d1b1c484b51a138872ed8357004"
+    },
+    {
+      "id": "glycaemic-f6-assessment-v1",
+      "version": 2,
+      "hash": "86a92eea54d9584b90a4c954c397a8e96ef4e9afce2753e5dfb5d2a1c0464925"
+    },
+    {
+      "id": "glycaemic-f7-assessment-v1",
+      "version": 1,
+      "hash": "da0ef7aa6261abc9a21447b0f63bef77e075aa3eeb81db32a14ffd5fc6c1d0b3"
+    },
+    {
+      "id": "glycaemic-f7-assessment-v1",
+      "version": 2,
+      "hash": "66dae595889501f213f740a31c2cce8eed3e97991d5215057e130657a2e45552"
+    },
+    {
+      "id": "glycaemic-f8-assessment-v1",
+      "version": 1,
+      "hash": "e0dcf327ea3bf66f7fdca1be3cfaa093e73a52f34c0c0c58fe362f6e2e11883e"
+    },
+    {
+      "id": "glycaemic-f8-assessment-v1",
+      "version": 2,
+      "hash": "12703f924181c41fee256be982ec53f3dff427f573632495db100ed9801aff3c"
+    },
+    {
+      "id": "same-pm3-f1-assessment-v1",
+      "version": 1,
+      "hash": "523b48d77b2c0862e5449e8f52e928212265171cd93f6a430812cf499dc57195"
+    },
+    {
+      "id": "same-pm3-f1-assessment-v1",
+      "version": 2,
+      "hash": "69130272b6114d422f023ba0dd828b0d63ed76ffdbeba1665df3a0524af513ab"
+    },
+    {
+      "id": "same-pm3-ic1-assessment-v1",
+      "version": 1,
+      "hash": "f8fa1bc82abdaf5ff7d32cc41657f10299040086564df759fde34f527017457a"
+    },
+    {
+      "id": "same-pm3-ic1-assessment-v1",
+      "version": 2,
+      "hash": "c8800fe0b3d345e91ba7839b4b280638226c0d94b6e5f338fc9e069803de7378"
+    },
+    {
+      "id": "same-pm3-f2-assessment-v1",
+      "version": 1,
+      "hash": "c7dd9a8e8397b4ca76ff1e9c3d58135096e57eac32c453eac5dd8c1a05813e32"
+    },
+    {
+      "id": "same-pm3-f2-assessment-v1",
+      "version": 2,
+      "hash": "02b00edd11e0b4d9c8be3e73f01bbae4e8a6e62fcc3ad0713d89ead6811ebcb3"
+    },
+    {
+      "id": "same-pm3-f3-assessment-v1",
+      "version": 1,
+      "hash": "984ff57192520c2fcb5545e9f13bda28524eff5d5317289f24fe723a4db8a9b3"
+    },
+    {
+      "id": "same-pm3-f3-assessment-v1",
+      "version": 2,
+      "hash": "ec93d94b73941ec0fbf5aafd88c0e94c8ea31b837ebb5650723024eb132c371a"
+    },
+    {
+      "id": "same-pm3-f4-assessment-v1",
+      "version": 1,
+      "hash": "793d0eebc234c5e03b8669901fb7ef0c2d05fa7041d27da679e772d574bfb627"
+    },
+    {
+      "id": "same-pm3-f4-assessment-v1",
+      "version": 2,
+      "hash": "6befbd0d7d43ccfea4ceed301587607d265fb0ef3536d9108aaae3da2e34a11a"
+    },
+    {
+      "id": "same-pm3-f5-assessment-v1",
+      "version": 1,
+      "hash": "6cf4f8e9911732daec035cfd64f7195adddb3056b27a2e8bffd2923f30def5af"
+    },
+    {
+      "id": "same-pm3-f5-assessment-v1",
+      "version": 2,
+      "hash": "fcf78d76819085696eb737102f1b1ad9be4635205013f2d9dd308c4d0722863c"
+    },
+    {
+      "id": "pm1-pm1-f1-assessment",
+      "version": 1,
+      "hash": "b07454b40ff1bdff802be8d2cfc6fa94a3820e591bde152548a544e933a446d0"
+    },
+    {
+      "id": "pm1-pm1-f1-assessment",
+      "version": 2,
+      "hash": "25087f3bb7db06f94ba369950fffaf864169f3a46774d959d9afe3858a36cef3"
+    },
+    {
+      "id": "pm1-pm1-f2-assessment",
+      "version": 1,
+      "hash": "e313ab6d77d8eefc27511ad51c065a0b0ae79708324f2e84dd274c68a54c63b7"
+    },
+    {
+      "id": "pm1-pm1-f2-assessment",
+      "version": 2,
+      "hash": "f60e461e72d213234c303b2a95bef090444684666552e1bc08ab95aa7f075be3"
+    },
+    {
+      "id": "pm1-pm1-f3-assessment",
+      "version": 1,
+      "hash": "885e3213d52cfc14025e14e2a88878208071d08fb1e1fbccf976424e91e407c7"
+    },
+    {
+      "id": "pm1-pm1-f3-assessment",
+      "version": 2,
+      "hash": "85e442772e85a23016e32f877973faac8d279bdcaafdcc057b1a44aced4af72f"
+    },
+    {
+      "id": "pm1-pm1-f4-assessment",
+      "version": 1,
+      "hash": "d01043734579268cb2ac001512640711cb9192378d30b2083b869ce3266b700e"
+    },
+    {
+      "id": "pm1-pm1-f4-assessment",
+      "version": 2,
+      "hash": "dafbcbed0253f08157ef5e75a5b54547d6b2dfe6bee6d23550350039e67092d8"
+    },
+    {
+      "id": "pm1-pm1-f5-assessment",
+      "version": 1,
+      "hash": "caec65eddd675fad145a1a8814c33a487088467500f6eb3cfaf9544b41e1a1c1"
+    },
+    {
+      "id": "pm1-pm1-f5-assessment",
+      "version": 2,
+      "hash": "a18e891dc3953050bf36df136e6028983b523daa8325dacadac354f16638735b"
+    },
+    {
+      "id": "pm1-pm1-f6-assessment",
+      "version": 1,
+      "hash": "1745b9d2018ea02e7be79c04ecbbf4c8785920b018ab4b6aa4c82e8c0fc8a078"
+    },
+    {
+      "id": "pm1-pm1-f6-assessment",
+      "version": 2,
+      "hash": "e1847ba91abd8b40df7bddc3683868dcb4f53002169c0740c42d885960c2c582"
+    },
+    {
+      "id": "lat1-pm2-f1-assessment",
+      "version": 1,
+      "hash": "2ea30e5f31b4dc8e0c3f1845d7083149da09570e52a593ba01b217df170fafa6"
+    },
+    {
+      "id": "lat1-pm2-f2-assessment",
+      "version": 1,
+      "hash": "0e4ffee59f7139881d3343150d7efa256545392c83b95b2b8129a1e48584eb3c"
+    },
+    {
+      "id": "lat1-pm2-f3-assessment",
+      "version": 1,
+      "hash": "01bdaf2cf323a22f066af7ee7cc9ab08839e4a5e11366d7eff63623e472332ad"
+    },
+    {
+      "id": "lat1-pm2-ic1-assessment",
+      "version": 1,
+      "hash": "9e0682a6d740e79e3ce093be7ccd04c99f5dbbb323b28658155ef374c2e5d842"
+    },
+    {
+      "id": "lat1-pm2-f1-assessment",
+      "version": 2,
+      "hash": "3ec46979e45ceda07aa809cf5bd681cd639192a49ec5362d2151ccd66f355549"
+    },
+    {
+      "id": "lat1-pm2-f2-assessment",
+      "version": 2,
+      "hash": "ebeb9093301c74b3ba4a95c0e0ba33781e51293a0b682da756afc0222bfbb18e"
+    },
+    {
+      "id": "lat1-pm2-f3-assessment",
+      "version": 2,
+      "hash": "2a19ad8b114e50500e5a41c375bf043ad9dfc1809b03354e1e4781f552aaf04e"
+    },
+    {
+      "id": "lat1-pm2-ic1-assessment",
+      "version": 2,
+      "hash": "0979c4003ef20339db4f31652c5b2a8fe62a76e79ab4d28d01ed42bbb8aa413a"
+    },
+    {
+      "id": "brs4-pm4-pm4-f1-sec",
+      "version": 1,
+      "hash": "6534d0811458208cea4fe418e1b8b37f38a83bf8d901c7b762c13edbd627514c"
+    },
+    {
+      "id": "brs4-pm4-pm4-f2-sec",
+      "version": 1,
+      "hash": "4b4dd94b2ba5b9eb37e2d50ecb3eb5a13dec767512e3e878f310e4c2cada399e"
+    },
+    {
+      "id": "brs4-pm4-pm4-f3-sec",
+      "version": 1,
+      "hash": "b022d4cba38aeed59e002a62bc11e41bc6e9a152655c23e68e98dd6f3288bb1c"
+    },
+    {
+      "id": "brs4-pm4-pm4-f4-sec",
+      "version": 1,
+      "hash": "652c6365f931c3854c1d78432d48be84ef6ae1964245023248891e0e744a8565"
+    },
+    {
+      "id": "brs4-pm4-pm4-f5-sec",
+      "version": 1,
+      "hash": "98c97dc1e4cf50f594540961348ebd19b11949215d07e6e2ba5e5bb2a4cadd4a"
+    },
+    {
+      "id": "brs4-pm4-pm4-f6-sec",
+      "version": 1,
+      "hash": "26ff44c18df66bf76632f6f2425063f026a04c5c02d3c6aa9e53e72ac547f2bf"
+    },
+    {
+      "id": "brs4-pm5-pm5-f1-sec",
+      "version": 1,
+      "hash": "fe22e119f0729bed1c5d60c087fab73cee063d77bc9cb4ac9dc56bb4627aba74"
+    },
+    {
+      "id": "brs4-pm5-pm5-f2-sec",
+      "version": 1,
+      "hash": "2e135b6341c0fefe103af3b2a1c6192e38d68cca4e0c516aa69778e586716784"
+    },
+    {
+      "id": "brs4-pm5-pm5-f3-sec",
+      "version": 1,
+      "hash": "3a2d5da853fce2bd44476ef75a9f7eb4f137c9aabcbc6d145cbd8a8d4797503a"
+    },
+    {
+      "id": "brs4-pm5-pm5-f4-sec",
+      "version": 1,
+      "hash": "fac8b8888bf3fb3bc75b48a45f11bf408f2d980262bb5b4129c50fe812a2e3a7"
+    },
+    {
+      "id": "brs4-pm5-pm5-f5-sec",
+      "version": 1,
+      "hash": "f0bfb6982e9108fc17ba3c7dff70f7e1885cc2b91ae46767a631df8ca42e46d0"
+    },
+    {
+      "id": "brs4-pm4-pm4-f2-sec",
+      "version": 2,
+      "hash": "2631410e12a79a8e185242d6c7de93596786c106c1e1c2adc9719be8f4af8495"
+    },
+    {
+      "id": "brs4-pm4-pm4-f5-sec",
+      "version": 2,
+      "hash": "ef91b63dcfe50461e567402534587ee0d0e897073aeabc00e54957ab87b83c25"
+    },
+    {
+      "id": "brs4-pm5-pm5-f2-sec",
+      "version": 2,
+      "hash": "5f9b8171e0c9ad4f324752dbfacc5092aeae4f59ddb37d5b0dd254e45b41c96c"
+    },
+    {
+      "id": "brs4-pm5-pm5-f5-sec",
+      "version": 2,
+      "hash": "d94cd3aa61cb61f5e4ebf59e31cbb3d90980b467d1d52be7a34e32e5f3573af5"
+    },
+    {
+      "id": "brs6-pm8-pm8-f12-endocrine-assessment",
+      "version": 1,
+      "hash": "f0354459ff46f4702ca4e106caad2090beb7ddb8e8a392e9d2fcca1094727c1b"
+    },
+    {
+      "id": "brs6-pm8-pm8-f13-endocrine-assessment",
+      "version": 1,
+      "hash": "a0d29cbe775cb2df221ebc3eab38ac8157f2e5f337dd15467bc40380c8e4599f"
+    },
+    {
+      "id": "brs6-pm8-pm8-f14-endocrine-assessment",
+      "version": 1,
+      "hash": "561718045f950b1787c2d6b0ad781ed22a454bc9d08e6c5192700e2ac5946541"
+    },
+    {
+      "id": "brs6-pm8-pm8-f15-endocrine-assessment",
+      "version": 1,
+      "hash": "4ca1282b4d25dd30d950a79b2b1c7cfa6fc0f022644308194c6514db4086ae46"
+    },
+    {
+      "id": "brs6-pm8-pm8-f12-endocrine-assessment",
+      "version": 2,
+      "hash": "22f729db0dcaf04d179594cbee674d9948686db313e607f9c07e269d2ae2a1fc"
+    },
+    {
+      "id": "brs6-pm8-pm8-f13-endocrine-assessment",
+      "version": 2,
+      "hash": "a8c99e95c0ccde387d1ebdb38c1846c760edb71083881cacdaceeadf1f754d02"
+    },
+    {
+      "id": "brs6-pm8-pm8-f14-endocrine-assessment",
+      "version": 2,
+      "hash": "f9604534adf29d59e5403aa1c68b92811ed0c24af16adf5dcc6c6e891a7cbd56"
+    },
+    {
+      "id": "brs6-pm8-pm8-f15-endocrine-assessment",
+      "version": 2,
+      "hash": "24671f97d6641800ce180d2130ec7c54ddc220ca2c01dda6d61d080be4d54c84"
+    },
+    {
+      "id": "brs6-pm8-pm8-f16-endocrine-assessment",
+      "version": 1,
+      "hash": "f37b85a9a64fb5e015fc7fc6fdf114257625562d2c924cdc739f6ede19033d48"
+    },
+    {
+      "id": "brs6-pm8-pm8-f17-endocrine-assessment",
+      "version": 1,
+      "hash": "aa1912891eea78f2723b1c06e0b6d8c277797654de72291ca272557c670c784e"
+    },
+    {
+      "id": "brs6-pm8-pm8-f18-endocrine-assessment",
+      "version": 1,
+      "hash": "22db1565afdbb540327079860e9238ffce26427f884da810a297790739376a68"
+    },
+    {
+      "id": "brs6-pm8-pm8-f19-endocrine-assessment",
+      "version": 1,
+      "hash": "03a63b4afd5f624a077254df0fd74ca8b1febbfc9d3c701b23224d6d6fce12df"
+    },
+    {
+      "id": "brs6-pm8-pm8-f20-endocrine-assessment",
+      "version": 1,
+      "hash": "2479e99439918ac3004b33126bc802acfa4c4747fe50b1eb18f1941ec44b40f9"
+    },
+    {
+      "id": "brs6-pm8-pm8-f21-endocrine-assessment",
+      "version": 1,
+      "hash": "03fe8e501e2f4f337d74d27b316e016e0a8344e6a1a971fb5544900781d921bf"
+    },
+    {
+      "id": "brs5-pm4-f1-assessment",
+      "version": 1,
+      "hash": "d1296de8300e4094dca396d3c8f82e62a0b1cc1f3adc2338abb78760a12e53a3"
+    },
+    {
+      "id": "brs5-pm4-f2-assessment",
+      "version": 1,
+      "hash": "e9c7f794f46620b7327ac36eac97e087eb135320008871e3cfc660cb541cd933"
+    },
+    {
+      "id": "brs5-pm4-f3-assessment",
+      "version": 1,
+      "hash": "5819b856408e60f30a7dda82a61e1547ad749e092204558fa3f7bcf88f5104ec"
+    },
+    {
+      "id": "brs5-pm4-f4-assessment",
+      "version": 1,
+      "hash": "b74f185a61bd1f3da88bb46ff9a012b8cd12e73f5f5ff93e7d95cc8f3d160d85"
+    },
+    {
+      "id": "brs5-pm4-f3-assessment",
+      "version": 2,
+      "hash": "2e75cce8d48085b9d12e91499abb2c5605ed6f10251c87e677f6e2e2e658600b"
+    },
+    {
+      "id": "brs1-pm3-sop-1-intervention-assessment",
+      "version": 1,
+      "hash": "038ca81b272a6a7ea59bdc4433eb0ecfbb30c3d1cf1bc9290fea6e4db01df1f0"
+    },
+    {
+      "id": "brs1-pm3-sop-2-intervention-assessment",
+      "version": 1,
+      "hash": "170aa3e55d9c1ecec9a5531b82e1ccace5035348332655b4088b5055e0675a2c"
+    },
+    {
+      "id": "brs1-pm3-sop-3-intervention-assessment",
+      "version": 1,
+      "hash": "d3a35a3974a59aa7822bb7974fbf24e0dd6217178382c80458b6bc6411b6b871"
+    },
+    {
+      "id": "brs1-pm3-sop-4-intervention-assessment",
+      "version": 1,
+      "hash": "73d15afc914fce958c33ad5dd322c8d4377109ef6f0f1767afab93e6f861ab0d"
+    },
+    {
+      "id": "brs1-pm3-sop-tea-timing-1-intervention-assessment",
+      "version": 1,
+      "hash": "1a917b51e9e4fac6fa2c4337cf2e7857b006a4476c608bdaabb5d341f62b8d1e"
+    },
+    {
+      "id": "brs1-pm3-lp-1-intervention-assessment",
+      "version": 1,
+      "hash": "ac5bceb04c932ce90433764e10b0e03c1476fce2bcc9493fa1853ee9faab6f69"
+    },
+    {
+      "id": "brs1-pm3-lp-2-intervention-assessment",
+      "version": 1,
+      "hash": "68ea6d4e19a573343ad121ff7001f317e22096c6e9d04dc7002c80974634debf"
+    },
+    {
+      "id": "lat1-pm2-f1-assessment",
+      "version": 3,
+      "hash": "d4c082f894bc73a66f0530744ca98f15c5a8f4224325c0c7b48a7ca0fd8db71b"
+    },
+    {
+      "id": "lat1-pm2-f3-assessment",
+      "version": 3,
+      "hash": "048eb4f9a7ee79e14f8e2bf7832b9bc64455fd340da4ba53ac59211e7439eb0f"
+    },
+    {
+      "id": "lat1-pm2-ic1-assessment",
+      "version": 3,
+      "hash": "4b50f14b9ca578bc535316150e67afa44562b0fcf8e1d14e3d818a4318d290c7"
+    },
+    {
+      "id": "pm1-pm1-f3-assessment",
+      "version": 3,
+      "hash": "80f60e3a561d70fa556814856a2f349fbd334786b75eb251b0323b39cc00b883"
+    },
+    {
+      "id": "pm1-pm1-f2-assessment",
+      "version": 3,
+      "hash": "a2b090ce21f224098726e7ff5d89fb9e633ca3883ab972e6990142b0f2757c03"
+    },
+    {
+      "id": "pm1-pm1-f7-assessment",
+      "version": 1,
+      "hash": "960805221f147985d073fc7b824aa4c7783541e202ffe69792a3a8daafcdaf99"
+    },
+    {
+      "id": "pm1-pm1-sop-deferred-1-assessment",
+      "version": 1,
+      "hash": "89f683ae8c9ae52a988dfb2e3c2678ba64e5797e3968fc76d8cec931eb91cfbc"
+    },
+    {
+      "id": "pm1-pm1-sop-cooked-egg-1-assessment",
+      "version": 1,
+      "hash": "ad5c70542fe40cf6d1f9246dfaddb72f663ae7e7c175d4892236ef3282337fc7"
+    },
+    {
+      "id": "brs4-pm10-f1-assessment",
+      "version": 1,
+      "hash": "703cc78021502060daf42cf966725452e520e976babd1e26c3f7097deab13215"
+    },
+    {
+      "id": "brs4-pm10-f2-assessment",
+      "version": 1,
+      "hash": "437ba67e19bcfa75ecda33910b262e76c4ab0a1b42243c0a73098f7627688931"
+    },
+    {
+      "id": "brs4-pm10-f3-assessment",
+      "version": 1,
+      "hash": "bf9d0f9956d23516659ffd4e9e9257f4f1321b852648e710803fdf161286490b"
+    },
+    {
+      "id": "brs4-pm10-f4-assessment",
+      "version": 1,
+      "hash": "6161536082367969257de299d07622f13a1d265eb6c794286fcb85549100f2d6"
+    },
+    {
+      "id": "brs4-pm10-f5-assessment",
+      "version": 1,
+      "hash": "eec35d8f71a0b2a1293abc3d3c510e07edef41a041e7d758e094d142245e57d5"
+    },
+    {
+      "id": "brs4-pm10-f6-assessment",
+      "version": 1,
+      "hash": "b735fc4679771ccd6e9477f8a7949660433a2961df42cfda45d207085f25b285"
+    },
+    {
+      "id": "brs3-fm3-pm7-pm7-sop-fermented-food-1-assessment",
+      "version": 1,
+      "hash": "a22441aee3e724fb57cc5961293862afe609474bc8e724001e079a31ade3c2e8"
+    },
+    {
+      "id": "brs5-fm2-pm5-pm5-sop-potato-rs2-1-assessment",
+      "version": 1,
+      "hash": "2b345fc045242fcb0c03a80387433cab2182f8ddced11d192bc33d1cef206a5a"
+    },
+    {
+      "id": "brs6-fm1-pm3-pm3-sop-early-eating-1-assessment",
+      "version": 1,
+      "hash": "f70c6c53902b8c11770e997a567fe49c4c1461cde5248d78170d7e32a74680b0"
+    },
+    {
+      "id": "brs6-fm1-pm3-pm3-sop-1-assessment",
+      "version": 1,
+      "hash": "bbe52c47eb46312e56f946150ddd5d3c738edd609f40153ea93086160e58e764"
+    },
+    {
+      "id": "brs6-fm1-pm3-pm3-sop-deferred-1-assessment",
+      "version": 1,
+      "hash": "018160ba6549f3194699fb3e621a545046f92cc8c4122a4ad829313ca3e5874e"
+    },
+    {
+      "id": "brs1-fm2-pm6-pm6-sop-egg-phospholipid-1-assessment",
+      "version": 1,
+      "hash": "009a7847bac2eb1aec944bfb275d1a9a7339d511b76eb8193d692ef9d5756785"
+    },
+    {
+      "id": "brs5-fm1-pm1-pm1-sop-glutamine-1-assessment",
+      "version": 1,
+      "hash": "ecf1223c2f0874fee2e7bad86bdc190620c550380b1945ad78d9ccb69ea8574f"
+    },
+    {
+      "id": "brs1-fm1-pm1-pm1-sop-whey-casein-1-assessment",
+      "version": 1,
+      "hash": "f7012984a34a681b7fee5e22ed80632434fafd48c1ff00bc164b8ce3fc4f5506"
+    },
+    {
+      "id": "brs3-fm2-pm6-pm6-sop-vitamin-c-retention-1-assessment",
+      "version": 1,
+      "hash": "333aefaab7393342997a21c07e5d47ec451b822e77324e5bfa9502950eb696b5"
+    },
+    {
+      "id": "brs1-fm3-pm7-pm7-sop-fish-capsules-1-assessment",
+      "version": 1,
+      "hash": "1eb305d836531ef9fa3485650022c1354517a0a3377b96f5eb6f3369df49fd73"
+    },
+    {
+      "id": "brs-x-ecs-pm2-pm2-sop-low-la-high-n3-1-assessment",
+      "version": 1,
+      "hash": "df25f897d6382eca87266b38a7619afd82071495e23e2935822c538c101f6620"
+    },
+    {
+      "id": "brs3-fm2-pm5-pm5-sop-phenolic-olive-oil-1-assessment",
+      "version": 1,
+      "hash": "cb48a762aa75829c5f4fadd2dfe41e4810101329b88104b763bad75670d8ed1e"
+    },
+    {
+      "id": "brs6-fm3-pm6-pm6-lp-guided-breathing-1-assessment",
+      "version": 1,
+      "hash": "6b600f4e9beb0f5849bb23ca350fd7be8f3636b34ea466df16518211e23e85bc"
+    },
+    {
+      "id": "brs-x-circadian-fm1-pm1-pm1-lp-blue-blocking-1-assessment",
+      "version": 1,
+      "hash": "2f194dd53572320d8699d2347f6efe142eb4dc9eafd79cb8b546e1f8d77c016f"
+    },
+    {
+      "id": "brs4-fm4-pm9-pm9-sop-calorie-restriction-1-assessment",
+      "version": 1,
+      "hash": "713825029bafe05fe2f134f6169bf769439333f1f2ac4346e420a55187bc970c"
+    },
+    {
+      "id": "brs-x-circadian-fm1-pm3-pm3-f1-assessment",
+      "version": 1,
+      "hash": "f555b258e1ff4a74757d5cd96935b31abfa97ecb8c506086ecdece620b6d5a4e"
+    },
+    {
+      "id": "brs6-fm2-pm4-f1-assessment",
+      "version": 1,
+      "hash": "b9763113eb58c19feeb28c1054e69e2e22677043d62afa24ed9ff1d3ab66fd11"
+    },
+    {
+      "id": "brs6-fm2-pm4-f2-assessment",
+      "version": 1,
+      "hash": "330af72587704a5de4628b7e5f33c96406fa0a8e3329e2fea50db844d5cb910f"
+    },
+    {
+      "id": "brs6-fm2-pm4-f3-assessment",
+      "version": 1,
+      "hash": "ed04517c1f8221f91be2be88bb6af130b53633330025c642e1edb01143df28cf"
+    },
+    {
+      "id": "brs6-fm2-pm4-f4-assessment",
+      "version": 1,
+      "hash": "52d6c903fb5ead536908cb0f21be93eca19e8be3da83e6dc139e09a51a5d7dd9"
+    },
+    {
+      "id": "brs6-fm2-pm4-f5-assessment",
+      "version": 1,
+      "hash": "ed71e3eca01e8808d45ccbbc248ad5e486734e5d91fdd0efd990db2c3d16a1e2"
+    },
+    {
+      "id": "brs6-fm2-pm4-f6-assessment",
+      "version": 1,
+      "hash": "020a43cdad3287a464e46905af88856bb183950e8bbd98355a3ca4cb142e7648"
+    },
+    {
+      "id": "brs6-fm2-pm4-f7-assessment",
+      "version": 1,
+      "hash": "a155f71c7b405d54ab5efa8c8e4deb13e38aae5419ceeac6cdfc6380a7ffbab2"
+    },
+    {
+      "id": "brs6-pm8-pm8-f22-urolithin-assessment",
+      "version": 1,
+      "hash": "7dc664a0845e954b7a5a9f1f34616d44378036a4e6d7349107595f02b3a3e08b"
+    },
+    {
+      "id": "brs6-pm8-pm8-f23-urolithin-assessment",
+      "version": 1,
+      "hash": "ef5381a63a8223faddf393ff61f66f543b1f2c89ab4822c9f07fc372e85c4b0a"
+    },
+    {
+      "id": "brs6-pm8-pm8-f23-urolithin-assessment",
+      "version": 2,
+      "hash": "eecdef72f29ef79d06233c5b05683eb0c28abc1c31429abf9e06a5aedabac944"
+    }
+  ],
+  "protected": {
+    "static/explore/food-intelligence/app.mjs": "987acd82519ff33d368435f3bfbe19b10b1bc1465a68e125c65fc916151468e3",
+    "static/explore/food-intelligence/dahl-composition.json": "3047b0cf00944c2f71d87eccee04fca10482057f7f1b04c88878a049323f3ae8",
+    "static/explore/food-intelligence/dahl-details.html": "00afe5a1ec785cb6a0cc1d737b3fb948c139d1dfed83c8fc0ede3ccdf7f3cff2",
+    "static/explore/food-intelligence/dahl-notes.mjs": "0c2acb5038250a1045ecf6f1b15054bcedaafe6e57f07e4f7ea32e38f78c0b53",
+    "static/explore/food-intelligence/dahl-sources.mjs": "723ee6031604cd3e6eab1d7cbc7c3dd4f60fff31f1ab207a4e08b994d6bd3027",
+    "static/explore/food-intelligence/dahl.html": "ebcff5bdfb97f54eb96d2bc017ae4a1a9293b0820d8a2d8feca7518ec84ad728",
+    "static/explore/food-intelligence/dahl.json": "16b08e46d05db995ff2c2731c04a31f0b35fba6d5a5962c17ed605fe92b38bb7",
+    "static/explore/food-intelligence/dahl.mjs": "c46dd9295d458b8051e4b52d4544a7c71e0dc6695a18c0df0c737c31fb663c84",
+    "static/explore/food-intelligence/dahl.svg": "b11bf8d35977440bc4c94af87d0e0c306180ead7e7b367e2897fb9e6e4fe8ab7",
+    "static/explore/food-intelligence/data.json": "10f501508aaaab2f3a7c2793ddd7f932919b00fd88c96d51319bb3009a8428e7",
+    "static/explore/food-intelligence/index.html": "4f1577ed232964a4544d7277d54272e318b22b02c409cfc4806ad7443b5dae15",
+    "static/explore/food-intelligence/model.mjs": "42a6766306efe9a6ef9e1df3731ebf17937518bd78fc6b080b42e9f487d92b85",
+    "static/explore/food-intelligence/style.css": "4553750694f4c32ca7eaf46e2aacf08b82f34cde699ee5354b0fd711d8419c99",
+    "static/explore/food-wheel/GAP-LEDGER.md": "9780b0bbb055a21ea546f37a9da4ffabf938b3d22bc5861c6a5cd90a2dfecea1",
+    "static/explore/food-wheel/MULTI-TARGET-FOODS.md": "98c74c5a955af2b57b132571627ed2b6fd2302a7e7d2ef3ba2bf92a04c5128a4",
+    "static/explore/food-wheel/TOP-FOODS.md": "81bd9102fc0fd735447bfb9e21c2d1f164d7b9f4f360a135bf815171bd12238c",
+    "static/explore/food-wheel/about.html": "ae6d33d6b035235b2e2978b91a68a75e1ced7ee117b0b9dd1396ac0aaa92bbe3",
+    "static/explore/food-wheel/display-network.json": "6133f69db924f32cadcf1f715625c40b1ea38facd2d58645dc0740e8411edc6e",
+    "static/explore/food-wheel/display-network.svg": "fcbeaeb6d0a4d3bbb5496687b3c9bd1c0d959a009323b26733a6a48f5cadc3bb",
+    "static/explore/food-wheel/evidence-ledger.html": "dc7a01a81e42277949f2d08addf2afcedec9f196969dc0f24217791023d07fb7",
+    "static/explore/food-wheel/evidence-ledger.json": "fc91a75e03a3c09dec2777521e325a99a7826375828a02b0efce52c24a1905db",
+    "static/explore/food-wheel/food-wheel.svg": "9a063e871dbb11776946e7ddbc74934b62df1408c908a5d7eb9319114787f0ba",
+    "static/explore/food-wheel/index.html": "dba9ef5503524c09b3bd3fe87cf49ec1a9d6fdff79d37db4d12206411b85f031",
+    "static/explore/food-wheel/interactive-views.mjs": "739f65951c26eee308315b9c7ba8ea01cc0bbd4f6e344c2b5488d700ca239c6b",
+    "static/explore/food-wheel/ribbon-presentation.mjs": "4e5581726cf179752a6224487be01db979b897d8b4b54fd45e8a8b198bd108e5",
+    "static/explore/food-wheel/selection-model.mjs": "64ac4c63265b4c87a9ad05d5249e4d952934bfa002f704a1f1ba212a77084c18",
+    "static/explore/pm-explorer/app.mjs": "5a84bff05a102afc1e707368a4f409651408cf01b8a374e309e267d24ff8d72d",
+    "static/explore/pm-explorer/index.html": "c6e6e7c7dea9e3fcec43f5f4ae9f86ab4b75a2f147ac257dca0744a13b29c494",
+    "static/explore/pm-explorer/load-data.mjs": "49aeb6add3dd81cbdffd6796439edfc100d30bffbed1d3b7f8723a44b7b8a93d",
+    "static/explore/pm-explorer/model.mjs": "b5071c663b228dcc7a496e019631886ebe80fe5f8136b7bd78c3ff59ee70114e",
+    "static/explore/pm-explorer/pm-sources.json": "d6e527e9b1ca343c6306d88affffb0736a354efd7efb5650f948fd2aadec7e62",
+    "static/explore/pm-explorer/style.css": "58f4f3ef39c96f29e235c4e730dcd78395650ab6e1813ff580255afa5cdca995",
+    "static/explore/pm-explorer/titles.json": "458143e2d60c116a42cc47452a76eb5f033ab9a387c553339b1b3690bd7d209b",
+    "static/explore/view-theme.mjs": "c7e619a5c59a0adbfea1c905f117840d6e6a140be001feeb36be75ffbeb5b567",
+    "system/1754499552008.jpeg": "1e8e10156837d81f3aacd6bd89cd2d63e8ea9e4d2f2bc3eb3ffc20d0583d4bdf",
+    "system/BRS Scoring Schema.md": "d31fa906ffd768d54fe0282312703d5529489e822dbb331dd9e3a16389e4ef9b",
+    "system/INDEX.md": "30136b372929dfe705a4c3f0d7c79de96ad87dd403405f45afe6d30d5f292210",
+    "system/ala-omega3-repair-audit.md": "281e9002049bd20cafe9c7413c80e885f152ab66799bfe6f657488f96c044688",
+    "system/beef-coq10-estimate-withheld.json": "13cf1831f11ed0dc771c41d0d211eb5ff027b41089d878d80bb1f709b730cc8f",
+    "system/bib-additions/brs2-pm1.bib": "62f6aa87699acefc6839cf9107c176c4c144fa68830b05c2c6c3707a1ebf41a7",
+    "system/bib-additions/brs2-pm2.bib": "572f13404828fe1266327f44f9d97ac7ad56ba0df06e075749d3e2cdf69475dc",
+    "system/bib-additions/brs2-pm4.bib": "e2f59d60606170e0e27f43d22263ddf2dc055925c36a54d3a837fe80da9cd831",
+    "system/bib-additions/brs2-pm5.bib": "7913daddf44f90848a6b4679dc93ae4416c1cdad01be9cb9bf9e35129c9b36c7",
+    "system/bib-additions/brs2-pm6.bib": "416652c282f1159f4d52599a0fd75ef137c6801f8f802d6719388300fbc1858f",
+    "system/bib-additions/brs2-pm7.bib": "10049d6c3fe83edef57254ba4f23113d572636d4a3ac0dcad8ecb24dd04e5602",
+    "system/brain-diet-ontology-rules.md": "84948f42dc9a0d2a688d2550f4a35734e15bcb7ae884dff3f74f3b11d29214bc",
+    "system/brain-ta-evidence-integration-standard.md": "fda3d8759c44be7ef5f6b2a2d69f3e655b89d8eb7902dc4662e8a7c81e2fb12a",
+    "system/brs-adhd-manuscript-summary-schema.md": "436ed77356b71133bd430b8e1388d7761290dcf0651625ceaaede7e6543bb356",
+    "system/brs-citation-reference-standard.md": "17f1036d7490547b64a5c7434caf0c7341690b8624ddadf36d6ff324ef6313a5",
+    "system/brs-hub-levers-schema.md": "e23df4139ec6c0cd93d9b8b9b358b36805de38e86182a18f301a662fa2083501",
+    "system/brs-hub-ta-adhd-dropdown-schema.md": "ae750b4bb5078c10ab309296e8fa591a66cc434ba0a22e214dbb0f30c36eba33",
+    "system/brs-incremental-pm-renumber-report.md": "ea89f0d4a6667ca14ff135d9a137e3c82d6f3d6ae92f74d298b9e3607a9b932c",
+    "system/brs-input-substance-identity-audit-2026-10-08.json": "353b7806d118aa207310dab079f134684c01c900ea82c0819426c5da88d567d6",
+    "system/brs-input-substance-identity-audit-2026-10-08.md": "c02747b3d7c3489129aa453222334b02dfe4e0ffcf7eb2da10d6fb41eab6c398",
+    "system/brs-page-schema.md": "58ecbc6e0b6c89c188165c8aa5894ff75939ec47df8d0056190139dfb23996f4",
+    "system/brs-spreadsheet-schema.md": "6f297a634f2bae2c40ed47dc9232f527467f56c082a471b3c05a368eba964c50",
+    "system/brs-x-circadian-outline.md": "b18506d24ba1867ef107b19a825df1d75dc5f4149abf3ed302493900fa8a72e6",
+    "system/brs-x-circadian-stage2ab-reassessment.md": "8f2b83c48b9874c867d8789962f492f0814d898b1991757d924403ebdacb74e8",
+    "system/brs-x-ecs-kc1-evidence-review.md": "1e83d1b4948f7269e6246b0e4025a0dac608dac26f0e30231cb5723b0430c02a",
+    "system/brs-x-ecs-stage2ab-assessment.md": "15f8e9291c8e10a4bb874362773aeb2e88cedda84342dcbafedbe3aa4d64bcc7",
+    "system/brs-x-hormones-stage2ab-assessment.md": "196222d74fd7c023b2b5b29198bda602bfb60f38d94ad17996cbe561465292cf",
+    "system/brs-x-schema.md": "b015d130bc03b487f045ca992d91ba39d9e7a93341866872be9157718c8b787c",
+    "system/brs-x-spreadsheet-pm-row.example.json": "d6d3d29df85177723744c3bc3075dc66de4811871508e91667ff13e6cbd028da",
+    "system/brs-x-spreadsheet-schema.md": "c611871090475526602db76e22ec4adf24d3229a8796926527ae07b30df4aa9a",
+    "system/brs1-brs2-scientific-findings-summary-implementation-report.md": "5fc761de360d628fa50646609ca5d36ad2ef641358bea4b499768ab31dbdf53d",
+    "system/brs1-fm1-pm1-stage2a-overview-report.md": "65a871be9b3c5e3d266d60b5f2acca35b639152b1962d991e04970473b3b8606",
+    "system/brs1-fm1-pm1-stage2a-report.md": "22a901036cfce61fbb758b5a41de4a93091676de2240d07b9cb8a57e9e6881de",
+    "system/brs1-fm1-pm1-stage2b-report.md": "a4ca94244fb0e415444aca2326cf31211f376eaa2ed138040f1a2a007faf924e",
+    "system/brs1-fm1-pm2-lat1-stage2a-report.md": "66f6f02dc365ea1178badc6119856bed8a6da554ca319972b4d31ff4d15fac7c",
+    "system/brs1-fm1-pm2-lat1-stage2b-report.md": "015353f7c6a61158f127965c8d2fdf31875d1c213e2c5b1bd60bc811e851e8f4",
+    "system/brs1-fm1-pm3-pm5-type-d-kc-reassessment.md": "985dcf968271ab48c5927d830ce50757a964e30f5f2a7950897fbdcfeb9aa639",
+    "system/brs1-fm1-pm4-noradrenergic-stage2a-report.md": "e7899106a07dee284c72ceca11ddc4810018c90489d9f0409bd3169d3f71e38e",
+    "system/brs1-fm1-pm4-noradrenergic-stage2b-report.md": "836281e25d6fb897598efae4a3d2d5c6329fc110c84cb5d62a1ea17076b2e9c9",
+    "system/brs1-fm1-pm5-serotonergic-stage2a-report.md": "c6a95cc28e62556f7ac09309e3fa9aa000598694fe59305aff677539e58b2d8e",
+    "system/brs1-fm1-pm5-serotonergic-stage2b-report.md": "e2415f7d923db2b6d2cc013bcc8300c2a72ce0d593f0bfb51cffb979ce8bfc27",
+    "system/brs1-fm1-remaining-pms-stage2b-report.md": "c7bf4682d6b02314dc9caeebb404e12c0770568321e4fb4478454c4a59d730fe",
+    "system/brs1-fm2-pm6-acetylcholine-stage2a-report.md": "ded4a4ffb0a92aaf45cdac3a6c122de2e7eb9d83e9db131ba3f3e0f5e40cd30b",
+    "system/brs1-fm2-pm6-acetylcholine-stage2b-report.md": "18085d73bd36b27d82291a6a1dfd8e27667c565f87369285dfc7d23ca6acb99d",
+    "system/brs1-fm3-pm7-dha-stage2a-report.md": "75fde673b6de983651adb76776a411582330b5e4330ee3a588ebc8a2abdf7aeb",
+    "system/brs1-fm3-pm7-dha-stage2b-report.md": "9ef7f42e294e1af778d979bfcd6dd9b1b8d5cf4ce2ced10f15c08cdd836d4ec8",
+    "system/brs1-fm4-pm10-stage2a-report.md": "29c47ad20af12ad1462510d9dff4927c0bb63d2e30c4588427e99b2da737378a",
+    "system/brs1-fm4-pm10-stage2b-report.md": "f5530cf8f545b30c95d0533827d65277460668eca3f2714b30c808032f5d2a28",
+    "system/brs1-fm4-pm11-excitotoxicity-stage2a-report.md": "89492dcccbbfb82c2279f31cdc66ed67af7f8ae29ca48202e9e36f5aff73926f",
+    "system/brs1-fm4-pm11-excitotoxicity-stage2b-report.md": "38339e6b066b17059cc64f92d30b55b9efee79dc739d8cf7f4d930ab90d985f1",
+    "system/brs1-fm4-pm8-retirement-record.md": "a83f7890494bcfe7c2fddbcdedefe8328c20d81805d3926568587de382b306f3",
+    "system/brs1-fm4-pm8-stage2a-report.md": "b4bad51681cf4def1b58efe87c62126432316d0e070e8f10edb78cce07a9c6ef",
+    "system/brs1-fm4-pm8-stage2b-report.md": "9790506c92bf391e0b5c748518b8cdb42a7a44c1ffe3b1b3e6720f3e5f6eaa4e",
+    "system/brs1-fm4-pm9-stage2a-overview-report.md": "02248d438a499988b4172577fa2f757bd3650bb558d5716a4ebfcb6e5f1614cf",
+    "system/brs1-fm4-pm9-stage2b-type-d-report.md": "7155dc5d92261948287a459f1af63e2abf7b44adf04db566ae84ebe647ba5cec",
+    "system/brs1-fm5-pm12-stage2ab-assessment.md": "4f6454d51ce6338947c3cc519040c64afae1c96a19e95998fd094544561495b4",
+    "system/brs1-input-substance-food-pilot-report.md": "b14301ea2c9f6c1c82dc52f8df0b985a30908430d09f7f7e7ec5ca937e58198d",
+    "system/brs1-kc1-and-pm3-pm4-pm7-upstream-supply-review.md": "14fc6235df773e2f09f60dd4a82e40c4f3e9f136df444a2260362ce3983f4aa8",
+    "system/brs1-kc1-evidence-review.md": "1ff6242dcc946e26c0ce8cb1f8bb49288c1bd88885732d7e086ef3b98f9a8d84",
+    "system/brs1-pm1-pm11-type-d-kc-status.md": "54370c30c0239180c170446ef99d83af94387511f28c4d2d835952f125bf778b",
+    "system/brs1-pm2-pm11-stage2a-overview-report.md": "86faf19a94e82a00709dd7e66f58b476c7f1c2dd150897e8d2ba9138e33c96dc",
+    "system/brs1-pm3-pm4-pm7-upstream-implementation-report.md": "1ebd8785fcdcdd934b8ab5691b508d72f9fdd83fac812ab95478d2e90a56b4a8",
+    "system/brs2-fm1-kc1-connection-reassessment.md": "ca897eb7225a0b3068f462110ab389e3ef5d5e72395afa7bb948210a01ac2f83",
+    "system/brs2-fm1-kc1-distinctness-review.json": "52975dd13da5fb8280ce2f0f99c5ffa32618895634bf5eb07b93155ebe54b695",
+    "system/brs2-fm1-pm1-stage2a-report.md": "41b62b631b45d2afb2013f6bc992917bcc094162ecccdbd2cf5a5bfaca6472db",
+    "system/brs2-fm1-pm1-stage2b-report.md": "bc05e84bb13bab6d33741086c2343a2be51d7e69b41375703bd433e7506d8037",
+    "system/brs2-fm1-pm2-stage2a-report.md": "000e103f52aa7a7cf75052d99d7afb0ee7490dadda966ac2395c6c182d98b7e7",
+    "system/brs2-fm1-pm2-stage2b-report.md": "56afeb5495063837c7e9ab046cad86a29fd5af33598031ef241106a2b6475cf0",
+    "system/brs2-fm1-pm3-kc1-ikc-pilot-report.md": "017b21f5625be7cc8e069c88f2ebd3b0a96778647cff51af09a0e02801aa240e",
+    "system/brs2-fm1-pm3-stage2a-report.md": "fb99cc04ec4e8781a2aa8dabf28719d0a6a9f0a1d619abfb6d40a1508c80b594",
+    "system/brs2-fm1-pm3-stage2b-report.md": "c83d9f8b88ff0832efe9a09bab47dc488c47cae6efee415969e090d7a76bb3da",
+    "system/brs2-fm1-pm4-stage2a-report.md": "4b48417ab8349770425f24fce7d427b107349dbeee13170f46ea2d2e3aa602d2",
+    "system/brs2-fm1-pm4-stage2b-report.md": "56dc84283848b62ea0820a327c2945ed07c64720a855f924f0777589c67da774",
+    "system/brs2-fm2-pm5-current-stage2b-report.md": "3e8a74f3dd239b6f9e4e4fc4eb01bd1c472ea964b81e1401eb702929360c12b7",
+    "system/brs2-fm2-pm5-stage2a-report.md": "e035cf849c32a270d9fa82a0bf58eb758d17723212f219750f9fc6d80044389e",
+    "system/brs2-fm2-pm5-stage2b-report.md": "6e5dd03e9786b9b01af247f51fea3f26d7b75b674d1636b76ec531c94a0ed9e4",
+    "system/brs2-fm2-pm6-stage2a-report.md": "00ef8d10023e86204c2fbab854e654af42aa47d4c0e2325d3f1f36069f8c1426",
+    "system/brs2-fm2-pm6-stage2b-preview-report.md": "113a2003789fafd62e6a27d6a86f320db3012c480fcfeedf3c20aa08ce228b10",
+    "system/brs2-fm2-pm6-stage2b-report.md": "759acb9cb2e027edff472e7639d0d96d620cdece4508189cfa3997fb71aa171b",
+    "system/brs2-fm3-pm7-kc2-focused-reassessment.md": "bfd18b26f862701fd7c64380594523570d2637a33f2fbe5fbad2c292776ee613",
+    "system/brs2-fm3-pm7-kennedy-uridine-assessment.md": "e3a5dcbb315314d86e9b57ced0ea7efc1fa4201d1028daf3cc97ebd06250ef60",
+    "system/brs2-fm3-pm7-stage2a-report.md": "fe82a28c66e8a9265e9c35f9c3aeab9f070e373f8aec0ae70459f452961e3b0b",
+    "system/brs2-fm3-pm7-stage2b-report.md": "a87205567dafbd61cd14e1aa5cf7b7940b46bef162a5366f02df7e6922739477",
+    "system/brs2-kc-evidence-review.md": "1331d82243680eb5928bfb47d9b645b36f5eb930ce4c4452ddb36610511b6908",
+    "system/brs2-overview-evidence-review-report.md": "2cfbf7fe7067de7b02b54888fc76448da7d2f6f3461a7451c128481283151e4d",
+    "system/brs2-pm1-pm7-stage2a-overview-report.md": "265b9973cb497acb23454d0dde5063a7ebc0f46ec71c889e76ac0b1b0e2514cf",
+    "system/brs3-fm1-fm3-stage2b-report.md": "db7cc4b846fa73092bba7aff2d3951078468f57535c2b44d1d79bfdfa2f78faf",
+    "system/brs3-fm1-pm1-stage2a-report.md": "17780d3f9c72433c531814583c6fee7e8ab8421886a269e1fe0a92c25913eb3a",
+    "system/brs3-fm1-pm1-stage2b-report.md": "4a7d7421844f98446b365c6e405d72ad5a4a9d3bc2b8e7b873a7a1a56938469a",
+    "system/brs3-fm1-pm2-stage2a-report.md": "bb54011949c21bc5911127fc399e557ecb221c463ecb61cf20fb7364167c8989",
+    "system/brs3-fm1-pm2-stage2b-report.md": "705b817741bd76989837ae5ca7cc6e0763e761b6b169a01fd44f81fb31cef575",
+    "system/brs3-fm2-pm3-stage2a-report.md": "9b31f5e0c2043b97742a0f27a5e2c2f2dd3a650da1a739e49ea235dcd5513fe3",
+    "system/brs3-fm2-pm3-stage2b-report.md": "b3f983ab5456b72cade81bce118c7b4377e8a4812e94b7a2abb19c7ce6088c3c",
+    "system/brs3-fm2-pm4-stage2a-report.md": "ed52015cc706de0bbb1deb608698596a0ab86a490bc50444055093c690e997d6",
+    "system/brs3-fm2-pm4-stage2b-report.md": "e3d8693bc3ad1d50f5d1ab0365f8ed92e0f144db2479e48d1ff695a4d8e1bfaa",
+    "system/brs3-fm2-pm5-stage2a-report.md": "488bbee778f3a407b9ab098a709f6344c1451d96da5d57f101c3a247e0477517",
+    "system/brs3-fm2-pm5-stage2b-report.md": "98e90e879cec61c4378382cd410c9ae5546e4483edeba47c5f3537ae0ef91359",
+    "system/brs3-fm2-pm6-stage2a-report.md": "c7f896eadb6a978e65b2dea013654718d81238f16123e783aa3ba9f4c17ab69d",
+    "system/brs3-fm2-pm6-stage2b-report.md": "49c0a907a98ff56eebee703a97248a8313537b7bd8201473ced2b9cfcd4b213a",
+    "system/brs3-fm3-pm7-stage2a-report.md": "d36016d679e58e1d488b07ae5b9d22548723894af474e91b9ab2d7bc6951cdde",
+    "system/brs3-fm3-pm7-stage2b-report.md": "63b3f2bb20a02cb00317d4683cd973ae9c05ad10a90db6122f3f024aa33c78d4",
+    "system/brs3-fm3-pm8-stage2a-report.md": "c23389814bff7a233d360ab09a51ffe7b8077498bb9743f92d1767fb5ea247f5",
+    "system/brs3-fm3-pm8-stage2b-report.md": "b53b68f033ef394a9101f1d63e1bb0551e4e6903470cc0fb5a77f042db0759cf",
+    "system/brs3-kc1-evidence-review.md": "c04150b5f41a9f50df808b2b5601c8d11c4d85f21b9529beff0b80fe1937f8b2",
+    "system/brs3-pm1-pm8-stage2a-overview-report.md": "7e5dab103af5369bad645725365dbc9a320761b39232f9d0444c7e4350edce3c",
+    "system/brs3-stage2ab-completion-inventory.md": "973729b255f693edc6b8d5419de31fab05bae953f3e34e04869e00623f0ebc78",
+    "system/brs4-fm1-pm1-stage2a-report.md": "f8085445b3174231cf51d7400e0d0ec14613a568e357b9a448abee0741dc44c3",
+    "system/brs4-fm1-pm1-stage2b-report.md": "7b9300315f8267b4f969f21efb8dbbc4090a66d31270e969a646d0f4f24f4351",
+    "system/brs4-fm1-pm2-stage2a-report.md": "67654fc1a54d0a409a71ed44770e73022672b2aa4038140df95d9f4ede539612",
+    "system/brs4-fm1-pm2-stage2b-report.md": "af3b4346c14bfb1b9a418ef8b991e445d6ee1290023434ec6a7eea62de1aff6a",
+    "system/brs4-kc1-evidence-review.md": "b3307104df7bc5d28518389cf88d04445d798bd98891d65f460c0d89596bf49d",
+    "system/brs4-kc2-evidence-review.md": "ef11314c026a627e40afb5c3e2369e06e82d799bbe2e7675997d507c3ace0654",
+    "system/brs5-brs6-canonical-publication-report.md": "2fd11c10c37f40e15dd43c39ecdcd7b7982b25f941c186de9b0dca410c17305c",
+    "system/brs5-fm1-pm2-published-baseline-stage2ab-draft-report.md": "46f524661f825142011116166fb158d1ae84de298f149327441524f4946a1150",
+    "system/brs5-fm1-pm2-stage2a-report.md": "7c6a15024ba7a6591dfc86fa26f80b345db2ec0da04c60cb9611c2ba64b98d9f",
+    "system/brs5-fm1-pm2-stage2b-report.md": "4b63c01dbd7a342806d10bc524e7e4ea482fd5059ebfa00ada77ac30b7be88f1",
+    "system/brs5-kc1-evidence-review.md": "42806529561f0701828cab18a089fe7007d1429b3ca434fd2f01cf6b1641a5cb",
+    "system/brs5-kc2-evidence-review.md": "9fcdc0ff3108c3d2f46149eddd5349b772983fa4edeb1262cab2b7a600e23bb7",
+    "system/brs5-pm3-pm4-scope-implementation-record.md": "54cbb513a1c068b5d8298df43af897cfda3415af986874af7f53040fec2a981f",
+    "system/brs5-pm3-pm4-stage2b-report.md": "3b6100815ca7f7afe8d74d6738ca27b45e08fae27be902652bc044e4df8a7e56",
+    "system/brs5-remaining-pms-stage2ab-draft-report.md": "91df85fa4d9156b36a41fea435657f5aa2da94cc9fdfff922617d0d47a7c6d8e",
+    "system/brs6-fm4-pm8-stage2a-report.md": "608c1477897fb9dd292cceca26018dbd87ce60e510a1221476f63fbd57b90048",
+    "system/brs6-fm4-pm8-stage2b-report.md": "541d4663212ac35e7afc88603be5544e2fa52ad7831644347464e8b5fbe89f47",
+    "system/brs6-kc1-evidence-review.md": "838df25181562b3a714bdcb9e553e0ee7aaa9a5aa71958559e9b6fca93437c91",
+    "system/brs6-kc2-evidence-review.md": "d2ac32c25ca6e245eb9784ff675544b094ddf8dcff105c256805d6718216a775",
+    "system/brs6-pms-stage2ab-draft-report.md": "e5053ba6dc1eaf30450c3a1646eee6345fed0a49e1d9e2e634df2c22d2d2e54e",
+    "system/canonical-scientific-projections.md": "261c84936320f92bb0cc1f2529f88e5a05552c86131ee2e8d22a3d8a782d4064",
+    "system/canonical-synthesised-evidence-pilot-1-record.md": "dfbb3533dbfbe93509dbca732ced32608374a9610fb5c66a30496cff05a09d08",
+    "system/cross-brs-dependency-page-schema.md": "97e1f0afbf3881824fcca3bb12273fee1bcc63278918facca567905d96ec3d75",
+    "system/dietary-confidence-schema.md": "aa5e9157996c24ea1be2431b069afcc38318832acc60550bff34a5e114ad8b96",
+    "system/dietary-input-and-food-strategy-rollout-report.md": "33f40b45ecfc6527bc932cd5a408d2b401f37f642c2519e8eb94e06d06310eb9",
+    "system/dietary-input-governance-v2.md": "21ae1c5ea48e92ace38fd9e19af11b67eff66e087de1b1b2bbdf13f10879121c",
+    "system/dietary-input-historical-baseline.json": "fec211ca813734bc73ed5cb1de97ccd3f29b4dc480928229630add722b32927b",
+    "system/dietary-input-identity-reconciliations.json": "9dbca169ab5df3ac1da860835a8071f3a0bc6194dae6520ddb553bb32effc0cc",
+    "system/dietary-input-traceability-contract.md": "86ccccbfa744efd82096bd3315f6c37d1b65d9c1adfbad4ab5c6ada9cc63b9c7",
+    "system/dietary-requirements-guidance-reconciliation-register.md": "3e8abe98e186d4ad67e415bd41922f48be5a737088f327f5b14eef42ce0ae38c",
+    "system/dopaminergic-signalling-stage2-evidence-checklist.md": "1df48e69fb242e75124a1b562ee38fec83fdb6a1aa58a1013473bba960293fe4",
+    "system/dopaminergic-signalling-stage2a-report.md": "f223e96903c8981672f62fb483ed3dc255786439a4a4bf61b54ca1a1c2c3bf7c",
+    "system/dopaminergic-signalling-stage2b-report.md": "f85f7c40fdb38edf97835b9ac9b2170ec91ddc5458f105ee4da4b5ae4f066420",
+    "system/fm-centric-pm-migration-report.md": "754db8e28e06dcc651ae3ae59b44abb38bd8756292940e4d94ad300be2f5eed8",
+    "system/fm-schema-rollout-sequence.md": "3a2bd82144d220857155c37e385022c30b5d96f69849225ec6bed95cba297fe8",
+    "system/fm-synthesis-layout-implementation-report.md": "f4934084f41b6c4edaff3ba1954fa93eee9307b1336f0d2b3c33114386ff7c60",
+    "system/food-citation-corruption-audit.md": "1725ab6a0ba97330029a81b816c677a7ab8230689e092aff09002e8394037269",
+    "system/food-citation-review-queue.md": "03605f270dde03dd8854811593b5f6be21eb1777af19082fb28447f090f03756",
+    "system/food-citation-safety-report.md": "ba92c1d6978a95f176720e4fce5264e8a1de8a7a6af926e4997e4d28752032d9",
+    "system/food-identity-withdrawals-2026-10-10.json": "a92c5377eff806c78e12733de9966ca109fe3ffb6d12397d4494be9715f19698",
+    "system/food-intelligence-peer-review-prototype.md": "da9508fb28e2bd8fc9784c2b43f4d684dccc7fa6fd45474fc869d0bd2f287294",
+    "system/food-nutrition-schema.md": "354fa1b41b50835b1093ef7cb9b7ff8df294f999afb0f83d13508052dc2a12a2",
+    "system/food-page-audit-schedule.md": "d5217e1adf41b5667669eb16040d04d59348f14bc0bf00dafdd793fdfdcc5e9e",
+    "system/food-page-build-architecture.md": "e2f6ec9a2d9a801a3fdd00936a82ea0df4677f69864bfc1f21ebb74523262e1c",
+    "system/food-page-frontmatter-shapes.md": "3ca89bb8d3a0bd8b3e563aa434a1d6c878b2c8e6670951b176fe0816fc888fd8",
+    "system/food-page-letter-audit-schema.md": "79a254808f6f57a32e70db1df092581953e3ac6475944cf50be4d99536ace2aa",
+    "system/food-page-model.md": "33358acb96a284a6c7733d2f75d0e66e2116e6c51d2f0b21aa66592ac0ae2647",
+    "system/food-page-schema.md": "50827e243a518adaa6fd98c69220a49aaa1af62cb44f5bf4d6278844d19fd233",
+    "system/food-source-note-inventory.json": "4443a0c9b431f8bb513059a4e89c1b757f1b0c4c81523b67589766fc72f00cfa",
+    "system/food-source-reference-routing.json": "dd09cd84cf3a573a60fe9454d1b273a11f521d01d13a4ee3c799a59b97a58dd5",
+    "system/food-strategy-rollup-schema.md": "627af2ff6bd6d36007cee14679c0770b7ab023acb989f332c5ef60aa7b3cd7c3",
+    "system/food-substance-active-sources.json": "c4718eee74e090c0291d550def65c73a1ab927b898a3ef4033ba17d3c1021529",
+    "system/food-substance-recovery-evidence.json": "35880ab91442d5a6cec65af7ae3758b84b3a74f5fdec5ea97e68d576ea376ee7",
+    "system/food-substance-tag-review-queue.md": "efa51584eeeaa1261203ac4807ce5ca8a444a7648592ad0ed2aad718c2782775",
+    "system/food-target-research.json": "78e4429dce5634a15c672e9aba66ffe9cc9599261f6efd924364ad127e39e971",
+    "system/food-wheel-evidence-publication.json": "76f0f1d56df7fe5a884d2fe9e5fdf522e5f803d4a501b40490717c8d219d523f",
+    "system/food-wheel-presentation-contract.md": "cf54c722bcd72733e3662a5406ab256a5abe87ac0712d07c57cefba58a900581",
+    "system/framework-qc-schema.md": "bd8bb98f055be26fbbdfe780897aa22de35e330f7ffd4afcdf44047513e28521",
+    "system/framework-qc/pm-open-issues.json": "fd0b67ea10d744ec28592f419dd9395c49762946662a5530090250f3027cb4aa",
+    "system/functional-mechanism-schema.md": "b562f8b3f76a88d6b356a879b5b9e6277991164fcfbfdf1703f38bdd15fdeb13",
+    "system/functional-properties-ontology-schema.md": "de8479f33ea90c9760c881b1f1badae1f1ee24b003bb27a709cd74b0314cf459",
+    "system/generated/brs-x-input-substance-food/dietary-input-decisions.json": "834c46f3b4977dd7674593018f07669bdb7face2d783fbaae19906ddd9b01852",
+    "system/generated/brs-x-input-substance-food/food-to-inputs.md": "941ba177079d23949896197c5a9806e70698aadd292d7b1fe0bf5e55608ac00b",
+    "system/generated/brs-x-input-substance-food/gaps.generated.json": "b2f795c94f405d640e0ef7220009b8d1fbd77d5862aeab5774872cc5ae5db1e2",
+    "system/generated/brs-x-input-substance-food/input-to-substance-to-food.csv": "761a343f9120c0c9623bc77c9d5a083a847ffabfcfa87470be4594d306d42016",
+    "system/generated/brs-x-input-substance-food/input-to-substance-to-food.md": "5c2effa4c9801ebcb5db38b53311b78a613fbd1a3b566f05c4f06aaab52084db",
+    "system/generated/brs-x-input-substance-food/inventory.md": "26ce3c640196b25da786e4dbf34df49a854f7b9469bdebd04a7c2f823c87c70a",
+    "system/generated/brs-x-input-substance-food/mapping.generated.json": "40e78d6485278d1b8af7b5fa0add4fb9f7811d72b9216ca65ff69282457ffc6f",
+    "system/generated/brs-x-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs-x-input-substance-food/substance-index.md": "5e3a08681578245fb98db9e9597986dd2e850af7efc6a06fe8fd921beca44d88",
+    "system/generated/brs1-input-substance-food/dietary-input-decisions.json": "0ab5594ede7e62bf33ca35fc970bd80f9b5635fd9a2139a76a725fcd41c7f7db",
+    "system/generated/brs1-input-substance-food/food-to-inputs.md": "2fe201d75c69af011c3bc09c3566a0e4588960e72ed4611d4c1f512d31335a16",
+    "system/generated/brs1-input-substance-food/gaps.generated.json": "429b03f78c982897131730acabeb21cbd330842089f712c9725780e613215535",
+    "system/generated/brs1-input-substance-food/input-to-substance-to-food.csv": "aa2456dba5465914efcb420cdc0669e83474e25ef6b569020b9df17364f6b0b5",
+    "system/generated/brs1-input-substance-food/input-to-substance-to-food.md": "fd9bb321d39054a4c527333eb158ba49b6f1cbb65971246c98ff1d99e78cb75f",
+    "system/generated/brs1-input-substance-food/inventory.md": "c53bec2e85fd7843f1cdba6bcce9000c0ee772d6c520618919f5874e2920e9d1",
+    "system/generated/brs1-input-substance-food/mapping.generated.json": "87cb0f4f7320d3c7be2f0f5e570d37c81bb52fe3892f5dfa4744bf79e3c6f810",
+    "system/generated/brs1-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs1-input-substance-food/substance-index.md": "39c0785fc15b21d66ab25fb37365529ea4f6deacf0a3b17ccdc8a5d9d1c95da2",
+    "system/generated/brs2-input-substance-food/dietary-input-decisions.json": "d7dc32970c548fce2743480c62108a200c7ceee0657585bcb9ca765c81eef723",
+    "system/generated/brs2-input-substance-food/food-to-inputs.md": "fe3476adfb153e9c6d5ba03b6e859dbb40942e41bb38d6483f453a66ffdd63f1",
+    "system/generated/brs2-input-substance-food/gaps.generated.json": "7c489e87125d1e599eb381e94190bd830140d243c8802e1cdc15f6f9333d6193",
+    "system/generated/brs2-input-substance-food/input-to-substance-to-food.csv": "429267411d67f8639c61d983ab056461ad6f666b048b802277634a3a32e2b1c0",
+    "system/generated/brs2-input-substance-food/input-to-substance-to-food.md": "2e993f66f1e7ad4824cf4162ba80f66ead31156d5b1d48d494fa86177b5244bf",
+    "system/generated/brs2-input-substance-food/inventory.md": "706e45582aa4ddfb0bd508f9d4516da3f44cdf38171e52ab2cd47c942d4b2cd5",
+    "system/generated/brs2-input-substance-food/mapping.generated.json": "97d1c06ce97b467ba9b007779cb562540dc0af5645d46d52d666a27eca360439",
+    "system/generated/brs2-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs2-input-substance-food/substance-index.md": "1960cc4e91e127ac96ac61b5042d55d6f561dc8d5cea4a99519a365835af675a",
+    "system/generated/brs3-6-mapping-run-report.json": "56c83a4718d8b071050473b42c485fb3415d38aa0ac223102c42c2c377a8afbb",
+    "system/generated/brs3-input-substance-food/dietary-input-decisions.json": "271e4366284a828e304d72e9e8deedfdff386befa0ccd2e4927ded65967734ff",
+    "system/generated/brs3-input-substance-food/food-to-inputs.md": "09bebc2f9706b21c805742fd35d38113a19ebd48a64dbe8737729f4a7d48f810",
+    "system/generated/brs3-input-substance-food/gaps.generated.json": "65db514eeb68d72616b3d9e0e5766e28d5027eaf866b1d027dac6cc82de54253",
+    "system/generated/brs3-input-substance-food/input-to-substance-to-food.csv": "6b7f58d06f3f993ff4c5537468b69d16a476ba808496e0e4b6cf019a4120a985",
+    "system/generated/brs3-input-substance-food/input-to-substance-to-food.md": "a6b2657bef7d1f8b1f966063781cebce9c8ceb1f0031b46e89853672a0be176e",
+    "system/generated/brs3-input-substance-food/inventory.md": "f9040e9454751d0606977f070efa908d6e633096ae16872217474d3907020dac",
+    "system/generated/brs3-input-substance-food/mapping.generated.json": "03d87572c69ac2483decf03e5b85b1d41b05fdd84894788226ed1051a1e65ef7",
+    "system/generated/brs3-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs3-input-substance-food/substance-index.md": "63946a0fc5b272046ff0871bbc70218109b5fcd46d81e908011929a67107d56b",
+    "system/generated/brs4-input-substance-food/dietary-input-decisions.json": "d27462d3a23ed6bbafa35c856cae83cd52fe91f40a8c2002e1dda5d2d06386c0",
+    "system/generated/brs4-input-substance-food/food-to-inputs.md": "37b541553b364bdfde8734e1e9079bc21c62c74eb6582d230762150ddde962f3",
+    "system/generated/brs4-input-substance-food/gaps.generated.json": "4570ca0bec9a10dc67f05957fab24d3c22b8b375e4344e7611d0150cff4b55be",
+    "system/generated/brs4-input-substance-food/input-to-substance-to-food.csv": "d6c1defe9344d185f79bbb051bb4429896edcc94379bbb8982a6c7195edc23d7",
+    "system/generated/brs4-input-substance-food/input-to-substance-to-food.md": "1f3708f50ce678c296f2328b08942fe533c236441ba3d139c7028595a0662bc3",
+    "system/generated/brs4-input-substance-food/inventory.md": "809138ddc3d3f2c84de698a0577d19c8dab2822582c4570b28ecb6215d7f3c71",
+    "system/generated/brs4-input-substance-food/mapping.generated.json": "ede22944e2daf6ccae00216e3666ec687a1bf1d9c32aae222d2e5e5785fc5553",
+    "system/generated/brs4-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs4-input-substance-food/substance-index.md": "817747955609e82ab59a0b75cf2fbcd8918b9cb739f7ec4fefa43c5b221e1ad3",
+    "system/generated/brs5-input-substance-food/dietary-input-decisions.json": "258a76b5cc0290426e0225947709b068aae1f24b81635db77c3eb75221336b78",
+    "system/generated/brs5-input-substance-food/food-to-inputs.md": "fbb92aecf22a8eaa642bc46d0c2dabfe028963638c3e3d70c25ac89582839073",
+    "system/generated/brs5-input-substance-food/gaps.generated.json": "b8f69b2a8e1800f480ca341bda9f948aadbaf153c4f4e24171c79680fc11bc32",
+    "system/generated/brs5-input-substance-food/input-to-substance-to-food.csv": "00cdaebf012078433e6305690dd1ba7decc9fba5dc2e35d968865805899e8cde",
+    "system/generated/brs5-input-substance-food/input-to-substance-to-food.md": "8ba69caac448a6b030c877c40932da3445eccc7a4d257bca94006e02ce95ef5a",
+    "system/generated/brs5-input-substance-food/inventory.md": "8c2f5c2ba427ce3d1996319d1c59ac535bd6d94f72ae20f9943b14eca66c863b",
+    "system/generated/brs5-input-substance-food/mapping.generated.json": "950c77dc99a32582c2822e642470cc32147890c3404de1cfbdbc6cf8150a9ae9",
+    "system/generated/brs5-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs5-input-substance-food/substance-index.md": "eabbcf94248727a1005d210becd5d9290d5bf1b95e068b675c4d545c97182c61",
+    "system/generated/brs6-input-substance-food/dietary-input-decisions.json": "06bec2baef57a7d8b97181fd90186961b4d5646ac974b18cc57725f193b50abf",
+    "system/generated/brs6-input-substance-food/food-to-inputs.md": "a5416414f10023a20bd994c3e2e35ec51c7bbe976814a898034761315cf76e36",
+    "system/generated/brs6-input-substance-food/gaps.generated.json": "6caf0c238aebd90fd01b57021cedb707b810c12cf9c7f38516eb872668e21295",
+    "system/generated/brs6-input-substance-food/input-to-substance-to-food.csv": "265862585f74dbf71f3d128b424418d3441b18fe5f35f3e2df9090ba6aea307f",
+    "system/generated/brs6-input-substance-food/input-to-substance-to-food.md": "dbc1618760f9736f9b296aff203749384f41d571fec46901356d761d01d107c0",
+    "system/generated/brs6-input-substance-food/inventory.md": "5b4a2470a62137dd9fd6a5bf635e47fca52e861ba079920761722d13736c038a",
+    "system/generated/brs6-input-substance-food/mapping.generated.json": "913a17306b1ebc760f70c2bf813db4708704115760e4b4ddf0de5651fa307287",
+    "system/generated/brs6-input-substance-food/pattern-candidates.generated.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "system/generated/brs6-input-substance-food/substance-index.md": "adc63c958d47da9bfa938c37ebdc63fd25314b67bb5ecf4f635505c8e0aa8ac3",
+    "system/generated/dietary-food-targets/cursor-repair-queue.json": "b7111b2749e11cbb52aa57bb6096e7b4dfd355800382c85560865ec8d2391b24",
+    "system/generated/dietary-food-targets/cursor-repair-summary.md": "a80e773562a91e339d0cb750f980008e4abe5efb3fa91c71a10e06caa50a603c",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs-x.json": "3884320146ad95b4d9ee547442a7a2c727089774714991bc7cf43445b9f81149",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs1.json": "02cf4bebe1776bbe2e71a3a60d4ea99f68068e30ae89ce9003a975ab6f7fb0be",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs2.json": "fa7260005c96f0a0cdf49fcd6afd0425bce28e3f950a875aaf3e7cf72139fde4",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs3.json": "a99c110b26030dc59c92851f292e385c3e23ad3ded991a2c7e09838dc33ae6ed",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs4.json": "ec6251d9f33c0efc1165c3884f0a7c60261c0bdbc874ab351903892a6b880fb4",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs5.json": "876236a970401d0304de0bca31e1912db47cb96a04e56f812df0603909252fc9",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs6.json": "acaa85f9b18bb471a5e6a394c097d03e4118ec1583e676a7aac63a6d8777c18c",
+    "system/generated/dietary-food-targets/manuscript-rollup.json": "0451a6808bffc834da179ed501da6ff44aa07e31dd39b3a1780a2da5753ba869",
+    "system/generated/dietary-food-targets/material-equivalence-reviews.json": "41b0329d2297cdb4e55088f428ade60ef714bbba93ae1e4daf1941dc9db40863",
+    "system/generated/dietary-food-targets/reconciliation.json": "4de5bd418420b8c0f8e57dc5c74a0cf75c7cff01716f1ad44ebf0440c68ecbe8",
+    "system/generated/dietary-food-targets/research-ledger-reconciliation.json": "6866a07294121ecd7bd0517d22ada71761d4fb4f267b3f9ef7c416c6bf1de076",
+    "system/generated/dietary-input-rollout/rollout-report.json": "68c0ba80951f953075f1e08169bd13166a742b1bb0fcd739a4427a17c36e8a63",
+    "system/generated/dietary-input-rollout/source-preservation-check.json": "c2698834cf3f2d376eb23264432145c045ae7e84eaabaaa099677121edab0f60",
+    "system/generated/dietary-pathways/pathways.generated.json": "25613381aabb1a9e3db7630588ea25efbd0350e8ccbd896e28e50544421f18df",
+    "system/generated/food-strategy-rollup/index.md": "0598721b468057e7f9ec898196b56ab183bc95d9579fdeded60fa1400fd45f51",
+    "system/generated/food-strategy-rollup/rollup.generated.json": "c659bdd34b598b37de595cadd26506a2890d7bfc0e2f01dab0afe87c23156be6",
+    "system/generated/ranked-food-sources/diagnostics.generated.json": "1be671e829575688e75d22f01e6a0586dd986681a4953cbff64221e968030d00",
+    "system/generated/related-substances/index.generated.json": "ac2ff79e9c542d08de0cc31f0e02b3705f836a8e959c34f112e0d709357b719a",
+    "system/input-substance-food-mapping.md": "5a16870b1d9293c006bf7e2bbf3f8083a04ac867c71af6439164c25a0f08de7e",
+    "system/kc-page-evidence-review-contract.md": "e91343ca900858c79c03c179b2ef6d837cd9850f855d6cb3a832e7d5f204d464",
+    "system/kc-unresolved-decisions-reconciliation.md": "f69e84c3327ec872c7c02c931edb9c1b608979cff0a4023645f70361f0030d30",
+    "system/key-constraint-schema.md": "540b20770cde205cfc170cad3a83c0e017fd5fd3ee526d701d0e1d37b168fd69",
+    "system/lumpfish-sodium-note-withheld.json": "48c544fc13326e3832c86b1a30c5535367ee20e2f1c32b9bacdc0aed347d5b82",
+    "system/mechanism-change-control-queue.md": "2ad2de242e006cd51adfef39dcf04cd498d029e9d62fffb7b7b1752ee2c419db",
+    "system/mechanism-page-section-prose.md": "39d43897a54a8df6a56d710aba5b9006990bd4259e47f4278ef449a07765321a",
+    "system/mechanism-validation-reconciliation-report.md": "e6c457c9e0eaeec377397d64d6db99526263ad94b9cd3237357b5377f7852463",
+    "system/mucuna-composition-evidence.json": "f9453db035198b94deb07f9582a089d2b6525676cba2c906a74f5f74cbcd9f2c",
+    "system/nutrient-naming-conventions.md": "18f74c3f29b2c62ef04552d918657703145eec5e7c1d83e9f84fc84b392c7890",
+    "system/nutrient-provenance-review-queue.md": "75d82cfcd0795863822127c8ed2b8d8fa987a42798ba85b73093bae73335534e",
+    "system/nutrient-reference-values.md": "44283abe01a17bc3ae7ece30845ce06646e46961c5f581b70a782607c298a884",
+    "system/nutrition-workflow.md": "6eae0e10fcab73e3dc0d9b46e4f0b5c591e802bc6b0d0b9676aa77026642f7de",
+    "system/nutritional-yeast-withdrawn-panel.json": "10b67ecc52a95b29852b2aa2be21af3a7df375f3a0212fa62daf9a470c20a3d6",
+    "system/phenome-relationship-review-methodology.md": "ea1b8543e1387d105f58c294fe3bdcdea34d8a07a0a50ae21e593bacf6682388",
+    "system/phenome-relationship-schema.md": "588f83815d4f4159dd8451ca624a8e97644537b8410869af2bcf00c86cc1f1b8",
+    "system/pm-evidence-tabs-contract.md": "6e0c2aa9c7dbb4155a9ab6b26bb58570aaa0ca1f46cdd719f7019ac543cfd661",
+    "system/pm-mechanistic-spreadsheet-row.example.json": "c548f91359ba0e7900bd5f8bb7dddb1a7cf373463eab712008224f9d1d55e5bd",
+    "system/pm9-dietary-addressability-adjudication.md": "1fe5a13206706f9afbd641e6f4ec60ab0aa2fbd1f4fc268f353800bbf00c7668",
+    "system/preparation-source-withdrawals-2026-10-10.json": "edbb27fd4da3dd0578349794f64a6d02e5d8249626e82f615fdf293a206023d6",
+    "system/presentation-change-approvals.json": "3d56ff4ef580eae22fee641661cdd9a8ce90ee3dd0fa452e57d0f1cfd9e6e30e",
+    "system/presentation-change-control.md": "575829e0073e7ffe5a66a192c093ae0b3fe2ef25d73dad66c4d9d25edd4363fe",
+    "system/presentation-contract-baseline.json": "c558f2a1f00c27b298557ab867006a531aff0e781beaaaa4e75052a72b6de54a",
+    "system/primary-mechanism-schema.md": "385b15dbd9ca08a284b547cba936dc400bf79bad06f68b6257d187db771d82e3",
+    "system/ranked-food-publication-sources.json": "ffd4d4c630f0692ef744819f669ff2eb15e629ac829654cb51da0c0b79d93458",
+    "system/ranked-food-source-policy.json": "4b80a280562834d2b2c8aabe1121e03c4448d2bef5b570e38d0322d984bac813",
+    "system/rapid-stage2ab-2026-10-23/adjudications.json": "ee3b30e1471c5ca8f75f7ccb996e698d13295c9cc3697c0cbc83c7a9a9b83cb4",
+    "system/rapid-stage2ab-2026-10-23/source-verification.json": "34ab985f44bbd169511fc294e4cbf649433a326de6fbefbc7caccbfbec8a2195",
+    "system/recipe-ingredient-schema.md": "a242cf3a5c7dc0493e7590a4943ea9ce1c78614caf0aba47e5d73ee1f7524778",
+    "system/recipe-matrix-preview-presentation-contract.md": "1723ca98ee1d6d6255f49b6e1f3bfde41ffd1c2ad3c2a33644159121e09c9483",
+    "system/recipe-matrix-schema-proposal.md": "c7087e71cb33e6fd23776c6df1136774693062ed1de09c1912939d7d12bdc439",
+    "system/retired-content/fm-pre-synthesis-layout-20261006.json": "9c9b31e5134a9463e4cb16a0f09d8d00cc5687afef32b811cd3c7491d61426bb",
+    "system/retired-mechanisms/BRS1-FM4-PM8/README.md": "6f224558e079942f23cc91c16ad0415a2adc1cc6df896b985f90ad6f2d5f4d00",
+    "system/retired-mechanisms/BRS1-FM4-PM8/brs1-fm4-pm8-stage2a-report.md": "9c10bf26610eab9de259b660b1f9b0de5150323f4932a57f6e11bf865ba9c11f",
+    "system/retired-mechanisms/BRS1-FM4-PM8/brs1-fm4-pm8-stage2b-report.md": "cafc69f904e8d9bce47df705316dc013fdc14faf4605d1a0715343c450ab559f",
+    "system/retired-mechanisms/BRS1-FM4-PM8/canonical-page.mdx.txt": "9d26db9b8186feaebb55842dee9f84a33e095e954abb9a81cebe233df8651157",
+    "system/retired-mechanisms/BRS1-FM4-PM8/unapproved-phenome-anxiety-addendum.md": "f7357a258d4d7663eae7776ba345ed71db3ea839236579883ceaf1931ee6d35b",
+    "system/retired-mechanisms/BRS1-FM4-PM8/unapproved-proposed-records.json": "e23a7161ee460a399dadf2fab1266f25440e22d72a6680baf2808ce4857093bc",
+    "system/retired-mechanisms/BRS1-FM4-PM8/unapproved-reassessment-change-control.json": "4c0ec211b68118f88ae250ba444402a7df9de66a3557cbce33074a0dce4a31e2",
+    "system/retired-mechanisms/BRS1-FM4-PM8/unapproved-reassessment-report.md": "1fb08126b3c6daaa08145f91b3229feb5c3f4af5772a341a4c3b868ccc95f39a",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM1-PM1-before.mdx": "ed516c6ac31a350fda8a13f51d37f358b138f6f72ced52a712dfe5af9d9454b8",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM1-PM2-before.mdx": "1ae52d2d887fc231a07d6f6812f153982bc25651a289e0c0d3dc9fb11eba15eb",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM1-PM3-before.mdx": "791c49ee7b5c215d4a7c3b8f3900abf7df7b939b2bda16a78e024f1c8722985b",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM2-PM4-before.mdx": "719d3ceb94dcb6361e01dbe135fcf72ff6e9576985ef1c992807f75e31d91d23",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM2-PM5-before.mdx": "786748c1d5140220d3672f02a0a3d4c91e9eeca93df07d8af82139a7e83086a0",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM2-PM6-before.mdx": "7ad8d2c11acf4c454d4e083b0e0c5351687bc140f00481340d85288e95d57ef6",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM3-PM7-before.mdx": "f4f796abeb4d4441c769f784f52fbd76341d3a37ebcaef3c19d460ac9818a6ea",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS5-FM3-PM8-before.mdx": "79b8609002f543a5c08ded1e21605e5a79efba355700e3bc74b2895df175fbde",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM1-PM1-before.mdx": "4ffe3188cfd9b9bf70c8760ca6f3949e230c8c3325dfb18992f9750e26497828",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM1-PM2-before.mdx": "bf496415bcc0424a2938c1d3b54d694d988a2af1fa4c8a3013d9f234dd7bf896",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM1-PM3-before.mdx": "c9b78ed61892448cee8700f2af222b2a57544c88e704c04863f6215c21bf17d9",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM2-PM4-before.mdx": "d2f7a03db1aa09ee605b781229d94a9c2799bae558e1d61046f7d56b7ae77dbd",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM3-PM6-before.mdx": "294dc725765f522aba8c3a105c3d262abddfaacadcd58c24b5c26989daeedca3",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM3-PM7-before.mdx": "2f4b3ce31d3e968e3305e6c2286f909dd01b42d1aea9df0f1bacb0edf7abc31e",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM4-PM8-before.mdx": "a8d9849cdf180c7418da84659a582b299620187285e62bb2aae2fa9ffe71e195",
+    "system/review-records/brs5-brs6-publication-2026-10-08/BRS6-FM4-PM9-before.mdx": "fb49e922764676964f1787e8994bd03c21feb8f864cb5013886b90a5e2004461",
+    "system/review-records/brs5-brs6-publication-2026-10-08/hub-levers-before.json": "ac7f0caec1dca563e683570b9e6e5fc841ccf5cd17cb2d1fc3a102515b24d570",
+    "system/review-records/brs5-brs6-publication-2026-10-08/phenome-index-before.json": "c035d0ff647436a226472f7e8fea3388ec3692670e8056c8c20d8670d084da73",
+    "system/review-records/brs5-brs6-publication-2026-10-08/publication-record.json": "b74332bf980b6bc0e3e62ddc0dd20053a3a827c60980119f5dbe7e00aaab6e41",
+    "system/review-records/brs5-brs6-publication-2026-10-08/verification.json": "2169942aae9c09664e63d4afdebebde7dfeda01e261ffbd47f7757c073b4b9fb",
+    "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json": "b41a2cd644af78d8fca356799f6baa4792341a231cd3c060de5b137ace0a9cb0",
+    "system/reviews/deferred-stage2ab-2026-10-23/sources.json": "44c294caca984824b4e2b8250d350c045e99a1cbd444e87298867606596efdea",
+    "system/reviews/sec-calibration/PR221-governance-resolution.md": "97554cc203bdcf1f263250e31efaf8d69f3a867c45c45b8fa4e2d99c73d4df29",
+    "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html": "304dfe0a2bb08c0c95bf88677371957cab4b8b2365150941e840648ef544cb9a",
+    "system/reviews/sec-calibration/SEC-preview-dark.jpg": "3a82fe64c7b5f2dbf8e09d03ad1af46e2955415d4d2d7090e7beda9f039451fe",
+    "system/reviews/sec-calibration/SEC-preview-light.jpg": "1867958afbde9287ee7b3fbb8e66c1702f76a1eac1126a51054a932c750bfb14",
+    "system/reviews/sec-calibration/SEC-preview-mobile.jpg": "7c2fd959b47130fc3b766a61e238397073a8ab4d87bea541b569a8965ce792ba",
+    "system/reviews/sec-calibration/SEC-preview-verification.html": "5d664cb4c8988ce9264f569d955bc1a58e9df2d0eed12f404dec5a04c626a975",
+    "system/reviews/stage2ab-preservation-2026-10-23/execution-summary.json": "92f6c1db00ad94ee035a16e31f97ad2ad7a3d08a6720cb7d69d46183803a30f4",
+    "system/reviews/stage2ab-preservation-2026-10-23/plan.json": "eb2b1b914054993ebdb78ae42c491be232a06a3a6209a8fe9226f96898c058cf",
+    "system/reviews/stage2ab-preservation-2026-10-23/preservation-manifest.json": "f7767571becc51ebae9dc80aa46287fb670137a29a4ee814d1b6b9f312ba4c9b",
+    "system/reviews/stage2ab-preservation-2026-10-23/uniprot-P00390-context.json": "4e1021b0b3ba194bc1f3c5ddc077e89fbe5777ebdf9892264d3e1fe93a7db70b",
+    "system/scientific-finding-schema.md": "7dd361a6b0514e05a5e0f954c0969a69fab029e772e4d0b972fb4d11bd0c6e0d",
+    "system/scientific-hypotheses-schema.md": "4b1c2c99e98ecb22aad7b632b6ec7bc680587f5e9cc0677bf14a99df9ed4758a",
+    "system/sec-assessments/README.md": "8e3e3d994c9b7613e300cd24e0d7edbed3daae1c911b6e3d439aa917ce5caa64",
+    "system/sec-assessments/history/gaba-before-v1.mdx": "e11e2ddbfb1c45702232b869e31cbb847f759e95504bcb734fcdc21fea141dd4",
+    "system/sec-assessments/history/glycaemic-variability-before-v1.mdx": "b04167e2a66985b0ebe05472a0d06879847cdc98749054c6e21b96dd7cb71bd4",
+    "system/sec-assessments/history/pm1-before-local-integration.mdx": "1e2da99757336aa62052a809c3af90c123cb938281c0c127f36a632f3d0b38c4",
+    "system/sec-assessments/history/same-synthesis-before-v1.mdx": "f0705b91335f890b46f1c9794e39360a35c2bcaee4fc3b6a96a58ddcbb33bc28",
+    "system/sec-assessments/integration-history.json": "4dca43983919c84a3e2cbd478392f382acc87dfbedf796a1e439d2f5e25d29c3",
+    "system/seed-fatty-acid-evidence.md": "04edc69b29ef465fc6c64b7559dbc5bd53cdf017ef27d1a45d2a1f0daaae4576",
+    "system/single-pm-fm-rule.md": "90e27ddfcf6b8764bbfe626770094eb023f0d456b79c63fadd781ffdb649d622",
+    "system/sop-lifestyle-six-atom-presentation.md": "1b758e6dc66029c94c263d62b7c9e8a35e9340af9e7830afef75560510153bbb",
+    "system/specialist-composition-review-queue.md": "7e9651db19ee8cd2d96563002ad57297217b5f04196e41c511cce1fbdd28ad6e",
+    "system/specific-mechanism-schema.md": "316f271e981dadcc8f647c1607348d979892f6d0e9e84cbc692001f0380aa724",
+    "system/stage2b-targeted-bd-rerun-four-demos.md": "23ea5e8a482fa1b6582db9338c896e5ae64902edae9b052386cd980fdd447739",
+    "system/substance-food-mapping-format.md": "934d00eca45bab01aa2f27ddb1add44f2bf60568caae8bcb5a88d06c58ba305f",
+    "system/substance-page-schema.md": "eb5061922709a4aeff2ffd6c92984afa7891f301815227b210aa336d8b5b43d8",
+    "system/templates/brs-overview-template.mdx": "b357b8b2113d28a30fe8d677a1494043dcd8fa98179e0f234a72f10460a68821",
+    "system/templates/functional-mechanism-template.mdx": "a3f7334490e47483db771514db4a56acc6b37b108112037fd7fde65a1145b9f7",
+    "system/templates/primary-mechanism-template.mdx": "eb988c16ed5243286d4f1e31c69645f9101b32a5057929fe1f378948058c3357",
+    "system/templates/specific-mechanism-template.mdx": "7a2f15ccf464311f26dcb475e34772b2e6dbba20f1926655e25e1f9297e0bd81",
+    "system/therapeutic-area-page-schema.md": "4957c87e1aa545f7aca9b1355cd46cb89159f2da2cd6f24d13405b0954d3bbeb",
+    "system/training-pm-to-brs-dietary-guidance.md": "682cf3b74cdca14588e1fcfde1eae0634e677bd5430e98ad3de3f1c45cf27f34",
+    "system/trout-roe-withheld-bioactives.json": "c1c694bd6debb14ca6f76abbcf4293f625c837f8a4eaeb599d76c552524ae2b6",
+    "system/unsupported-recovered-relationships.json": "9fa67f9e5ceda9dd96bbdd7108b3bb658bbb13bd63bb9985711dfd1188236d1a"
+  }
+}

@@ -1,0 +1,398 @@
+[
+  {
+    "food_id": "liver",
+    "intake_default_score": 2.7867714244739914,
+    "intake_default_rank": 2,
+    "current_score": 3.6473614618158794,
+    "current_rank": 1,
+    "delta": 0.860590037341888,
+    "new_arginine_points": 0.32009285530049003
+  },
+  {
+    "food_id": "sunflower-seeds",
+    "intake_default_score": 2.8364420277638445,
+    "intake_default_rank": 1,
+    "current_score": 2.8364420277638445,
+    "current_rank": 2,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "anchovies",
+    "intake_default_score": 1.241299124098907,
+    "intake_default_rank": 15,
+    "current_score": 2.5340568612635788,
+    "current_rank": 3,
+    "delta": 1.2927577371646717,
+    "new_arginine_points": 0.4459633737425845
+  },
+  {
+    "food_id": "pumpkin-seeds",
+    "intake_default_score": 2.529867908124632,
+    "intake_default_rank": 3,
+    "current_score": 2.529867908124632,
+    "current_rank": 4,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "sardines",
+    "intake_default_score": 2.1078081146662773,
+    "intake_default_rank": 5,
+    "current_score": 2.4877410525048127,
+    "current_rank": 5,
+    "delta": 0.37993293783853543,
+    "new_arginine_points": 0.37993293783853493
+  },
+  {
+    "food_id": "chicken",
+    "intake_default_score": 2.067089179138835,
+    "intake_default_rank": 6,
+    "current_score": 2.368610974341311,
+    "current_rank": 6,
+    "delta": 0.301521795202476,
+    "new_arginine_points": 0.30152179520247613
+  },
+  {
+    "food_id": "almonds",
+    "intake_default_score": 2.171216081581327,
+    "intake_default_rank": 4,
+    "current_score": 2.171216081581327,
+    "current_rank": 7,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "tuna",
+    "intake_default_score": 1.6375501606439633,
+    "intake_default_rank": 9,
+    "current_score": 2.0447605313766197,
+    "current_rank": 8,
+    "delta": 0.4072103707326564,
+    "new_arginine_points": 0.36007222078927
+  },
+  {
+    "food_id": "turkey",
+    "intake_default_score": 1.6589342830950582,
+    "intake_default_rank": 8,
+    "current_score": 1.9896023253958062,
+    "current_rank": 9,
+    "delta": 0.330668042300748,
+    "new_arginine_points": 0.3306680423007479
+  },
+  {
+    "food_id": "chicken-liver",
+    "intake_default_score": 1.272448924778307,
+    "intake_default_rank": 13,
+    "current_score": 1.9521579895703873,
+    "current_rank": 10,
+    "delta": 0.6797090647920803,
+    "new_arginine_points": 0.28191900954346144
+  },
+  {
+    "food_id": "salmon",
+    "intake_default_score": 1.5427275478280982,
+    "intake_default_rank": 10,
+    "current_score": 1.8576617753235842,
+    "current_rank": 11,
+    "delta": 0.31493422749548605,
+    "new_arginine_points": 0.3149342274954862
+  },
+  {
+    "food_id": "spirulina",
+    "intake_default_score": 1.8559028728110554,
+    "intake_default_rank": 7,
+    "current_score": 1.8559028728110554,
+    "current_rank": 12,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "pork",
+    "intake_default_score": 0.8917499935405524,
+    "intake_default_rank": 22,
+    "current_score": 1.7601835175960492,
+    "current_rank": 13,
+    "delta": 0.8684335240554968,
+    "new_arginine_points": 0.3211245808614908
+  },
+  {
+    "food_id": "beef",
+    "intake_default_score": 1.4116172415432269,
+    "intake_default_rank": 12,
+    "current_score": 1.723714223745961,
+    "current_rank": 14,
+    "delta": 0.3120969822027342,
+    "new_arginine_points": 0.3120969822027341
+  },
+  {
+    "food_id": "mackerel",
+    "intake_default_score": 0.7993230498927733,
+    "intake_default_rank": 24,
+    "current_score": 1.6309260568112216,
+    "current_rank": 15,
+    "delta": 0.8316030069184484,
+    "new_arginine_points": 0.2870776373484653
+  },
+  {
+    "food_id": "herring",
+    "intake_default_score": 0.7714750794512053,
+    "intake_default_rank": 27,
+    "current_score": 1.5749645348727317,
+    "current_rank": 16,
+    "delta": 0.8034894554215264,
+    "new_arginine_points": 0.27727624451895794
+  },
+  {
+    "food_id": "cod",
+    "intake_default_score": 0.765170658605276,
+    "intake_default_rank": 28,
+    "current_score": 1.5608568508586802,
+    "current_rank": 17,
+    "delta": 0.7956861922534042,
+    "new_arginine_points": 0.2749548620067062
+  },
+  {
+    "food_id": "cheddar-cheese",
+    "intake_default_score": 1.429233156649933,
+    "intake_default_rank": 11,
+    "current_score": 1.429233156649933,
+    "current_rank": 18,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "lamb",
+    "intake_default_score": 0.7176549621476371,
+    "intake_default_rank": 29,
+    "current_score": 1.4106722351803083,
+    "current_rank": 19,
+    "delta": 0.6930172730326711,
+    "new_arginine_points": 0.2538044880061904
+  },
+  {
+    "food_id": "cloves",
+    "intake_default_score": 1.2507819164060279,
+    "intake_default_rank": 14,
+    "current_score": 1.2507819164060279,
+    "current_rank": 20,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "soy",
+    "intake_default_score": 1.237057220708447,
+    "intake_default_rank": 16,
+    "current_score": 1.237057220708447,
+    "current_rank": 21,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "egg-yolks",
+    "intake_default_score": 0.6046352995891793,
+    "intake_default_rank": 30,
+    "current_score": 1.2361681958166832,
+    "current_rank": 22,
+    "delta": 0.631532896227504,
+    "new_arginine_points": 0.2834665978849626
+  },
+  {
+    "food_id": "thyme",
+    "intake_default_score": 1.2126812624395793,
+    "intake_default_rank": 17,
+    "current_score": 1.2126812624395793,
+    "current_rank": 23,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "lupins",
+    "intake_default_score": 1,
+    "intake_default_rank": 18,
+    "current_score": 1,
+    "current_rank": 24,
+    "delta": 0,
+    "new_arginine_points": 1
+  },
+  {
+    "food_id": "parmesan-cheese",
+    "intake_default_score": 1,
+    "intake_default_rank": 19,
+    "current_score": 1,
+    "current_rank": 25,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "mussels",
+    "intake_default_score": 0.9462517878677399,
+    "intake_default_rank": 20,
+    "current_score": 0.9462517878677399,
+    "current_rank": 26,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "peanuts",
+    "intake_default_score": 0.8939762856068864,
+    "intake_default_rank": 21,
+    "current_score": 0.8939762856068864,
+    "current_rank": 27,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "eggs",
+    "intake_default_score": 0.8542413255314409,
+    "intake_default_rank": 23,
+    "current_score": 0.8542413255314409,
+    "current_rank": 28,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "turmeric",
+    "intake_default_score": 0.7742703645876222,
+    "intake_default_rank": 25,
+    "current_score": 0.7742703645876222,
+    "current_rank": 29,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "kidney",
+    "intake_default_score": 0.773841961852861,
+    "intake_default_rank": 26,
+    "current_score": 0.773841961852861,
+    "current_rank": 30,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "sesame-seeds",
+    "intake_default_score": 0.4184520758585341,
+    "intake_default_rank": 31,
+    "current_score": 0.4184520758585341,
+    "current_rank": 31,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "tofu",
+    "intake_default_score": 0.3976311336717428,
+    "intake_default_rank": 32,
+    "current_score": 0.3976311336717428,
+    "current_rank": 32,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "cocoa",
+    "intake_default_score": 0.38831368528959503,
+    "intake_default_rank": 33,
+    "current_score": 0.38831368528959503,
+    "current_rank": 33,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "tempeh",
+    "intake_default_score": 0.33283208020050126,
+    "intake_default_rank": 34,
+    "current_score": 0.33283208020050126,
+    "current_rank": 34,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "clams",
+    "intake_default_score": 0.2992481203007519,
+    "intake_default_rank": 35,
+    "current_score": 0.2992481203007519,
+    "current_rank": 35,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "oregano",
+    "intake_default_score": 0.2977346278317152,
+    "intake_default_rank": 36,
+    "current_score": 0.2977346278317152,
+    "current_rank": 36,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "oysters",
+    "intake_default_score": 0.2929779600205023,
+    "intake_default_rank": 37,
+    "current_score": 0.2929779600205023,
+    "current_rank": 37,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "cinnamon",
+    "intake_default_score": 0.2904706469316481,
+    "intake_default_rank": 38,
+    "current_score": 0.2904706469316481,
+    "current_rank": 38,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "salmon-roe",
+    "intake_default_score": 0.25874324708558427,
+    "intake_default_rank": 39,
+    "current_score": 0.25874324708558427,
+    "current_rank": 39,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "shrimp",
+    "intake_default_score": 0.2581453634085213,
+    "intake_default_rank": 40,
+    "current_score": 0.2581453634085213,
+    "current_rank": 40,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "heart",
+    "intake_default_score": 0.246866485013624,
+    "intake_default_rank": 41,
+    "current_score": 0.246866485013624,
+    "current_rank": 41,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "sage",
+    "intake_default_score": 0.22750809061488675,
+    "intake_default_rank": 42,
+    "current_score": 0.22750809061488675,
+    "current_rank": 42,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "cashews",
+    "intake_default_score": 0.22501281394156838,
+    "intake_default_rank": 43,
+    "current_score": 0.22501281394156838,
+    "current_rank": 43,
+    "delta": 0,
+    "new_arginine_points": 0
+  },
+  {
+    "food_id": "wheat-germ",
+    "intake_default_score": 0.221204057874605,
+    "intake_default_rank": 44,
+    "current_score": 0.221204057874605,
+    "current_rank": 44,
+    "delta": 0,
+    "new_arginine_points": 0
+  }
+]

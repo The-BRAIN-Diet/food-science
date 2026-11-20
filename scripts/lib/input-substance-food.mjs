@@ -18,7 +18,8 @@ const section = v => String(v || '').replace(/^1\.1\./, '3.1.');
 const walk = dir => fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]).filter(p => /\.mdx?$/.test(p)) : [];
 const unique = a => [...new Set(a)];
 export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'value not known'; }
-export function buildInputSubstanceFood(root, { brs = 'BRS1', additionalSubstanceIds = [], includeProfileConstituents = false } = {}) {
+export function buildInputSubstanceFood(root, { brs = 'BRS1', additionalSubstanceIds = [], includeProfileConstituents = false, analysisCompositionOnly = false } = {}) {
+    if (analysisCompositionOnly && !['BRS1', 'BRS2', 'BRS4', 'BRS5'].includes(brs)) throw new Error('Composition-only analytical pilot is restricted to BRS1/BRS2/BRS4/BRS5');
     if (!/^(BRS[1-6]|BRS-X)$/.test(brs)) throw new Error('Mapping scope must be BRS1–6 or BRS-X');
     const scope = brs.toLowerCase();
     const reads = new Set(), gaps = [], conflicts = [];
@@ -241,8 +242,8 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1', additionalSubstanc
             gaps.push({ kind: 'specialist-specification-not-joined', food_id: foodId, record: doc.file, reason: 'Authorised specification schema needs a material-specific adapter; no generic amount inferred.' });
         }
         foodSources.push(...entries.values());
-        if (includeProfileConstituents) foodSources.push(...resolveAminoAcidProfileSources(d, needed, doc.file));
-        for (const aggregate of Object.values(substances).filter(s => needed.has(s.id) && s.identity_type === 'defined-substrate-class')) foodSources.push(...resolveAggregateFoodSources(d, aggregate, doc.file));
+        if (includeProfileConstituents) foodSources.push(...resolveAminoAcidProfileSources(d, needed, doc.file, {analysisCompositionOnly}));
+        for (const aggregate of Object.values(substances).filter(s => needed.has(s.id) && s.identity_type === 'defined-substrate-class')) foodSources.push(...resolveAggregateFoodSources(d, aggregate, doc.file, {analysisCompositionOnly}));
         if (validPanel && src && Number.isFinite(d.nutrition_per_100g?.carbs_g) && Number.isFinite(d.nutrition_per_100g?.protein_g))
             patternCandidates.push({ food_id: foodId, food_page: page, title: d.title, composition_record: doc.file + '#nutrition_per_100g', composition_values: { carbs_g: d.nutrition_per_100g.carbs_g, protein_g: d.nutrition_per_100g.protein_g }, fields: ['carbs_g', 'protein_g'], qualification: 'Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target.' });
     }

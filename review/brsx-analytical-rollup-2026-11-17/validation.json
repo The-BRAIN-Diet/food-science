@@ -1,0 +1,67 @@
+[
+  {
+    "name": "circadian independent scores/ranks",
+    "status": "PASS",
+    "evidence": "0 independently reconstructed food/view scores"
+  },
+  {
+    "name": "circadian pre-cap source extraction and exact observation trace",
+    "status": "PASS",
+    "evidence": "0 exact rows; no numerical food cap"
+  },
+  {
+    "name": "circadian source hashes and ownership isolation",
+    "status": "PASS",
+    "evidence": "Live hashes match; no cross-modulator or hypothesis rows; separate zero upstream view retained"
+  },
+  {
+    "name": "circadian inclusive cutoff, overlap, sodium and mixed-scope guards",
+    "status": "PASS",
+    "evidence": "Synthetic cutoff/tie/ownership/protein-group tests pass; incompatible pools unresolved"
+  },
+  {
+    "name": "ecs independent scores/ranks",
+    "status": "PASS",
+    "evidence": "18 independently reconstructed food/view scores"
+  },
+  {
+    "name": "ecs pre-cap source extraction and exact observation trace",
+    "status": "PASS",
+    "evidence": "15 exact rows; no numerical food cap"
+  },
+  {
+    "name": "ecs source hashes and ownership isolation",
+    "status": "PASS",
+    "evidence": "Live hashes match; no cross-modulator or hypothesis rows; separate zero upstream view retained"
+  },
+  {
+    "name": "ecs inclusive cutoff, overlap, sodium and mixed-scope guards",
+    "status": "PASS",
+    "evidence": "Synthetic cutoff/tie/ownership/protein-group tests pass; incompatible pools unresolved"
+  },
+  {
+    "name": "hormones independent scores/ranks",
+    "status": "PASS",
+    "evidence": "4 independently reconstructed food/view scores"
+  },
+  {
+    "name": "hormones pre-cap source extraction and exact observation trace",
+    "status": "PASS",
+    "evidence": "2 exact rows; no numerical food cap"
+  },
+  {
+    "name": "hormones source hashes and ownership isolation",
+    "status": "PASS",
+    "evidence": "Live hashes match; no cross-modulator or hypothesis rows; separate zero upstream view retained"
+  },
+  {
+    "name": "hormones inclusive cutoff, overlap, sodium and mixed-scope guards",
+    "status": "PASS",
+    "evidence": "Synthetic cutoff/tie/ownership/protein-group tests pass; incompatible pools unresolved"
+  },
+  {
+    "name": "BRS1–6 scores and all pinned files unchanged",
+    "status": "PASS",
+    "evidence": "768 prior food/view results; 515 pinned files unchanged, including vitamin K, manifest and snapshot"
+  }
+]

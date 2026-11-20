@@ -42642,41 +42642,14 @@
       "title": "Cytokine Network Modulation",
       "mission": "Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.",
       "page": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
-      "admitted_inputs": [
-        {
-          "atom_id": "BRS3-FM3-PM7::PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
-          "input": "DHA (Docosahexaenoic Acid)",
-          "substance_id": "dha-docosahexaenoic-acid",
-          "assessment": "versioned-assessment",
-          "food_count": 13
-        }
-      ],
-      "existing_dietary_yes": [
-        "PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID"
-      ],
-      "canonical_inputs": [
-        {
-          "atom_id": "PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
-          "input": "DHA (Docosahexaenoic Acid)",
-          "dietary_input": true,
-          "substance_id": "dha-docosahexaenoic-acid",
-          "role": "Defined oral DHA exposure attenuated selected post-exercise LPS-stimulated mononuclear-cell cytokine-production responses in the tested human context.",
-          "evidence": {
-            "finding_ids": [
-              "PM7-F2"
-            ],
-            "citation_keys": [
-              "capo_dha_cytokine_production_2016"
-            ]
-          },
-          "limitation": "Fifteen male soccer players, eight weeks, 1.16 g DHA/day in a matched beverage comparison. Ex-vivo stimulated production is not resting circulating signalling, receptor response or universal anti-inflammatory benefit. No effect from ordinary fish portions or brain/ADHD outcome is established; temperature and exercise responses differ."
-        }
-      ],
+      "admitted_inputs": [],
+      "existing_dietary_yes": [],
+      "canonical_inputs": [],
       "upstream_dependencies": [],
       "pathway_count": 0,
       "traceability_gaps": [],
       "unresolved": [],
-      "disposition": "admitted-food-targets-resolved"
+      "disposition": "canonical-record-review-required"
     },
     {
       "pm": "BRS3-FM3-PM8",

@@ -1,0 +1,182 @@
+[
+  {
+    "view": "PM-owned",
+    "food_id": "salmon-roe",
+    "rank": 1,
+    "percent_of_leader": 100.0,
+    "drop_to_next": 0.7382499999999999,
+    "cumulative_score_share_percent": 23.101763746917975,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "mackerel",
+    "rank": 2,
+    "percent_of_leader": 63.087500000000006,
+    "drop_to_next": 0.13887500000000008,
+    "cumulative_score_share_percent": 37.67608895075485,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "anchovies",
+    "rank": 3,
+    "percent_of_leader": 56.143750000000004,
+    "drop_to_next": 0.03212500000000018,
+    "cumulative_score_share_percent": 50.646285434415105,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "salmon",
+    "rank": 4,
+    "percent_of_leader": 54.537499999999994,
+    "drop_to_next": 0.09074999999999989,
+    "cumulative_score_share_percent": 63.24540983789049,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "oysters",
+    "rank": 5,
+    "percent_of_leader": 50.0,
+    "drop_to_next": 0.12587499999999996,
+    "cumulative_score_share_percent": 74.79629171134948,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "herring",
+    "rank": 6,
+    "percent_of_leader": 43.706250000000004,
+    "drop_to_next": 0.32400000000000007,
+    "cumulative_score_share_percent": 84.89320632898684,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "sardines",
+    "rank": 7,
+    "percent_of_leader": 27.506249999999998,
+    "drop_to_next": 0.10512499999999997,
+    "cumulative_score_share_percent": 91.24763521962346,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "tuna",
+    "rank": 8,
+    "percent_of_leader": 22.25,
+    "drop_to_next": 0.13227735368956745,
+    "cumulative_score_share_percent": 96.38777765331271,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "wheat-germ",
+    "rank": 9,
+    "percent_of_leader": 15.636132315521628,
+    "drop_to_next": null,
+    "cumulative_score_share_percent": 100.0,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "combined",
+    "food_id": "salmon-roe",
+    "rank": 1,
+    "percent_of_leader": 100.0,
+    "drop_to_next": 0.7382499999999999,
+    "cumulative_score_share_percent": 23.101763746917975,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "combined",
+    "food_id": "mackerel",
+    "rank": 2,
+    "percent_of_leader": 63.087500000000006,
+    "drop_to_next": 0.13887500000000008,
+    "cumulative_score_share_percent": 37.67608895075485,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "combined",
+    "food_id": "anchovies",
+    "rank": 3,
+    "percent_of_leader": 56.143750000000004,
+    "drop_to_next": 0.03212500000000018,
+    "cumulative_score_share_percent": 50.646285434415105,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "combined",
+    "food_id": "salmon",
+    "rank": 4,
+    "percent_of_leader": 54.537499999999994,
+    "drop_to_next": 0.09074999999999989,
+    "cumulative_score_share_percent": 63.24540983789049,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 2
+  },
+  {
+    "view": "combined",
+    "food_id": "oysters",
+    "rank": 5,
+    "percent_of_leader": 50.0,
+    "drop_to_next": 0.12587499999999996,
+    "cumulative_score_share_percent": 74.79629171134948,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "combined",
+    "food_id": "herring",
+    "rank": 6,
+    "percent_of_leader": 43.706250000000004,
+    "drop_to_next": 0.32400000000000007,
+    "cumulative_score_share_percent": 84.89320632898684,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "combined",
+    "food_id": "sardines",
+    "rank": 7,
+    "percent_of_leader": 27.506249999999998,
+    "drop_to_next": 0.10512499999999997,
+    "cumulative_score_share_percent": 91.24763521962346,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "combined",
+    "food_id": "tuna",
+    "rank": 8,
+    "percent_of_leader": 22.25,
+    "drop_to_next": 0.13227735368956745,
+    "cumulative_score_share_percent": 96.38777765331271,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  },
+  {
+    "view": "combined",
+    "food_id": "wheat-germ",
+    "rank": 9,
+    "percent_of_leader": 15.636132315521628,
+    "drop_to_next": null,
+    "cumulative_score_share_percent": 100.0,
+    "cumulative_distinct_pms": 2,
+    "cumulative_inputs": 3
+  }
+]

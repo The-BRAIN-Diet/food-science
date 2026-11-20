@@ -1,0 +1,3130 @@
+[
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "salmon-roe",
+    "food_name": "Salmon Roe",
+    "rsp": 100,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+    "preparation": "salted",
+    "amount": 2000,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "salmon-roe::dha-docosahexaenoic-acid::chum salmon oncorhynchus keta salted roe ikura::salted",
+    "source_record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/salmon-roe.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+        "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+        "basis": "per 100 g edible portion",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+        "source_reference": "#food-source-8",
+        "last_checked": "2026-10-12"
+      },
+      "value": 2000,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+      "source_reference": "#food-source-8",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": "salted",
+      "record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::salted",
+      "low": 2000,
+      "high": 2000,
+      "display": "2000 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/salmon-roe.md#substance_relationships/DHA",
+        "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
+        "source_reference": "#food-source-8",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "mackerel",
+    "food_name": "Mackerel",
+    "rsp": 70.05,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, mackerel, Atlantic, raw",
+    "preparation": "raw",
+    "amount": 1401,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "mackerel::dha-docosahexaenoic-acid::fish mackerel atlantic raw::raw",
+    "source_record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/mackerel.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, mackerel, Atlantic, raw",
+        "fdc_id": 175119,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 1401,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, mackerel, Atlantic, raw",
+      "preparation": "raw",
+      "record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/mackerel.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 1401,
+      "high": 1401,
+      "display": "1401 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/mackerel.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+        "source_reference": "#food-source-5",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.7005
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.7005
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "anchovies",
+    "food_name": "Anchovies",
+    "rsp": 64.60000000000001,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, anchovy, european, canned in oil, drained solids",
+    "preparation": "canned",
+    "amount": 1292,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "anchovies::dha-docosahexaenoic-acid::fish anchovy european canned in oil drained solids::canned",
+    "source_record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/anchovies.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+        "fdc_id": 174183,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-09-04"
+      },
+      "value": 1292,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, anchovy, european, canned in oil, drained solids",
+      "preparation": "canned",
+      "record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/anchovies.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::canned",
+      "low": 1292,
+      "high": 1292,
+      "display": "1292 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/anchovies.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.6460000000000001
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.6460000000000001
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "salmon",
+    "food_name": "Salmon",
+    "rsp": 55.2,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, salmon, Atlantic, farmed, raw",
+    "preparation": "raw",
+    "amount": 1104,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "salmon::dha-docosahexaenoic-acid::fish salmon atlantic farmed raw::raw",
+    "source_record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/salmon.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, salmon, Atlantic, farmed, raw",
+        "fdc_id": 175167,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 1104,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, salmon, Atlantic, farmed, raw",
+      "preparation": "raw",
+      "record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/salmon.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 1104,
+      "high": 1104,
+      "display": "1104 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/salmon.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+        "source_reference": "#food-source-4",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.552
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.552
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "tuna",
+    "food_name": "Tuna",
+    "rsp": 44.5,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, tuna, fresh, bluefin, raw",
+    "preparation": "raw",
+    "amount": 890,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "tuna::dha-docosahexaenoic-acid::fish tuna fresh bluefin raw::raw",
+    "source_record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/tuna.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, tuna, fresh, bluefin, raw",
+        "fdc_id": 173706,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 890,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, tuna, fresh, bluefin, raw",
+      "preparation": "raw",
+      "record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/tuna.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 890,
+      "high": 890,
+      "display": "890 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/tuna.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+        "source_reference": "#food-source-3",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.445
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.445
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/herring.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "herring",
+    "food_name": "Herring",
+    "rsp": 43.1,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, herring, Atlantic, raw",
+    "preparation": "raw",
+    "amount": 862,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "herring::dha-docosahexaenoic-acid::fish herring atlantic raw::raw",
+    "source_record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/herring.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, herring, Atlantic, raw",
+        "fdc_id": 175116,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 862,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, herring, Atlantic, raw",
+      "preparation": "raw",
+      "record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/herring.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 862,
+      "high": 862,
+      "display": "862 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/herring.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.431
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.431
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM4-PM8::PM8-DIT-12|docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM4-PM8",
+    "relationship_id": "BRS6-FM4-PM8::PM8-DIT-12",
+    "admission_basis": "explicit assessment",
+    "accounting": "A",
+    "substance_id": "dha-docosahexaenoic-acid",
+    "food_id": "sardines",
+    "food_name": "Sardines",
+    "rsp": 25.45,
+    "comparison_group": "edible-mass|dha-docosahexaenoic-acid|per 100 g edible portion",
+    "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "preparation": "canned",
+    "amount": 509,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::canned",
+    "source_record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+    "food_record": "docs/foods/sardines.md",
+    "publication_status": "listed-publication-pin-pending",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+        "fdc_id": 175139,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 509,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "preparation": "canned",
+      "record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+      "source_record": "docs/foods/sardines.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::canned",
+      "low": 509,
+      "high": 509,
+      "display": "509 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sardines.md#substance_relationships/DHA",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+        "source_reference": "#food-source-5",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.2545
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "dha-docosahexaenoic-acid",
+        "winner": true,
+        "points": 0.2545
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "pumpkin-seeds",
+    "food_name": "Pumpkin Seeds",
+    "rsp": 100,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seeds, pumpkin and squash seed kernels, dried",
+    "preparation": "dried",
+    "amount": 592,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "pumpkin-seeds::magnesium::seeds pumpkin and squash seed kernels dried::dried",
+    "source_record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/pumpkin-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, pumpkin and squash seed kernels, dried",
+        "fdc_id": 170556,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 592,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, pumpkin and squash seed kernels, dried",
+      "preparation": "dried",
+      "record": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/pumpkin-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/pumpkin-seeds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 592,
+      "high": 592,
+      "display": "592 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Seeds, pumpkin and squash seed kernels, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 1
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 1
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "cocoa",
+    "food_name": "Cocoa",
+    "rsp": 84.29054054054053,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Cocoa, dry powder, unsweetened",
+    "preparation": "dry powder",
+    "amount": 499,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "cocoa::magnesium::cocoa dry powder unsweetened::dry powder",
+    "source_record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/cocoa.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Cocoa, dry powder, unsweetened",
+        "fdc_id": 169593,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "material_limitations": "USDA reference panel for unsweetened cocoa powder. Does not establish a specifically Dutch-processed product or minimally processed cacao composition. Copied cacao-powder panel is not an independent observation.",
+      "source_note": "USDA reference panel for unsweetened cocoa powder. Does not establish a specifically Dutch-processed product or minimally processed cacao composition. Copied cacao-powder panel is not an independent observation.",
+      "value": 499,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Cocoa, dry powder, unsweetened",
+      "preparation": "dry powder",
+      "record": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/cocoa.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/cocoa.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dry powder",
+      "low": 499,
+      "high": 499,
+      "display": "499 mg",
+      "shared_reference": {
+        "source_panel": "USDA FoodData Central|169593|Cocoa, dry powder, unsweetened|per 100 g edible portion",
+        "source_description": "Cocoa, dry powder, unsweetened",
+        "representative_food_id": "cocoa",
+        "status": "source-description-match",
+        "qualification": "USDA reference panel for unsweetened cocoa powder. Does not establish a specifically Dutch-processed product or minimally processed cacao composition. Copied cacao-powder panel is not an independent observation."
+      }
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/cocoa.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+        "source_reference": "#food-source-8",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Cocoa, dry powder, unsweetened."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.8429054054054054
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.8429054054054054
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/sage.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "sage",
+    "food_name": "Sage",
+    "rsp": 72.2972972972973,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, sage, ground",
+    "preparation": null,
+    "amount": 428,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "sage::magnesium::spices sage ground::unspecified",
+    "source_record": "docs/foods/sage.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/sage.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, sage, ground",
+        "fdc_id": 170935,
+        "retrieval_method": "API",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-03-14"
+      },
+      "value": 428,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, sage, ground",
+      "preparation": null,
+      "record": "docs/foods/sage.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/sage.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sage.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 428,
+      "high": 428,
+      "display": "428 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.722972972972973
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.722972972972973
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "flax-seeds",
+    "food_name": "Flax Seeds",
+    "rsp": 66.21621621621621,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seeds, flaxseed",
+    "preparation": null,
+    "amount": 392,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "flax-seeds::magnesium::seeds flaxseed::unspecified",
+    "source_record": "docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/flax-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, flaxseed",
+        "fdc_id": 169414,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-003."
+      },
+      "value": 392,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, flaxseed",
+      "preparation": null,
+      "record": "docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/flax-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/flax-seeds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 392,
+      "high": 392,
+      "display": "392 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/flax-seeds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Seeds, flaxseed."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.6621621621621621
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.6621621621621621
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "brazil-nuts",
+    "food_name": "Brazil Nuts",
+    "rsp": 63.51351351351351,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Nuts, brazilnuts, dried, unblanched",
+    "preparation": "dried",
+    "amount": 376,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "brazil-nuts::magnesium::nuts brazilnuts dried unblanched::dried",
+    "source_record": "docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/brazil-nuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, brazilnuts, dried, unblanched",
+        "fdc_id": 170569,
+        "retrieval_method": "SR Legacy",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-11-12"
+      },
+      "value": 376,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, brazilnuts, dried, unblanched",
+      "preparation": "dried",
+      "record": "docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/brazil-nuts.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/brazil-nuts.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 376,
+      "high": 376,
+      "display": "376 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.6351351351351351
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.6351351351351351
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "sesame-seeds",
+    "food_name": "Sesame Seeds",
+    "rsp": 59.29054054054054,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seeds, sesame seeds, whole, dried",
+    "preparation": "dried",
+    "amount": 351,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "sesame-seeds::magnesium::seeds sesame seeds whole dried::dried",
+    "source_record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/sesame-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, sesame seeds, whole, dried",
+        "fdc_id": 170150,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-09-05"
+      },
+      "value": 351,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, sesame seeds, whole, dried",
+      "preparation": "dried",
+      "record": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/sesame-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sesame-seeds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 351,
+      "high": 351,
+      "display": "351 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sesame-seeds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+        "source_reference": "#food-source-12",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Seeds, sesame seeds, whole, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5929054054054054
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5929054054054054
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "chia-seeds",
+    "food_name": "Chia Seeds",
+    "rsp": 56.58783783783784,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seeds, chia seeds, dried",
+    "preparation": "dried",
+    "amount": 335,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "chia-seeds::magnesium::seeds chia seeds dried::dried",
+    "source_record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/chia-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, chia seeds, dried",
+        "fdc_id": 170554,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 335,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, chia seeds, dried",
+      "preparation": "dried",
+      "record": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/chia-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/chia-seeds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 335,
+      "high": 335,
+      "display": "335 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/chia-seeds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Seeds, chia seeds, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5658783783783784
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5658783783783784
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "sunflower-seeds",
+    "food_name": "Sunflower Seeds",
+    "rsp": 54.89864864864865,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seeds, sunflower seed kernels, dried",
+    "preparation": "dried",
+    "amount": 325,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "sunflower-seeds::magnesium::seeds sunflower seed kernels dried::dried",
+    "source_record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/sunflower-seeds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seeds, sunflower seed kernels, dried",
+        "fdc_id": 170562,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 325,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seeds, sunflower seed kernels, dried",
+      "preparation": "dried",
+      "record": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/sunflower-seeds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/sunflower-seeds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 325,
+      "high": 325,
+      "display": "325 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/sunflower-seeds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Seeds, sunflower seed kernels, dried."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5489864864864865
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.5489864864864865
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/cashews.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "cashews",
+    "food_name": "Cashews",
+    "rsp": 49.32432432432432,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Nuts, cashew nuts, raw",
+    "preparation": "raw",
+    "amount": 292,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "cashews::magnesium::nuts cashew nuts raw::raw",
+    "source_record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/cashews.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, cashew nuts, raw",
+        "fdc_id": 170162,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 292,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, cashew nuts, raw",
+      "preparation": "raw",
+      "record": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/cashews.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/cashews.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 292,
+      "high": 292,
+      "display": "292 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/cashews.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Nuts, cashew nuts, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.4932432432432432
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.4932432432432432
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/soy.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "soy",
+    "food_name": "Mature soybeans",
+    "rsp": 47.2972972972973,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Soybeans, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 280,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "soy::magnesium::soybeans mature seeds raw::raw",
+    "source_record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/soy.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Soybeans, mature seeds, raw",
+        "fdc_id": 174270,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-007."
+      },
+      "value": 280,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Soybeans, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/soy.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/soy.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 280,
+      "high": 280,
+      "display": "280 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.47297297297297297
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.47297297297297297
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/almonds.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "almonds",
+    "food_name": "Almonds",
+    "rsp": 45.608108108108105,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Nuts, almonds",
+    "preparation": null,
+    "amount": 270,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "almonds::magnesium::nuts almonds::unspecified",
+    "source_record": "docs/foods/almonds.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/almonds.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, almonds",
+        "fdc_id": 170567,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 270,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, almonds",
+      "preparation": null,
+      "record": "docs/foods/almonds.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/almonds.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/almonds.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 270,
+      "high": 270,
+      "display": "270 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/almonds.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Nuts, almonds."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.45608108108108103
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.45608108108108103
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/oregano.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "oregano",
+    "food_name": "Oregano",
+    "rsp": 45.608108108108105,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, oregano, dried",
+    "preparation": "dried",
+    "amount": 270,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "oregano::magnesium::spices oregano dried::dried",
+    "source_record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/oregano.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, oregano, dried",
+        "fdc_id": 171328,
+        "retrieval_method": "API",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-03-14"
+      },
+      "value": 270,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, oregano, dried",
+      "preparation": "dried",
+      "record": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/oregano.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/oregano.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 270,
+      "high": 270,
+      "display": "270 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.45608108108108103
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.45608108108108103
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/saffron.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "saffron",
+    "food_name": "Saffron",
+    "rsp": 44.5945945945946,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, saffron",
+    "preparation": null,
+    "amount": 264,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "saffron::magnesium::spices saffron::unspecified",
+    "source_record": "docs/foods/saffron.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/saffron.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, saffron",
+        "fdc_id": 170934,
+        "retrieval_method": "API",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-03-14"
+      },
+      "value": 264,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, saffron",
+      "preparation": null,
+      "record": "docs/foods/saffron.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/saffron.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/saffron.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 264,
+      "high": 264,
+      "display": "264 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.44594594594594594
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.44594594594594594
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/cloves.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "cloves",
+    "food_name": "Cloves",
+    "rsp": 43.75,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, cloves, ground",
+    "preparation": null,
+    "amount": 259,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "cloves::magnesium::spices cloves ground::unspecified",
+    "source_record": "docs/foods/cloves.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/cloves.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, cloves, ground",
+        "fdc_id": 171321,
+        "retrieval_method": "SR Legacy",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-11-12"
+      },
+      "value": 259,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, cloves, ground",
+      "preparation": null,
+      "record": "docs/foods/cloves.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/cloves.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/cloves.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 259,
+      "high": 259,
+      "display": "259 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.4375
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.4375
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "amaranth",
+    "food_name": "Amaranth",
+    "rsp": 41.891891891891895,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Amaranth grain, uncooked",
+    "preparation": "uncooked",
+    "amount": 248,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "amaranth::magnesium::amaranth grain uncooked::uncooked",
+    "source_record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/amaranth.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Amaranth grain, uncooked",
+        "fdc_id": 170682,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-16"
+      },
+      "value": 248,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Amaranth grain, uncooked",
+      "preparation": "uncooked",
+      "record": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/amaranth.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/amaranth.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::uncooked",
+      "low": 248,
+      "high": 248,
+      "display": "248 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/amaranth.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170682/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Amaranth grain, uncooked."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.41891891891891897
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.41891891891891897
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/wheat-germ.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "wheat-germ",
+    "food_name": "Wheat Germ",
+    "rsp": 40.37162162162162,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Wheat germ, crude",
+    "preparation": null,
+    "amount": 239,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "wheat-germ::magnesium::wheat germ crude::unspecified",
+    "source_record": "docs/foods/wheat-germ.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/wheat-germ.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Wheat germ, crude",
+        "fdc_id": 168892,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 239,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Wheat germ, crude",
+      "preparation": null,
+      "record": "docs/foods/wheat-germ.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/wheat-germ.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/wheat-germ.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 239,
+      "high": 239,
+      "display": "239 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.40371621621621623
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.40371621621621623
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/buckwheat.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "buckwheat",
+    "food_name": "Buckwheat",
+    "rsp": 39.02027027027027,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Buckwheat",
+    "preparation": null,
+    "amount": 231,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "buckwheat::magnesium::buckwheat::unspecified",
+    "source_record": "docs/foods/buckwheat.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/buckwheat.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Buckwheat",
+        "fdc_id": 170286,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 231,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Buckwheat",
+      "preparation": null,
+      "record": "docs/foods/buckwheat.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/buckwheat.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/buckwheat.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 231,
+      "high": 231,
+      "display": "231 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/buckwheat.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170286/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Buckwheat."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3902027027027027
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3902027027027027
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/dark-chocolate.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "dark-chocolate",
+    "food_name": "Dark Chocolate",
+    "rsp": 38.513513513513516,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Chocolate, dark, 70-85% cacao solids",
+    "preparation": null,
+    "amount": 228,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "dark-chocolate::magnesium::chocolate dark 70 85 cacao solids::unspecified",
+    "source_record": "docs/foods/dark-chocolate.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/dark-chocolate.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Chocolate, dark, 70-85% cacao solids",
+        "fdc_id": 170273,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 228,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Chocolate, dark, 70-85% cacao solids",
+      "preparation": null,
+      "record": "docs/foods/dark-chocolate.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/dark-chocolate.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/dark-chocolate.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 228,
+      "high": 228,
+      "display": "228 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/dark-chocolate.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
+        "source_reference": "#food-source-6",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Chocolate, dark, 70-85% cacao solids."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.38513513513513514
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.38513513513513514
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/thyme.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "thyme",
+    "food_name": "Thyme",
+    "rsp": 37.16216216216216,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, thyme, dried",
+    "preparation": "dried",
+    "amount": 220,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "thyme::magnesium::spices thyme dried::dried",
+    "source_record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/thyme.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, thyme, dried",
+        "fdc_id": 170938,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 220,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, thyme, dried",
+      "preparation": "dried",
+      "record": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/thyme.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/thyme.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 220,
+      "high": 220,
+      "display": "220 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3716216216216216
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3716216216216216
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/turmeric.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "turmeric",
+    "food_name": "Turmeric",
+    "rsp": 35.13513513513514,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, turmeric, ground",
+    "preparation": null,
+    "amount": 208,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "turmeric::magnesium::spices turmeric ground::unspecified",
+    "source_record": "docs/foods/turmeric.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/turmeric.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, turmeric, ground",
+        "fdc_id": 172231,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 208,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, turmeric, ground",
+      "preparation": null,
+      "record": "docs/foods/turmeric.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/turmeric.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/turmeric.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 208,
+      "high": 208,
+      "display": "208 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.35135135135135137
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.35135135135135137
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/lupins.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "lupins",
+    "food_name": "Lupins",
+    "rsp": 33.44594594594595,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Lupins, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 198,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "lupins::magnesium::lupins mature seeds raw::raw",
+    "source_record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/lupins.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Lupins, mature seeds, raw",
+        "fdc_id": 172423,
+        "retrieval_method": "API",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-03-14",
+        "provenance_records": [
+          {
+            "database": "USDA FoodData Central",
+            "food_name": "Lupins, mature seeds, raw",
+            "fdc_id": 172423,
+            "retrieval_method": "API",
+            "basis": "per 100 g edible portion",
+            "last_checked": "2026-03-14"
+          },
+          {
+            "database": "USDA FoodData Central",
+            "food_name": "Lupins, mature seeds, raw",
+            "fdc_id": 172423,
+            "retrieval_method": "SR Legacy bulk (April 2018)",
+            "basis": "per 100 g edible portion",
+            "last_checked": "2026-08-15"
+          }
+        ]
+      },
+      "value": 198,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Lupins, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/lupins.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/lupins.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 198,
+      "high": 198,
+      "display": "198 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/lupins.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Lupins, mature seeds, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3344594594594595
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3344594594594595
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/quinoa.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "quinoa",
+    "food_name": "Quinoa",
+    "rsp": 33.27702702702703,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Quinoa, uncooked",
+    "preparation": "uncooked",
+    "amount": 197,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "quinoa::magnesium::quinoa uncooked::uncooked",
+    "source_record": "docs/foods/quinoa.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/quinoa.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Quinoa, uncooked",
+        "fdc_id": 168874,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 197,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Quinoa, uncooked",
+      "preparation": "uncooked",
+      "record": "docs/foods/quinoa.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/quinoa.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/quinoa.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::uncooked",
+      "low": 197,
+      "high": 197,
+      "display": "197 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/quinoa.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Quinoa, uncooked."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.33277027027027034
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.33277027027027034
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/spirulina.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "spirulina",
+    "food_name": "Spirulina",
+    "rsp": 32.939189189189186,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Seaweed, spirulina, dried",
+    "preparation": "dried",
+    "amount": 195,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "spirulina::magnesium::seaweed spirulina dried::dried",
+    "source_record": "docs/foods/spirulina.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/spirulina.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Seaweed, spirulina, dried",
+        "fdc_id": 170495,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is not published as ALA. See FCIR-019."
+      },
+      "value": 195,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Seaweed, spirulina, dried",
+      "preparation": "dried",
+      "record": "docs/foods/spirulina.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/spirulina.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/spirulina.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::dried",
+      "low": 195,
+      "high": 195,
+      "display": "195 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3293918918918919
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.3293918918918919
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/oats.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "oats",
+    "food_name": "Oats",
+    "rsp": 29.898648648648653,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+    "preparation": null,
+    "amount": 177,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "oats::magnesium::oats includes foods for usdas food distribution program::unspecified",
+    "source_record": "docs/foods/oats.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/oats.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Oats (Includes foods for USDA's Food Distribution Program)",
+        "fdc_id": 169705,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 177,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "preparation": null,
+      "record": "docs/foods/oats.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/oats.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/oats.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 177,
+      "high": 177,
+      "display": "177 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/oats.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Oats (Includes foods for USDA's Food Distribution Program)."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.2989864864864865
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.2989864864864865
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/black-beans.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "black-beans",
+    "food_name": "Black Beans",
+    "rsp": 28.885135135135137,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Beans, black, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 171,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "black-beans::magnesium::beans black mature seeds raw::raw",
+    "source_record": "docs/foods/black-beans.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/black-beans.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Beans, black, mature seeds, raw",
+        "fdc_id": 173734,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 171,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Beans, black, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/black-beans.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/black-beans.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/black-beans.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 171,
+      "high": 171,
+      "display": "171 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/black-beans.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Beans, black, mature seeds, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28885135135135137
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28885135135135137
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "black-pepper",
+    "food_name": "Black Pepper",
+    "rsp": 28.885135135135137,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spices, pepper, black",
+    "preparation": null,
+    "amount": 171,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "black-pepper::magnesium::spices pepper black::unspecified",
+    "source_record": "docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/black-pepper.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spices, pepper, black",
+        "fdc_id": 170931,
+        "retrieval_method": "API",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-03-25"
+      },
+      "value": 171,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spices, pepper, black",
+      "preparation": null,
+      "record": "docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/black-pepper.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/black-pepper.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 171,
+      "high": 171,
+      "display": "171 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28885135135135137
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28885135135135137
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/peanuts.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "peanuts",
+    "food_name": "Peanuts",
+    "rsp": 28.37837837837838,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Peanuts, all types, raw",
+    "preparation": "raw",
+    "amount": 168,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "peanuts::magnesium::peanuts all types raw::raw",
+    "source_record": "docs/foods/peanuts.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/peanuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Peanuts, all types, raw",
+        "fdc_id": 172430,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 168,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Peanuts, all types, raw",
+      "preparation": "raw",
+      "record": "docs/foods/peanuts.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/peanuts.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/peanuts.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 168,
+      "high": 168,
+      "display": "168 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/peanuts.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Peanuts, all types, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28378378378378377
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.28378378378378377
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/walnuts.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "walnuts",
+    "food_name": "Walnuts",
+    "rsp": 26.68918918918919,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Nuts, walnuts, english",
+    "preparation": null,
+    "amount": 158,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "walnuts::magnesium::nuts walnuts english::unspecified",
+    "source_record": "docs/foods/walnuts.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/walnuts.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, walnuts, english",
+        "fdc_id": 170187,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15",
+        "limitations": "Unqualified 18:3 on this record is documented in FCIR-004."
+      },
+      "value": 158,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, walnuts, english",
+      "preparation": null,
+      "record": "docs/foods/walnuts.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/walnuts.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/walnuts.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 158,
+      "high": 158,
+      "display": "158 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/walnuts.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Nuts, walnuts, english."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.2668918918918919
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.2668918918918919
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/kidney-beans.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "kidney-beans",
+    "food_name": "Kidney Beans",
+    "rsp": 23.64864864864865,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Beans, kidney, all types, mature seeds, raw",
+    "preparation": "raw",
+    "amount": 140,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "kidney-beans::magnesium::beans kidney all types mature seeds raw::raw",
+    "source_record": "docs/foods/kidney-beans.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/kidney-beans.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Beans, kidney, all types, mature seeds, raw",
+        "fdc_id": 175193,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 140,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Beans, kidney, all types, mature seeds, raw",
+      "preparation": "raw",
+      "record": "docs/foods/kidney-beans.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/kidney-beans.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/kidney-beans.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 140,
+      "high": 140,
+      "display": "140 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/kidney-beans.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/175193/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Beans, kidney, all types, mature seeds, raw."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.23648648648648649
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.23648648648648649
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/spelt.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "spelt",
+    "food_name": "Spelt",
+    "rsp": 22.972972972972975,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Spelt, uncooked",
+    "preparation": "uncooked",
+    "amount": 136,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "spelt::magnesium::spelt uncooked::uncooked",
+    "source_record": "docs/foods/spelt.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/spelt.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Spelt, uncooked",
+        "fdc_id": 169745,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 136,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Spelt, uncooked",
+      "preparation": "uncooked",
+      "record": "docs/foods/spelt.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/spelt.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/spelt.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::uncooked",
+      "low": 136,
+      "high": 136,
+      "display": "136 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.22972972972972974
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.22972972972972974
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/barley.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "barley",
+    "food_name": "Barley",
+    "rsp": 22.466216216216218,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Barley, hulled",
+    "preparation": null,
+    "amount": 133,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "barley::magnesium::barley hulled::unspecified",
+    "source_record": "docs/foods/barley.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/barley.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Barley, hulled",
+        "fdc_id": 170283,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 133,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Barley, hulled",
+      "preparation": null,
+      "record": "docs/foods/barley.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/barley.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/barley.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 133,
+      "high": 133,
+      "display": "133 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/barley.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170283/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Barley, hulled."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.22466216216216217
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.22466216216216217
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/wheat.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "wheat",
+    "food_name": "Wheat",
+    "rsp": 21.283783783783782,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Wheat, hard red winter",
+    "preparation": null,
+    "amount": 126,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "wheat::magnesium::wheat hard red winter::unspecified",
+    "source_record": "docs/foods/wheat.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/wheat.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Wheat, hard red winter",
+        "fdc_id": 168890,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 126,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Wheat, hard red winter",
+      "preparation": null,
+      "record": "docs/foods/wheat.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/wheat.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/wheat.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::unspecified",
+      "low": 126,
+      "high": 126,
+      "display": "126 mg"
+    },
+    "source_evidence": [
+      {
+        "record": "docs/foods/wheat.md#substance_relationships/Magnesium",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports magnesium in Wheat, hard red winter."
+      }
+    ],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.21283783783783783
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.21283783783783783
+      }
+    }
+  },
+  {
+    "row_id": "BRS6-FM1-PM3::PM3-DIT-1|docs/foods/pistachios.md#nutrition_per_100g/magnesium_mg",
+    "brs": "BRS6",
+    "pm_id": "BRS6-FM1-PM3",
+    "relationship_id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "admission_basis": "valid preserved historical fingerprint",
+    "accounting": "A",
+    "substance_id": "magnesium",
+    "food_id": "pistachios",
+    "food_name": "Pistachios",
+    "rsp": 20.43918918918919,
+    "comparison_group": "edible-mass|magnesium|per 100 g edible portion",
+    "material": "Nuts, pistachio nuts, raw",
+    "preparation": "raw",
+    "amount": 121,
+    "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "source_id": "pistachios::magnesium::nuts pistachio nuts raw::raw",
+    "source_record": "docs/foods/pistachios.md#nutrition_per_100g/magnesium_mg",
+    "food_record": "docs/foods/pistachios.md",
+    "publication_status": "pin-matched",
+    "observation": {
+      "nutrition_source": {
+        "database": "USDA FoodData Central",
+        "food_name": "Nuts, pistachio nuts, raw",
+        "fdc_id": 170184,
+        "retrieval_method": "SR Legacy bulk (April 2018)",
+        "basis": "per 100 g edible portion",
+        "last_checked": "2026-08-15"
+      },
+      "value": 121,
+      "unit": "mg",
+      "basis": "per 100 g edible portion",
+      "source_url": null,
+      "source_reference": null,
+      "material": "Nuts, pistachio nuts, raw",
+      "preparation": "raw",
+      "record": "docs/foods/pistachios.md#nutrition_per_100g/magnesium_mg",
+      "source_record": "docs/foods/pistachios.md#nutrition_source",
+      "verified": true,
+      "id": "docs/foods/pistachios.md#nutrition_per_100g/magnesium_mg",
+      "rank_eligible": true,
+      "comparison_group": "edible::raw",
+      "low": 121,
+      "high": 121,
+      "display": "121 mg"
+    },
+    "source_evidence": [],
+    "analytically_excluded": false,
+    "views": {
+      "PM-owned": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.20439189189189189
+      },
+      "upstream-shared": {
+        "included": false,
+        "group": null,
+        "winner": false,
+        "points": null
+      },
+      "combined": {
+        "included": true,
+        "group": "magnesium",
+        "winner": true,
+        "points": 0.20439189189189189
+      }
+    }
+  }
+]

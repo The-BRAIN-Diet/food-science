@@ -1,0 +1,144 @@
+{
+  "started": "2026-11-16",
+  "completed": "2026-11-17",
+  "branch": "review/pm8-caffeine-neuroeshot-2026-11-16",
+  "commit": "d67c181ff6ebec80873e4da581af759e8e98199c",
+  "source_corrections": [
+    {
+      "file": "docs/foods/anchovies.md",
+      "additions": [
+        "arginine_usda_brs4_174183"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/beef.md",
+      "additions": [
+        "arginine_usda_brs4_171796"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/chicken.md",
+      "additions": [
+        "arginine_usda_brs4_171447"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/chicken-liver.md",
+      "additions": [
+        "arginine_usda_brs4_171060"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/cod.md",
+      "additions": [
+        "arginine_usda_brs4_171955"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/herring.md",
+      "additions": [
+        "arginine_usda_brs4_175116"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/lamb.md",
+      "additions": [
+        "arginine_usda_brs4_174370"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/liver.md",
+      "additions": [
+        "arginine_usda_brs4_169451"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/mackerel.md",
+      "additions": [
+        "arginine_usda_brs4_175119"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/pork.md",
+      "additions": [
+        "arginine_usda_brs4_167818"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/salmon.md",
+      "additions": [
+        "arginine_usda_brs4_175167"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/sardines.md",
+      "additions": [
+        "arginine_usda_brs4_175139"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/tuna.md",
+      "additions": [
+        "arginine_usda_brs4_173706"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/turkey.md",
+      "additions": [
+        "arginine_usda_brs4_171480"
+      ],
+      "publication": "pending"
+    },
+    {
+      "file": "docs/foods/egg-yolks.md",
+      "additions": [
+        "arginine_usda_brs4_172184"
+      ],
+      "publication": "pending"
+    }
+  ],
+  "analysis_helpers": [
+    "review/analytical-rollup/score.mjs: add BRS4 to permitted scopes; equations unchanged",
+    "scripts/lib/input-substance-food.mjs: allow composition-only BRS4 analysis; default behavior unchanged"
+  ],
+  "artifacts": [
+    "review/brs4-analytical-rollup-2026-11-16/analysis.json",
+    "review/brs4-analytical-rollup-2026-11-16/before-corrections-analysis.json",
+    "review/brs4-analytical-rollup-2026-11-16/comparisons.json",
+    "review/brs4-analytical-rollup-2026-11-16/completeness.json",
+    "review/brs4-analytical-rollup-2026-11-16/components.json",
+    "review/brs4-analytical-rollup-2026-11-16/composition-identities.json",
+    "review/brs4-analytical-rollup-2026-11-16/config.v1.json",
+    "review/brs4-analytical-rollup-2026-11-16/intake-foods.json",
+    "review/brs4-analytical-rollup-2026-11-16/intake-map.json",
+    "review/brs4-analytical-rollup-2026-11-16/intake.json",
+    "review/brs4-analytical-rollup-2026-11-16/power-comparison.json",
+    "review/brs4-analytical-rollup-2026-11-16/publication-tests.txt",
+    "review/brs4-analytical-rollup-2026-11-16/report.md",
+    "review/brs4-analytical-rollup-2026-11-16/report.mjs",
+    "review/brs4-analytical-rollup-2026-11-16/run.mjs",
+    "review/brs4-analytical-rollup-2026-11-16/source-corrections.json",
+    "review/brs4-analytical-rollup-2026-11-16/usda-exact-source-extract.json",
+    "review/brs4-analytical-rollup-2026-11-16/validate.mjs",
+    "review/brs4-analytical-rollup-2026-11-16/validation.json"
+  ],
+  "documentation_appends": [
+    "CURRENT-HANDOFF.md",
+    "review/meat-fish-amino-acid-reference-2026-11-16/holding-page.md"
+  ],
+  "preserved": "BRS1–3 artifacts and existing food values/profiles/prose, PM admissions, frozen manifest/snapshot and QC suspension",
+  "working_tree": " M CURRENT-HANDOFF.md\n M docs/foods/anchovies.md\n M docs/foods/beef.md\n M docs/foods/chicken-liver.md\n M docs/foods/chicken.md\n M docs/foods/cod.md\n M docs/foods/egg-yolks.md\n M docs/foods/herring.md\n M docs/foods/lamb.md\n M docs/foods/liver.md\n M docs/foods/mackerel.md\n M docs/foods/pork.md\n M docs/foods/salmon.md\n M docs/foods/sardines.md\n M docs/foods/tuna.md\n M docs/foods/turkey.md\n M scripts/lib/input-substance-food.mjs\n M src/data/rankedFoodSources.mjs\n M src/lib/aggregateFoodComposition.mjs\n M src/lib/aminoAcidProfileSources.mjs\n?? review/analytical-rollup/\n?? review/brs1-analytical-rollup-2026-11-16/\n?? review/brs2-analytical-rollup-2026-11-16/\n?? review/brs3-analytical-rollup-2026-11-16/\n?? review/brs4-analytical-rollup-2026-11-16/\n?? review/meat-fish-amino-acid-reference-2026-11-16/\n"
+}

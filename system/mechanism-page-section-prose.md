@@ -76,11 +76,13 @@ PM-scope consequence and review Mission, Overview, and Mechanistic Basis togethe
 **Reference:** [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
 ```
-### Summary          → why this mechanism matters (implication first)
+### Summary          → why this mechanism matters (short prose, no SF index)
 #### (…)            → primary mechanism — how it works (one or more blocks)
 #### (Boundaries…)  → what this PM does not cover (downstream PMs, other domains)
 #### (Integration…) → KCs, FM placement, connected mechanisms
 ```
+
+Keep the Summary visible with inline citations where needed, followed by any existing lessons. Put the topic-based primary blocks, Boundaries and Integration inside one mechanism-detail dropdown. Place §4.1 Scientific Findings after the dropdown. Explain the biology here and keep individual study summaries in their Findings.
 
 **Write like a framework mechanism, not a review paper.** Explain why the mechanism matters and how it works; do not re-define the entity (that is §1). Do not open §4 with the mechanism name, `BRSn(PMx) describes…`, or scope boundaries.
 

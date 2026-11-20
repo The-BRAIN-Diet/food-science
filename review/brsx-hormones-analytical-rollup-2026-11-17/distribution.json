@@ -1,0 +1,42 @@
+[
+  {
+    "view": "PM-owned",
+    "food_id": "oysters",
+    "rank": 1,
+    "percent_of_leader": 100.0,
+    "drop_to_next": 0.6872773536895674,
+    "cumulative_score_share_percent": 76.17755378949408,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 1
+  },
+  {
+    "view": "PM-owned",
+    "food_id": "wheat-germ",
+    "rank": 2,
+    "percent_of_leader": 31.272264631043257,
+    "drop_to_next": null,
+    "cumulative_score_share_percent": 100.0,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 1
+  },
+  {
+    "view": "combined",
+    "food_id": "oysters",
+    "rank": 1,
+    "percent_of_leader": 100.0,
+    "drop_to_next": 0.6872773536895674,
+    "cumulative_score_share_percent": 76.17755378949408,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 1
+  },
+  {
+    "view": "combined",
+    "food_id": "wheat-germ",
+    "rank": 2,
+    "percent_of_leader": 31.272264631043257,
+    "drop_to_next": null,
+    "cumulative_score_share_percent": 100.0,
+    "cumulative_distinct_pms": 1,
+    "cumulative_inputs": 1
+  }
+]

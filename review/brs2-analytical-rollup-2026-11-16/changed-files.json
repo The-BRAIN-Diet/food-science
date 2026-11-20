@@ -1,0 +1,131 @@
+{
+  "source_corrections": [
+    {
+      "path": "docs/foods/anchovies.md",
+      "added_observations": [
+        "glycine_usda_brs2_174183",
+        "serine_usda_brs2_174183"
+      ]
+    },
+    {
+      "path": "docs/foods/beef.md",
+      "added_observations": [
+        "serine_usda_brs2_171796"
+      ]
+    },
+    {
+      "path": "docs/foods/chicken.md",
+      "added_observations": [
+        "serine_usda_brs2_171447"
+      ]
+    },
+    {
+      "path": "docs/foods/chicken-liver.md",
+      "added_observations": [
+        "glycine_usda_brs2_171060",
+        "serine_usda_brs2_171060"
+      ]
+    },
+    {
+      "path": "docs/foods/cod.md",
+      "added_observations": [
+        "glycine_usda_brs2_171955",
+        "serine_usda_brs2_171955"
+      ]
+    },
+    {
+      "path": "docs/foods/herring.md",
+      "added_observations": [
+        "glycine_usda_brs2_175116",
+        "serine_usda_brs2_175116"
+      ]
+    },
+    {
+      "path": "docs/foods/lamb.md",
+      "added_observations": [
+        "glycine_usda_brs2_174370",
+        "serine_usda_brs2_174370"
+      ]
+    },
+    {
+      "path": "docs/foods/liver.md",
+      "added_observations": [
+        "glycine_usda_brs2_169451",
+        "serine_usda_brs2_169451"
+      ]
+    },
+    {
+      "path": "docs/foods/mackerel.md",
+      "added_observations": [
+        "glycine_usda_brs2_175119",
+        "serine_usda_brs2_175119"
+      ]
+    },
+    {
+      "path": "docs/foods/pork.md",
+      "added_observations": [
+        "glycine_usda_brs2_167818",
+        "serine_usda_brs2_167818"
+      ]
+    },
+    {
+      "path": "docs/foods/salmon.md",
+      "added_observations": [
+        "serine_usda_brs2_175167"
+      ]
+    },
+    {
+      "path": "docs/foods/sardines.md",
+      "added_observations": [
+        "glycine_usda_brs2_175139",
+        "serine_usda_brs2_175139"
+      ]
+    },
+    {
+      "path": "docs/foods/tuna.md",
+      "added_observations": [
+        "glycine_usda_brs2_173706",
+        "serine_usda_brs2_173706"
+      ]
+    },
+    {
+      "path": "docs/foods/turkey.md",
+      "added_observations": [
+        "glycine_usda_brs2_171480",
+        "serine_usda_brs2_171480"
+      ]
+    },
+    {
+      "path": "docs/foods/egg-yolks.md",
+      "added_observations": [
+        "glycine_usda_brs2_172184",
+        "serine_usda_brs2_172184"
+      ]
+    }
+  ],
+  "shared_helper": "scripts/lib/input-substance-food.mjs: extend existing analysis-only scope guard to BRS2; default unchanged",
+  "analysis_only": [
+    "review/brs2-analytical-rollup-2026-11-16/analysis.json",
+    "review/brs2-analytical-rollup-2026-11-16/before-corrections-analysis.json",
+    "review/brs2-analytical-rollup-2026-11-16/before-corrections-map.json",
+    "review/brs2-analytical-rollup-2026-11-16/completeness.json",
+    "review/brs2-analytical-rollup-2026-11-16/config.v1.json",
+    "review/brs2-analytical-rollup-2026-11-16/intake-foods.json",
+    "review/brs2-analytical-rollup-2026-11-16/intake.json",
+    "review/brs2-analytical-rollup-2026-11-16/report.md",
+    "review/brs2-analytical-rollup-2026-11-16/report.mjs",
+    "review/brs2-analytical-rollup-2026-11-16/run.mjs",
+    "review/brs2-analytical-rollup-2026-11-16/source-corrections.json",
+    "review/brs2-analytical-rollup-2026-11-16/usda-exact-source-extract.json",
+    "review/brs2-analytical-rollup-2026-11-16/validate.mjs",
+    "review/brs2-analytical-rollup-2026-11-16/validation.json",
+    "review/analytical-rollup/score.mjs"
+  ],
+  "reference_update": "review/meat-fish-amino-acid-reference-2026-11-16/holding-page.md",
+  "inherited_brs1_helpers": [
+    "src/data/rankedFoodSources.mjs",
+    "src/lib/aggregateFoodComposition.mjs",
+    "src/lib/aminoAcidProfileSources.mjs"
+  ],
+  "working_tree": " M docs/foods/anchovies.md\n M docs/foods/beef.md\n M docs/foods/chicken-liver.md\n M docs/foods/chicken.md\n M docs/foods/cod.md\n M docs/foods/egg-yolks.md\n M docs/foods/herring.md\n M docs/foods/lamb.md\n M docs/foods/liver.md\n M docs/foods/mackerel.md\n M docs/foods/pork.md\n M docs/foods/salmon.md\n M docs/foods/sardines.md\n M docs/foods/tuna.md\n M docs/foods/turkey.md\n M scripts/lib/input-substance-food.mjs\n M src/data/rankedFoodSources.mjs\n M src/lib/aggregateFoodComposition.mjs\n M src/lib/aminoAcidProfileSources.mjs\n?? review/analytical-rollup/\n?? review/brs1-analytical-rollup-2026-11-16/\n?? review/brs2-analytical-rollup-2026-11-16/\n?? review/meat-fish-amino-acid-reference-2026-11-16/\n"
+}

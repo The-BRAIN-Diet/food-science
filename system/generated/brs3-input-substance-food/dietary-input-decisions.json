@@ -176,14 +176,6 @@
     "flags": []
   },
   {
-    "relationship_id": "BRS3-FM3-PM7::PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
-    "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#dietary_input_traceability/PM7-DIT-RECOVERY-DHA-DOCOSAHEXAENOIC-ACID",
-    "input": "DHA (Docosahexaenoic Acid)",
-    "dietary_input": true,
-    "note": "2026-10-26 mission-specific dietary recovery: admitted under the existing Type B gate; food composition does not establish an effective intervention dose.",
-    "flags": []
-  },
-  {
     "relationship_id": "BRS3-FM3-PM8::PM8-DIT-1",
     "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx#dietary_input_traceability/PM8-DIT-1",
     "input": "EPA",

@@ -144,3 +144,23 @@ PM8 accepted-output reconstruction supersedes the earlier association pilot: 27 
 16 November: bounded disruptive caffeine Type B relationship added locally to circadian PM1; mission unchanged, timing SOP not admitted, caffeine registry identity unresolved. See review/circadian-caffeine-2026-11-16/report.md. Five tests pass; no ranking/SEC/QC changes or push.
 
 Caffeine identity gap resolved under owner approval: registry/page and PM1-DIT-1 linked; six focused tests pass. Disruptive direction and separate unadmitted timing SOP preserved. See review/circadian-caffeine-2026-11-16/report.md. Local only.
+
+
+16 November 2026 — BRS3 local analytical roll-up, same equations as BRS1/BRS2: 8 PMs, 14 eligible input identities; 48 PM-owned, 19 upstream/shared and 57 combined foods. Source corrections: none this pass. Twelve analytical checks and four selected existing regression tests pass; BRS1/BRS2 artifacts byte-preserved and 414 prior food/view results reproduced. See [BRS3 report](review/brs3-analytical-rollup-2026-11-16/report.md). Existing publication-pending records remain pending; frozen snapshot/manifest and QC suspension unchanged. No site generation, build, commit or push.
+
+
+17 November 2026 — BRS4 analysis completed locally (folder dated start, 16 November): 10 PMs, 20 eligible relationships, 17 input identities; 44 PM-owned/0 upstream-shared/44 combined positive foods. Fifteen exact-source arginine observations added publication-pending. Thirteen analytical checks and three publication-contract tests pass; all 538 prior BRS1–3 food/view results reproduce and 51 prior artifacts remain byte-identical. Seven composite material profiles explicitly flagged. [Report](review/brs4-analytical-rollup-2026-11-16/report.md). No site regeneration/build, admissions/SEC/QC change, commit or push.
+
+
+17 November 2026 — BRS5 local analytical report complete: 8 PMs, 20 eligible resolved relationships, 15 input identities; 31 PM-owned/0 upstream scored/31 combined foods. Three eligible upstream relationships remain documented but unscored. Only four inputs supply points; not a comprehensive gut-food ranking. Twelve analytical checks and three publication-contract tests pass. No new source corrections; BRS1–4 artifacts preserved. [Report](review/brs5-analytical-rollup-2026-11-17/report.md). Manifest/snapshot, source restrictions, admissions and QC suspension unchanged; no site generation, build, commit or push.
+
+
+17 November 2026 — BRS6 local analytical report completed: 8 PMs examined, five admitted structured relationships across two PMs; magnesium and DHA provide 40 scored foods (40 PM-owned/0 upstream/40 combined). Resistant starch, ellagitannins and urolithin A remain unscored with qualifications; six PMs lack structured dietary admissions, not evidence of absent dietary biology. Twelve analytical checks and three publication-contract tests pass; intake rows/scores/ranks identical. BRS1–5 artifacts preserved. [Report](review/brs6-analytical-rollup-2026-11-17/report.md). No source corrections, site build/generation, admissions/SEC/QC changes, commit or push.
+
+
+17 November 2026 — Separate BRS-X local analyses complete: Circadian 3 PMs/1 eligible caffeine relationship/0 scored foods; ECS 5 PMs/3 eligible relationships/9 scored foods; Hormones 7 PMs/1 eligible relationship/2 scored foods. Ownership views separate, no upstream points; unranked and non-admitted context retained. Thirteen analytical validation groups and three publication-contract tests pass; all 768 BRS1–6 results and 515 pinned files preserved. [Reports](review/brsx-analytical-rollup-2026-11-17/report.md). Vitamin K, scientific records, QC suspension, manifest/snapshot unchanged. Analysis-only; no site regeneration/build, commit or push.
+
+## Bounded blueberry PM3 SOP — 17 November 2026, local only
+
+Owner-approved PM3-SOP-BLUEBERRY-1 added with PM3-F6, Stull 2010 positive clamp trial and Curtis 2019 null. Independent provisional SEC 4/8 (D2/B1/P1/R0); no constituent admission, cognitive claim, ranking or QC changes. Four focused checks pass, 67-PM Findings and dietary governance pass, 151 immutable SEC snapshots validate. Local SOP disclosure verified. Evidence and protection baseline: `review/blueberry-pm3-sop-2026-11-17/implementation.json`. No commit, push, site-data regeneration or production build.
+Broader SEC integration suite could not load `../../lib/pmAssociationPilot.mjs`; recorded as unavailable, not a passing suite or baseline-proven failure. Focused four tests remain passing.

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Independent direct aggregation of EVERY score and rank",
+    "status": "PASS",
+    "evidence": "124 food/view scores and ranks reconstructed without scoreFoods()"
+  },
+  {
+    "name": "Independent pre-cap qualification and RSP reconstruction",
+    "status": "PASS",
+    "evidence": "84 >=20 food/form candidates; includes pools larger than ten"
+  },
+  {
+    "name": "Observed quantities/preparations/protein match canonical records",
+    "status": "PASS",
+    "evidence": "118 component rows checked against live canonical fields; no missing value is numeric zero"
+  },
+  {
+    "name": "Exact-source completeness audit, without new source edits",
+    "status": "PASS",
+    "evidence": "294 food/input cells; 185 exact USDA rows checked; no positive missing value or conflicting panel value recovered"
+  },
+  {
+    "name": "Deduplication, overlap, sodium, inclusive threshold, ties",
+    "status": "PASS",
+    "evidence": "Synthetic boundary/tie/duplicate/ownership tests plus every real group"
+  },
+  {
+    "name": "Incompatible pools never silently maximised",
+    "status": "PASS",
+    "evidence": "Conflicting input pools produce unresolved subtotal, not maximum"
+  },
+  {
+    "name": "Shared selector default unchanged",
+    "status": "PASS",
+    "evidence": "Exact equality with HEAD implementation for all current BRS3 source pools"
+  },
+  {
+    "name": "Frozen manifest, site data, PM records and scientific gates unchanged",
+    "status": "PASS",
+    "evidence": "Inherited tracked source/helper edits only; no PM, gate, manifest or generated-site changes. Intake preservation separately verifies no new source edits in BRS3."
+  },
+  {
+    "name": "Source hashes fresh",
+    "status": "PASS",
+    "evidence": "353 source hashes match current candidate"
+  },
+  {
+    "name": "BRS1 and BRS2 analyses preserved and scoring unchanged",
+    "status": "PASS",
+    "evidence": "414 prior food/view results identical; 33 prior artifacts byte-identical"
+  },
+  {
+    "name": "All intake scientific/source records and publication pins preserved",
+    "status": "PASS",
+    "evidence": "369 pinned intake files unchanged; only common scorer scope guard extended"
+  },
+  {
+    "name": "BRS3 ownership, held material and nonoverlapping input protection",
+    "status": "PASS",
+    "evidence": "Glycine counted once despite two upstream PMs; held/unrankable inputs have no points; no numerical cap exclusion or incompatible-pool maximum"
+  }
+]

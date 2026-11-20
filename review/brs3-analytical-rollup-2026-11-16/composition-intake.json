@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "anchovies",
+    "fdc": 174183,
+    "description": "Fish, anchovy, european, canned in oil, drained solids",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.339,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/copper_mg",
+                "value": 0.339,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 1292,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+                "value": 1292,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 763,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/epa_mg",
+                "value": 763,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_supplementary_sources/glycine_usda_brs2_174183",
+                "value": 1.387,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 4.63,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/iron_mg",
+                "value": 4.63,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.1,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/manganese_mg",
+                "value": 0.1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 68.1,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/selenium_ug",
+                "value": 68.1,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.363,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.363,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 3.33,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 3.33,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 2.44,
+        "sources": [
+          {
+            "material": "Fish, anchovy, european, canned in oil, drained solids",
+            "obs": [
+              {
+                "record": "docs/foods/anchovies.md#nutrition_per_100g/zinc_mg",
+                "value": 2.44,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "beef",
+    "fdc": 171796,
+    "description": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.067,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/copper_mg",
+                "value": 0.067,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 1,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/dha_mg",
+                "value": 1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 2,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/epa_mg",
+                "value": 2,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_supplementary_sources/glycine_usda_review01_171796",
+                "value": 1.262,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 2.09,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/iron_mg",
+                "value": 2.09,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.01,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/manganese_mg",
+                "value": 0.01,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 15.8,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/selenium_ug",
+                "value": 15.8,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.151,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.151,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.17,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.17,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 4.48,
+        "sources": [
+          {
+            "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+            "obs": [
+              {
+                "record": "docs/foods/beef.md#nutrition_per_100g/zinc_mg",
+                "value": 4.48,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "chicken",
+    "fdc": 171447,
+    "description": "Chicken, broilers or fryers, meat and skin, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.048,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/copper_mg",
+                "value": 0.048,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 30,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/dha_mg",
+                "value": 30,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 10,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/epa_mg",
+                "value": 10,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_supplementary_sources/glycine_usda_review01_171447",
+                "value": 1.223,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 0.9,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/iron_mg",
+                "value": 0.9,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.019,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/manganese_mg",
+                "value": 0.019,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 14.4,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/selenium_ug",
+                "value": 14.4,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.12,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.12,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 1.6,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 1.6,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.3,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.3,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.31,
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, meat and skin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken.md#nutrition_per_100g/zinc_mg",
+                "value": 1.31,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "chicken-liver",
+    "fdc": 171060,
+    "description": "Chicken, liver, all classes, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.492,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/copper_mg",
+                "value": 0.492,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_supplementary_sources/glycine_usda_brs2_171060",
+                "value": 0.849,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 8.99,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/iron_mg",
+                "value": 8.99,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.255,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/manganese_mg",
+                "value": 0.255,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 54.6,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/selenium_ug",
+                "value": 54.6,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 1.778,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 1.778,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 17.9,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 17.9,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.7,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.7,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 2.67,
+        "sources": [
+          {
+            "material": "Chicken, liver, all classes, raw",
+            "obs": [
+              {
+                "record": "docs/foods/chicken-liver.md#nutrition_per_100g/zinc_mg",
+                "value": 2.67,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cod",
+    "fdc": 171955,
+    "description": "Fish, cod, Atlantic, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.028,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/copper_mg",
+                "value": 0.028,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 120,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/dha_mg",
+                "value": 120,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 64,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/epa_mg",
+                "value": 64,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_supplementary_sources/glycine_usda_brs2_171955",
+                "value": 0.855,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 0.38,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/iron_mg",
+                "value": 0.38,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.015,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/manganese_mg",
+                "value": 0.015,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 33.1,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/selenium_ug",
+                "value": 33.1,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.065,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.065,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 1,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.64,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.64,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 0.45,
+        "sources": [
+          {
+            "material": "Fish, cod, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/cod.md#nutrition_per_100g/zinc_mg",
+                "value": 0.45,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dark-meat-poultry",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "sources": []
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "sources": [
+          {
+            "material": "Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted",
+            "obs": []
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "sources": []
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "sources": []
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "sources": []
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "sources": []
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "sources": []
+      }
+    }
+  },
+  {
+    "id": "heart",
+    "fdc": 168625,
+    "description": "Beef, variety meats and by-products, heart, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.396,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/copper_mg",
+                "value": 0.396,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 4.31,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/iron_mg",
+                "value": 4.31,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.035,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/manganese_mg",
+                "value": 0.035,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 21.8,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/selenium_ug",
+                "value": 21.8,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.906,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.906,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 2,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 2,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.22,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.22,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.7,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, heart, raw",
+            "obs": [
+              {
+                "record": "docs/foods/heart.md#nutrition_per_100g/zinc_mg",
+                "value": 1.7,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "herring",
+    "fdc": 175116,
+    "description": "Fish, herring, Atlantic, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.092,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/copper_mg",
+                "value": 0.092,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 862,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+                "value": 862,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 709,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/epa_mg",
+                "value": 709,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_supplementary_sources/glycine_usda_brs2_175116",
+                "value": 0.862,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 1.1,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/iron_mg",
+                "value": 1.1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.035,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/manganese_mg",
+                "value": 0.035,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 36.5,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/selenium_ug",
+                "value": 36.5,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.233,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.233,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 0.7,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 0.7,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 1.07,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 1.07,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 0.99,
+        "sources": [
+          {
+            "material": "Fish, herring, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/herring.md#nutrition_per_100g/zinc_mg",
+                "value": 0.99,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "kidney",
+    "fdc": 169449,
+    "description": "Beef, variety meats and by-products, kidneys, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.426,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/copper_mg",
+                "value": 0.426,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 4.6,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/iron_mg",
+                "value": 4.6,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.142,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/manganese_mg",
+                "value": 0.142,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 141,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/selenium_ug",
+                "value": 141,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 2.84,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 2.84,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 9.4,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 9.4,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.22,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.22,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.92,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, kidneys, raw",
+            "obs": [
+              {
+                "record": "docs/foods/kidney.md#nutrition_per_100g/zinc_mg",
+                "value": 1.92,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lamb",
+    "fdc": 174370,
+    "description": "Lamb, ground, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.101,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/copper_mg",
+                "value": 0.101,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_supplementary_sources/glycine_usda_brs2_174370",
+                "value": 0.809,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 1.55,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/iron_mg",
+                "value": 1.55,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.019,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/manganese_mg",
+                "value": 0.019,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 18.8,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/selenium_ug",
+                "value": 18.8,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.21,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.21,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.2,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.2,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 3.41,
+        "sources": [
+          {
+            "material": "Lamb, ground, raw",
+            "obs": [
+              {
+                "record": "docs/foods/lamb.md#nutrition_per_100g/zinc_mg",
+                "value": 3.41,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "liver",
+    "fdc": 169451,
+    "description": "Beef, variety meats and by-products, liver, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 9.755,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/copper_mg",
+                "value": 9.755,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_supplementary_sources/glycine_usda_brs2_169451",
+                "value": 1.164,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 4.9,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/iron_mg",
+                "value": 4.9,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.31,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/manganese_mg",
+                "value": 0.31,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 39.7,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/selenium_ug",
+                "value": 39.7,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 2.755,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 2.755,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 1.3,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 1.3,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.38,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.38,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 4,
+        "sources": [
+          {
+            "material": "Beef, variety meats and by-products, liver, raw",
+            "obs": [
+              {
+                "record": "docs/foods/liver.md#nutrition_per_100g/zinc_mg",
+                "value": 4,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lumpfish-roe",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "sources": []
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": [
+          {
+            "material": "commercial salmon, trout or lumpfish roe",
+            "obs": []
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": [
+          {
+            "material": "commercial salmon, trout or lumpfish roe",
+            "obs": []
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "sources": []
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "sources": []
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "sources": []
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "sources": []
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "sources": []
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "sources": []
+      }
+    }
+  },
+  {
+    "id": "mackerel",
+    "fdc": 175119,
+    "description": "Fish, mackerel, Atlantic, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.073,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/copper_mg",
+                "value": 0.073,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 1401,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+                "value": 1401,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 898,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/epa_mg",
+                "value": 898,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_supplementary_sources/glycine_usda_brs2_175119",
+                "value": 0.893,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 1.63,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/iron_mg",
+                "value": 1.63,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.015,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/manganese_mg",
+                "value": 0.015,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 44.1,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/selenium_ug",
+                "value": 44.1,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.312,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.312,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 0.4,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 0.4,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 1.52,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 1.52,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 0.63,
+        "sources": [
+          {
+            "material": "Fish, mackerel, Atlantic, raw",
+            "obs": [
+              {
+                "record": "docs/foods/mackerel.md#nutrition_per_100g/zinc_mg",
+                "value": 0.63,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "pork",
+    "fdc": 167818,
+    "description": "Pork, fresh, loin, whole, separable lean and fat, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.056,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/copper_mg",
+                "value": 0.056,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": []
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_supplementary_sources/glycine_usda_brs2_167818",
+                "value": 1.019,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 0.79,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/iron_mg",
+                "value": 0.79,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.011,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/manganese_mg",
+                "value": 0.011,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 33.2,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/selenium_ug",
+                "value": 33.2,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.248,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.248,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 0.6,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 0.6,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.21,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.21,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.74,
+        "sources": [
+          {
+            "material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+            "obs": [
+              {
+                "record": "docs/foods/pork.md#nutrition_per_100g/zinc_mg",
+                "value": 1.74,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "salmon",
+    "fdc": 175167,
+    "description": "Fish, salmon, Atlantic, farmed, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.045,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/copper_mg",
+                "value": 0.045,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 1104,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+                "value": 1104,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 862,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/epa_mg",
+                "value": 862,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_supplementary_sources/glycine_usda_review01_175167",
+                "value": 0.96,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 0.34,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/iron_mg",
+                "value": 0.34,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.011,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/manganese_mg",
+                "value": 0.011,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 24,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/selenium_ug",
+                "value": 24,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.155,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.155,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 3.9,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 3.9,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 3.55,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 3.55,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 0.36,
+        "sources": [
+          {
+            "material": "Fish, salmon, Atlantic, farmed, raw",
+            "obs": [
+              {
+                "record": "docs/foods/salmon.md#nutrition_per_100g/zinc_mg",
+                "value": 0.36,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "salmon-roe",
+    "description": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.76,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
+                "value": 0.76,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 2000,
+        "sources": [
+          {
+            "material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+                "value": 2000,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 1600,
+        "sources": [
+          {
+            "material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/epa_mg",
+                "value": 1600,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 2,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
+                "value": 2,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.06,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+                "value": 0.06,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "sources": []
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.55,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.55,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "value": 6,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
+                "value": 6,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 9.1,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 9.1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 2.1,
+        "sources": [
+          {
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "obs": [
+              {
+                "record": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+                "value": 2.1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sardines",
+    "fdc": 175139,
+    "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.186,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/copper_mg",
+                "value": 0.186,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 509,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+                "value": 509,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 473,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/epa_mg",
+                "value": 473,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_supplementary_sources/glycine_usda_brs2_175139",
+                "value": 1.181,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 2.92,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/iron_mg",
+                "value": 2.92,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.108,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/manganese_mg",
+                "value": 0.108,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 52.7,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/selenium_ug",
+                "value": 52.7,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.227,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.227,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 2.04,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 2.04,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.31,
+        "sources": [
+          {
+            "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+            "obs": [
+              {
+                "record": "docs/foods/sardines.md#nutrition_per_100g/zinc_mg",
+                "value": 1.31,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "trout-roe",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "sources": []
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "sources": [
+          {
+            "material": "commercial salmon, trout or lumpfish roe",
+            "obs": []
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": [
+          {
+            "material": "commercial salmon, trout or lumpfish roe",
+            "obs": []
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": []
+      },
+      "iron": {
+        "field": "iron_mg",
+        "sources": []
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "sources": []
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "sources": []
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "sources": []
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "sources": []
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "sources": []
+      }
+    }
+  },
+  {
+    "id": "tuna",
+    "fdc": 173706,
+    "description": "Fish, tuna, fresh, bluefin, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.086,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/copper_mg",
+                "value": 0.086,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 890,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+                "value": 890,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 283,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/epa_mg",
+                "value": 283,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_supplementary_sources/glycine_usda_brs2_173706",
+                "value": 1.12,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 1.02,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/iron_mg",
+                "value": 1.02,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.015,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/manganese_mg",
+                "value": 0.015,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 36.5,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/selenium_ug",
+                "value": 36.5,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.251,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.251,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 1,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 1,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 0.6,
+        "sources": [
+          {
+            "material": "Fish, tuna, fresh, bluefin, raw",
+            "obs": [
+              {
+                "record": "docs/foods/tuna.md#nutrition_per_100g/zinc_mg",
+                "value": 0.6,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "turkey",
+    "fdc": 171480,
+    "description": "Turkey, whole, meat only, raw",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.079,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/copper_mg",
+                "value": 0.079,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 2,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/dha_mg",
+                "value": 2,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "sources": []
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_supplementary_sources/glycine_usda_brs2_171480",
+                "value": 0.966,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 0.86,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/iron_mg",
+                "value": 0.86,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.012,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/manganese_mg",
+                "value": 0.012,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 22.6,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/selenium_ug",
+                "value": 22.6,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.192,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.192,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 0.09,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 0.09,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 1.84,
+        "sources": [
+          {
+            "material": "Turkey, whole, meat only, raw",
+            "obs": [
+              {
+                "record": "docs/foods/turkey.md#nutrition_per_100g/zinc_mg",
+                "value": 1.84,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "egg-yolks",
+    "fdc": 172184,
+    "description": "Egg, yolk, raw, fresh",
+    "fields": {
+      "copper": {
+        "field": "copper_mg",
+        "value": 0.077,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/copper_mg",
+                "value": 0.077,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "dha-docosahexaenoic-acid": {
+        "field": "dha_mg",
+        "value": 114,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/dha_mg",
+                "value": 114,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "epa-eicosapentaenoic-acid": {
+        "field": "epa_mg",
+        "value": 11,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/epa_mg",
+                "value": 11,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "glycine": {
+        "field": "glycine_g",
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_supplementary_sources/glycine_usda_brs2_172184",
+                "value": 0.488,
+                "unit": "g"
+              }
+            ]
+          }
+        ]
+      },
+      "iron": {
+        "field": "iron_mg",
+        "value": 2.73,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/iron_mg",
+                "value": 2.73,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "manganese": {
+        "field": "manganese_mg",
+        "value": 0.055,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/manganese_mg",
+                "value": 0.055,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "selenium": {
+        "field": "selenium_ug",
+        "value": 56,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/selenium_ug",
+                "value": 56,
+                "unit": "µg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-b2": {
+        "field": "vitamin_b2_mg",
+        "value": 0.528,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_b2_mg",
+                "value": 0.528,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "vitamin-c": {
+        "field": "vitamin_c_mg",
+        "sources": []
+      },
+      "vitamin-e": {
+        "field": "vitamin_e_mg",
+        "value": 2.58,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/vitamin_e_mg",
+                "value": 2.58,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      },
+      "zinc": {
+        "field": "zinc_mg",
+        "value": 2.3,
+        "sources": [
+          {
+            "material": "Egg, yolk, raw, fresh",
+            "obs": [
+              {
+                "record": "docs/foods/egg-yolks.md#nutrition_per_100g/zinc_mg",
+                "value": 2.3,
+                "unit": "mg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

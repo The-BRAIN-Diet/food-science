@@ -1,4 +1,4 @@
-import {activeFindingNumber, findingReaderLabel} from '../../lib/scientificFindingPresentation.mjs';
+import {activeFindingNumber, findingOnMainPage, findingReaderLabel} from '../../lib/scientificFindingPresentation.mjs';
 import {scientificPrincipleIds,scientificPrinciples,scientificPrincipleErrors} from '../../lib/scientificPrinciples.mjs';
 import React from 'react';
 import ScientificFinding from '../ScientificFinding';
@@ -57,11 +57,14 @@ export function CanonicalSecAudit({findings,pmId,page,panelId,frontMatter}:{find
       </details>
     </div>)}
   </section> : null;
+  const auditFindings = frontMatter?.evidence_tabs_version === 1
+    ? findings.filter(finding => !findingOnMainPage(frontMatter, String(finding.id).toLowerCase()))
+    : [];
   const titles=new Map(findings.map(f=>[f.id,f.finding_label]));
   const presentation=(r:any)=>({...secAssessmentView(r),shortId:activeFindingNumber(frontMatter,r.findingId) ? `SF${activeFindingNumber(frontMatter,r.findingId)}` : r.findingId,title:titles.get(r.findingId)||r.title||r.findingId,incompleteReason:frontMatter?.scientific_finding_classification_notes?.[r.findingId]});
   return <>
     {principleErrors.length>0 && <p role="status">Scientific Principle classification requires review. Original Findings remain visible.</p>}
     {results.some(r=>r.errors.length>0)&&<p role="status">One or more confidence assessments are unavailable. No score has been inferred.</p>}
-    <EvidenceAudit panelId={panelId} showEvidenceReviewStatus={frontMatter?.evidence_tabs_version !== 1} assessmentRecords={records} assessmentPmId={pmId} assessmentPage={page} assessmentView={presentation} recordAnchor={secAuditAnchor} scientificPrinciples={principleContent} scientificFindings={frontMatter?.evidence_tabs_version === 1 && frontMatter?.scientific_findings_placement !== 'section-4' ? <section id="scientific-findings" aria-label="Scientific Findings"><h3>Scientific Findings ({findings.length})</h3>{findings.map(f => <ScientificFinding key={f.id} finding={f} pmId={pmId}/>)}</section> : undefined} scientificTransparency={<ScientificTransparencyAudit data={frontMatter}/>}/>
+    <EvidenceAudit panelId={panelId} showEvidenceReviewStatus={frontMatter?.evidence_tabs_version !== 1} assessmentRecords={records} assessmentPmId={pmId} assessmentPage={page} assessmentView={presentation} recordAnchor={secAuditAnchor} scientificPrinciples={principleContent} scientificFindings={auditFindings.length ? <section id="scientific-findings" aria-label="Scientific Findings"><h3>Scientific Findings ({auditFindings.length})</h3>{auditFindings.map(f => <ScientificFinding key={f.id} finding={f} pmId={pmId}/>)}</section> : undefined} scientificTransparency={<ScientificTransparencyAudit data={frontMatter}/>}/>
   </>;
 }

@@ -1,0 +1,62 @@
+TAP version 13
+# Subtest: Existing PM science, dietary admissions, SOPs and lifestyle records unchanged
+ok 1 - Existing PM science, dietary admissions, SOPs and lifestyle records unchanged
+  ---
+  duration_ms: 1.744667
+  ...
+# Subtest: All prior SEC snapshots and protected site/ranking/QC records unchanged
+ok 2 - All prior SEC snapshots and protected site/ranking/QC records unchanged
+  ---
+  duration_ms: 221.329417
+  ...
+# Subtest: Bounded SOP has independent valid assessment and no substance/food ranking edge
+ok 3 - Bounded SOP has independent valid assessment and no substance/food ranking edge
+  ---
+  duration_ms: 9.35225
+  ...
+# Subtest: Both sources, study quantities, PM links and assessment render in valid MDX
+ok 4 - Both sources, study quantities, PM links and assessment render in valid MDX
+  ---
+  duration_ms: 444.395541
+  ...
+# node:internal/test_runner/harness:43
+#       throw err;
+#       ^
+# Error: Cannot find module '../../lib/pmAssociationPilot.mjs'
+# Require stack:
+# - /Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs
+#     at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+#     at Module._load (node:internal/modules/cjs/loader:985:27)
+#     at Module.require (node:internal/modules/cjs/loader:1235:19)
+#     at require (node:internal/modules/helpers:176:18)
+#     at file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs:119:126
+#     at eval (eval at component (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs:119:26), <anonymous>:10:34)
+#     at component (file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs:119:71)
+#     at file:///Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs:129:25
+#     at ModuleJob.run (node:internal/modules/esm/module_job:218:25)
+#     at async ModuleLoader.import (node:internal/modules/esm/loader:329:24) {
+#   code: 'MODULE_NOT_FOUND',
+#   requireStack: [
+#     '/Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs'
+#   ]
+# }
+# Node.js v20.11.0
+# Subtest: /Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs
+not ok 2 - /Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs
+  ---
+  duration_ms: 369.952833
+  location: '/Users/paulhouston/.codex/worktrees/pm-recipe-local-review/food-science/scripts/sec-assessment-integration.test.mjs:1:1'
+  failureType: 'testCodeFailure'
+  exitCode: 7
+  error: 'test failed'
+  code: 'ERR_TEST_FAILURE'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 4
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 847.462208

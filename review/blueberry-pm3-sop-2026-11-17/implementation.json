@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-17",
+  "branch": "review/pm8-caffeine-neuroeshot-2026-11-16",
+  "head": "d67c181ff6ebec80873e4da581af759e8e98199c",
+  "status": "implemented and locally validated; uncommitted",
+  "ownerApproval": "Complete the SOP assessment and add the bounded blueberry protocol to PM3 locally; retain null trial and limitations; cognitive claims/rankings unchanged; no push.",
+  "pm": "BRS6-FM1-PM3",
+  "intervention": "PM3-SOP-BLUEBERRY-1",
+  "finding": "PM3-F6",
+  "sec": {
+    "status": "codex-provisional",
+    "factors": {
+      "D": 2,
+      "B": 1,
+      "P": 1,
+      "R": 0
+    },
+    "total": 4,
+    "humanScientificReview": false
+  },
+  "checks": {
+    "focusedTests": "4/4 PASS including MDX compilation",
+    "findings": "67 PMs, zero issues",
+    "dietaryGovernance": "67 PMs, zero issues",
+    "secRegistry": "151 snapshots; immutable history valid against HEAD",
+    "protectedFiles": 381,
+    "existingRecords": "All prior PM fields/Findings/SOPs and SEC snapshots preserved",
+    "browser": "Local PM3 rendered; SOP expanded; exact quantities, positive/null sources and limitations visible",
+    "productionBuild": "Not run",
+    "rankedData": "Unchanged, no site-data regeneration",
+    "qc": "Suspension and archived inputs unchanged",
+    "broaderSecIntegration": "BLOCKED at module loading: Cannot find module '../../lib/pmAssociationPilot.mjs' in scripts/sec-assessment-integration.test.mjs; no assertions executed in that suite. No baseline reproduction performed; unrelated loader not changed."
+  },
+  "changedFiles": [
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "system/sec-assessments/registry.json",
+    "static/bibtex/Brain-diet.bib",
+    "scripts/blueberry-pm3-sop.test.mjs",
+    "review/blueberry-pm3-sop-2026-11-17/before.json",
+    "review/blueberry-pm3-sop-2026-11-17/implementation.json",
+    "CURRENT-HANDOFF.md"
+  ],
+  "limitations": [
+    "Independent provisional SEC, not qualified-human numerical review.",
+    "No constituent-specific admission; whole-food findings cannot identify active molecule.",
+    "No PM cognitive claim or ranking changes; no full production build."
+  ],
+  "preview": "http://127.0.0.1:3201/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal/"
+}

@@ -1,0 +1,1054 @@
+{
+  "archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+  "nutrient_ids": {
+    "tryptophan": "1210",
+    "zinc": "1095",
+    "vitamin-a": "1106",
+    "linoleic-acid": "1269"
+  },
+  "nutrient_definitions": {
+    "1210": {
+      "id": "1210",
+      "name": "Tryptophan",
+      "unit_name": "G",
+      "nutrient_nbr": "501",
+      "rank": "16300.0"
+    },
+    "1095": {
+      "id": "1095",
+      "name": "Zinc, Zn",
+      "unit_name": "MG",
+      "nutrient_nbr": "309",
+      "rank": "5900.0"
+    },
+    "1106": {
+      "id": "1106",
+      "name": "Vitamin A, RAE",
+      "unit_name": "UG",
+      "nutrient_nbr": "320",
+      "rank": "7420.0"
+    },
+    "1269": {
+      "id": "1269",
+      "name": "PUFA 18:2",
+      "unit_name": "G",
+      "nutrient_nbr": "618",
+      "rank": "13100.0"
+    }
+  },
+  "foods": {
+    "167818": {
+      "fdc_id": "167818",
+      "data_type": "sr_legacy_food",
+      "description": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "food_category_id": "10",
+      "publication_date": "2019-04-01"
+    },
+    "168625": {
+      "fdc_id": "168625",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, heart, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "169449": {
+      "fdc_id": "169449",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, kidneys, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "169451": {
+      "fdc_id": "169451",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, variety meats and by-products, liver, raw",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "171060": {
+      "fdc_id": "171060",
+      "data_type": "sr_legacy_food",
+      "description": "Chicken, liver, all classes, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "171447": {
+      "fdc_id": "171447",
+      "data_type": "sr_legacy_food",
+      "description": "Chicken, broilers or fryers, meat and skin, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "171480": {
+      "fdc_id": "171480",
+      "data_type": "sr_legacy_food",
+      "description": "Turkey, whole, meat only, raw",
+      "food_category_id": "5",
+      "publication_date": "2019-04-01"
+    },
+    "171796": {
+      "fdc_id": "171796",
+      "data_type": "sr_legacy_food",
+      "description": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "food_category_id": "13",
+      "publication_date": "2019-04-01"
+    },
+    "171955": {
+      "fdc_id": "171955",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, cod, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "172184": {
+      "fdc_id": "172184",
+      "data_type": "sr_legacy_food",
+      "description": "Egg, yolk, raw, fresh",
+      "food_category_id": "1",
+      "publication_date": "2019-04-01"
+    },
+    "173706": {
+      "fdc_id": "173706",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, tuna, fresh, bluefin, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "174183": {
+      "fdc_id": "174183",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, anchovy, european, canned in oil, drained solids",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "174370": {
+      "fdc_id": "174370",
+      "data_type": "sr_legacy_food",
+      "description": "Lamb, ground, raw",
+      "food_category_id": "17",
+      "publication_date": "2019-04-01"
+    },
+    "175116": {
+      "fdc_id": "175116",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, herring, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "175119": {
+      "fdc_id": "175119",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, mackerel, Atlantic, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "175139": {
+      "fdc_id": "175139",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    },
+    "175167": {
+      "fdc_id": "175167",
+      "data_type": "sr_legacy_food",
+      "description": "Fish, salmon, Atlantic, farmed, raw",
+      "food_category_id": "15",
+      "publication_date": "2019-04-01"
+    }
+  },
+  "nutrients": {
+    "167818": {
+      "1106": {
+        "id": "1306993",
+        "fdc_id": "167818",
+        "nutrient_id": "1106",
+        "amount": "2",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1307031",
+        "fdc_id": "167818",
+        "nutrient_id": "1095",
+        "amount": "1.74",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1307047",
+        "fdc_id": "167818",
+        "nutrient_id": "1269",
+        "amount": "1.11",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1307060",
+        "fdc_id": "167818",
+        "nutrient_id": "1210",
+        "amount": "0.244",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "168625": {
+      "1095": {
+        "id": "1375367",
+        "fdc_id": "168625",
+        "nutrient_id": "1095",
+        "amount": "1.7",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1375380",
+        "fdc_id": "168625",
+        "nutrient_id": "1269",
+        "amount": "0.395",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1375401",
+        "fdc_id": "168625",
+        "nutrient_id": "1106",
+        "amount": "0",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "169449": {
+      "1095": {
+        "id": "1443052",
+        "fdc_id": "169449",
+        "nutrient_id": "1095",
+        "amount": "1.92",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1443061",
+        "fdc_id": "169449",
+        "nutrient_id": "1269",
+        "amount": "0.292",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1443087",
+        "fdc_id": "169449",
+        "nutrient_id": "1106",
+        "amount": "419",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "169451": {
+      "1106": {
+        "id": "1443224",
+        "fdc_id": "169451",
+        "nutrient_id": "1106",
+        "amount": "4968",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1443226",
+        "fdc_id": "169451",
+        "nutrient_id": "1210",
+        "amount": "0.263",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1443267",
+        "fdc_id": "169451",
+        "nutrient_id": "1095",
+        "amount": "4",
+        "data_points": "4",
+        "derivation_id": "1",
+        "min": "3.36",
+        "max": "4.92",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1443331",
+        "fdc_id": "169451",
+        "nutrient_id": "1269",
+        "amount": "0.299",
+        "data_points": "0",
+        "derivation_id": "51",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "171060": {
+      "1106": {
+        "id": "1576556",
+        "fdc_id": "171060",
+        "nutrient_id": "1106",
+        "amount": "3296",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1576575",
+        "fdc_id": "171060",
+        "nutrient_id": "1210",
+        "amount": "0.176",
+        "data_points": "1",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1576602",
+        "fdc_id": "171060",
+        "nutrient_id": "1095",
+        "amount": "2.67",
+        "data_points": "4",
+        "derivation_id": "1",
+        "min": "2.56",
+        "max": "2.78",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1576647",
+        "fdc_id": "171060",
+        "nutrient_id": "1269",
+        "amount": "0.475",
+        "data_points": "0",
+        "derivation_id": "51",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "171447": {
+      "1095": {
+        "id": "1610538",
+        "fdc_id": "171447",
+        "nutrient_id": "1095",
+        "amount": "1.31",
+        "data_points": "24",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1610546",
+        "fdc_id": "171447",
+        "nutrient_id": "1269",
+        "amount": "2.88",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1610569",
+        "fdc_id": "171447",
+        "nutrient_id": "1106",
+        "amount": "41",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1610584",
+        "fdc_id": "171447",
+        "nutrient_id": "1210",
+        "amount": "0.207",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "171480": {
+      "1210": {
+        "id": "1613329",
+        "fdc_id": "171480",
+        "nutrient_id": "1210",
+        "amount": "0.241",
+        "data_points": "0",
+        "derivation_id": "54",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1613377",
+        "fdc_id": "171480",
+        "nutrient_id": "1106",
+        "amount": "9",
+        "data_points": "0",
+        "derivation_id": "54",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1613396",
+        "fdc_id": "171480",
+        "nutrient_id": "1095",
+        "amount": "1.84",
+        "data_points": "0",
+        "derivation_id": "54",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1613428",
+        "fdc_id": "171480",
+        "nutrient_id": "1269",
+        "amount": "0.339",
+        "data_points": "0",
+        "derivation_id": "56",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "171796": {
+      "1095": {
+        "id": "1641399",
+        "fdc_id": "171796",
+        "nutrient_id": "1095",
+        "amount": "4.48",
+        "data_points": "36",
+        "derivation_id": "3",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1641435",
+        "fdc_id": "171796",
+        "nutrient_id": "1210",
+        "amount": "0.094",
+        "data_points": "0",
+        "derivation_id": "3",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1641456",
+        "fdc_id": "171796",
+        "nutrient_id": "1269",
+        "amount": "0.331",
+        "data_points": "47",
+        "derivation_id": "3",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1641460",
+        "fdc_id": "171796",
+        "nutrient_id": "1106",
+        "amount": "4",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "171955": {
+      "1106": {
+        "id": "1653402",
+        "fdc_id": "171955",
+        "nutrient_id": "1106",
+        "amount": "12",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1653415",
+        "fdc_id": "171955",
+        "nutrient_id": "1210",
+        "amount": "0.199",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1653455",
+        "fdc_id": "171955",
+        "nutrient_id": "1095",
+        "amount": "0.45",
+        "data_points": "188",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1653459",
+        "fdc_id": "171955",
+        "nutrient_id": "1269",
+        "amount": "0.005",
+        "data_points": "25",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "172184": {
+      "1210": {
+        "id": "1674746",
+        "fdc_id": "172184",
+        "nutrient_id": "1210",
+        "amount": "0.177",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1674766",
+        "fdc_id": "172184",
+        "nutrient_id": "1095",
+        "amount": "2.3",
+        "data_points": "12",
+        "derivation_id": "1",
+        "min": "1.84",
+        "max": "2.71",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1674795",
+        "fdc_id": "172184",
+        "nutrient_id": "1106",
+        "amount": "381",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1674807",
+        "fdc_id": "172184",
+        "nutrient_id": "1269",
+        "amount": "3.538",
+        "data_points": "33",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "173706": {
+      "1106": {
+        "id": "1799964",
+        "fdc_id": "173706",
+        "nutrient_id": "1106",
+        "amount": "655",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1799979",
+        "fdc_id": "173706",
+        "nutrient_id": "1095",
+        "amount": "0.6",
+        "data_points": "10",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1799999",
+        "fdc_id": "173706",
+        "nutrient_id": "1269",
+        "amount": "0.053",
+        "data_points": "2",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1800014",
+        "fdc_id": "173706",
+        "nutrient_id": "1210",
+        "amount": "0.261",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "174183": {
+      "1106": {
+        "id": "1837738",
+        "fdc_id": "174183",
+        "nutrient_id": "1106",
+        "amount": "12",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1837759",
+        "fdc_id": "174183",
+        "nutrient_id": "1095",
+        "amount": "2.44",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1837763",
+        "fdc_id": "174183",
+        "nutrient_id": "1269",
+        "amount": "0.362",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1837790",
+        "fdc_id": "174183",
+        "nutrient_id": "1210",
+        "amount": "0.324",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "174370": {
+      "1269": {
+        "id": "1852524",
+        "fdc_id": "174370",
+        "nutrient_id": "1269",
+        "amount": "1.36",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1852532",
+        "fdc_id": "174370",
+        "nutrient_id": "1095",
+        "amount": "3.41",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1852561",
+        "fdc_id": "174370",
+        "nutrient_id": "1210",
+        "amount": "0.193",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1852579",
+        "fdc_id": "174370",
+        "nutrient_id": "1106",
+        "amount": "0",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "175116": {
+      "1106": {
+        "id": "1913665",
+        "fdc_id": "175116",
+        "nutrient_id": "1106",
+        "amount": "28",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1913681",
+        "fdc_id": "175116",
+        "nutrient_id": "1210",
+        "amount": "0.201",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1913712",
+        "fdc_id": "175116",
+        "nutrient_id": "1095",
+        "amount": "0.99",
+        "data_points": "56",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1913717",
+        "fdc_id": "175116",
+        "nutrient_id": "1269",
+        "amount": "0.13",
+        "data_points": "22",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "175119": {
+      "1106": {
+        "id": "1913938",
+        "fdc_id": "175119",
+        "nutrient_id": "1106",
+        "amount": "50",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1913952",
+        "fdc_id": "175119",
+        "nutrient_id": "1269",
+        "amount": "0.219",
+        "data_points": "23",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1913960",
+        "fdc_id": "175119",
+        "nutrient_id": "1095",
+        "amount": "0.63",
+        "data_points": "82",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1913989",
+        "fdc_id": "175119",
+        "nutrient_id": "1210",
+        "amount": "0.208",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "175139": {
+      "1106": {
+        "id": "1915782",
+        "fdc_id": "175139",
+        "nutrient_id": "1106",
+        "amount": "32",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1915793",
+        "fdc_id": "175139",
+        "nutrient_id": "1095",
+        "amount": "1.31",
+        "data_points": "2",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1269": {
+        "id": "1915810",
+        "fdc_id": "175139",
+        "nutrient_id": "1269",
+        "amount": "3.543",
+        "data_points": "2",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1915838",
+        "fdc_id": "175139",
+        "nutrient_id": "1210",
+        "amount": "0.276",
+        "data_points": "0",
+        "derivation_id": "",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    },
+    "175167": {
+      "1269": {
+        "id": "1918072",
+        "fdc_id": "175167",
+        "nutrient_id": "1269",
+        "amount": "0.9",
+        "data_points": "4",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1095": {
+        "id": "1918095",
+        "fdc_id": "175167",
+        "nutrient_id": "1095",
+        "amount": "0.36",
+        "data_points": "4",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1210": {
+        "id": "1918129",
+        "fdc_id": "175167",
+        "nutrient_id": "1210",
+        "amount": "0.209",
+        "data_points": "0",
+        "derivation_id": "1",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      },
+      "1106": {
+        "id": "1918148",
+        "fdc_id": "175167",
+        "nutrient_id": "1106",
+        "amount": "58",
+        "data_points": "0",
+        "derivation_id": "49",
+        "min": "",
+        "max": "",
+        "median": "",
+        "footnote": "",
+        "min_year_acquired": ""
+      }
+    }
+  }
+}

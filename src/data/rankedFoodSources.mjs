@@ -18,7 +18,8 @@ export function referenceRestriction(source, observation) {
 
 // Author-confirmed 6 November 2026. Ranking is a derived display selection,
 // not an admission. Reuse the existing calculation and its provisional threshold.
-export function selectRankedFoodSources(sources, maximum = RANKED_FOOD_POLICY.maximum) {
+// retainFoodForms is opt-in for the uncapped analytical report; display defaults are unchanged.
+export function selectRankedFoodSources(sources, maximum = RANKED_FOOD_POLICY.maximum, {retainFoodForms = false} = {}) {
   if (!Number.isInteger(maximum) || maximum < 1) throw new Error('Maximum must be a positive integer');
   const groups = new Map(), excluded = [], qualified = [];
   for (const source of [...sources].sort((a,b)=>String(a.id).localeCompare(String(b.id)))) {
@@ -56,7 +57,7 @@ export function selectRankedFoodSources(sources, maximum = RANKED_FOOD_POLICY.ma
   if (comparisons.filter(c=>c.ranked>0).length > 1) return {selected:[],excluded:[...excluded,...qualified.map(r=>({food_id:r.food_id,record:r.observation.record,reason:'Multiple incompatible qualifying pools; target comparison adjudication required'}))],comparisons};
   qualified.sort((a,b)=>b.relative_power-a.relative_power||a.food_id.localeCompare(b.food_id)||a.comparison_group.localeCompare(b.comparison_group));
   const seen=new Set(), selected=[];
-  for(const row of qualified){if(seen.has(row.food_id)){excluded.push({food_id:row.food_id,record:row.observation.record,reason:'Duplicate food identity in another qualifying comparison group'});continue;}seen.add(row.food_id);if(selected.length<maximum)selected.push(row);else excluded.push({food_id:row.food_id,record:row.observation.record,relative_power:row.relative_power,reason:`Qualifies but outside maximum ${maximum}; equal-power ties use canonical food ID`});}
+  for(const row of qualified){const identity=retainFoodForms ? row.food_id+'|'+row.preparation+'|'+row.comparison_group : row.food_id;if(seen.has(identity)){excluded.push({food_id:row.food_id,record:row.observation.record,reason:'Duplicate food identity in another qualifying comparison group'});continue;}seen.add(identity);if(selected.length<maximum)selected.push(row);else excluded.push({food_id:row.food_id,record:row.observation.record,relative_power:row.relative_power,reason:`Qualifies but outside maximum ${maximum}; equal-power ties use canonical food ID`});}
   return {selected,excluded,comparisons};
 }
 
