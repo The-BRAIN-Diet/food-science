@@ -7,6 +7,23 @@ The registry now retains 49 snapshots, including 22 pinned current assessments
 and all earlier pilot versions. Original PM sources and the approval/identity
 manifest are retained under `history/` and `integration-history.json`.
 
+## Canonical launch baseline
+
+Before the launch baseline is approved, reconcile unpublished development records
+to one current canonical proposition, decision and presentation. Apply this
+principle to SEC methodology, Finding synthesis, Hypotheses, PM templates,
+and intervention admissions. Preserve primary evidence, scientific provenance
+and live references. Check for publication and external dependencies before
+retiring any identifier or anchor. Unpublished, unreferenced intermediate
+records and pins may be removed during reconciliation. Git is the place for
+development history.
+
+Existing published or externally referenced records remain protected. Once the
+methodology is agreed, establish and validate a single framework-wide launch
+baseline against it. Apply formal SEC versioning and supersession from that
+approved baseline onward. This rule does not approve a new methodology or
+authorise premature changes to scores or admissions.
+
 ## Reference and snapshot
 
 A Finding may supply `sec_assessment_ref: {id, version, sha256}`. The exact

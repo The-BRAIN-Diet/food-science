@@ -303,10 +303,6 @@ export default function ScientificFinding({
             </p>
 
             <HubDisclosure label="Explore the evidence">
-              <p className="brain-sf-audit-id">
-                <strong>Canonical record ID:</strong> <code>{finding.id}</code>
-              </p>
-
               <p className="brain-sf-field">
                 <strong>Finding Statement:</strong> {finding.finding_statement}
               </p>

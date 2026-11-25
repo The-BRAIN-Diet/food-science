@@ -567,23 +567,24 @@ scientific_findings:
   - id: PM2-F3
     finding_label: Plasma-ratio changes do not establish ordinary-meal functional benefit
     finding_summary: >-
-      Enriched-protein studies include functional endpoints, but their exposures and populations differ from
-      ordinary meals. Keep that evidence distinct from a demonstrated LAT1-mediated clinical effect.
+      Enriched-protein studies include functional endpoints, but their exposures and populations differ
+      from ordinary meals. Keep that evidence distinct from a demonstrated LAT1-mediated clinical effect.
     finding_interpretation: >-
-      Phenome mappings remain translational relationships. Precursor-loading or depletion cognition literature
-      is a different exposure and must not be read as ordinary-meal LAT1 evidence.
+      Phenome mappings remain translational relationships. Precursor-loading or depletion cognition
+      literature is a different exposure and must not be read as ordinary-meal LAT1 evidence.
     finding_statement: >-
-      The ordinary-meal studies assessed here measured plasma amino-acid ratios, not brain transport or ADHD
-      outcomes; findings from enriched-protein attention studies do not establish ordinary-meal efficacy.
+      The ordinary-meal studies assessed here measured plasma amino-acid ratios, not brain transport or
+      ADHD outcomes; findings from enriched-protein attention studies do not establish ordinary-meal
+      efficacy.
     synthesised_evidence_confidence: not-yet-scored
     synthesis: >-
       The original meal studies do not measure functional outcomes. Markus et al. (2005) measured morning
       attention after an enriched-protein protocol, while a newer athlete trial reported null
       sleep/performance results. These contexts cannot validate a general ordinary-meal benefit or prove
-      mediation by LAT1. Teff (1989) provides a separate patient-CSF observation: protein-associated tyrosine
-      elevation with null tryptophan and amine-metabolite responses. CSF concentration is not LAT1 flux or
-      neurotransmitter synthesis; the unexplained carbohydrate-associated MHPG rise is retained without causal
-      interpretation.
+      mediation by LAT1. Teff (1989) provides a separate patient-CSF observation: protein-associated
+      tyrosine elevation with null tryptophan and amine-metabolite responses. CSF concentration is not LAT1
+      flux or neurotransmitter synthesis; the unexplained carbohydrate-associated MHPG rise is retained
+      without causal interpretation.
     synthesis_limitations: >-
       This is an assessment-scope boundary, not a claim that functional evidence is absent from the entire
       literature. The enriched-protein trials are not ordinary-meal or ADHD trials; no equivalence or
@@ -635,29 +636,45 @@ scientific_findings:
       - label: Teff et al. (1989)
         why_relevant: Central-compartment precursor observation complements peripheral meal measurements.
         why_excluded: >-
-          CSF concentration is not LAT1 flux, neurotransmitter synthesis or a functional outcome; not primary
-          evidence for the functional-benefit proposition.
+          CSF concentration is not LAT1 flux, neurotransmitter synthesis or a functional outcome; not
+          primary evidence for the functional-benefit proposition.
         citation_key: pm2-source-teff1989
         href: '#pm2-source-teff1989'
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
         directional_finding: >-
           In patients with normal pressure hydrocephalus, a protein breakfast raised CSF tyrosine but not
-          tryptophan or measured amine metabolites; the carbohydrate condition raised MHPG but not the other
-          reported precursors/metabolites.
+          tryptophan or measured amine metabolites; the carbohydrate condition raised MHPG but not the
+          other reported precursors/metabolites.
         assessment:
           study: Breakfast/water comparisons with lumbar CSF sampling 2.5 hours later during one week.
           population: >-
             Patients with normal pressure hydrocephalus; sample size and full methods not verified from
             accessible abstract.
           result: >-
-            Protein-associated CSF tyrosine response with null tryptophan and amine-metabolite observations;
-            carbohydrate-associated MHPG rise was unexplained.
+            Protein-associated CSF tyrosine response with null tryptophan and amine-metabolite
+            observations; carbohydrate-associated MHPG rise was unexplained.
           effect_magnitude: No verified numerical magnitude or equivalence estimate extracted.
           evidence_summary: Central-compartment concentration evidence, not direct LAT1 transport flux or synthesis.
           limitations: >-
             Scite abstract fallback only. Patient population, lumbar compartment and sampling time limit
             generalisation; no causal LAT1 mediation, cognition or ADHD benefit established.
+      - label: Markus et al. (2005)
+        citation_key: pm2-source-alertness2005
+        href: >-
+          /docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation#pm2-source-alertness2005
+        data_level: Human Mechanistic
+        why_relevant: Measured next-morning attention after enriched alpha-lactalbumin.
+        why_excluded: >-
+          The enriched-protein exposure and study population do not establish ordinary-meal efficacy or
+          LAT1 mediation.
+      - label: Pre-sleep alpha-lactalbumin trial (2025)
+        citation_key: pm2-source-null2025
+        href: >-
+          /docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation#pm2-source-null2025
+        data_level: Human Mechanistic
+        why_relevant: Reported null sleep and performance outcomes in the tested athletes.
+        why_excluded: Different outcomes and population from the Markus attention study; no equivalence inference.
     presentation: phenome-relationship
     primary_phenome: Focus / Attention Stability
     sec_assessment_ref:
@@ -898,7 +915,6 @@ intervention_dominance_assessment:
         extent: Different acute meals and proteins give different responses; no universal direction or dose target.
 sidebar_label: BRS1-1-2 — LAT1 Competitive Transport Modulation
 ---
-
 import PilotInterventionDisclosure from "@site/src/components/PilotInterventionDisclosure";
 
 import ScientificFinding from '@site/src/components/ScientificFinding';

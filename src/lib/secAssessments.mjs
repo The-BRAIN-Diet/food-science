@@ -6,14 +6,14 @@ export const SEC_STATUSES = Object.freeze({
   'codex-provisional':'Provisionally assessed', 'scientifically-reviewed':'Scientifically reviewed',
 });
 const factors=['D','B','P','R'];
-export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8','BRS5-FM2-PM4','BRS4-FM1-PM10','BRS-X(Circadian-FM1-PM3)','BRS6-FM2-PM4','BRS3-FM3-PM7']);
+export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5','BRS6-FM4-PM8','BRS5-FM2-PM4','BRS4-FM1-PM10','BRS-X(Circadian-FM1-PM3)','BRS6-FM2-PM4','BRS3-FM3-PM7','BRS4-FM1-PM3','BRS1-FM3-PM7']);
 const text=v=>typeof v==='string' && v.trim().length>0;
 const value=v=>Number.isInteger(v) && v>=0 && v<=2;
 const version=v=>Number.isSafeInteger(v) && v>0;
 const date=v=>typeof v==='string' && /^\d{4}-\d{2}-\d{2}$/.test(v) && !Number.isNaN(Date.parse(v)) && new Date(v).toISOString().slice(0,10)===v;
 const owner=r=>r?.pmId+'\0'+(r?.interventionId ? 'intervention:'+r.interventionId : 'finding:'+r?.findingId);
 const identity=r=>owner(r)+'\0'+r?.recordVersion;
-export const SEC_INTERVENTION_PM_IDS=Object.freeze(["BRS1-FM1-PM3","BRS1-FM1-PM1","BRS3-FM3-PM7","BRS5-FM2-PM5","BRS6-FM1-PM3","BRS1-FM2-PM6","BRS5-FM1-PM1","BRS3-FM2-PM6","BRS1-FM3-PM7","BRS-X(ECS-PM2)","BRS3-FM2-PM5","BRS6-FM3-PM6","BRS-X(Circadian-FM1-PM1)","BRS4-FM4-PM9"]);
+export const SEC_INTERVENTION_PM_IDS=Object.freeze(["BRS1-FM1-PM3","BRS1-FM1-PM1","BRS3-FM3-PM7","BRS5-FM2-PM5","BRS6-FM1-PM3","BRS1-FM2-PM6","BRS5-FM1-PM1","BRS3-FM2-PM6","BRS1-FM3-PM7","BRS-X(ECS-PM2)","BRS3-FM2-PM5","BRS6-FM3-PM6","BRS-X(Circadian-FM1-PM1)","BRS4-FM4-PM9","BRS4-FM1-PM3"]);
 
 // Stable content identity. Arrays retain order; no prose/identity normalisation.
 export function secCanonicalJson(input) {

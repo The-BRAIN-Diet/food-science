@@ -102,11 +102,11 @@ Render Assessment gaps inside the affected versioned SEC assessment using canoni
 
 Do not generate or render dated “Stage 2A/2B evidence and traceability review” execution panels in canonical pages, including Evidence & Audit. Historical execution reports remain in their source/archive records; the legacy `Stage2Review` wrapper is non-rendering compatibility only. Use the governed Finding, Principle, assessment, correction and gap interfaces for scientific records. This removes no scientific evidence and does not remove the public Framework Review & Corrections register link.
 
-## Consecutive reader-facing Finding numbers — owner correction 2 November 2026
+## Reader-facing Finding numbers — owner correction 23 November 2026
 
-Display active mechanism Findings as SF1 through SFN in canonical record order, excluding retired/withdrawn/superseded records and explicitly reclassified Principles. Retirement closes the display-number gap. These are reader labels, not scientific identities: preserve canonical Finding IDs, anchors, references and immutable assessment ownership. Never reuse a retired record ID for another proposition. Use `activeFindingNumber`/`findingReaderLabel` with the parent PM records for titles and supporting links. Existing historical records retain their canonical IDs. Stage 2A/2B must regenerate current reader labels without renaming scientific records.
+Use the canonical Finding number in the visible SF label. For example, PM3-F8 appears as SF8 in §4.1, Evidence & Audit and Evidence Gap links. A move between sections or retirement can leave a gap in the visible sequence. Preserve canonical IDs, anchors, references and immutable assessment ownership. Existing protocol and explicitly approved association titles retain their separate conventions.
 
-Current Evidence & Audit assessment labels and Evidence Gap links use the same consecutive active SF mapping. Canonical record IDs and historical snapshot references remain explicitly identified as provenance, not presented as current SF sequence numbers. This does not relabel retired history as another active Finding.
+Use SF labels for readers and retain canonical IDs in structured records and anchor targets. Omit the separate canonical record ID row in Finding disclosures.
 
 ## PM1 controlled reference completion — 3 November 2026
 

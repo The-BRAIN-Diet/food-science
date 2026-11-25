@@ -189,16 +189,19 @@ function resolveScrollTarget(target: HTMLElement, hash: string): HTMLElement {
   return innerHeading ?? target;
 }
 
-function scrollHashTargetIntoView(target: HTMLElement): void {
-  const item =
-    target.closest<HTMLElement>('li.reference-item') ||
-    (target.id.startsWith('pm-ref-') ? target.closest<HTMLElement>('li') : null) ||
-    target;
-  const scroll = () => {
-    item.scrollIntoView({ block: 'start', behavior: 'auto' });
-  };
+function scrollHashTargetIntoView(hash: string): void {
   requestAnimationFrame(() => {
-    requestAnimationFrame(scroll);
+    requestAnimationFrame(() => {
+      if (readLocationHash() !== hash) return;
+      const target = findHashTarget(hash);
+      if (!target) return;
+      const heading = resolveScrollTarget(target, hash);
+      const item =
+        heading.closest<HTMLElement>('li.reference-item') ||
+        (heading.id.startsWith('pm-ref-') ? heading.closest<HTMLElement>('li') : null) ||
+        heading;
+      item.scrollIntoView({ block: 'start', behavior: 'auto' });
+    });
   });
 }
 
@@ -283,7 +286,7 @@ function openHubTargetFromHash(
   openHubAncestors(disclosureTarget);
   lastAutoOpenedHash = hash;
   dismissedHash = '';
-  scrollHashTargetIntoView(resolveScrollTarget(target, hash));
+  scrollHashTargetIntoView(hash);
 }
 
 export function initBrsFmHubDropdowns(root: ParentNode = document, options: {forceHash?: boolean} = {}): void {

@@ -220,6 +220,11 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   detail.setAttribute("aria-label", `${disclosure.title} — input evidence`);
   detail.innerHTML = buildDetailHtml(disclosure);
 
+  // A linked label becomes the enhanced row, so keep its fragment on the row.
+  const labelAnchor = li.querySelector<HTMLElement>(":scope > span[id]:only-child");
+  if (!li.id && labelAnchor && labelAnchor.textContent?.trim() === li.textContent?.trim()) {
+    li.id = labelAnchor.id;
+  }
   li.textContent = "";
   li.append(trigger);
   if (titleLink) li.append(document.createTextNode(" "), titleLink);

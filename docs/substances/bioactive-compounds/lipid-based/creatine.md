@@ -35,6 +35,7 @@ Creatine is a nitrogen-containing compound that plays a critical role in cellula
 
 ## References
 
+- [Prokopidis et al. (2023)](/docs/papers/BRAIN-Diet-References#prokopidis_creatine_memory_2023) reviewed randomized trials of creatine monohydrate and memory in healthy participants. The [authors’ reanalysis](/docs/papers/BRAIN-Diet-References#prokopidis_creatine_memory_reply_2023) corrected double-counting of memory outcomes and found an uncertain overall effect (SMD 0.19, 95% CI −0.07 to 0.46). See the [PM appraisal](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer/#41-scientific-findings).
 - Creatine supports ATP recycling via the phosphocreatine system and enhances working memory and cognitive processing speed, particularly under cognitive load [Avgerinos et al. 2018](/docs/papers/BRAIN-Diet-References#avgerinos_effects_2018)
 - Creatine supplementation improves cognitive performance in sleep-deprived adults [McMorris et al. 2007](/docs/papers/BRAIN-Diet-References#mcmorris_creatine_2007)
 - Combinations of creatine and CoQ10 show additive neuroprotection in models of Parkinson's and Huntington's disease [Yang et al. 2009](/docs/papers/BRAIN-Diet-References#yang_combination_2009)
