@@ -16,8 +16,7 @@ export function findingReaderLabel(finding, data) {
   const association=findingAssociations(data,finding?.id);
   if(association) return association.label;
   const label=String(finding?.finding_label || '').trim();
-  const number=activeFindingNumber(data,finding?.id);
-  const id=number ? `SF${number}` : shortFindingId(finding?.id);
+  const id=shortFindingId(finding?.id);
   return label ? (/^PM\d+-F\d+$/.test(finding?.id || '') ? `${id} — ${label}` : label) : id;
 }
 

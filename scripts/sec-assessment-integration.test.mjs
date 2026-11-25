@@ -6,6 +6,7 @@ import {createRequire} from 'node:module';
 import matter from 'gray-matter';
 import {secAssessmentHash,validateSecRegistry,resolveSecAssessment,secTotals,secAssessmentView,secAuditAnchor} from './lib/sec-assessments.mjs';
 import {validateScientificFindings,renderScientificFindingsSection} from './lib/scientific-findings.mjs';
+import * as association from '../src/lib/pmAssociationPilot.mjs';
 import * as principles from '../src/lib/scientificPrinciples.mjs';
 import * as auditPresentation from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import {activeFindingNumber,findingReaderLabel,findingInterventionLinks} from '../src/lib/scientificFindingPresentation.mjs';
@@ -127,11 +128,13 @@ const disclosure=component(read('src/components/EvidenceGaps/Disclosure.tsx'),{
   '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
 }).default;
 const transparencyAudit=component(read('src/components/EvidenceGaps/Audit.tsx'),{
+  '../../lib/pmAssociationPilot.mjs':association,
   '../../../system/framework-qc/pm-open-issues.json':JSON.parse(read('system/framework-qc/pm-open-issues.json')),
   './Disclosure':disclosure,
 }).default;
 const stage2Review=component(read('src/components/Stage2Review/index.tsx'));
 const legacyFindingImports={...principleImports,
+  '../lib/pmAssociationPilot.mjs':association,
   '@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter:{}})},
   '../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks},
   '../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
@@ -139,7 +142,7 @@ const legacyFindingImports={...principleImports,
 };
 const currentFinding=component(read('src/components/ScientificFinding.tsx'),legacyFindingImports).default;
 
-test('legacy Finding evidence HTML is unchanged except the approved derived SF title prefix',()=>{
+test('Finding HTML uses the SF prefix and omits the separate internal record ID',()=>{
   // Fixed pre-integration source, not mutable HEAD (which now has SF labels).
   const baseline=JSON.parse(read('system/sec-assessments/integration-history.json')).baseline;
   const old=component(execFileSync('git',['show',baseline+':src/components/ScientificFinding.tsx'],{encoding:'utf8'}),legacyFindingImports).default;
@@ -148,7 +151,8 @@ test('legacy Finding evidence HTML is unchanged except the approved derived SF t
   for(const f of data.scientific_findings) {
     const html=render(current,{finding:f});
     if(/^PM\d+-F\d+$/.test(f.id))assert.ok(html.includes(findingReaderLabel(f)));
-    assert.equal(html.replace(/SF\d+ — /g,'').replace('Canonical record ID:', 'Finding ID:'),render(old,{finding:f}));
+    assert.doesNotMatch(html,/Canonical record ID:/);
+    assert.equal(html.replace(/SF\d+ — /g,''),render(old,{finding:f}).replace(/<p[^>]*><strong>Finding ID:<\/strong>[^]*?<\/p>/,''));
   }
 });
 
@@ -174,8 +178,8 @@ test('reference renderer reuses indicator and audit, exposes pinned history and 
   render(module.CanonicalSecAudit,{findings:[f],pmId:r.pmId,page,panelId:'audit'});
   assert.equal(auditProps[0].assessmentPage,page);
   assert.equal(auditProps[0].assessmentView(r).title,f.finding_label);
-  // Without an active Finding inventory, preserve the canonical identity rather than invent numbering.
-  assert.equal(auditProps[0].assessmentView(r).shortId,r.findingId);
+  // Display the canonical number with the reader-facing SF prefix.
+  assert.equal(auditProps[0].assessmentView(r).shortId,'SF5');
   assert.deepEqual(auditProps[0].assessmentRecords,[r]);
   // Older versions live in record history; a newer registry entry must never
   // replace the version pinned by the Finding or become a duplicate disclosure.
@@ -195,6 +199,7 @@ function assertPublicationGate(scripts) {
     'node scripts/check-dietary-input-governance.mjs',
     'node scripts/check-sec-assessments.mjs',
     'node scripts/generate-all-input-mappings.mjs',
+    'npm run qc:generate',
   ]);
   assert.equal(scripts.predeploy,'node scripts/check-sec-assessments.mjs');
 }

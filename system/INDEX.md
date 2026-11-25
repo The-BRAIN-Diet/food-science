@@ -4,6 +4,7 @@ Start with [project orientation](../project-knowledge/START-HERE.md). This is a 
 
 | Task | Authoritative contracts / templates |
 |---|---|
+| Pre-launch reconciliation and baseline protection | [Canonical launch baseline](sec-assessments/README.md#canonical-launch-baseline) |
 | Scientific ownership and projection consistency | [Canonical projections and five checkpoints](canonical-scientific-projections.md) |
 | Scientific discovery and propositions | [Stage 2A](scientific-finding-schema.md); [scientific hypotheses](scientific-hypotheses-schema.md) |
 | Dietary applicability, admissions and food traceability | [Stage 2B](dietary-input-traceability-contract.md); [admission governance](dietary-input-governance-v2.md) |

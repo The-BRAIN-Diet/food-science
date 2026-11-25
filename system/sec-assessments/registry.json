@@ -19318,6 +19318,968 @@
         "assessmentGaps": [],
         "stoppingRationale": "One pilot supports a bounded concentration effect under the shared-aspirin protocol."
       }
+    },
+    {
+      "sha256": "74915a4c8cad70f2775093bf59445e4c0ba1aa275c5a11e099234c625587301f",
+      "record": {
+        "id": "brs4-fm1-pm3-f8-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM1-PM3",
+        "findingId": "PM3-F8",
+        "title": "Creatine monohydrate and overall memory after reanalysis",
+        "proposition": "Across the placebo-controlled trials in healthy participants pooled by Prokopidis et al., the corrected estimate for oral creatine monohydrate is compatible with little or no overall memory benefit and with a modest benefit.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 0,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "Precision 0 caps adjusted confidence at 4/8.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-23",
+        "humanReview": null,
+        "rationale": {
+          "D": "Placebo-controlled trials directly measured memory performance after the oral exposure in the reviewed healthy samples. Directness applies to memory, separate from cerebral phosphocreatine buffering.",
+          "B": "Placebo comparisons, published risk-of-bias appraisal and the authors’ correction provide safeguards. Randomisation and allocation reporting were weak in several trials, and outcome selection and correlations among memory measures remain concerns. The original double-counted estimate carries no weight in the score.",
+          "P": "The corrected overall interval runs from −0.07 to 0.46 SD. It cannot distinguish little or no effect from a potentially meaningful benefit. The older subgroup estimate remains exploratory.",
+          "R": "Multiple independent randomized samples tested similar memory outcomes, with partial convergence for some tests and age groups. Variation in tests, age and regimens limits consistency. The review, critique and reply do not add independent cohorts."
+        },
+        "sources": {
+          "supporting": [
+            "prokopidis_creatine_memory_reply_2023"
+          ],
+          "contextual": [
+            "prokopidis_creatine_memory_2023",
+            "eckert_creatine_memory_double_counting_2023",
+            "avgerinos_effects_2018"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1093/nutrit/nuac064",
+              "role": "Original systematic review and meta-analysis",
+              "access": "Full text via Europe PMC XML; methods and results inspected",
+              "assessment": "Ten trials in the review and eight pooled. Original overall SMD 0.29 (95% CI 0.04 to 0.53); the analysis counted multiple outcomes from the same participants as independent."
+            },
+            {
+              "doi": "10.1093/nutrit/nuac108",
+              "role": "Published methodological critique",
+              "access": "Publisher excerpt and PubMed record; critique corroborated by authors’ reply",
+              "assessment": "Identified the unit-of-analysis error caused by double-counting participants across memory outcomes."
+            },
+            {
+              "doi": "10.1093/nutrit/nuac111",
+              "role": "Load-bearing author reanalysis of the same trials",
+              "access": "Publisher reply text and corrected results",
+              "assessment": "The authors’ reanalysis combined multiple memory outcomes within studies. The pooled standardized mean difference was 0.19 (95% CI −0.07 to 0.46, I² = 4%, p = 0.15). The older subgroup estimate was 0.80 (95% CI 0.25 to 1.34)."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The uncorrected positive pooled result was superseded for interpretation by the authors’ reanalysis. The older subgroup signal and near-zero younger subgroup estimate do not by themselves establish an age interaction."
+        },
+        "limitations": [
+          "Regimens ranged from approximately 2.2 to 20 g/day over five days to 24 weeks in the original review. Memory instruments and trial populations varied.",
+          "The corrected pooled interval crosses zero. The older subgroup signal does not establish a dose or age-specific recommendation.",
+          "The review assessed memory performance. It did not establish cerebral phosphocreatine target engagement or a change in ATP-buffering flux."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Codex appraisal of the published review and author reanalysis, scoped to overall memory performance.",
+        "history": [
+          {
+            "date": "2026-11-23",
+            "decision": "Pinned a new Finding assessment based on the authors’ corrected estimate. Added outcome context in §3 without a new intervention admission."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The corrected estimate and review methods suffice to assess the overall memory proposition provisionally."
+      }
+    },
+    {
+      "sha256": "4fe27c4ee582d1d982a94f3f312d73c5e7efc071cc0a16b5ba5b6a43f3ffe94e",
+      "record": {
+        "id": "brs4-fm1-pm3-pm3-sop-coingestion-1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM1-PM3",
+        "interventionId": "PM3-SOP-COINGESTION-1",
+        "title": "Creatine plus carbohydrate loading — skeletal-muscle phosphocreatine",
+        "proposition": "In healthy men undergoing five days of creatine monohydrate loading at 5 g four times daily, taking about 93 g simple carbohydrate 30 minutes after each dose increased skeletal-muscle phosphocreatine concentration more than the same creatine schedule alone.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No ceiling changes the 4/8 total.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "The exact loading comparison directly measured resting skeletal-muscle phosphocreatine by biopsy. This score is for concentration, not PM-level flux.",
+          "B": "Reported random allocation and objective paired biopsies protect the comparison. Three men were withdrawn and the analysed groups were small and unequal. Allocation concealment and masking were not established.",
+          "P": "Mean changes and SEs show an approximately twofold difference in the increment. The small analysed sample and unavailable interval for the exact contrast limit precision.",
+          "R": "One exact protocol with muscle phosphocreatine measured. Neither the clamp nor urinary retention trials replicate it."
+        },
+        "sources": {
+          "supporting": [
+            "green_creatine_muscle_carbohydrate_1996"
+          ],
+          "contextual": [
+            "steenge_creatine_insulin_clamp_1998",
+            "green_creatine_retention_carbohydrate_1996",
+            "steenge_creatine_protein_carbohydrate_2000"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1152/ajpendo.1996.271.5.E821",
+              "role": "Exact skeletal-muscle loading trial",
+              "access": "Primary paper, Methods, Table 1 and Figure 1 results via indexed copy; publisher abstract cross-checked.",
+              "assessment": "Randomised allocation. 24 enrolled, three withdrawals, 21 analysed. Biopsy increments in total creatine 33.0 ± 3.4 versus 20.7 ± 2.4, and phosphocreatine 14.7 ± 2.3 versus 7.2 ± 2.0 mmol/kg dry muscle, mean ± SE."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No equivalent ordinary-meal evidence or demonstration of cerebral delivery."
+        },
+        "limitations": [
+          "The scored protocol supplied approximately 370 g/day added simple carbohydrate for five days.",
+          "The protein–carbohydrate arm was tested for whole-body retention, not muscle phosphocreatine.",
+          "No direct measurement of ATP-buffering flux under demand or human cerebral uptake."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+          "version": "Existing D/B/P/R rubric with approved completeness extension",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Independent Codex appraisal of the exact measured proposition.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Pinned a separate muscle-loading assessment and retained the candidate disposition."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "Pivotal methods and quantitative results support a provisional score within the tested context."
+      }
+    },
+    {
+      "sha256": "55e811366562ebfc4f1833d1b001073970e152e4ccdcecd041799796e1a44f48",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F1",
+        "title": "DHA is a structural neuronal-membrane polyunsaturated fat",
+        "proposition": "DHA is a structural polyunsaturated fatty acid of neuronal membranes; that structural role is not a human dosing or ADHD-treatment rule.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 2,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 6,
+        "adjustedScore": 6,
+        "capRationale": "No ceiling applies.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Human cortical fractionation and independent human membrane lipidomics directly support the composition claim. Structural presence is conserved across the mammalian samples studied, while abundance differs by fraction and species.",
+          "B": "Physical fractionation and chemical identification protect against misidentifying the lipid. Autopsy sampling, mixed cell populations and imperfect fraction purity limit cell-specific attribution.",
+          "P": "Distinct assays resolve the presence of DHA in membrane phospholipids. The proposition claims presence, and does not specify a universal tissue concentration.",
+          "R": "Independent human tissue datasets and different methods conceptually substantiate membrane composition. Mixed membrane fractions do not duplicate a purified neuronal assay."
+        },
+        "sources": {
+          "supporting": [
+            "mcnamara_role_2006"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "https://pubmed.ncbi.nlm.nih.gov/4742559/",
+              "role": "Human cortical fractionation",
+              "access": "Primary abstract",
+              "assessment": "Autopsy cortex was separated into synaptosome-rich gray matter and other fractions. Phospholipid and acyl-group distributions varied with fraction and species."
+            },
+            {
+              "doi": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9230801/",
+              "role": "Independent human membrane lipidomics",
+              "access": "Primary full text",
+              "assessment": "Mass-spectrometric profiling of human cerebellum and motor cortex and membrane-enriched fractions identified DHA-containing phospholipids. Fractions and brain regions affect relative abundance."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "Membrane composition does not establish intake requirements or ADHD efficacy."
+        },
+        "limitations": [
+          "Membrane composition does not establish intake requirements or ADHD efficacy."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "db0a013a99d5690e392bdd0921050d3fc8e09d94acb3179624cbb396f09873f6",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f2-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F2",
+        "title": "LPC-DHA uses MFSD2A for barrier transport",
+        "proposition": "LPC-DHA is transported by MFSD2A more efficiently than free or triglyceride-bound DHA; carrier form is a transport property, not a choline-intake or ADHD-dosing rule.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 1,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 3,
+        "adjustedScore": 3,
+        "capRationale": "The existing rubric caps this assessment at 5/8.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Cell assays support LPC rather than unesterified DHA as a substrate. Human MFSD2A assays support conserved transporter function and mouse tracer data support the brain route. The stated triglyceride comparison is indirect. Dietary triglycerides require processing, and the piglet oral carrier comparison does not isolate MFSD2A.",
+          "B": "Transporter expression and genetic comparators protect attribution within the assays. Model-specific handling of carriers and secondary changes in knockout mice limit the whole-brain inference.",
+          "P": "Assays distinguish the direction of substrate selectivity. A matched three-carrier efficiency estimate is unavailable, especially for human brain exposure.",
+          "R": "Cell and mouse experiments support different links, with overlap between the research groups. Independent replication of the exact three-form comparison was not found."
+        },
+        "sources": {
+          "supporting": [
+            "quek_mfsd2a_transport_2016",
+            "nguyen_mfsd2a_transporter_dha_2014"
+          ],
+          "contextual": [
+            "patrick_role_2019",
+            "umhau_brain_docosahexaenoic_2009",
+            "liu_higher_2014"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1074/jbc.M116.721035",
+              "role": "Human transporter function",
+              "access": "Primary full text, PMC4850279",
+              "assessment": "Human MFSD2A expression and substrate-uptake assays investigate sodium dependence and lysolipid structural requirements."
+            },
+            {
+              "doi": "10.1038/nature13241",
+              "role": "Mouse in vivo and cell evidence",
+              "access": "Primary report",
+              "assessment": "Knockout and cell assays support LPC-DHA transport and reduced tracer uptake after loss of the transporter. Free DHA uptake is separable."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The triglyceride clause is broader than the transporter evidence. Human PET also demonstrates that circulating unesterified DHA can enter brain through routes outside this comparison. Flagged for author decision."
+        },
+        "limitations": [
+          "The triglyceride clause is broader than the transporter evidence. Human PET also demonstrates that circulating unesterified DHA can enter brain through routes outside this comparison. Flagged for author decision."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "e48ab8bbfcea3e493a01936f6cd4331723b307b1753b41fcd5390c788e880260",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f3-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F3",
+        "title": "Phospholipid DHA accretes more than triglyceride DHA in a porcine model",
+        "proposition": "Phospholipid-bound dietary DHA produced greater gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets; that animal contrast is not a human dosing or ADHD-treatment rule.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No ceiling applies.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Defined oral tracer forms and gray-matter isotope measurements directly test the stated neonatal piglet contrast. Human infant brain development shares some features, but no human effect size is assessed.",
+          "B": "Random assignment and objective isotope measurements support attribution. The small neonatal cohort, husbandry and low background DHA limit broader inference, and masking was not established.",
+          "P": "The reported 1.9-fold contrast supports the direction in this experiment. The small sample and brief tracer window limit the precision of a general effect magnitude.",
+          "R": "Results across tissues in the same animals are complementary. No second independent neonatal piglet study of the exact two DHA carriers was identified in this appraisal."
+        },
+        "sources": {
+          "supporting": [
+            "liu_higher_2014"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1194/jlr.M045930",
+              "role": "Exact piglet tracer contrast",
+              "access": "Primary article, PMC3934737",
+              "assessment": "Of 20 selected, 16 piglets were assigned to formula carrying carbon-13 DHA as phosphatidylcholine or triacylglycerol. Gray-matter tracer accretion was 1.9-fold higher with phosphatidylcholine."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The carrier contrast applies to the studied piglets and tracer conditions. Human dosing and ADHD benefit are outside the measured outcomes."
+        },
+        "limitations": [
+          "The carrier contrast applies to the studied piglets and tracer conditions. Human dosing and ADHD benefit are outside the measured outcomes."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "a1d638132a229ecf5bd231b2903d1c6a98c55f287eb22d08f93e17ff21fed27c",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f4-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F4",
+        "title": "Multi-nutrient ADHD-seeking observations cannot isolate membrane DHA",
+        "proposition": "Observational multi-nutrient supplementation in ADHD-seeking children is translationally adjacent to attention and emotion scores; it cannot isolate membrane DHA incorporation as the cause.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 1,
+          "B": 0,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 2,
+        "adjustedScore": 2,
+        "capRationale": "The existing rubric caps this assessment at 2/8.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "The cohort directly documents rated symptoms during combined EPA/DHA/GLA, magnesium and zinc use. It is only indirect evidence for a connection with neuronal DHA incorporation, which was not measured.",
+          "B": "Paediatrician selection, unblinded parent ratings and no comparator provide inadequate protection against expectancy, natural change, co-intervention and regression to the mean. Premature discontinuation was partly related to apparent lack of response.",
+          "P": "The cohort size and descriptive changes inform score direction over follow-up. They cannot identify the magnitude of an intervention or DHA-specific effect.",
+          "R": "There is one cohort for the stated observation. Multiple questionnaire domains and subgroups do not provide independent replication."
+        },
+        "sources": {
+          "supporting": [
+            "huss_supplementation_2010"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1186/1476-511X-9-105",
+              "role": "Exact observational cohort",
+              "access": "Scite primary full text, Methods and Results",
+              "assessment": "810 children recruited from 139 practices, 792 final interviews, 113 stopped supplementation prematurely. Parent interviews supplied SNAP-IV and selected SDQ items. The SNAP-IV inattention score fell by 5.36 points during observation."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The study did not require a formal ADHD diagnosis and does not isolate any ingredient or demonstrate membrane-mediated improvement."
+        },
+        "limitations": [
+          "The study did not require a formal ADHD diagnosis and does not isolate any ingredient or demonstrate membrane-mediated improvement."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "d15f4c2a10c0585beafd7fbba1bbd013285b37f1a1956fbaea3efa4a00c2f5b2",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f5-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F5",
+        "title": "Human brain DHA incorporation is not an oral dose requirement",
+        "proposition": "Human PET estimates of circulating DHA incorporation quantify brain replacement under studied conditions; they do not directly measure oral dose requirements.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No ceiling applies.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Human PET and plasma modelling directly estimate uptake from circulating unesterified DHA at whole-brain and regional levels. Replacement is a model interpretation tied to the assumed steady state.",
+          "B": "Arterial tracer measurements, regional imaging and kinetic modelling support the estimate. A small selected volunteer cohort and model assumptions limit protection against population and kinetic-model error.",
+          "P": "The estimate resolves direction and gives observed variability. The small cohort and dependence on kinetic and steady-state assumptions limit the precision of a population replacement rate.",
+          "R": "Regional estimates come from the same people. Preclinical tracer work supports the method, while independent confirmation of the stated human whole-brain estimate was not identified."
+        },
+        "sources": {
+          "supporting": [
+            "umhau_brain_docosahexaenoic_2009"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1194/jlr.M800530-JLR200",
+              "role": "Exact human tracer experiment",
+              "access": "Primary journal PDF and PubMed PMID 19112173",
+              "assessment": "Fourteen healthy adults received IV [1-11C]DHA with PET and arterial plasma measurements. Whole-brain incorporation was estimated at 3.8 ± 1.7 mg/day (mean ± SD)."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The primary paper DOI is 10.1194/jlr.M800530-JLR200. The legacy bibliography DOI differs. This appraisal uses the verified paper and leaves the bibliography for separate decision. PET does not measure oral dose requirements."
+        },
+        "limitations": [
+          "The primary paper DOI is 10.1194/jlr.M800530-JLR200. The legacy bibliography DOI differs. This appraisal uses the verified paper and leaves the bibliography for separate decision. PET does not measure oral dose requirements."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "c6645cc335b9afb73048402e2d8124c72c4fe132554f1b5153f541701a1918f7",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f6-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F6",
+        "title": "Choline contributes to methyl-derived LPC-DHA carrier supply",
+        "proposition": "Choline tracing supports contribution to the PEMT-derived LPC-DHA route; separate transport experiments establish LPC-DHA as a brain-delivery substrate.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 1,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 3,
+        "adjustedScore": 3,
+        "capRationale": "The existing rubric caps this assessment at 5/8.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Methyl label in circulating LPC-DHA supports a human PEMT-linked contribution, and mouse and cell experiments establish the separate transport step. Linking these into a human brain-delivery route requires an additional inference.",
+          "B": "Controlled feeding, stable isotope tracing and transporter comparators protect the component inferences. The feeding analysis was post hoc with reproductive-state and DHA-background dependencies.",
+          "P": "Labelled species give direction and pathway discrimination. Tracer enrichment is not absolute delivery flux, and a human brain effect size is unavailable.",
+          "R": "Human plasma tracing and mouse brain transport supply complementary links. They do not independently replicate the complete chain."
+        },
+        "sources": {
+          "supporting": [
+            "klatt_choline_lpc_dha_2019",
+            "nguyen_mfsd2a_transporter_dha_2014"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1017/S0007114519002009",
+              "role": "Human methyl-label incorporation",
+              "access": "Publisher primary PDF",
+              "assessment": "Post-hoc analysis compared 480 and 930 mg/day choline in controlled feeding, with a methyl-d9 tracer and supplemental DHA. Plasma labelling distinguishes a methyl-donor route from direct CDP-choline incorporation."
+            },
+            {
+              "doi": "10.1038/nature13241",
+              "role": "Separate brain transport step",
+              "access": "Primary report",
+              "assessment": "Cell transport and mouse tracer/genetic experiments support LPC-DHA as a delivery substrate. They do not track dietary choline-derived label from human plasma into brain."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The studies do not quantify regulation of human neuronal DHA incorporation by dietary choline."
+        },
+        "limitations": [
+          "The studies do not quantify regulation of human neuronal DHA incorporation by dietary choline."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "17924200586fb2a62b1b8c30614238036b9d5fee46ea125472c2358056e0bfd3",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-f7-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "findingId": "PM7-F7",
+        "title": "Folate and betaine replenish the methyl resource upstream of DHA-carrier formation",
+        "proposition": "Folate-dependent remethylation and hepatic betaine/BHMT remethylation replenish methionine for SAM-dependent PEMT chemistry, which connects to the independently established methyl-derived LPC-DHA carrier route.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 1,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 3,
+        "adjustedScore": 3,
+        "capRationale": "The existing rubric caps this assessment at 5/8.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "Human enzyme and isotope evidence supports component chemistry. Animal perturbations support conditional regulation of methyl handling. The joint link from dietary folate or betaine through SAM-dependent PEMT to human neuronal DHA remains indirect.",
+          "B": "Controlled diets, enzyme kinetics, isotope readouts and structural evidence make constituent results interpretable. Ethanol rescue, genotype, sex and post-hoc analysis limit the general pathway inference.",
+          "P": "Individual steps have measurable readouts, including SAM:SAH and isotope enrichment. The integrated pathway has no matched estimate of human dietary effect magnitude.",
+          "R": "The experiments converge across different links. Human enzyme structure is not replication of nutrition-induced pathway flux in an intact human."
+        },
+        "sources": {
+          "supporting": [
+            "chew_folate_choline_2011",
+            "kharbanda_betaine_pemt_2007",
+            "bailey_human_mat2a_2021",
+            "evans_betaine_2002",
+            "klatt_choline_lpc_dha_2019",
+            "nguyen_mfsd2a_transporter_dha_2014"
+          ],
+          "contextual": [
+            "froese_vitamin_2019"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.3945/jn.111.138859",
+              "role": "Folate and Mthfr effects on choline handling",
+              "access": "Primary methods copy and Scite abstract",
+              "assessment": "Folate diet and Mthfr genotype perturbations with isotope labelling in mice show context- and sex-dependent lipid and choline metabolism responses."
+            },
+            {
+              "doi": "10.1016/j.jhep.2006.08.024",
+              "role": "Betaine and hepatic methylation",
+              "access": "Primary abstract via PubMed and Scite",
+              "assessment": "Four-week ethanol-fed male Wistar rat model with 1% betaine found recovery of hepatic SAM:SAH and PEMT-associated PC generation."
+            },
+            {
+              "doi": "10.1016/S0969-2126(02)00796-7",
+              "role": "Human BHMT structural conservation",
+              "access": "Primary abstract and author article copy",
+              "assessment": "Human BHMT crystal structures at 2.15 and 2.05 Å support the enzyme and bisubstrate binding mechanism."
+            },
+            {
+              "doi": "10.1021/acs.biochem.1c00672",
+              "role": "Human SAM synthesis step",
+              "access": "Primary article",
+              "assessment": "Human MAT2A kinetic experiments establish methionine and ATP as substrates for SAM chemistry."
+            },
+            {
+              "doi": "10.1017/S0007114519002009",
+              "role": "Human circulating carrier",
+              "access": "Publisher primary PDF",
+              "assessment": "Choline isotope enrichment supports contribution to circulating LPC-DHA. It does not quantify the full folate or betaine-to-LPC-DHA chain."
+            },
+            {
+              "doi": "10.1038/nature13241",
+              "role": "Separate transporter step",
+              "access": "Primary report",
+              "assessment": "Cell and mouse experiments support LPC-DHA transport. Neither experiment tests human dietary folate or betaine delivery to neurons."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17156888/",
+              "limitation": "Publisher and Scite routes provided the primary abstract only. Group counts and dispersion were not used to establish a numerical estimate."
+            }
+          ],
+          "contradictoryAssessment": "Biochemical capacity does not establish that adding folate or betaine increases brain DHA in humans. Full Kharbanda methods were unavailable via publisher and Scite. Its abstract-supported result is used as contextual animal evidence within the multi-source proposition."
+        },
+        "limitations": [
+          "Biochemical capacity does not establish that adding folate or betaine increases brain DHA in humans. Full Kharbanda methods were unavailable via publisher and Scite. Its abstract-supported result is used as contextual animal evidence within the multi-source proposition."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "478e61f4b49a0199e461df0326792a406b62f97c99add51859e17d1f7b1f6e75",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-sop-dha-1-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS1-FM3-PM7",
+        "interventionId": "PM7-SOP-DHA-1",
+        "title": "Defined DHA supplementation in older adults with low baseline DHA intake",
+        "proposition": "In adults aged 55–80 with low dietary DHA intake and dementia risk factors, 2 g/day DHA versus placebo, with background B vitamins in both groups, increased the cerebrospinal-fluid DHA-to-arachidonic-acid ratio at six months.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 2,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "No ceiling applies.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "The randomized human comparison directly measures the specified CSF ratio for this population, dose, background and duration. It does not directly measure neuronal membranes.",
+          "B": "Random allocation, matching placebo, blinding and objective lipid measurements protect against major bias. Lumbar puncture data came from a subset (86 DHA and 81 placebo), and later differential retention limits broader inference.",
+          "P": "The 0.19 ratio-change difference has a narrow 95% CI (0.16–0.21) and resolves both direction and magnitude for the tested comparison.",
+          "R": "The precursor trial supports CSF exposure in an independent sample with a related dose, but CSF DHA concentration is distinct from the exact DHA-to-AA ratio. It is complementary for the pinned proposition."
+        },
+        "sources": {
+          "supporting": [
+            "yassine_dha_cns_target_2026"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.ebiom.2026.106316",
+              "role": "Exact protocol comparison",
+              "access": "Primary full text and supplementary results, PMC13347776",
+              "assessment": "Randomized double-blind placebo trial of 2 g/day with background B vitamins. Among 167 participants with CSF data the six-month difference in ratio change was 0.19 (95% CI 0.16–0.21)."
+            },
+            {
+              "doi": "10.1016/j.ebiom.2020.102883",
+              "role": "Conceptually adjacent CSF delivery trial",
+              "access": "Primary full text PDF",
+              "assessment": "Independent participants in a smaller trial received 2.152 g/day and B vitamins. The earlier trial measured CSF DHA concentration, which increased by 0.08 μg/mL (95% CI 0.05–0.10) versus placebo."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The CSF biomarker does not establish membrane incorporation. The larger trial found no significant cognitive or brain-volume differences at 24 months."
+        },
+        "limitations": [
+          "The CSF biomarker does not establish membrane incorporation. The larger trial found no significant cognitive or brain-volume differences at 24 months."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
+    },
+    {
+      "sha256": "11fb54574109284c248573bac50118e0caa4a455582174c29c6383395365fe7c",
+      "record": {
+        "id": "brs1-fm3-pm7-pm7-sop-fish-capsules-1-assessment",
+        "recordVersion": 2,
+        "pmId": "BRS1-FM3-PM7",
+        "interventionId": "PM7-SOP-FISH-CAPSULES-1",
+        "title": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks",
+        "proposition": "In the tested 16-week regimens in premenopausal women, red-cell DHA increased with fish meals and fish-oil capsules; no between-regimen difference was detected.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No ceiling applies.",
+        "unscoredReason": null,
+        "lastEvidenceAssessmentDate": "2026-11-25",
+        "humanReview": null,
+        "rationale": {
+          "D": "The two schedules directly test serial red-cell DHA in the stated population. Red-cell composition is the assessed endpoint and is peripheral provision evidence.",
+          "B": "Randomization and serial gas chromatography improve protection. The comparison was unblinded, adherence was unsupervised, age differed, and there was no untreated arm for interpreting absolute temporal change.",
+          "P": "Table 1 shows marked increases in both arms with SDs near one percentage point at week 16. The small study did not resolve small between-regimen differences. Its post-hoc sensitivity referred to combined EPA+DHA, not DHA alone.",
+          "R": "One trial tests these schedules. Other DHA studies, different tissue endpoints and repeat samples from this trial do not independently substantiate the exact contrast."
+        },
+        "sources": {
+          "supporting": [
+            "harris_fish_capsules_2007"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1093/ajcn/86.5.1621",
+              "role": "Exact comparative protocol",
+              "access": "Primary PDF, Methods and Tables 1 and 2",
+              "assessment": "Twenty-three premenopausal women were randomized to the fish or capsule schedule. RBC DHA increased 3.22 to 4.83% and 3.34 to 4.86%, respectively."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "The observed null between-regimen result does not establish equivalence. Neither neuronal membrane uptake nor clinical improvement was measured."
+        },
+        "limitations": [
+          "The observed null between-regimen result does not establish equivalence. Neither neuronal membrane uptake nor clinical improvement was measured."
+        ],
+        "methodology": {
+          "name": "Scientific Evidence Confidence — Directness, Bias Protection, Precision and Replication",
+          "version": "Existing four-factor rubric and approved Directness, conservation and replication clarifications",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "process": "Appraised the exact canonical proposition against primary methods and reported results, including experimentally direct evidence, cross-species applicability and independent replication.",
+        "history": [
+          {
+            "date": "2026-11-25",
+            "decision": "Completed scoped primary-source appraisal for owner review."
+          }
+        ],
+        "previousAssessments": [
+          {
+            "id": "brs1-fm3-pm7-pm7-sop-fish-capsules-1-assessment",
+            "recordVersion": 1,
+            "pmId": "BRS1-FM3-PM7",
+            "interventionId": "PM7-SOP-FISH-CAPSULES-1",
+            "title": "Tested fish-meal versus fish-oil capsule regimens over 16 weeks",
+            "proposition": "In the tested 16-week regimens in premenopausal women, red-cell DHA increased with fish meals and fish-oil capsules; no between-regimen difference was detected.",
+            "assessmentStatus": "codex-provisional",
+            "assessmentComplete": true,
+            "factors": {
+              "D": 2,
+              "B": 1,
+              "P": 1,
+              "R": 0
+            },
+            "factorStates": {
+              "D": "established",
+              "B": "established",
+              "P": "established",
+              "R": "established"
+            },
+            "rawScore": 4,
+            "adjustedScore": 4,
+            "capRationale": "Existing D/B/P/R sum and ceilings applied; no extra replication decrement.",
+            "unscoredReason": null,
+            "lastEvidenceAssessmentDate": "2026-11-05",
+            "humanReview": null,
+            "rationale": {
+              "D": "Red-cell DHA was separately measured; score applies only to peripheral provision.",
+              "B": "Randomised active-source comparison and serial assays; unblinded, self-reported fish adherence, age imbalance and no untreated arm.",
+              "P": "RBC DHA fish3.22±0.58 to4.83±1.16%; capsules3.34±0.79 to4.86±1.10% (SD). Small groups; insufficient power for equivalence.",
+              "R": "One exact comparative protocol; older-adult CNS trials are different propositions."
+            },
+            "sources": {
+              "supporting": [
+                "harris_fish_capsules_2007"
+              ],
+              "contextual": [],
+              "targetedChecks": [
+                {
+                  "doi": "10.1093/ajcn/86.5.1621",
+                  "role": "exact intervention evidence",
+                  "access": "Complete primary PDF, Methods, Tables1/2 and Discussion inspected; https://assets.speakcdn.com/Assets/2606/0e2031631_228fullpaper2007ajcncomparisonoffishandfishoil.pdf",
+                  "assessment": "23 women (fish11, capsules12), randomised; every fortnight three171 g cans albacore tuna and one171 g farmed Atlantic salmon portion versus17 capsules, averaging about485 mg EPA+DHA/day. Gas chromatography measured red-cell fatty-acid proportions. No untreated control."
+                }
+              ],
+              "retrievalLimited": [],
+              "contradictoryAssessment": "No detected DHA group difference; nonsignificance is not equivalence. Post-hoc power could not detect RBC EPA+DHA differences below1.5 percentage points."
+            },
+            "limitations": [
+              "Red-cell DHA is peripheral exposure, not neuronal incorporation, cognition or clinical benefit.",
+              "No detected DHA group difference; nonsignificance is not equivalence. Post-hoc power could not detect RBC EPA+DHA differences below1.5 percentage points.",
+              "Small unblinded active-comparator study without untreated control; fish adherence self-reported and groups differed in age.",
+              "Specified albacore tuna, farmed Atlantic salmon and tested DHA-rich capsules; not arbitrary fish/capsule interchangeability.",
+              "More fishy aftertaste with capsules; lipid changes do not establish cardiovascular benefit."
+            ],
+            "methodology": {
+              "name": "Scientific Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+              "version": "Existing D/B/P/R rubric with approved completeness extension",
+              "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+            },
+            "process": "Independent intervention appraisal under existing provisional rubric. Batch2 blocker resolution and authorised local admission; no Finding score inherited or prior snapshot changed.",
+            "history": [
+              {
+                "date": "2026-11-05",
+                "decision": "Independent bounded intervention appraisal and admission under author Batch 2 Integration and Resolution; original review preserved in resolution history."
+              }
+            ],
+            "previousAssessments": [],
+            "completenessVersion": 1,
+            "assessmentGaps": [],
+            "stoppingRationale": "Appraisal supports this narrowly qualified proposition; not a therapeutic efficacy claim."
+          }
+        ],
+        "completenessVersion": 1,
+        "assessmentGaps": [],
+        "stoppingRationale": "The retrieved evidence permits a judgement on each factor at the exact assessment scope."
+      }
     }
   ]
 }

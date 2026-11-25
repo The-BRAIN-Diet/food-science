@@ -402,7 +402,9 @@ canonical IDs. Stage 2A authors a concise, precise descriptive label aligned wit
 the assessed proposition; labels do not imply broader dietary or clinical effects.
 Keep the §4 Summary in prose. Group the biological explanation by topic and place
 Boundaries and Integration inside its dropdown. Display the derived SF identifier
-and label with the Finding in §4.1. Preserve existing lesson and deep-link targets.
+and label with the Finding in §4.1. Keep the same number in evidence links and
+assessment headings. Omit a separate canonical record ID row in the Finding
+disclosure. Preserve existing lesson and deep-link targets.
 Do not create one headline Finding per study or silently change scientific scope.
 Follow the [shared PM presentation rule](primary-mechanism-schema.md#pm-scientific-findings--canonical-41-legacy-51)
 for dynamic section counts, intervention links, SEC and Evidence & Audit identity.

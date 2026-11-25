@@ -1,4 +1,4 @@
-import {activeFindingNumber, findingOnMainPage, findingReaderLabel} from '../../lib/scientificFindingPresentation.mjs';
+import {findingOnMainPage} from '../../lib/scientificFindingPresentation.mjs';
 import {scientificPrincipleIds,scientificPrinciples,scientificPrincipleErrors} from '../../lib/scientificPrinciples.mjs';
 import React from 'react';
 import ScientificFinding from '../ScientificFinding';
@@ -8,23 +8,25 @@ import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';
 import EvidenceAudit from '../SecCalibrationPreview/EvidenceAudit';
 import registry from '../../../system/sec-assessments/registry.json';
 import {pmCuratedSources} from '../PmCuratedProvenance';
-import {resolveSecAssessment,secAssessmentView,secAuditAnchor} from '../../lib/secAssessments.mjs';
+import {resolveInterventionSecAssessment,resolveSecAssessment,secAssessmentView,secAuditAnchor} from '../../lib/secAssessments.mjs';
 
 // Registry hashes are verified by the Node validation gate before publication.
 // Runtime resolution is exact and never fetches an arbitrary supplied path.
-export function SecAssessmentSummary({finding,pmId}:{finding:any;pmId?:string}) {
-  const resolved=resolveSecAssessment(registry,{pmId,finding});
+export function SecAssessmentSummary({finding,intervention,pmId}:{finding?:any;intervention?:any;pmId?:string}) {
+  const resolved=intervention
+    ? resolveInterventionSecAssessment(registry,{pmId,intervention})
+    : resolveSecAssessment(registry,{pmId,finding});
   if(resolved.kind==='legacy')return null;
   if(!resolved.record)return <span className="brain-sf-sec">Assessment unavailable</span>;
   const display=secAssessmentView(resolved.record);
-  if(pmId==='BRS2-FM1-PM3'&&['PM3-F1','PM3-F4'].includes(finding.id)) {
+  if(finding&&pmId==='BRS2-FM1-PM3'&&['PM3-F1','PM3-F4'].includes(finding.id)) {
     const sources=pmCuratedSources(pmId).filter((_:any,i:number)=>finding.id==='PM3-F1'?i<3:i>=3);
     return <span className="brain-sf-sec" data-sec-status="not-scored">Biochemical provenance · {sources.map((s:any)=><React.Fragment key={s.anchor}><a href={'#'+s.anchor}>[{s.label}] {s.database}</a>{' · '}</React.Fragment>)}No numerical research-synthesis score · <a href={'?review=1#'+secAuditAnchor(resolved.record)}>Evidence &amp; Audit</a></span>;
   }
   return <span className="brain-sf-sec" data-sec-status={display.status}>
     {display.score===null?<span>{display.readout}</span>:<EvidenceConfidenceIndicator score={display.score} srPrefix="Synthesised Evidence Confidence"/>}
     {(display.score !== null || display.readout !== display.statusLabel) && <>{' · '}<span>{display.statusLabel}</span></>}{' · '}
-    <a href={'?review=1#'+secAuditAnchor(resolved.record)}>Evidence &amp; Audit</a>
+    <a href={(intervention?'#':'?review=1#')+secAuditAnchor(resolved.record)}>{intervention?'Pinned SEC assessment':'Evidence & Audit'}</a>
   </span>;
 }
 
@@ -61,7 +63,7 @@ export function CanonicalSecAudit({findings,pmId,page,panelId,frontMatter}:{find
     ? findings.filter(finding => !findingOnMainPage(frontMatter, String(finding.id).toLowerCase()))
     : [];
   const titles=new Map(findings.map(f=>[f.id,f.finding_label]));
-  const presentation=(r:any)=>({...secAssessmentView(r),shortId:activeFindingNumber(frontMatter,r.findingId) ? `SF${activeFindingNumber(frontMatter,r.findingId)}` : r.findingId,title:titles.get(r.findingId)||r.title||r.findingId,incompleteReason:frontMatter?.scientific_finding_classification_notes?.[r.findingId]});
+  const presentation=(r:any)=>({...secAssessmentView(r),title:titles.get(r.findingId)||r.title||r.findingId,incompleteReason:frontMatter?.scientific_finding_classification_notes?.[r.findingId]});
   return <>
     {principleErrors.length>0 && <p role="status">Scientific Principle classification requires review. Original Findings remain visible.</p>}
     {results.some(r=>r.errors.length>0)&&<p role="status">One or more confidence assessments are unavailable. No score has been inferred.</p>}

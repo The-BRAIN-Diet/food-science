@@ -1340,6 +1340,18 @@
   }
 }
 
+.theme-doc-markdown .brs-fm-hub-panel li[id],
+.theme-doc-markdown .brs-fm-hub-panel li > span[id] {
+  scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 12px);
+}
+
+@media (min-width: 997px) {
+  .theme-doc-markdown .brs-fm-hub-panel li[id],
+  .theme-doc-markdown .brs-fm-hub-panel li > span[id] {
+    scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 51px + 12px);
+  }
+}
+
 /* Citation-key target for cross-page links (e.g. /docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) */
 .reference-citation-heading {
   position: absolute;
@@ -2102,16 +2114,6 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
 .brain-sf-isa-disclosure .brs-fm-hub-panel {
   margin-left: 0.35rem;
   padding-left: 0.55rem;
-}
-
-.brain-sf-audit-id {
-  margin: 0 0 0.55rem;
-  font-size: 0.88rem;
-  color: var(--ifm-color-emphasis-700);
-}
-
-.brain-sf-audit-id code {
-  font-size: 0.85rem;
 }
 
 .brain-sf-field {

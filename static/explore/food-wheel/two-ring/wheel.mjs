@@ -9,21 +9,21 @@ const brs6Patterns = [
     id: 'rye-substitution', brs: 'BRS6', short: 'Wholemeal rye|swap',
     name: 'Wholemeal rye replacing refined wheat',
     context: 'Östman et al. (2019) compared bread meals with 50 g available carbohydrate in a crossover study of nine healthy men. Early tracer-estimated glucose appearance was lower after the tested wholemeal rye bread, while blood glucose profiles were similar. The comparison applies to the tested breads.',
-    source: brs6Fm1 + 'brs6-fm1-pm1-glucose-appearance-kinetics#pm-ref-6',
+    source: brs6Fm1 + 'brs6-fm1-pm1-glucose-appearance-kinetics/#pm1-sop-1',
     citation: 'Östman et al. (2019) · PM1'
   },
   {
     id: 'vinegar-meal', brs: 'BRS6', short: 'Vinaigrette dip',
     name: 'White-vinegar vinaigrette with bread and cheese',
     context: 'In Liljeberg and Björck (1998), ten healthy volunteers ate a morning test meal after an overnight fast. They dipped 122 g white wheat bread into a vinaigrette made with 20 g white vinegar, 20 g water and 8 g olive oil, and ate it with 23 g cheese. The meals were consumed over about 12–14 minutes. The lower paracetamol response suggested slower gastric delivery. The study used an indirect marker. A separate study in diabetic gastroparesis found further delay.',
-    source: brs6Fm1 + 'brs6-fm1-pm1-glucose-appearance-kinetics#pm-ref-16',
+    source: brs6Fm1 + 'brs6-fm1-pm1-glucose-appearance-kinetics/#pm1-sop-10',
     citation: 'Liljeberg and Björck (1998) · PM1'
   },
   {
     id: 'whole-grain-pattern', brs: 'BRS6', short: 'Coarse whole|grains',
     name: 'Less-processed whole-grain pattern',
     context: 'Åberg et al. (2020) compared intact oats, brown rice and bread made from coarse whole-grain flour and kibbled wheat with a nutrient-matched finely processed whole-grain package in a two-week crossover per condition. Of 31 adults with type 2 diabetes, 28 completed the study. Daily glucose variability fell on two continuous glucose monitoring measures. The trial tested the package as a whole.',
-    source: brs6Fm1 + 'brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-aberg',
+    source: brs6Fm1 + 'brs6-fm1-pm2-glycaemic-variability-regulation/#pm2-sop-2',
     citation: 'Åberg et al. (2020) · PM2'
   }
 ];
@@ -452,10 +452,6 @@ function draw(data, shortlist, svg, readout, clear, selectAll, minimumPower, pow
     update(selected);
   }
   for (const node of nodes) {
-    node.node.addEventListener('pointerenter', () => {if (!selected) update(node);});
-    node.node.addEventListener('pointerleave', () => update(selected));
-    node.node.addEventListener('focus', () => {if (!selected) update(node);});
-    node.node.addEventListener('blur', () => update(selected));
     node.node.addEventListener('click', () => select(node));
     node.node.addEventListener('keydown', event => {
       if (event.key !== 'Enter' && event.key !== ' ') return;
