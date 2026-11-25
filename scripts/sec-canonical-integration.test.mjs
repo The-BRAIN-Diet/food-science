@@ -1,11 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
-import {compile} from '@mdx-js/mdx';
+import {createProcessorUncached} from '@docusaurus/mdx-loader/lib/processor.js';
+import preprocessor from '@docusaurus/mdx-loader/lib/preprocessor.js';
+import remarkPmLeverLayout from '../src/plugin/pm-lever-layout/index.cjs';
 import {loadSecRegistry,validateSecRegistry,resolveSecAssessment,secTotals} from './lib/sec-assessments.mjs';
 import {checkScientificFindings,authoredFindingLessons} from './lib/scientific-findings-gate.mjs';
 import {validateScientificFindings} from './lib/scientific-findings.mjs';
@@ -147,7 +150,38 @@ test('SAMe chemistry is unscored provenance, kinetic disagreement retained, F5 m
 });
 
 test('all three canonical MDX pages compile with only canonical components and consistent numbered references',async()=>{
-  for(const p of pages){await compile(p.content);assert.doesNotMatch(p.content,/<V1|<SamePreview|<PreviewEnhancements|<Glycaemic|<Calibration/);assert.deepEqual(validatePmReferenceIntegrity(p.data.references,p.content),[]);}
+  const options = {
+    siteDir: process.cwd(),
+    staticDirs: [path.resolve('static')],
+    markdownConfig: {
+      anchors: {maintainCase: false},
+      format: 'mdx',
+      mermaid: false,
+      mdx1Compat: {comments: true, admonitions: true, headingIds: true},
+    },
+    beforeDefaultRemarkPlugins: [remarkPmLeverLayout],
+    remarkPlugins: [],
+    rehypePlugins: [],
+    admonitions: true,
+  };
+  const processor = await createProcessorUncached({options, format: 'mdx'});
+  for (const p of pages) {
+    const filePath = path.resolve(p.canonical);
+    const content = preprocessor.default({
+      fileContent: p.content,
+      filePath,
+      markdownConfig: options.markdownConfig,
+      admonitions: options.admonitions,
+    });
+    await processor.process({
+      content,
+      filePath,
+      frontMatter: p.data,
+      compilerName: 'server',
+    });
+    assert.doesNotMatch(p.content, /<V1|<SamePreview|<PreviewEnhancements|<Glycaemic|<Calibration/);
+    assert.deepEqual(validatePmReferenceIntegrity(p.data.references, p.content), []);
+  }
   assert.deepEqual(checkScientificFindings(process.cwd()).issues,[]);
 });
 

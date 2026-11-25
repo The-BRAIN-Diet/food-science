@@ -160,6 +160,15 @@
       ]
     },
     {
+      "id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+      "title": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1"
+      ]
+    },
+    {
       "id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
       "title": "Ten-week high-fermented-food dietary pattern",
       "scope": "dietary-protocol",
@@ -373,6 +382,15 @@
       "category": "dietary_protocols",
       "relationship_ids": [
         "BRS6-FM1-PM3::PM3-SOP-EARLY-EATING-1"
+      ]
+    },
+    {
+      "id": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+      "title": "45 g/day freeze-dried whole-blueberry powder in two smoothies for six weeks",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1"
       ]
     },
     {
@@ -941,6 +959,29 @@
       ]
     },
     {
+      "id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+      "strategy_id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+      "brs": "BRS3",
+      "fm": "BRS3(FM3)",
+      "pm": "BRS3-FM3-PM7",
+      "pm_page": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
+      "input": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "Fasting plasma IL‑6, IL‑1β and TNF‑α were lower at weeks 4 and 8 versus mineral-oil placebo after baseline adjustment.",
+      "evidence": {
+        "citation_keys": [
+          "tan_epa_dha_cytokines_2018",
+          "pmc9022442_secondary_omega3_2021"
+        ]
+      },
+      "limitation": "Small double-blind pilot. Analysed n=35 of 40 (16/21 supplement, 19/19 placebo). All three cytokines started higher in the supplement arm. Baseline adjustment addressed imbalance, with limited robustness reporting. Adjusted follow-up tests support direction. Adjusted effect sizes and confidence intervals were not separately reported. The analysed formulation was tested with shared aspirin. Effects without aspirin, at other doses or from ordinary foods remain unestablished. Study-specific plasma concentrations over eight weeks. Receptor signalling, long-term effects and clinical benefit were not established.",
+      "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#system_optimisation_practices/PM7-SOP-EPA-DHA-TAN-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
       "id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
       "strategy_id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
       "brs": "BRS3",
@@ -961,7 +1002,7 @@
         ],
         "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
       },
-      "limitation": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged. No significant cognition, well-being or standard metabolic-marker changes reported. No non-intervention control, modest sample, unmasked team and exploratory outcomes. Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker. Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription. Transient bloating during ramp-up.",
+      "limitation": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged. Wastyk et al. (2021) reported no significant change in self-reported cognition or well-being. The trial used a high-fibre comparator and had no usual-diet control arm. Two participants entered the high-fibre arm by request without randomisation. The study team was unblinded. The sample was modest, and the protein findings were exploratory. Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker. Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription. Transient bloating during ramp-up.",
       "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#system_optimisation_practices/PM7-SOP-FERMENTED-FOOD-1",
       "food_ids": [],
       "substance_ids": []
@@ -1144,7 +1185,7 @@
           "zhou_glutamine_piibs_2019"
         ]
       },
-      "limitation": "106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use flow/Results cohort sizes, not a claim of complete intention-to-treat. Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control. Permeability was secondary; no direct junction-protein or mediator measurement. Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established. Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control was0.10, and Table3 is the actual between-group change comparison.",
+      "limitation": "Of 115 randomised participants, 106 completed the trial. The reported withdrawal counts are internally inconsistent, and the analysis used completers. Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control. Permeability was secondary; no direct junction-protein or mediator measurement. Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established. The glutamine group went from 0.11 at baseline to 0.05 after treatment. The control group’s post-treatment value was 0.10. Table 3 reports the between-group comparison of changes.",
       "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#system_optimisation_practices/PM1-SOP-GLUTAMINE-1",
       "food_ids": [],
       "substance_ids": [
@@ -1588,6 +1629,32 @@
       "substance_ids": []
     },
     {
+      "id": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+      "strategy_id": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "input": "45 g/day freeze-dried whole-blueberry powder in two smoothies for six weeks",
+      "input_type": "whole-food intervention",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "In obese, insulin-resistant adults without diabetes, six weeks of 45 g/day freeze-dried whole-blueberry powder in two matched smoothies improved clamp-measured insulin sensitivity compared with placebo under weight-maintenance conditions.",
+      "evidence": {
+        "citation_keys": [
+          "stull_blueberry_insulin_2010",
+          "curtis_blueberry_metabolic_2019"
+        ],
+        "finding_ids": [
+          "PM3-F6"
+        ]
+      },
+      "limitation": "One small double-blind randomized trial (32 completers; 27 women), six weeks; randomization and allocation-concealment procedures were not described in sufficient detail to establish full bias protection; adherence was self-reported. A separate six-month trial in metabolic syndrome (115 completers; 75 or 150 g/day fresh-equivalent powder) found no improvement in HOMA-IR or clamp-substudy insulin sensitivity. This differs in dose and population and is not replication of the positive protocol. The tested Tifblue/Rubel whole-food blend does not isolate anthocyanins, flavonols or an intracellular mediator. No constituent-specific dietary admission follows. 45 g/day powder was divided into two smoothies at least six hours apart; participants compensated for smoothie energy and maintained weight and activity. Fresh-fruit equivalence is approximate, not a validated substitute protocol or minimum effective dose. Insulin sensitivity improved 22.2 ± 5.8% versus 4.9 ± 4.5% (SEM; p=0.02); small groups constrain effect precision. No brain insulin action, cognitive mediation, diabetes prevention or durable clinical benefit was demonstrated. Weight and measured inflammatory markers did not improve.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-BLUEBERRY-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
       "id": "BRS6-FM2-PM4::PM4-SOP-1",
       "strategy_id": "food-strategy-26b6ca2f625b",
       "brs": "BRS6",
@@ -1779,6 +1846,15 @@
       "relationship_id": "BRS3-FM2-PM6::PM6-SOP-VITAMIN-C-RETENTION-1"
     },
     {
+      "kind": "strategy-evidence-pointer-gap",
+      "relationship_id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1"
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
       "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
@@ -1883,6 +1959,11 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS6-FM2-PM4::PM4-SOP-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     },
@@ -1902,8 +1983,8 @@
     }
   ],
   "summary": {
-    "strategies": 46,
-    "relationships": 50,
+    "strategies": 48,
+    "relationships": 52,
     "pms": 27,
     "brs": [
       "BRS1",
@@ -3063,6 +3144,18 @@
           "href": "/docs/substances/lacticaseibacillus-rhamnosus#jb-1",
           "aliases": [
             "Lactobacillus rhamnosus JB-1"
+          ]
+        },
+        {
+          "id": "caffeine",
+          "kind": "substance",
+          "title": "Caffeine",
+          "href": "/docs/substances/bioactive-compounds/alkaloids/caffeine",
+          "aliases": [
+            "1,3,7-Trimethylxanthine",
+            1,
+            3,
+            "7-Trimethylxanthine"
           ]
         },
         {
@@ -25266,6 +25359,11 @@
           ]
         },
         "limitation": "CSF exposure is not neuronal-membrane incorporation; cognition and brain volumes did not improve over 24 months, and all participants also received B vitamins.",
+        "sec_assessment_ref": {
+          "id": "brs1-fm3-pm7-pm7-sop-dha-1-assessment",
+          "version": 1,
+          "sha256": "478e61f4b49a0199e461df0326792a406b62f97c99add51859e17d1f7b1f6e75"
+        },
         "admission_basis": "existing canonical intervention array; no new adjudication",
         "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#system_optimisation_practices/PM7-SOP-DHA-1"
       },
@@ -25320,8 +25418,8 @@
         "limitation": "Red-cell DHA is peripheral exposure, not neuronal incorporation, cognition or clinical benefit. No detected DHA group difference; nonsignificance is not equivalence. Post-hoc power could not detect RBC EPA+DHA differences below1.5 percentage points. Small unblinded active-comparator study without untreated control; fish adherence self-reported and groups differed in age. Specified albacore tuna, farmed Atlantic salmon and tested DHA-rich capsules; not arbitrary fish/capsule interchangeability. More fishy aftertaste with capsules; lipid changes do not establish cardiovascular benefit.",
         "sec_assessment_ref": {
           "id": "brs1-fm3-pm7-pm7-sop-fish-capsules-1-assessment",
-          "version": 1,
-          "sha256": "d72dd74eebdeb2a7b949f2d726cb6df96517cab5632fd2a2a4285c637bd6f6d6"
+          "version": 2,
+          "sha256": "11fb54574109284c248573bac50118e0caa4a455582174c29c6383395365fe7c"
         },
         "admission_basis": "explicit",
         "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#system_optimisation_practices/PM7-SOP-FISH-CAPSULES-1"
@@ -28327,6 +28425,36 @@
         "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#system_optimisation_practices/PM6-SOP-VITAMIN-C-RETENTION-1"
       },
       {
+        "id": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+        "pm": "BRS3-FM3-PM7",
+        "atom_id": "PM7-SOP-EPA-DHA-TAN-1",
+        "field": "system_optimisation_practices",
+        "input": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+        "label": "Five softgels daily for eight weeks with the evening meal, providing approximately 1.62 g EPA, 1.09 g DHA and 0.24 g n‑3 DPA per day. Both arms took 81 mg/day aspirin.",
+        "brs": "BRS3",
+        "origin": "protocol",
+        "status": "unmapped",
+        "reason": "No canonical material identity resolved from the recorded exposure",
+        "identities": [],
+        "composition": [],
+        "sources": [],
+        "unresolved": [],
+        "evidence": {
+          "citation_keys": [
+            "tan_epa_dha_cytokines_2018",
+            "pmc9022442_secondary_omega3_2021"
+          ]
+        },
+        "limitation": "Small double-blind pilot. Analysed n=35 of 40 (16/21 supplement, 19/19 placebo). All three cytokines started higher in the supplement arm. Baseline adjustment addressed imbalance, with limited robustness reporting. Adjusted follow-up tests support direction. Adjusted effect sizes and confidence intervals were not separately reported. The analysed formulation was tested with shared aspirin. Effects without aspirin, at other doses or from ordinary foods remain unestablished. Study-specific plasma concentrations over eight weeks. Receptor signalling, long-term effects and clinical benefit were not established.",
+        "sec_assessment_ref": {
+          "id": "brs3-fm3-pm7-pm7-sop-epa-dha-tan-1-assessment",
+          "version": 1,
+          "sha256": "3ae81e55ecaa3c0951f814788ef4fc10debba5786854a93273773b3e0a22c40e"
+        },
+        "admission_basis": "explicit",
+        "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx#system_optimisation_practices/PM7-SOP-EPA-DHA-TAN-1"
+      },
+      {
         "id": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
         "pm": "BRS3-FM3-PM7",
         "atom_id": "PM7-SOP-FERMENTED-FOOD-1",
@@ -28350,7 +28478,7 @@
           ],
           "finding_role": "Mechanistic home only; intervention efficacy and SEC come from the separately cited primary trial, not this Finding."
         },
-        "limitation": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged. No significant cognition, well-being or standard metabolic-marker changes reported. No non-intervention control, modest sample, unmasked team and exploratory outcomes. Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker. Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription. Transient bloating during ramp-up.",
+        "limitation": "Primary cytokine response score was not significant in either arm; ex vivo signalling capacity was unchanged. Wastyk et al. (2021) reported no significant change in self-reported cognition or well-being. The trial used a high-fibre comparator and had no usual-diet control arm. Two participants entered the high-fibre arm by request without randomisation. The study team was unblinded. The sample was modest, and the protein findings were exploratory. Diversity did not establish causal mediation of immune effects; IL-10 is not simply a harmful pro-inflammatory marker. Mixed fermented foods; no isolated yogurt/kimchi efficacy or universal six-serving prescription. Transient bloating during ramp-up.",
         "sec_assessment_ref": {
           "id": "brs3-fm3-pm7-pm7-sop-fermented-food-1-assessment",
           "version": 1,
@@ -29142,7 +29270,7 @@
             "zhou_glutamine_piibs_2019"
           ]
         },
-        "limitation": "106 completers from115 randomised; narrative withdrawal counts are internally inconsistent. Use flow/Results cohort sizes, not a claim of complete intention-to-treat. Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control. Permeability was secondary; no direct junction-protein or mediator measurement. Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established. Earlier discovery shorthand0.05 versus0.11 conflated post-treatment with active-group baseline; post-treatment control was0.10, and Table3 is the actual between-group change comparison.",
+        "limitation": "Of 115 randomised participants, 106 completed the trial. The reported withdrawal counts are internally inconsistent, and the analysis used completers. Whey protein is not biologically inert; authors note possible IBS sensitivity. No significant symptom exacerbation was observed in control. Permeability was secondary; no direct junction-protein or mediator measurement. Not generalisable to IBS with normal permeability, other disease types, children, pregnancy/lactation or excluded renal/hepatic impairment. No significant control-arm permeability change; adverse-event rates similar and no serious adverse events reported. Long-term safety not established. The glutamine group went from 0.11 at baseline to 0.05 after treatment. The control group’s post-treatment value was 0.10. Table 3 reports the between-group comparison of changes.",
         "sec_assessment_ref": {
           "id": "brs5-fm1-pm1-pm1-sop-glutamine-1-assessment",
           "version": 1,
@@ -30033,6 +30161,39 @@
         },
         "admission_basis": "explicit",
         "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-EARLY-EATING-1"
+      },
+      {
+        "id": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+        "pm": "BRS6-FM1-PM3",
+        "atom_id": "PM3-SOP-BLUEBERRY-1",
+        "field": "system_optimisation_practices",
+        "input": "45 g/day freeze-dried whole-blueberry powder in two smoothies for six weeks",
+        "label": "45 g/day freeze-dried whole-blueberry powder in two smoothies for six weeks",
+        "brs": "BRS6",
+        "origin": "protocol",
+        "status": "unmapped",
+        "reason": "No canonical material identity resolved from the recorded exposure",
+        "identities": [],
+        "composition": [],
+        "sources": [],
+        "unresolved": [],
+        "evidence": {
+          "citation_keys": [
+            "stull_blueberry_insulin_2010",
+            "curtis_blueberry_metabolic_2019"
+          ],
+          "finding_ids": [
+            "PM3-F6"
+          ]
+        },
+        "limitation": "One small double-blind randomized trial (32 completers; 27 women), six weeks; randomization and allocation-concealment procedures were not described in sufficient detail to establish full bias protection; adherence was self-reported. A separate six-month trial in metabolic syndrome (115 completers; 75 or 150 g/day fresh-equivalent powder) found no improvement in HOMA-IR or clamp-substudy insulin sensitivity. This differs in dose and population and is not replication of the positive protocol. The tested Tifblue/Rubel whole-food blend does not isolate anthocyanins, flavonols or an intracellular mediator. No constituent-specific dietary admission follows. 45 g/day powder was divided into two smoothies at least six hours apart; participants compensated for smoothie energy and maintained weight and activity. Fresh-fruit equivalence is approximate, not a validated substitute protocol or minimum effective dose. Insulin sensitivity improved 22.2 ± 5.8% versus 4.9 ± 4.5% (SEM; p=0.02); small groups constrain effect precision. No brain insulin action, cognitive mediation, diabetes prevention or durable clinical benefit was demonstrated. Weight and measured inflammatory markers did not improve.",
+        "sec_assessment_ref": {
+          "id": "brs6-fm1-pm3-pm3-sop-blueberry-1-assessment",
+          "version": 1,
+          "sha256": "d419f83197d2eef680f987274271eac23cf98d202fd1bf08ca8d0f0547fa588c"
+        },
+        "admission_basis": "explicit",
+        "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx#system_optimisation_practices/PM3-SOP-BLUEBERRY-1"
       },
       {
         "id": "BRS6-FM1-PM3::PM3-LIFE-1",
@@ -32027,6 +32188,12 @@
       },
       {
         "from": "BRS3-FM3-PM7",
+        "to": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1",
+        "kind": "admitted-intervention",
+        "record": "BRS3-FM3-PM7::PM7-SOP-EPA-DHA-TAN-1"
+      },
+      {
+        "from": "BRS3-FM3-PM7",
         "to": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1",
         "kind": "admitted-intervention",
         "record": "BRS3-FM3-PM7::PM7-SOP-FERMENTED-FOOD-1"
@@ -32496,6 +32663,12 @@
       },
       {
         "from": "BRS6-FM1-PM3",
+        "to": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1",
+        "kind": "admitted-intervention",
+        "record": "BRS6-FM1-PM3::PM3-SOP-BLUEBERRY-1"
+      },
+      {
+        "from": "BRS6-FM1-PM3",
         "to": "BRS6-FM1-PM3::PM3-LIFE-1",
         "kind": "admitted-intervention",
         "record": "BRS6-FM1-PM3::PM3-LIFE-1"
@@ -32606,7 +32779,7 @@
     "counts": {
       "mapped": 6,
       "partially mapped": 22,
-      "unmapped": 61
+      "unmapped": 63
     }
   }
 }
