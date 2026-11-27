@@ -8,7 +8,7 @@ tags:
   - Barley
   - Vegan
   - Vegetarian
-  - Beta-glucan
+  - Beta-Glucans
   - Magnesium
 list_image: /img/foods/barley/barley_thumb.webp
 nutrition_per_100g:

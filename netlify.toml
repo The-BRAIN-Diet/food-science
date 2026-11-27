@@ -216,3 +216,63 @@
 
 [context.production.environment]
   NODE_OPTIONS = "--max-old-space-size=6144"
+
+[[redirects]]
+  from = "/docs/tags/beta-glucan"
+  to = "/docs/tags/beta-glucans/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/beta-glucan/"
+  to = "/docs/tags/beta-glucans/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/folate"
+  to = "/docs/tags/vitamin-b9/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/folate/"
+  to = "/docs/tags/vitamin-b9/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/diterpene"
+  to = "/docs/tags/terpene/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/diterpene/"
+  to = "/docs/tags/terpene/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/flavanone"
+  to = "/docs/tags/flavonoid/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/flavanone/"
+  to = "/docs/tags/flavonoid/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/nucleoside"
+  to = "/docs/tags/uridine/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/nucleoside/"
+  to = "/docs/tags/uridine/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/roast"
+  to = "/docs/recipes/side-dishes/saffron-roast-potatoes/"
+  status = 301
+
+[[redirects]]
+  from = "/docs/tags/roast/"
+  to = "/docs/recipes/side-dishes/saffron-roast-potatoes/"
+  status = 301

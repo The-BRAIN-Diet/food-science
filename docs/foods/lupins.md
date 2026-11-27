@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Arginine
-  - Folate
+  - Vitamin B9
   - Magnesium
   - Iron
   - Zinc

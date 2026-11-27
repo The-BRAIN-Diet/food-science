@@ -130,3 +130,20 @@ test('every canonical PM uses section-1 numbering after the actual shared transf
  assert.ok(checked >= 60,`Only ${checked} PMs checked`);
  assert.ok(promoted > 0,'No section-1 groups exercised');
 });
+
+test('native MDX anchors retain their HTML and Evidence & Audit links keep the document path', async () => {
+ const remarkAnchors = require(path.join(root, 'src/plugin/pm-lever-layout/remark-anchors.cjs'));
+ const source = 'Reference <span id="pm-ref-1">[1]</span>. [Audit](?review=1#pm1-f1) [Section](#real-section)';
+ const compiled = await evaluate(source, {...runtime, remarkPlugins: [remarkAnchors]});
+ const registered = [];
+ const RegisteredAnchor = ({as, id, ...props}) => {
+  registered.push(id);
+  return React.createElement(as, {id, ...props});
+ };
+ const EvidenceAuditLink = ({fragment, children}) => React.createElement('a', {href: '?review=1#'+fragment}, children);
+ const html = renderToStaticMarkup(React.createElement(compiled.default, {components: {RegisteredAnchor, EvidenceAuditLink}}));
+ assert.deepEqual(registered, ['pm-ref-1']);
+ assert.match(html, /<span id="pm-ref-1">\[1\]<\/span>/);
+ assert.match(html, /href="\?review=1#pm1-f1"/);
+ assert.match(html, /href="#real-section"/);
+});

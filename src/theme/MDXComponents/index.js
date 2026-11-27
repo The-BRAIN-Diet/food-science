@@ -2,6 +2,7 @@ import DietaryPathways from '@site/src/components/DietaryPathways';
 import Stage2Review from '@site/src/components/Stage2Review';
 import EvidenceGaps from '@site/src/components/EvidenceGaps';
 import React from 'react';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import MDXComponents from '@theme-original/MDXComponents';
 import Collapse from '../Collapse';
 import TagList from '../TagList';
@@ -42,7 +43,18 @@ import AdvancedNutrition, {TherapeuticAreaResearch} from '../../components/Advan
 import AccessibleMermaid from '../../components/AccessibleMermaid';
 import Mermaid from '@theme/Mermaid';
 
+function RegisteredAnchor({as: Element, id, ...props}) {
+  useBrokenLinks().collectAnchor(id);
+  return <Element id={id} {...props} />;
+}
+
+function EvidenceAuditLink({fragment, children}) {
+  return <a href={`?review=1#${fragment}`}>{children}</a>;
+}
+
 export default {
+  RegisteredAnchor,
+  EvidenceAuditLink,
   ...MDXComponents,
   Stage2Review,
   EvidenceGaps,

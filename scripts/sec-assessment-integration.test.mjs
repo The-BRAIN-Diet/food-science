@@ -134,6 +134,7 @@ const transparencyAudit=component(read('src/components/EvidenceGaps/Audit.tsx'),
 }).default;
 const stage2Review=component(read('src/components/Stage2Review/index.tsx'));
 const legacyFindingImports={...principleImports,
+  '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
   '../lib/pmAssociationPilot.mjs':association,
   '@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter:{}})},
   '../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks},
@@ -228,6 +229,7 @@ test('actual shared audit renders canonical factor states and closed version anc
     '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
   }).default;
   const Audit=component(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),{
+    '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
     '../EvidenceGaps/Disclosure':Disclosure,
     '@docusaurus/router':{useLocation:()=>({pathname:'/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity'})},
     '../ReviewCorrections/PageReviewPanel':()=>null,

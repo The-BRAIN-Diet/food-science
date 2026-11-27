@@ -263,15 +263,15 @@ Neuronal communication depends on the physical organisation of connections as we
 
 **FM page:** [BRS1(FM5) — Neuronal Connectivity & Structural Adaptation](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation)
 
-**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](#fm-ref-1) [[3]](#fm-ref-3) [[4]](#fm-ref-4) [[6]](#fm-ref-6)
+**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-1) [[3]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-3) [[4]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-4) [[6]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-6)
 
 **Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Context-dependent learning, sleep, development and ageing
 
 **Connected mechanisms:**
 
-- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](#fm-ref-7)
-- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](#fm-ref-7)
-- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](#fm-ref-2)
+- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-7)
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-7)
+- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-2)
 
 </div>
 </div>
@@ -765,15 +765,15 @@ Neuronal communication depends on the physical organisation of connections as we
 
 **FM page:** [BRS1(FM5) — Neuronal Connectivity & Structural Adaptation](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation)
 
-**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](#fm-ref-1) [[3]](#fm-ref-3) [[4]](#fm-ref-4) [[6]](#fm-ref-6)
+**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-1) [[3]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-3) [[4]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-4) [[6]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-6)
 
 **Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Context-dependent learning, sleep, development and ageing
 
 **Connected mechanisms:**
 
-- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](#fm-ref-7)
-- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](#fm-ref-7)
-- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](#fm-ref-2)
+- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-7)
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-7)
+- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation/#fm-ref-2)
 
 </div>
 </div>

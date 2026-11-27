@@ -9,7 +9,6 @@ tags:
   - Recipe
   - Side Dish
   - Potatoes
-  - Roast
   - Saffron
 servings: 4
 recipe_ingredients:

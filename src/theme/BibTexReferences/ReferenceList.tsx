@@ -1,3 +1,4 @@
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import React from "react"
 import {formatReference, ReferenceStyle, BibEntry} from "./ReferenceFormatters"
 
@@ -132,6 +133,12 @@ export default function ReferenceList({
     const comparison = String(valueA).localeCompare(String(valueB))
     return sortDirection === "asc" ? comparison : -comparison
   })
+
+  const {collectAnchor} = useBrokenLinks();
+  for (const {entry, aliasKeys} of sortedEntries) {
+    collectAnchor(entry.citationKey || undefined);
+    aliasKeys.forEach(collectAnchor);
+  }
 
   if (sortedEntries.length === 0) {
     return <div className="reference-list-empty">No references found</div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import {EAA_IDS, validateAminoAcidProfile} from '../../lib/aggregateFoodComposition.mjs';
 
 export function AggregateSourceTable({sources}:{sources:any[]}) {
@@ -10,8 +11,11 @@ export function AggregateSourceTable({sources}:{sources:any[]}) {
 }
 export default function AminoAcidComposition({frontMatter}:{frontMatter:any}) {
   const profiles=(frontMatter.nutrition_amino_acid_profiles||[]).filter((p:any)=>!validateAminoAcidProfile(p).length);
+  const {collectAnchor} = useBrokenLinks();
   if(!profiles.length)return null;
-  return <details id="amino-acid-composition"><summary>Indispensable amino-acid composition — source &amp; portion</summary>
+  const anchor = "amino-acid-composition";
+  collectAnchor(anchor);
+  return <details id={anchor}><summary>Indispensable amino-acid composition — source &amp; portion</summary>
     {profiles.map((p:any)=><div key={p.id}><p>{p.material}. <Link to={p.source.source_url}>USDA FoodData Central {p.source.fdc_id}</Link>; {p.basis}.</p>
       <table><thead><tr><th>Constituent</th><th>g per 100 g</th></tr></thead><tbody>{EAA_IDS.map(id=><tr key={id}><td>{id}</td><td>{p.amino_acids[id].value}</td></tr>)}</tbody></table>
       <p>Protein: {p.protein_g} g per 100 g. Illustrative portion: {p.portion.label}, {Math.round(p.portion.source_grams*p.portion.multiplier*100)/100} g (USDA portion record {p.portion.source_row_id}{p.portion.multiplier!==1?`; scaled by ${p.portion.multiplier}`:''}).</p>

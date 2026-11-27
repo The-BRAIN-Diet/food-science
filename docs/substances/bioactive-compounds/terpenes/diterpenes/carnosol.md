@@ -7,7 +7,6 @@ tags:
   - Substance
   - Bioactive
   - Terpene
-  - Diterpene
   - Carnosol
   - Rosemary
   - Inflammation
