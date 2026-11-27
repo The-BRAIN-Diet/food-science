@@ -1,12 +1,15 @@
 import {useDoc} from '@docusaurus/plugin-content-docs/client';
 import {findingAssociations} from '../lib/pmAssociationPilot.mjs';
 import React from 'react';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 /** Hypotheses have no SEC indicator, dietary action or automatic mechanism admission. */
 export default function ScientificHypothesis({hypothesis:h}: {hypothesis:any}) {
   const {frontMatter}=useDoc();
+  const anchor = h.id.toLowerCase();
+  useBrokenLinks().collectAnchor(anchor);
  const list=(items:any[]) => <ul>{items.map((x,i)=><li key={i}>{typeof x==='string'?x:JSON.stringify(x)}</li>)}</ul>;
  const roles=[['supporting','Supporting Findings'],['contradictory_or_null','Contradictory or null Findings'],['contextual','Contextual Findings']] as const;
- return <details id={h.id.toLowerCase()} className="scientific-hypothesis" style={{border:'1px dashed #667085',borderRadius:6,padding:'0.6rem 0.8rem',margin:'0.75rem 0'}}>
+ return <details id={anchor} className="scientific-hypothesis" style={{border:'1px dashed #667085',borderRadius:6,padding:'0.6rem 0.8rem',margin:'0.75rem 0'}}>
   <summary style={{cursor:'pointer',fontWeight:600}}>Hypothesis-{h.id.split('-H')[1]} — {h.title} <span className="hypothesis-status" style={{fontSize:'0.85em',border:'1px solid #667085',borderRadius:4,padding:'0.1em 0.4em',marginLeft:'0.5em'}}>{h.status}</span></summary>
   <p><strong>Scientific hypothesis.</strong> Scientific admission is required before any proposed mechanism relationship can be approved, including when a hypothesis is marked Supported.</p>
   <p><strong>Proposition:</strong> {h.proposition}</p><p><strong>Proposed direction:</strong> {h.proposed_direction}</p><p><strong>Rationale:</strong> {h.rationale}</p>

@@ -6,7 +6,6 @@ description: Nucleoside that can supply CTP for CDP-choline. UMP and uridine-plu
 tags:
   - Substance
   - Bioactive
-  - Nucleoside
   - Uridine
   - Neurotransmitter Regulation
   - Methylation & One-Carbon Metabolism

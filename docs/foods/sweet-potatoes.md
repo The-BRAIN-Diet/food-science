@@ -8,7 +8,7 @@ tags:
   - Sweet Potatoes
   - Vegan
   - Vegetarian
-  - Beta-carotene
+  - Beta-Carotene
   - Potassium
   - Vitamin C
 list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp

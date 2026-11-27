@@ -7,7 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
-  - Flavanone
+  - Flavonoid
   - Hesperidin
   - Lemon
   - Inflammation

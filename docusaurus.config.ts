@@ -3,6 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import fs from 'node:fs';
 import path from 'node:path';
+import remarkAnchors from './src/plugin/pm-lever-layout/remark-anchors.cjs';
 import remarkPmLeverLayout from './src/plugin/pm-lever-layout/index.cjs';
 
 function loadEnvLocal() {
@@ -409,7 +410,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          beforeDefaultRemarkPlugins: [remarkPmLeverLayout],
+          beforeDefaultRemarkPlugins: [remarkPmLeverLayout, remarkAnchors],
           sidebarCollapsible: true,
           sidebarCollapsed: true,
           async sidebarItemsGenerator(args) {

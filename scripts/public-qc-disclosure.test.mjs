@@ -83,6 +83,7 @@ test('partial applied history cannot imply all outstanding decisions were resolv
 function pmAudit() {
   const empty = () => null;
   return loadTs('src/components/SecCalibrationPreview/EvidenceAudit.tsx', name => {
+    if (name === '@docusaurus/useBrokenLinks') return () => ({collectAnchor(){}});
     if (name === 'react') return React;
     if (name === '@docusaurus/router') return {useLocation: () => ({pathname: '/docs/biological-targets/brs5/fm2/pm4/'})};
     if (name.endsWith('frameworkQcPublic')) return data;

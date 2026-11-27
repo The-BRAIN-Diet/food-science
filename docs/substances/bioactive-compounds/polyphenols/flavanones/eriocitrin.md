@@ -7,7 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
-  - Flavanone
+  - Flavonoid
   - Eriocitrin
   - Lemon
   - Oxidative Stress

@@ -7,14 +7,14 @@ description: A lightly fermented, naturally sparkling drink made from stale sour
 tags:
   - Recipe
   - Drinks
-  - Fermented
-  - Gut-Brain Axis
+  - fermented
+  - gut-brain-axis
   - SCFA
-  - Postbiotics
-  - Hydration
-  - Traditional Food
-  - Low Alcohol
-  - Brain Diet
+  - postbiotics
+  - hydration
+  - traditional-food
+  - low-alcohol
+  - brain diet
   - Gut Microbiome
   - Neurochemical Balance
   - Insulin Response

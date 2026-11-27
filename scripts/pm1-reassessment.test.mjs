@@ -132,6 +132,7 @@ test('actual PM1 Finding and existing audit render matching scores, exact propos
   };
   const indicator={__esModule:true,default:({score})=>React.createElement('span',null,score+'/8'),SEC_DISPLAY_LEVELS:[]};
   const Audit=component('src/components/SecCalibrationPreview/EvidenceAudit.tsx',{
+    '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
     '@docusaurus/router':{useLocation:()=>({pathname:'/docs/system/sec-calibration/pm1-reassessment'})},
     '../ReviewCorrections/PageReviewPanel':()=>null,'../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{register_path:'/register'}},
     '../EvidenceConfidenceIndicator':indicator,'../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},

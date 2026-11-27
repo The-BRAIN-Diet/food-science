@@ -1,3 +1,4 @@
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import {findingAssociations} from '../lib/pmAssociationPilot.mjs';
 import {isScientificPrinciple} from '../lib/scientificPrinciples.mjs'
 import React, { useEffect, useRef } from "react"
@@ -261,7 +262,9 @@ export default function ScientificFinding({
     }
   }, [finding.id])
 
+  const {collectAnchor} = useBrokenLinks()
   if (isScientificPrinciple(frontMatter, finding.id)) return null
+  collectAnchor(anchor)
 
   return (
     <section

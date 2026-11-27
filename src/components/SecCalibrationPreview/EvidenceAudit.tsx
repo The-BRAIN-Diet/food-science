@@ -1,3 +1,4 @@
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import EvidenceDisclosure from '../EvidenceGaps/Disclosure';
 import React, {useEffect, useRef} from 'react';
 import {useLocation} from '@docusaurus/router';
@@ -15,6 +16,9 @@ import {assessmentPresentation, evidenceReviewPresentation, correctionPresentati
 import styles from './styles.module.css';
 
 export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false,assessmentHeading}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean;assessmentHeading?:string}) {
+  const {collectAnchor} = useBrokenLinks();
+  collectAnchor(panelId);
+  if (!embedded) collectAnchor("sec-rubric-legend");
   const location = useLocation();
   const v1Pm = location.pathname.includes('/sec-calibration/v1/') ? ({gaba:'BRS1-FM4-PM9','glycaemic-variability':'BRS6-FM1-PM2','same-synthesis':'BRS2-FM1-PM3'}[location.pathname.replace(/\/$/,'').split('/').pop() || '']) : null;
   const records = assessmentRecords ?? (v1Pm ? v1Assessments.filter(r => r.pmId === v1Pm) : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit]);
@@ -71,6 +75,10 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     {scientificFindings}
     <h3>{assessmentHeading ?? (embedded ? "Historical assessment details" : "Scientific Finding assessments")}</h3>
     {records.map(audit => {
+      collectAnchor(recordAnchor(audit));
+      if (assessmentRecords && 'previousAssessments' in audit) {
+        audit.previousAssessments.forEach(previous => collectAnchor(recordAnchor(previous)));
+      }
       const conditional = 'conditional' in audit ? audit.conditional : null;
       const display = assessmentView(audit);
       return <div key={recordAnchor(audit)} id={recordAnchor(audit)} className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>

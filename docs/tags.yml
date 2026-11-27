@@ -1985,3 +1985,144 @@ Oxalate:
 Caffeine:
   label: Caffeine
   description: Caffeine identity and evidence-qualified relationships; not a recommendation to consume.
+
+5-Methyltetrahydrofolate:
+  label: 5-Methyltetrahydrofolate
+  permalink: /5-methyltetrahydrofolate
+
+Allicin:
+  label: Allicin
+  permalink: /allicin
+
+Arabinan:
+  label: Arabinan
+  permalink: /arabinan
+
+Broccoli Sprouts:
+  label: Broccoli Sprouts
+  permalink: /broccoli-sprouts
+
+Cacao Nibs (Raw):
+  label: Cacao Nibs (Raw)
+  permalink: /cacao-nibs-raw
+
+Cacao Powder:
+  label: Cacao Powder
+  permalink: /cacao-powder
+
+Carnosic acid:
+  label: Carnosic acid
+  permalink: /carnosic-acid
+
+Carnosol:
+  label: Carnosol
+  permalink: /carnosol
+
+Carvacrol:
+  label: Carvacrol
+  permalink: /carvacrol
+
+Catechin:
+  label: Catechin
+  permalink: /catechin
+
+Cheddar Cheese:
+  label: Cheddar Cheese
+  permalink: /cheddar-cheese
+
+Citrulline:
+  label: Citrulline
+  permalink: /citrulline
+
+Ellagic acid:
+  label: Ellagic acid
+  permalink: /ellagic-acid
+
+Ellagitannins:
+  label: Ellagitannins
+  permalink: /ellagitannins
+
+Epicatechin:
+  label: Epicatechin
+  permalink: /epicatechin
+
+Eriocitrin:
+  label: Eriocitrin
+  permalink: /eriocitrin
+
+"Fructo-oligosaccharides / galacto-oligosaccharides":
+  label: "Fructo-oligosaccharides / galacto-oligosaccharides"
+  permalink: /fructo-oligosaccharides-galacto-oligosaccharides
+
+Glucoraphanin:
+  label: Glucoraphanin
+  permalink: /glucoraphanin
+
+Glucose:
+  label: Glucose
+  permalink: /glucose
+
+Glutamate:
+  label: Glutamate
+  permalink: /glutamate
+
+Glutamine:
+  label: Glutamine
+  permalink: /glutamine
+
+Greek Yogurt:
+  label: Greek Yogurt
+  permalink: /greek-yogurt
+
+Hesperidin:
+  label: Hesperidin
+  permalink: /hesperidin
+
+Inulin:
+  label: Inulin
+  permalink: /inulin
+
+N-acetylcysteine:
+  label: N-acetylcysteine
+  permalink: /n-acetylcysteine
+
+Oligomeric Procyanidins:
+  label: Oligomeric Procyanidins
+  permalink: /oligomeric-procyanidins
+
+Pectin:
+  label: Pectin
+  permalink: /pectin
+
+Pyridoxal 5′-phosphate:
+  label: Pyridoxal 5′-phosphate
+  permalink: /pyridoxal-5-phosphate
+
+Resistant starch:
+  label: Resistant starch
+  permalink: /resistant-starch
+
+Serine:
+  label: Serine
+  permalink: /serine
+
+Thyme:
+  label: Thyme
+  permalink: /thyme
+
+Thymol:
+  label: Thymol
+  permalink: /thymol
+
+Uridine:
+  label: Uridine
+  permalink: /uridine
+
+Watermelon:
+  label: Watermelon
+  permalink: /watermelon
+
+Organosulfur:
+  label: Organosulfur
+  permalink: /organosulfur
+  description: Index for organosulfur compounds.

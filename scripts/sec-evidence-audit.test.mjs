@@ -21,6 +21,7 @@ function renderAudit(records) {
   const indicator=loadComponent('src/components/EvidenceConfidenceIndicator/index.tsx',{'clsx':clsx,'./secDisplay.mjs':displayModule});
   const empty=()=>null;
   const C=loadComponent('src/components/SecCalibrationPreview/EvidenceAudit.tsx',{
+    '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
     '../Stage2Review':{Stage2ReviewOutlet:empty},'@docusaurus/router':{useLocation:()=>({pathname:'/docs/system/sec-calibration/gaba'})},
     '../ReviewCorrections/PageReviewPanel':{__esModule:true,default:empty},'../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{}},
     '../EvidenceConfidenceIndicator':indicator,'../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},

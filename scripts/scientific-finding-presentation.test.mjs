@@ -18,7 +18,7 @@ const beforePilot=matter(read('review/scientific-principles-governance-pm1-2026-
 function component(frontMatter={}) {
   const mod={exports:{}};
   const code=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
-  const imports={'../lib/scientificPrinciples.mjs':scientificPrinciples,'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
+  const imports={'@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),'../lib/scientificPrinciples.mjs':scientificPrinciples,'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
   new Function('exports','require','module',code)(mod.exports,id=>imports[id]||require(id),mod);
   return mod.exports.default;
 }

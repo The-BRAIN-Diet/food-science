@@ -12,8 +12,8 @@ tags:
   - Magnesium
   - Zinc
   - Copper
-  - Folate
-  - Beta-glucan
+  - Vitamin B9
+  - Beta-Glucans
   - Cysteine
 list_image: /img/foods/oats/oats_thumb.webp
 eaa_profile_applicable: true
