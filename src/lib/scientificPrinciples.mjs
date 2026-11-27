@@ -13,8 +13,18 @@ export function scientificPrincipleLabel(finding, data) {
   const principle=scientificPrinciples(data).find(p=>p.original_finding_id===finding.id);
   return `Scientific Principle — ${principle?.title || finding.finding_label || finding.title || finding.id}`;
 }
+/** A controlled placement correction; existing audit-only pages keep their routing. */
+export function findingOnMainPage(data, id) {
+  return data?.scientific_findings_placement === 'section-4' &&
+    (data.scientific_findings || []).some(f => /^PM\d+-F\d+$/.test(String(f.id || '')) &&
+      String(f.id).toLowerCase() === id && (f.presentation || 'mechanistic-basis') === 'mechanistic-basis');
+}
+
 export function findingEvidenceHref(data, id) {
-  return `${(data?.evidence_tabs_version === 1 || isScientificPrinciple(data, id)) ? '?review=1' : ''}#${id.toLowerCase()}`;
+  const anchor = id.toLowerCase();
+  const needsAudit = isScientificPrinciple(data, id) ||
+    (data?.evidence_tabs_version === 1 && !findingOnMainPage(data, anchor));
+  return `${needsAudit ? '?review=1' : ''}#${anchor}`;
 }
 export function scientificPrincipleErrors(data) {
   const errors=[], rows=scientificPrinciples(data), findings=data?.scientific_findings || [];

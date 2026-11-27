@@ -1,11 +1,11 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-10-23T18:15:55.910Z",
+    "generatedAt": "2026-11-27T19:27:10.619Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
-    "pmPageCount": 65,
+    "pmPageCount": 68,
     "pmPagesWithMappings": 45,
     "relationshipCount": 124,
     "mappedRelationshipCount": 124
@@ -220,7 +220,7 @@
       "confidence": "medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "intervention",
-      "rationale": "Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
+      "rationale": "Kiecolt-Glaser et al. (2011) found lower anxiety scores and lower IL-6 production in stimulated blood cells in medical students receiving omega-3 supplements. Ferguson et al. (2014) found no significant between-group effect on individual circulating cytokine responses after endotoxin challenge in healthy adults. Whether cytokine signalling influences perseverative thought remains unresolved.",
       "references": [
         {
           "index": 1,
@@ -840,7 +840,7 @@
       "confidence": "low",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims.",
+      "rationale": "Brown et al. (2025) reported a cross-sectional association between postprandial inflammation and ADHD symptoms in Danish adolescents. Whether postprandial inflammation influences cognitive clarity remains a hypothesis.",
       "references": [
         {
           "index": 1,
@@ -2274,7 +2274,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses.",
+      "rationale": "In a case-control study, Chang et al. (2020) found higher plasma hs-CRP and IL-6 and lower plasma TNF-α and BDNF in youth with ADHD than in typically developing peers. Ferguson et al. (2014) found no significant between-group effect of EPA+DHA on individual circulating cytokine responses after endotoxin challenge in healthy adults. These biomarker findings leave any effect on attention stability unresolved.",
       "references": [
         {
           "index": 1,
@@ -4432,7 +4432,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "high",
-        "evidence_summary": "Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement. Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
+        "evidence_summary": "Kiecolt-Glaser et al. (2011) found lower anxiety scores and lower IL-6 production in stimulated blood cells in medical students receiving omega-3 supplements. Ferguson et al. (2014) found no significant between-group effect on individual circulating cytokine responses after endotoxin challenge in healthy adults. Whether cytokine signalling influences perseverative thought remains unresolved. Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",
@@ -4458,7 +4458,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims. Specialized pro-resolving mediators actively terminate inflammation without suppressing immune surveillance — supporting cognitive clarity context through resolution-oriented lipid signalling.",
+        "evidence_summary": "Brown et al. (2025) reported a cross-sectional association between postprandial inflammation and ADHD symptoms in Danish adolescents. Whether postprandial inflammation influences cognitive clarity remains a hypothesis. Specialized pro-resolving mediators actively terminate inflammation without suppressing immune surveillance — supporting cognitive clarity context through resolution-oriented lipid signalling.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",
@@ -4502,7 +4502,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses. Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
+        "evidence_summary": "In a case-control study, Chang et al. (2020) found higher plasma hs-CRP and IL-6 and lower plasma TNF-α and BDNF in youth with ADHD than in typically developing peers. Ferguson et al. (2014) found no significant between-group effect of EPA+DHA on individual circulating cytokine responses after endotoxin challenge in healthy adults. These biomarker findings leave any effect on attention stability unresolved. Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",

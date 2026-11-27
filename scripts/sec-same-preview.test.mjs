@@ -1,3 +1,4 @@
+import * as association from '../src/lib/pmAssociationPilot.mjs';
 import * as principles from '../src/lib/scientificPrinciples.mjs';
 import * as presentation from '../src/lib/scientificFindingPresentation.mjs';
 import test from 'node:test';
@@ -103,7 +104,7 @@ test('actual React preview renders provenance, proposed score, limitations and u
   const js=ts.transpileModule(read('src/components/SecCalibrationPreview/SamePreview.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sfJs=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sf={exports:{}};
-  new Function('exports','require','module',sfJs)(sf.exports,id=>id==='@docusaurus/useBrokenLinks'?()=>({collectAnchor(){}}):id.includes('scientificPrinciples')?principles:id.includes('scientificFindingPresentation')?presentation:id==='@docusaurus/plugin-content-docs/client'?{useDoc:()=>({frontMatter:{}})}:id==='./SecAssessment'?{SecAssessmentSummary(){throw new Error('Legacy finding must not render a referenced assessment');}}:id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
+  new Function('exports','require','module',sfJs)(sf.exports,id=>id==='@docusaurus/useBrokenLinks'?()=>({collectAnchor(){}}):id.includes('pmAssociationPilot')?association:id.includes('scientificPrinciples')?principles:id.includes('scientificFindingPresentation')?presentation:id==='@docusaurus/plugin-content-docs/client'?{useDoc:()=>({frontMatter:{}})}:id==='./SecAssessment'?{SecAssessmentSummary(){throw new Error('Legacy finding must not render a referenced assessment');}}:id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
   const mod={exports:{}};
   const localRequire=id=>id==='./sameSources.mjs'?sourceData:id==='./sameAudit.mjs'?auditData:id==='./auditPresentation.mjs'?presentationData:id.endsWith('.module.css')?{}:id==='../ScientificFinding'?sf.exports:id==='../EvidenceConfidenceIndicator'?({score})=>React.createElement('span',null,score===null?'Not scored':score+'/8'):id==='../PmDietaryLeverEnhancer'?()=>null:require(id);
   new Function('exports','require','module',js)(mod.exports,localRequire,mod);

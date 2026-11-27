@@ -35,6 +35,7 @@ import {
   validatePmReferenceIntegrity,
 } from "./lib/pm-reference-index.mjs";
 
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 const referenceBaselines = JSON.parse(fs.readFileSync('review/recovery-readiness-2026-11-14/integration/findings-contract-reconciliation/approved-reference-relationships.json')).relationships;
 const root = process.cwd();
 const PM9 = path.join(
@@ -66,6 +67,9 @@ function readFindingsPms() {
     .map((file) => ({ file, ...matter(fs.readFileSync(file, "utf8")) }))
     .filter(({ data }) => hasScientificFindings(data));
 }
+
+const pm7References=matter(readHistoricalFile('075bd97f','docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx')).data.phenome_relationships;
+for(const rel of pm7References.filter(row=>!Array.isArray(row.scientific_findings)))referenceBaselines['BRS3-FM3-PM7::'+rel.target_phenome]=rel;
 
 test("every Findings-owned PM satisfies the shared canonical model and freshness gate", () => {
   const pages = readFindingsPms();

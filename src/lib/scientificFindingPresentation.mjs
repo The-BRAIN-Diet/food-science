@@ -20,12 +20,7 @@ export function findingReaderLabel(finding, data) {
   return label ? (/^PM\d+-F\d+$/.test(finding?.id || '') ? `${id} — ${label}` : label) : id;
 }
 
-/** A controlled placement correction; existing audit-only pages keep their routing. */
-export function findingOnMainPage(data, id) {
-  return data?.scientific_findings_placement === 'section-4' &&
-    (data.scientific_findings || []).some(f => /^PM\d+-F\d+$/.test(String(f.id || '')) &&
-      String(f.id).toLowerCase() === id && (f.presentation || 'mechanistic-basis') === 'mechanistic-basis');
-}
+export {findingOnMainPage} from './scientificPrinciples.mjs';
 
 /** Only selected canonical interventions with explicit evidence links qualify. */
 export function findingInterventionLinks(data,findingId) {

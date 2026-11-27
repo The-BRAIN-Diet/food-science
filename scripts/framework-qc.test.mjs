@@ -252,7 +252,10 @@ test("generated public dataset stays public-safe", () => {
     pageId: "BRS5-FM2-PM4",
   })
   assert.ok(pm)
-  assert.equal(openPublicIssueCount(pm), 2)
+  assert.equal(openPublicIssueCount(pm), 0)
+  assert.equal(pm.review_status, "unreviewed")
+  const internal = loadJson(path.join(root, "system/framework-qc/pm-open-issues.json"), {issues: []})
+  assert.ok(internal.issues.some(issue => issue.pm_id === pm.page_id && issue.status === "open"))
   assert.equal((dataset.issues || []).some((issue) => issue.id === "FW004"), false)
   assert.equal((dataset.issues || []).some((issue) => /Tyrosine is not an indispensable/i.test(issue.title || "")), false)
   const pm1 = findPublicPageRecord(dataset, {
@@ -260,7 +263,7 @@ test("generated public dataset stays public-safe", () => {
     pageId: "BRS1-FM1-PM1",
   })
   assert.ok(pm1)
-  assert.ok((pm1.corrections || []).length > 0)
+  assert.deepEqual(pm1.corrections, [])
   assert.equal(pm1.review_status, "unreviewed")
   const missing = findPublicPageRecord(dataset, {permalink: "/docs/not-a-page", pageId: "missing"})
   assert.equal(missing, null)

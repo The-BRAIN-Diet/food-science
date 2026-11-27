@@ -1,8 +1,16 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import matter from 'gray-matter';import ts from 'typescript';import vm from 'node:vm';import React from 'react';import {renderToStaticMarkup} from 'react-dom/server';
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 import * as pilot from '../src/lib/pmAssociationPilot.mjs';import * as labels from '../src/lib/scientificFindingPresentation.mjs';
 const file='docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx';const raw=fs.readFileSync(file,'utf8'),d=matter(raw).data,before=matter(fs.readFileSync('review/pm8-association-pilot-2026-11-15/before/'+file,'utf8')).data;
 const archived=matter(fs.readFileSync('review/pm8-accepted-reconstruction-2026-11-15/before/'+file,'utf8')).data;
-test('accepted canonical records remain unchanged after approved retirement',()=>{for(const k of ['mission','scientific_principles','dietary_lever_atoms','dietary_input_traceability','system_optimisation_practices','lifestyle_priorities','pm_kc_relationships'])assert.deepEqual(d[k],before[k],k);assert.equal(d.scientific_hypotheses,undefined);assert.equal(before.scientific_hypotheses[0].status,'Unestablished');});
+test('accepted canonical records remain unchanged after approved retirement',()=>{for(const k of ['mission','scientific_principles','dietary_lever_atoms','dietary_input_traceability','system_optimisation_practices','lifestyle_priorities','pm_kc_relationships']){
+ const expected=structuredClone(before[k]);
+ if(k==='dietary_input_traceability'){
+  const approved=matter(readHistoricalFile('a10dc86d',file)).data.dietary_input_traceability;
+  expected.find(row=>row.atom_id==='PM8-DIT-12').evidence_limitation=approved.find(row=>row.atom_id==='PM8-DIT-12').evidence_limitation;
+ }
+ assert.deepEqual(d[k],expected,k);
+}assert.equal(d.scientific_hypotheses,undefined);assert.equal(before.scientific_hypotheses[0].status,'Unestablished');});
 test('seven consecutive display labels preserve association names and canonical identities',()=>{assert.deepEqual(pilot.pilotErrors(d),[]);assert.equal(d.sf_association_pilot.associations.length,7);for(const [i,a] of d.sf_association_pilot.associations.entries())assert.match(a.label,new RegExp('^SF'+(i+1)+'-'));assert.match(labels.findingReaderLabel(d.scientific_findings.find(f=>f.id==='PM8-F20'),d),/^SF5-SOP/);assert.equal(pilot.associationPilot({...d,pm_id:'BRS6-FM4-PM9'}),null);});
 test('retained urolithin associations preserve admissions without recreating hypothesis edges',()=>{for(const id of ['PM8-F22','PM8-F23']){const a=pilot.findingAssociations(d,id);assert.ok(a.targets.some(t=>t.kind==='Dietary Lever'));assert.ok(a.targets.every(t=>t.kind!=='Hypothesis'));}assert.deepEqual(d.dietary_lever_atoms,before.dietary_lever_atoms);assert.ok(pilot.findingAssociations(d,'PM8-F20').targets.every(t=>t.kind!=='Dietary Lever'));});
 test('retired investigations remain archived and absent from the active PM',()=>{assert.deepEqual(pilot.pilotInvestigations(d),[]);assert.equal(d.evidence_gaps,undefined);assert.equal(d.intervention_adjudications,undefined);assert.ok(archived.sf_association_pilot.investigations.length>0);});

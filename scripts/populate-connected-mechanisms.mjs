@@ -1,5 +1,5 @@
-import {hypothesisOnlyRelationshipHrefs} from './lib/scientific-hypotheses.mjs';
 #!/usr/bin/env node
+import {hypothesisOnlyRelationshipHrefs} from './lib/scientific-hypotheses.mjs';
 /**
  * Populate PM §6.2 Connected BRS Mechanisms and FM §5 Connected Mechanisms.
  * Sources: Mechanistic Basis / Definition, BRS hub FM blocks, child PM rollup.

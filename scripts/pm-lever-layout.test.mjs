@@ -5,6 +5,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createRequire} from 'node:module';
 import vm from 'node:vm';
+import preprocessor from '@docusaurus/mdx-loader/lib/preprocessor.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require=createRequire(import.meta.url);
 const matter=require('gray-matter'),ts=require('typescript'),React=require('react');
@@ -15,6 +16,10 @@ const layout=require(path.join(root,'src/plugin/pm-lever-layout/index.cjs'));
 const fixture=fs.readFileSync(path.join(root,'scripts/fixtures/pm-lever-layout.fixture.mdx'),'utf8');
 const source=fs.readFileSync(path.join(root,'docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx'),'utf8');
 const canonical=matter(source);
+function parseCanonicalPm(content,filePath) {
+ const prepared=preprocessor.default({fileContent:content,filePath,markdownConfig:{mdx1Compat:{comments:true,admonitions:true,headingIds:true}},admonitions:true});
+ return createProcessor().parse(prepared);
+}
 test('PM1 cofactor disclosure explains its empty state without changing dietary records', () => {
  const pm=matter(fs.readFileSync(path.join(root,'docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx'),'utf8'));
  const before=JSON.stringify(pm.data);
@@ -82,9 +87,10 @@ test('supported routes do not automatically become principal or jointly prominen
 });
 
 test('already promoted legacy PM3 group uses section-1 numbering without a new dominance decision',()=>{
- const pm=matter(fs.readFileSync(path.join(root,'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx'),'utf8'));
+ const file=path.join(root,'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx');
+ const pm=matter(fs.readFileSync(file,'utf8'));
  assert.equal(pm.data.intervention_dominance_assessment,undefined);
- const tree=createProcessor().parse(pm.content);
+ const tree=parseCanonicalPm(pm.content,file);
  const order=tree.children.map(n=>n);
  layout.applyLeverLayout(tree,pm.data);
  assert.deepEqual(tree.children,order); // same nodes and positions, no re-selection or movement
@@ -108,7 +114,7 @@ test('every canonical PM uses section-1 numbering after the actual shared transf
   const page = matter(fs.readFileSync(file,'utf8'));
   if (!page.data.pm_id) continue;
   const before = JSON.stringify(page.data);
-  const tree = createProcessor().parse(page.content);
+  const tree = parseCanonicalPm(page.content,file);
   layout.applyLeverLayout(tree,page.data);
   let section = null;
   for (const node of tree.children) {
