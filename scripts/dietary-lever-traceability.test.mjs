@@ -920,7 +920,7 @@ test("PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3"
     content.indexOf("3.2 System Optimisation Practices"),
   );
   const section311 = section3.slice(
-    section3.indexOf("3.1.1 Direct and/or Derived Dietary Requirements"),
+    section3.indexOf("3.1.1 Dietary Inputs & Regulatory Modulators"),
     section3.indexOf("3.1.2 Cofactors and Substrates"),
   );
   const section312 = section3.slice(
@@ -928,7 +928,7 @@ test("PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3"
     section3.indexOf("3.1.3 Key Constraints"),
   );
 
-  assert.ok(section3.includes("3.1.1 Direct and/or Derived Dietary Requirements"));
+  assert.ok(section3.includes("3.1.1 Dietary Inputs & Regulatory Modulators"));
   assert.ok(section3.includes("3.1.2 Cofactors and Substrates"));
   assert.ok(section3.includes("3.1.3 Key Constraints"));
   assert.ok(!section3.includes("Dietary Levers"));

@@ -38,7 +38,7 @@ function leversBlock(parent, children) {
 test("canonical §3.1 headings use the exact Dietary Requirements wording", () => {
   assert.deepEqual({ ...PM_DIETARY_REQUIREMENTS_HEADINGS }, {
     parent: "Dietary Requirements",
-    directDerived: "Direct and/or Derived Dietary Requirements",
+    directDerived: "Dietary Inputs & Regulatory Modulators",
     cofactorsSubstrates: "Cofactors and Substrates",
     keyConstraints: "Key Constraints",
   });
@@ -98,7 +98,7 @@ test("Supporting Inputs is not an accepted child of Dietary Requirements", () =>
 test("PM3 uses the canonical §3.1 Dietary Requirements headings", () => {
   const content = fs.readFileSync(PM3, "utf8");
   assert.ok(content.includes("3.1 Dietary Requirements"));
-  assert.ok(content.includes("3.1.1 Direct and/or Derived Dietary Requirements"));
+  assert.ok(content.includes("3.1.1 Dietary Inputs & Regulatory Modulators"));
   assert.ok(content.includes("3.1.2 Cofactors and Substrates"));
   assert.ok(content.includes("3.1.3 Key Constraints"));
   assert.ok(!content.includes("3.1 Dietary Levers"));
@@ -111,7 +111,7 @@ test("PM3 uses the canonical §3.1 Dietary Requirements headings", () => {
 test("PM9 uses the canonical §3.1 Dietary Requirements headings", () => {
   const content = fs.readFileSync(PM9, "utf8");
   assert.ok(content.includes("3.1 Dietary Requirements"));
-  assert.ok(content.includes("3.1.1 Direct and/or Derived Dietary Requirements"));
+  assert.ok(content.includes("3.1.1 Dietary Inputs & Regulatory Modulators"));
   assert.ok(content.includes("3.1.2 Cofactors and Substrates"));
   assert.ok(content.includes("3.1.3 Key Constraints"));
   assert.ok(!content.includes("3.1 Dietary Levers"));

@@ -20,7 +20,12 @@ function loadComponent(file, dependencies) {
 function renderAudit(records) {
   const indicator=loadComponent('src/components/EvidenceConfidenceIndicator/index.tsx',{'clsx':clsx,'./secDisplay.mjs':displayModule});
   const empty=()=>null;
+  const disclosure=loadComponent('src/components/EvidenceGaps/Disclosure.tsx',{
+    '@docusaurus/router':{useLocation:()=>({hash:''})},
+    '../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},
+  }).default;
   const C=loadComponent('src/components/SecCalibrationPreview/EvidenceAudit.tsx',{
+    '../EvidenceGaps/Disclosure':disclosure,
     '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
     '../Stage2Review':{Stage2ReviewOutlet:empty},'@docusaurus/router':{useLocation:()=>({pathname:'/docs/system/sec-calibration/gaba'})},
     '../ReviewCorrections/PageReviewPanel':{__esModule:true,default:empty},'../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{}},
@@ -120,7 +125,7 @@ test('three status surfaces and original correction panel remain separate', () =
   assert.ok(renderAudit([audit]).includes(`id="${audit.id}"`));
   assert.match(panel, /recordAnchor=\(r:any\)=>r.id/);
   assert.match(panel, /id=\{recordAnchor\(audit\)\}/);
-  assert.match(panel, /audit.findingId.toLowerCase\(\)/);
+  assert.ok(renderAudit([audit]).includes(`href="?review=0#${audit.findingId.toLowerCase()}"`));
   assert.match(finding, /<EvidenceConfidenceIndicator \/>/);
   assert.doesNotMatch(panel, /score=\{illustrative/);
   assert.match(finding, /Illustrative confidence, not a scientific assessment/);
@@ -276,7 +281,7 @@ test('rubric legend reuses standard disclosure and all eight canonical display l
   assert.equal(describeFactorScores('D2/B1/P1/R0'),'Directness 2/2/Bias Protection 1/2/Precision 1/2/Replication 0/2');
   assert.match(panel,/secFactors\[factor\].name/);
   assert.doesNotMatch(panel,/<dt>\{factor\} —/);
-  assert.match(panel,/\?review=0#\$\{audit.findingId.toLowerCase\(\)\}/);
+  assert.match(panel,/\?review=0#\$\{\(audit.findingId \|\| audit.interventionId\).toLowerCase\(\)\}/);
 });
 
 test('review and correction fallbacks require explicit authoritative data', () => {

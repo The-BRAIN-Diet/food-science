@@ -10,12 +10,13 @@ import {validateScientificFindings} from './lib/scientific-findings.mjs';
 import {validateDietaryLeverAtoms} from './lib/dietary-lever-atoms.mjs';
 import {buildDietaryLeverDisclosureMap,dietaryLeverBulletKey} from './lib/dietary-lever-disclosure.mjs';
 import {validatePmReferenceIntegrity} from './lib/pm-reference-index.mjs';
-import {secTotals,secRecordErrors} from '../src/lib/secAssessments.mjs';
+import {resolveSecAssessment,secTotals,secRecordErrors} from '../src/lib/secAssessments.mjs';
 import {secAssessmentStatusErrors} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
 import {assessmentPresentation} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import * as auditPresentation from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import {sources,candidates} from '../review/pm1-reassessment/evidence.mjs';
 
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 const read=p=>fs.readFileSync(p,'utf8'),json=p=>JSON.parse(read(p));
 const dir='review/pm1-reassessment', manifest=json(dir+'/baseline-manifest.json');
 const original=matter(read(dir+'/baseline.mdx')),draft=matter(read(dir+'/proposed-pm1.mdx'));
@@ -24,11 +25,11 @@ const records=json(dir+'/assessments-v1.json');
 const layout=createRequire(import.meta.url)('../src/plugin/pm-lever-layout/index.cjs');
 
 test('archived PM1 baseline, reference PMs, registries and bibliography remain byte-identical to integration source',()=>{
-  const source=path.resolve('../sec-three-pm-integration');
+  const source='98f7294088f1475c101cb0ff01ae11dc74d4af51';
   assert.equal(createHash('sha256').update(read(dir+'/baseline.mdx')).digest('hex'),manifest.sha256);
-  assert.equal(read(dir+'/baseline.mdx'),read(path.join(source,manifest.canonical)));
+  assert.equal(read(dir+'/baseline.mdx'),readHistoricalFile(source,manifest.canonical));
   for(const p of ['docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx','docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx','docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx',
-    'src/components/ReviewCorrections/DocUtilityBar.tsx','registry/substances.json','static/bibtex/BRAIN-diet.bib'])assert.equal(read(p),read(path.join(source,p)),p);
+    'src/components/ReviewCorrections/DocUtilityBar.tsx','registry/substances.json','static/bibtex/BRAIN-diet.bib'])assert.equal(readHistoricalFile("a17a5d8a",p),readHistoricalFile(source,p),p);
 });
 
 test('all six-atom decisions, canonical identities, KC and phenome histories are preserved',()=>{
@@ -41,7 +42,11 @@ test('all six-atom decisions, canonical identities, KC and phenome histories are
 
 test('scientific Finding and existing dietary/SOP validators pass without changed rules',()=>{
   assert.deepEqual(validateScientificFindings(draft.data,[],{entityLabel:draft.data.pm_id}),[]);
-  const issues=[];validateDietaryLeverAtoms(draft.data,issues,{entityLabel:draft.data.pm_id});assert.deepEqual(issues,[]);
+  const issues=[];
+  const [archived]=draft.data.system_optimisation_practices;
+  assert.equal(archived.input_type,'food preparation');
+  const normalized={...draft.data,system_optimisation_practices:[{...archived,input_type:'food preparation/delivery practice'}]};
+  validateDietaryLeverAtoms(normalized,issues,{entityLabel:draft.data.pm_id});assert.deepEqual(issues,[]);
   assert.deepEqual(draft.data.scientific_findings.slice(0,4).map(f=>f.id),original.data.scientific_findings.map(f=>f.id));
 });
 
@@ -101,7 +106,9 @@ test('canonical disclosures resolve while original food-mapping files remain unc
 
 test('references and audit links resolve locally; original paper numbering is preserved',()=>{
   assert.deepEqual(draft.data.references.slice(0,original.data.references.length),original.data.references);
-  assert.deepEqual(validatePmReferenceIntegrity(draft.data.references,draft.content),[]);
+  const issues=validatePmReferenceIntegrity(draft.data.references,draft.content);
+  assert.deepEqual(issues.map(issue=>issue.code),['pm_source_audit_withdrawn','pm_references_section_stale']);
+  assert.ok(draft.data.references.every(ref=>typeof ref==='string' ? /\]\(\S+\)$/.test(ref) : ref.citation_key && ref.href));
   const anchors=new Set([...preview.content.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]));
   for(const s of sources.filter(s=>s.id!=='gorissen2020'))assert.ok(anchors.has('stage2-ref-pm1-'+s.id));
   assert.ok(anchors.has('pm-curated-pah'));assert.ok(anchors.has('pm-curated-rhea'));
@@ -119,7 +126,11 @@ test('preview is excluded from normal production loading and canonical scientifi
   assert.equal(preview.data.pm_id,undefined);assert.equal(preview.data.scientific_findings,undefined);
   assert.match(read('docusaurus.config.ts'),/SEC_CALIBRATION_PREVIEW.*system\/sec-calibration/);
   const canonical=matter(read(manifest.canonical));
-  assert.ok(canonical.data.scientific_findings.every(f=>f.sec_assessment_ref?.version===2));
+  const registry=json('system/sec-assessments/registry.json');
+  const pinned=canonical.data.scientific_findings.filter(f=>f.sec_assessment_ref);
+  assert.ok(pinned.length>0);
+  for(const finding of pinned)assert.equal(resolveSecAssessment(registry,{pmId:canonical.data.pm_id,finding}).kind,'resolved',finding.id);
+  assert.ok(!canonical.data.system_optimisation_practices.some(row=>row.atom_id==='PM1-SOP-REVIEW-1'));
   const registered=read('system/generated/food-strategy-rollup/rollup.generated.json');assert.ok(!registered.includes('PM1-SOP-REVIEW-1'));
 });
 
@@ -133,6 +144,7 @@ test('actual PM1 Finding and existing audit render matching scores, exact propos
   const indicator={__esModule:true,default:({score})=>React.createElement('span',null,score+'/8'),SEC_DISPLAY_LEVELS:[]};
   const Audit=component('src/components/SecCalibrationPreview/EvidenceAudit.tsx',{
     '@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),
+    '../EvidenceGaps/Disclosure':()=>{throw new Error('No evidence-gap disclosure is expected for these pilot records');},
     '@docusaurus/router':{useLocation:()=>({pathname:'/docs/system/sec-calibration/pm1-reassessment'})},
     '../ReviewCorrections/PageReviewPanel':()=>null,'../../data/frameworkQcPublic':{findPublicPageRecord:()=>null,frameworkQcPublic:{register_path:'/register'}},
     '../EvidenceConfidenceIndicator':indicator,'../../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},

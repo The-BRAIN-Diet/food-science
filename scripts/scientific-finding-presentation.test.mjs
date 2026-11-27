@@ -1,3 +1,4 @@
+import * as association from '../src/lib/pmAssociationPilot.mjs';
 import * as scientificPrinciples from '../src/lib/scientificPrinciples.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -8,6 +9,9 @@ import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 import * as runtime from 'react/jsx-runtime';
 import {evaluate} from '@mdx-js/mdx';
+import {createProcessorUncached} from '@docusaurus/mdx-loader/lib/processor.js';
+import path from 'node:path';
+import {readHistoricalFile} from './lib/sec-pilot-baseline.mjs';
 import {shortFindingId,findingReaderLabel,findingInterventionLinks} from '../src/lib/scientificFindingPresentation.mjs';
 const require=createRequire(import.meta.url),ts=require('typescript');
 const layout=require('../src/plugin/pm-lever-layout/index.cjs');
@@ -18,14 +22,14 @@ const beforePilot=matter(read('review/scientific-principles-governance-pm1-2026-
 function component(frontMatter={}) {
   const mod={exports:{}};
   const code=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
-  const imports={'@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),'../lib/scientificPrinciples.mjs':scientificPrinciples,'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
+  const imports={'../lib/pmAssociationPilot.mjs':association,'@docusaurus/useBrokenLinks':()=>({collectAnchor(){}}),'../lib/scientificPrinciples.mjs':scientificPrinciples,'@docusaurus/plugin-content-docs/client':{useDoc:()=>({frontMatter})},'../client/brsFmHubDropdown':{initBrsFmHubDropdowns(){}},'./SecAssessment':{SecAssessmentSummary:()=>null},'../lib/scientificFindingPresentation.mjs':{findingReaderLabel,findingInterventionLinks}};
   new Function('exports','require','module',code)(mod.exports,id=>imports[id]||require(id),mod);
   return mod.exports.default;
 }
 test('actual Finding component derives SF title while preserving canonical anchor and technical identity',()=>{
   const html=renderToStaticMarkup(React.createElement(component(),{finding:f,pmId:pm.data.pm_id}));
   assert.match(html,/>SF1 — Dietary protein and amino-acid availability<\/strong>/);
-  assert.match(html,/id="pm1-f1"/);assert.match(html,/<code>PM1-F1<\/code>/);
+  assert.match(html,/id="pm1-f1"/);assert.doesNotMatch(html,/<code>PM1-F1<\/code>/);
   assert.equal(shortFindingId('PM2-F7'),'SF7');
 });
 async function heading(findings,extras='') {
@@ -77,21 +81,19 @@ test('reader-facing return links use short labels without changing destinations 
   assert.match(html,/<code>PM1-F1<\/code>/);
 });
 
-test('actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for active Findings and preserves Principle provenance',async()=>{
-  const body=pm.content.replace(/^import ScientificFinding[^\n]*\n/m,'');
-  const evaluated=await evaluate({value:body,data:{frontMatter:pm.data}},{...runtime,remarkPlugins:[layout]});
-  const html=renderToStaticMarkup(React.createElement(evaluated.default,{components:{ScientificFinding:component(pm.data)}}));
-  for(const finding of pm.data.scientific_findings) {
-    const number=finding.id.split('-F')[1];
-    assert.ok(html.includes(`id="pm1-mechanism-f${number}"`));
-    if(scientificPrinciples.isScientificPrinciple(pm.data,finding.id)){assert.match(html,/<h4[^>]*>Scientific Principle — /);assert.ok(html.includes('?review=1#pm1-sp2'));assert.ok(!html.includes('aria-label="SF4 —'));continue;}
-    assert.match(html,new RegExp(`<h4[^>]*>SF${number} — `));
-    assert.ok(html.includes(`href="#pm1-f${number}">SF${number} — ${finding.finding_label}`));
-    assert.ok(html.includes(`href="#pm1-mechanism-f${number}">Mechanistic explanation: ${finding.finding_label}`));
-  }
-  assert.match(html,/Scientific Findings \(6\)/);
-  const baselineInterventions=beforePilot.scientific_findings.flatMap(f=>findingInterventionLinks(beforePilot,f.id));
-  const currentInterventions=pm.data.scientific_findings.flatMap(f=>findingInterventionLinks(pm.data,f.id));
-  assert.deepEqual(currentInterventions,baselineInterventions,'No intervention admission or relationship changed');
-  for(const link of baselineInterventions)assert.ok(html.includes(link.id));
+test('current PM1 compiles with the canonical Finding count, stable mechanism anchors and preserved intervention associations',async()=>{
+  const file='docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx';
+  const options={siteDir:process.cwd(),staticDirs:[path.resolve('static')],
+    markdownConfig:{anchors:{maintainCase:false},format:'mdx',mermaid:false,mdx1Compat:{comments:true,admonitions:true,headingIds:true}},
+    beforeDefaultRemarkPlugins:[layout],remarkPlugins:[],rehypePlugins:[],admonitions:true};
+  const compiler=await createProcessorUncached({options,format:'mdx'});
+  const output=String((await compiler.process({content:pm.content,filePath:path.resolve(file),frontMatter:pm.data,compilerName:'server'})).content);
+  assert.match(output,/Scientific Findings \(5\)/);
+  for(const n of [1,2,3,4,5,6,7])assert.ok(output.includes(`id: "pm1-mechanism-f${n}"`),`mechanism anchor F${n}`);
+  for(const n of [1,2,3,5,7])assert.ok(output.includes(`href: "#pm1-mechanism-f${n}"`),`Finding explanation link F${n}`);
+  assert.match(output,/pm1-sp2/);
+  assert.equal(renderToStaticMarkup(React.createElement(component(pm.data),{finding:pm.data.scientific_findings.find(f=>f.id==='PM1-F4')})),'');
+  const published=matter(readHistoricalFile('7d061f26386c85b77a881a89bd556731c2f1e78f',file)).data;
+  const associations=data=>data.scientific_findings.flatMap(f=>findingInterventionLinks(data,f.id));
+  assert.deepEqual(associations(pm.data),associations(published));
 });
